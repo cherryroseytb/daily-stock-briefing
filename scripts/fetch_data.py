@@ -42,7 +42,7 @@ def get_sec_filings(symbol):
                 }
             )
         return parsed
-    except:
+    except Exception:
         return []
 
 def get_news(symbol):
@@ -67,7 +67,7 @@ def get_news(symbol):
                             }
                         )
                     return parsed
-        except:
+        except Exception:
             pass
     
     # Fallback to market context
