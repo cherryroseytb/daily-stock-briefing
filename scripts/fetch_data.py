@@ -7,11 +7,49 @@ import yfinance as yf
 
 import visualizer
 
+def get_sec_filings(symbol):
+    api_key = os.getenv("FMP_API_KEY")
+    if not api_key:
+        return []
+
+    try:
+        to_date = datetime.now().date()
+        from_date = to_date - timedelta(days=90)
+        url = (
+            "https://financialmodelingprep.com/stable/sec-filings-search/symbol"
+            f"?symbol={symbol}"
+            f"&from={from_date.strftime('%Y-%m-%d')}"
+            f"&to={to_date.strftime('%Y-%m-%d')}"
+            "&page=0&limit=20"
+            f"&apikey={api_key}"
+        )
+        response = requests.get(url, timeout=20)
+        if response.status_code != 200:
+            return []
+
+        filings = response.json() or []
+        parsed = []
+        for item in filings[:8]:
+            filed_date = item.get("fillingDate") or item.get("acceptedDate") or ""
+            parsed.append(
+                {
+                    "form_type": item.get("type", ""),
+                    "title": item.get("title", ""),
+                    "description": item.get("description", ""),
+                    "filed_at": filed_date,
+                    "source": "SEC/FMP",
+                    "url": item.get("finalLink") or item.get("link") or "",
+                }
+            )
+        return parsed
+    except:
+        return []
+
 def get_news(symbol):
     api_key = os.getenv("FINNHUB_API_KEY")
     if api_key:
         try:
-            url = f"https://finnhub.io/api/v1/company-news?symbol={symbol}&from={(datetime.now()-timedelta(days=2)).strftime('%Y-%m-%d')}&to={datetime.now().strftime('%Y-%m-%d')}&token={api_key}"
+            url = f"https://finnhub.io/api/v1/company-news?symbol={symbol}&from={(datetime.now()-timedelta(days=3)).strftime('%Y-%m-%d')}&to={datetime.now().strftime('%Y-%m-%d')}&token={api_key}"
             response = requests.get(url)
             if response.status_code == 200:
                 news = response.json()
@@ -71,7 +109,8 @@ def get_ticker_data(symbol):
                 "1m": f"charts/{symbol}_1m.png",
                 "1y": f"charts/{symbol}_1y.png",
             },
-            "news": get_news(symbol)
+            "news": get_news(symbol),
+            "sec_filings_3m": get_sec_filings(symbol),
         }
     except Exception as e:
         print(f"Error {symbol}: {e}")
