@@ -64,7 +64,7 @@ def generate_briefing():
 
 톤앤매너: 전문적이면서도 가독성 좋게 마크다운 형식으로 작성해주세요. 언어는 한국어로 작성하세요.
 """
-    response_md = client.models.generate_content(model="gemini-2.0-flash", contents=prompt_md)
+    response_md = client.models.generate_content(model="gemini-2.5-flash", contents=prompt_md)
     briefing_md = response_md.text
 
     # 2. Generate Plain Text version for Email
@@ -75,7 +75,7 @@ def generate_briefing():
 원본 마크다운 내용:
 {briefing_md}
 """
-    response_text = client.models.generate_content(model="gemini-2.0-flash", contents=prompt_text)
+    response_text = client.models.generate_content(model="gemini-2.5-flash", contents=prompt_text)
     briefing_plain_text = response_text.text
 
     # Save the Markdown briefing
