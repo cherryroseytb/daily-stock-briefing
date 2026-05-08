@@ -1,84 +1,58 @@
 import json
 import os
-import requests
 import yfinance as ticker_info
 from datetime import datetime, timedelta
 import visualizer
 
-def get_finnhub_news(symbol, api_key):
+def get_ticker_data(symbol):
     try:
-        end_date = datetime.now().strftime('%Y-%m-%d')
-        start_date = (datetime.now() - timedelta(days=2)).strftime('%Y-%m-%d')
-        url = f"https://finnhub.io/api/v1/company-news?symbol={symbol}&from={start_date}&to={end_date}&token={api_key}"
-        response = requests.get(url)
-        if response.status_code == 200:
-            news = response.json()
-            return [{"title": n["headline"], "publisher": n["source"], "link": n["url"]} for n in news[:7]]
+        ticker = ticker_info.Ticker(symbol)
+        info = ticker.fast_info
+        history_24h = ticker.history(period="1d", interval="5m")
+        history_1m = ticker.history(period="1mo")
+        
+        # 차트 생성
+        chart_24h = visualizer.generate_chart(symbol, history_24h, "24h")
+        chart_1m = visualizer.generate_chart(symbol, history_1m, "1m")
+        
+        # 상세 정보
+        full_info = ticker.info
+        
+        return {
+            "name": full_info.get("longName", symbol),
+            "price": float(history_24h["Close"].iloc[-1]) if not history_24h.empty else 0,
+            "high_24h": float(history_24h["High"].max()) if not history_24h.empty else 0,
+            "low_24h": float(history_24h["Low"].min()) if not history_24h.empty else 0,
+            "fiftyTwoWeekHigh": float(info.fifty_two_week_high) if info.fifty_two_week_high else 0,
+            "fiftyTwoWeekLow": float(info.fifty_two_week_low) if info.fifty_two_week_low else 0,
+            "dividendYield": float(full_info.get("dividendYield", 0) * 100) if full_info.get("dividendYield") else 0,
+            "dividendRate": full_info.get("dividendRate", 0) or 0,
+            "exDividendDate": str(full_info.get("exDividendDate", "N/A")),
+            "charts": {"24h": f"charts/{symbol}_24h.png", "1m": f"charts/{symbol}_1m.png"}
+        }
     except Exception as e:
-        print(f"Finnhub error for {symbol}: {e}")
-    return []
-
-def fetch_stock_data(tickers):
-    finnhub_key = os.getenv("FINNHUB_API_KEY")
-    data = {}
-    
-    for symbol in tickers:
-        print(f"Fetching data for {symbol}...")
-        try:
-            ticker = ticker_info.Ticker(symbol)
-            info = ticker.info
-            
-            # Historical Data
-            history_24h = ticker.history(period="1d", interval="5m")
-            history_1m = ticker.history(period="1mo")
-            
-            # Chart Generation
-            chart_24h = visualizer.generate_chart(symbol, history_24h, "24h")
-            chart_1m = visualizer.generate_chart(symbol, history_1m, "1m")
-            
-            current_price = info.get("regularMarketPrice") or (history_24h["Close"].iloc[-1] if not history_24h.empty else None)
-            
-            data[symbol] = {
-                "name": info.get("longName", symbol),
-                "current_price": current_price if current_price else 0,
-                "high_24h": float(history_24h["High"].max()) if not history_24h.empty else 0,
-                "low_24h": float(history_24h["Low"].min()) if not history_24h.empty else 0,
-                "fiftyTwoWeekHigh": info.get("fiftyTwoWeekHigh", 0),
-                "fiftyTwoWeekLow": info.get("fiftyTwoWeekLow", 0),
-                "dividendRate": info.get("dividendRate", 0),
-                "dividendYield": info.get("dividendYield", 0),
-                "exDividendDate": str(info.get("exDividendDate", "N/A")),
-                "charts": {
-                    "24h": f"charts/{symbol}_24h.png",
-                    "1m": f"charts/{symbol}_1m.png"
-                },
-                "news": get_finnhub_news(symbol, finnhub_key) if finnhub_key else [],
-                "financials": {
-                    "payout_ratio": info.get("payoutRatio") if info.get("payoutRatio") else 0,
-                    "debt_to_equity": info.get("debtToEquity") if info.get("debtToEquity") else 0
-                }
-            }
-        except Exception as e:
-            print(f"Error fetching {symbol}: {e}")
-            data[symbol] = {"error": str(e)}
-    return data
+        return {"error": str(e)}
 
 def main():
+    # 1. 포트폴리오 로드
     with open("portfolio.json", "r") as f:
         portfolio = json.load(f)
     
-    # Combined list: holdings + top dividend candidates
-    candidates = ["ARCC", "FSK", "AGNC", "PFLT", "BXSL"]
-    tickers = list(set(portfolio.get("holdings", []) + candidates))
+    # 2. 고배당주 후보군 탐색을 위해 1차적으로 LLM 호출이 필요함
+    # 이 스크립트는 이제 전달받은 리스트를 기반으로 데이터를 가져오는 역할만 수행
+    # 후보군 종목을 portfolio.json이나 별도 설정에서 받아오도록 처리
+    target_tickers = list(set(portfolio.get("holdings", []) + portfolio.get("candidates", [])))
     
-    market_data = fetch_stock_data(tickers)
+    market_data = {symbol: get_ticker_data(symbol) for symbol in target_tickers}
     
     result = {
         "date": datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "watchlist_criteria": portfolio.get("watchlist_criteria", ""),
         "market_data": market_data
     }
     
     os.makedirs("data", exist_ok=True)
     with open("data/latest_market_data.json", "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
+
+if __name__ == "__main__":
+    main()
