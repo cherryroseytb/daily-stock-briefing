@@ -14,9 +14,8 @@ def get_ticker_data(symbol):
         visualizer.generate_chart(symbol, history_24h, "24h")
         visualizer.generate_chart(symbol, history_1m, "1m")
         
-        # info는 데이터가 없을 가능성이 크므로 fast_info와 조합하여 보완
+        # info는 데이터가 없을 가능성이 크므로 info를 기본으로 사용
         info = ticker.info
-        fast = ticker.fast_info
         
         # 데이터 정제 (None 방지)
         price = float(history_24h["Close"].iloc[-1]) if not history_24h.empty else 0
@@ -29,8 +28,8 @@ def get_ticker_data(symbol):
             "price": round(price, 2),
             "high_24h": round(high_24h, 2),
             "low_24h": round(low_24h, 2),
-            "fiftyTwoWeekHigh": round(float(fast.fifty_two_week_high), 2) if fast.fifty_two_week_high else 0,
-            "fiftyTwoWeekLow": round(float(fast.fifty_two_week_low), 2) if fast.fifty_two_week_low else 0,
+            "fiftyTwoWeekHigh": info.get("fiftyTwoWeekHigh", 0),
+            "fiftyTwoWeekLow": info.get("fiftyTwoWeekLow", 0),
             "dividendYield": round(float(info.get("dividendYield", 0) * 100), 2) if info.get("dividendYield") else 0,
             "dividendRate": info.get("dividendRate", 0) or 0,
             "exDividendDate": str(info.get("exDividendDate", "N/A")),
