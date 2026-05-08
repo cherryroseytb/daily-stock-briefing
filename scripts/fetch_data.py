@@ -4,20 +4,33 @@ import yfinance as yf
 from datetime import datetime, timedelta
 import visualizer
 
+import json
+import os
+import requests
+import yfinance as yf
+from datetime import datetime, timedelta
+import visualizer
+
+def get_news(symbol):
+    # 간단한 뉴스 수집 함수 (yfinance 사용)
+    ticker = yf.Ticker(symbol)
+    try:
+        news = ticker.news
+        return [{"title": n.get("title", ""), "publisher": n.get("publisher", "")} for n in news[:5]]
+    except:
+        return []
+
 def get_ticker_data(symbol):
     try:
         ticker = yf.Ticker(symbol)
         history_24h = ticker.history(period="1d", interval="5m")
         history_1m = ticker.history(period="1mo")
         
-        # 차트 생성 (반드시 실행)
         visualizer.generate_chart(symbol, history_24h, "24h")
         visualizer.generate_chart(symbol, history_1m, "1m")
         
-        # info는 데이터가 없을 가능성이 크므로 info를 기본으로 사용
         info = ticker.info
         
-        # 데이터 정제 (None 방지)
         price = float(history_24h["Close"].iloc[-1]) if not history_24h.empty else 0
         high_24h = float(history_24h["High"].max()) if not history_24h.empty else price
         low_24h = float(history_24h["Low"].min()) if not history_24h.empty else price
@@ -33,7 +46,8 @@ def get_ticker_data(symbol):
             "dividendYield": round(float(info.get("dividendYield", 0) * 100), 2) if info.get("dividendYield") else 0,
             "dividendRate": info.get("dividendRate", 0) or 0,
             "exDividendDate": str(info.get("exDividendDate", "N/A")),
-            "charts": {"24h": f"charts/{symbol}_24h.png", "1m": f"charts/{symbol}_1m.png"}
+            "charts": {"24h": f"charts/{symbol}_24h.png", "1m": f"charts/{symbol}_1m.png"},
+            "news": get_news(symbol)
         }
     except Exception as e:
         print(f"Error {symbol}: {e}")
