@@ -56,26 +56,36 @@ def generate_briefing():
     client = genai.Client(api_key=api_key)
 
     prompt = f"""
-당신은 전문 투자 분석가입니다. 아래 데이터를 분석하여 브리핑을 작성하세요.
+당신은 전문 투자 분석가입니다. 아래 데이터를 사용하여 이메일 발송용 브리핑을 작성하세요.
 
 날짜: {full_data['date']}
 보유 종목 데이터: {json.dumps(holdings_data, ensure_ascii=False)}
 발굴 후보 데이터: {json.dumps(discovery_data, ensure_ascii=False)}
 
 지침:
-1. 섹션 1: 보유 종목 상세 분석
-   - 보유 종목 데이터만 분석하세요.
-   - 데이터의 'price', 'high_24h', 'low_24h', 'fiftyTwoWeekHigh', 'fiftyTwoWeekLow'를 사용하여 가격 분석을 명시하세요.
-   - 차트 이미지 삽입: ![24시간](https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_24h.png)
-     ![1개월](https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_1m.png)
+1. 섹션 1: 보유 종목 상세 분석 (Holdings)
+   - 보유 종목 리스트만 분석하세요.
+   - 각 종목별로 종목명, 현재가, 24시간 변동률, 24시간 최고/최저가, 52주 고/저가를 하이라키 구조로 나열하세요.
+   - 차트 이미지 링크: https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_24h.png 와 .../SYMBOL_1m.png 를 텍스트 링크로 표시하세요.
+   - 뉴스는 [주요 뉴스], [긍정/공시], [부정/공시]로 분류하세요.
 
 2. 섹션 2: 고배당주 발굴 (Discovery)
-   - 발굴 후보 데이터만 분석하세요.
-   - 제공된 'dividendYield', 'dividendRate', 'exDividendDate'를 사용하여 배당 분석표를 작성하세요.
+   - 발굴 후보 리스트만 분석하세요.
+   - 표 대신 하이라키(계층형) 구조로 작성하세요:
+     종목명
+       현재가: $...
+       52주 신고/신저가: $... / $...
+       주당 배당금: $...
+       배당 수익률: ...%
+       다음 배당락일: ...
+       분석: ...
 
 3. 제약사항:
-   - 각 섹션을 명확히 분리하세요.
-   - '데이터가 없다'는 변명 금지. 0이면 전문 지식으로 추정치 분석.
+   - 마크다운 테이블, 굵게(#, **) 등 이메일에서 깨지는 기호는 절대 사용 금지.
+   - 데이터가 0이면 전문 지식으로 분석치를 추정하여 작성(변명 금지).
+   - 섹션을 명확히 분리하세요.
+
+톤앤매너: 전문적, 한국어. (깔끔한 텍스트 구조로 작성)
 """
 
 
