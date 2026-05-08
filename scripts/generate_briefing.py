@@ -64,12 +64,28 @@ def generate_briefing():
 
     지침:
     1. 섹션 1: 보유 종목 상세 분석 (Holdings)
-    - 각 종목별로 종목명, 현재가, 24시간 변동률, 24시간 최고/최저가, 52주 고/저가를 하이라키 구조로 나열하세요.
-    - 차트 이미지 링크 (클릭 가능하게 전체 URL 작성):
-     24시간 추이: https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_24h.png
-     1개월 추이: https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_1m.png
-    - 뉴스는 제공된 'title'과 'summary'를 분석하여 [주요 뉴스], [긍정/공시], [부정/공시]로 분류하세요.
-    - [투자 등급 (별 1~5개)]을 종합매력도, 배당성향도, 가격적정성, 자본성장력, 산업모멘텀 항목으로 구분하여 ★로 표시하세요.
+    - 각 종목은 아래 형식을 최대한 그대로 따르세요:
+      SYMBOL (회사명)
+
+          주가분석
+              현재가: $... (24H : $저가 - $고가)
+                  [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_24h.png
+              최근 1달: $저가 - $고가
+                  [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_1m.png
+              52주 범위: $저가 ~ $고가
+                  [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_1y.png
+
+          뉴스/공시
+              주요뉴스:
+                  뉴스 한 줄 요약. (소스, 날짜, 시간, 긍정/중립/부정)
+              주요공시:
+                  공시/규제/기업발표 한 줄 요약. (소스, 날짜, 시간, 긍정/중립/부정)
+    - 뉴스/공시 우선순위 규칙:
+      a) 최근 24시간 이내 항목을 우선 배치
+      b) 단, 24시간 밖이더라도 주가 영향도가 큰 항목(실적, 가이던스, 소송, M&A, 대규모 수급, 배당정책 변경)은 상위에 배치
+      c) 각 항목은 반드시 괄호 메타정보를 뒤에 붙이기
+    - 제공 데이터에 공시가 직접 없으면, 뉴스 중 규제/기업발표/실적발표 성격의 항목을 '주요공시'로 분류하세요.
+    - [투자 등급]은 종합매력도, 배당성향도, 가격적정성, 자본성장력, 산업모멘텀을 각각 `★★★★★` 형식(빈 별 포함 5칸)으로 작성하고 짧은 근거를 괄호로 붙이세요.
 
     2. 섹션 2: 고배당주 발굴 (Discovery)
     - 각 종목별 하이라키 구조:
@@ -80,13 +96,14 @@ def generate_briefing():
        배당 수익률(연간 추정치): ...%
        배당 주기(월/분기/연): ...
        다음 배당락일: ...
-       [투자 등급 (별 1~5개)]: 종합매력도, 배당성향도, 가격적정성, 자본성장력, 산업모멘텀 항목별 ★ 표시
+       [투자 등급 (별 1~5개)]: 종합매력도, 배당성향도, 가격적정성, 자본성장력, 산업모멘텀 항목별 `★★★★★` 형식
        분석: ...
 
     3. 제약사항:
     - 마크다운 테이블, 굵게(#, **) 등 이메일에서 깨지는 기호는 절대 사용 금지.
     - 데이터가 0이면 전문 지식으로 추정치 분석.
     - 섹션을 명확히 분리하세요.
+    - 불필요한 수식어 없이 간결한 문장으로 작성하세요.
     - 분석 마지막에 'API 사용량 리포트' 섹션을 포함하세요.
 
     톤앤매너: 전문적, 한국어. (깔끔한 텍스트 구조로 작성)

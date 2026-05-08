@@ -1,21 +1,10 @@
 import json
 import os
-import yfinance as yf
 from datetime import datetime, timedelta
-import visualizer
 
-import json
-import os
 import requests
 import yfinance as yf
-from datetime import datetime, timedelta
-import visualizer
 
-import json
-import os
-import requests
-import yfinance as yf
-from datetime import datetime, timedelta
 import visualizer
 
 def get_news(symbol):
@@ -27,14 +16,26 @@ def get_news(symbol):
             if response.status_code == 200:
                 news = response.json()
                 if news:
-                    return [{"title": n.get("headline", ""), "summary": n.get("summary", ""), "publisher": n.get("source", "")} for n in news[:5]]
+                    parsed = []
+                    for n in news[:8]:
+                        published_dt = datetime.fromtimestamp(n.get("datetime", 0) or 0)
+                        parsed.append(
+                            {
+                                "title": n.get("headline", ""),
+                                "summary": n.get("summary", ""),
+                                "publisher": n.get("source", ""),
+                                "url": n.get("url", ""),
+                                "published_at": published_dt.strftime("%Y-%m-%d %H:%M"),
+                            }
+                        )
+                    return parsed
         except:
             pass
     
     # Fallback to market context
     return [
         {"title": "Global Market Sentiment", "summary": "Recent macro trends including interest rate stability and AI sector growth are driving market volatility."},
-        {"title": "Sector Outlook", "summary": "Current sector dynamics indicate rotation between growth and value stocks based on inflationary pressures."}
+        {"title": "Sector Outlook", "summary": "Current sector dynamics indicate rotation between growth and value stocks based on inflationary pressures."},
     ]
 
 def get_ticker_data(symbol):
@@ -42,9 +43,11 @@ def get_ticker_data(symbol):
         ticker = yf.Ticker(symbol)
         history_24h = ticker.history(period="1d", interval="5m")
         history_1m = ticker.history(period="1mo")
-        
+        history_1y = ticker.history(period="1y")
+
         visualizer.generate_chart(symbol, history_24h, "24h")
         visualizer.generate_chart(symbol, history_1m, "1m")
+        visualizer.generate_chart(symbol, history_1y, "1y")
         
         info = ticker.info
         
@@ -63,7 +66,11 @@ def get_ticker_data(symbol):
             "dividendYield": round(float(info.get("dividendYield", 0) * 100), 2) if info.get("dividendYield") else 0,
             "dividendRate": info.get("dividendRate", 0) or 0,
             "exDividendDate": str(info.get("exDividendDate", "N/A")),
-            "charts": {"24h": f"charts/{symbol}_24h.png", "1m": f"charts/{symbol}_1m.png"},
+            "charts": {
+                "24h": f"charts/{symbol}_24h.png",
+                "1m": f"charts/{symbol}_1m.png",
+                "1y": f"charts/{symbol}_1y.png",
+            },
             "news": get_news(symbol)
         }
     except Exception as e:
