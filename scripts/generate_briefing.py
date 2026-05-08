@@ -1,24 +1,98 @@
+import html as html_lib
 import json
 import os
-import smtplib
 import re
-from email.mime.text import MIMEText
+import smtplib
 from email.mime.multipart import MIMEMultipart
-from google import genai
+from email.mime.text import MIMEText
 from datetime import datetime
 
+from google import genai
+
+
+def text_to_html(text):
+    lines = text.split('\n')
+    parts = [
+        '<html><body style="font-family:Arial,sans-serif;font-size:14px;'
+        'line-height:1.8;color:#222;max-width:820px;margin:0 auto;padding:16px;">'
+    ]
+
+    for line in lines:
+        if not line.strip():
+            parts.append('<div style="height:6px;"></div>')
+            continue
+
+        stripped = line.lstrip()
+        indent = len(line) - len(stripped)
+        margin = indent * 7
+        s = f'margin-left:{margin}px;padding:1px 0;'
+        esc = html_lib.escape(stripped)
+
+        # --- 구분선
+        if re.match(r'^-{3,}', stripped):
+            parts.append('<hr style="border:none;border-top:1px solid #ddd;margin:10px 0;">')
+            continue
+
+        # 차트 링크: [TAG] URL
+        m = re.match(r'^(\[(?:24H|1M|1Y)\])\s+(https?://\S+)$', stripped)
+        if m:
+            tag, url = m.group(1), m.group(2)
+            parts.append(
+                f'<div style="{s}font-size:11px;color:#999;">'
+                f'<a href="{url}" style="color:#999;text-decoration:none;">{tag}</a>'
+                f'</div>'
+            )
+            continue
+
+        # 섹션 제목 (섹션 1:, 섹션 2:)
+        if re.match(r'^섹션 \d+:', stripped):
+            parts.append(f'<div style="{s}font-size:16px;font-weight:bold;margin-top:20px;">{esc}</div>')
+            continue
+
+        # API 사용량 리포트 헤더
+        if stripped == 'API 사용량 리포트':
+            parts.append(f'<div style="{s}font-weight:bold;margin-top:20px;">{esc}</div>')
+            continue
+
+        # 종목명 (SYMBOL (회사명), 최상위 레벨)
+        if re.match(r'^[A-Z]{1,6}\s+\(.+\)\s*$', stripped) and indent == 0:
+            parts.append(f'<div style="{s}font-size:15px;font-weight:bold;margin-top:14px;">{esc}</div>')
+            continue
+
+        # 서브섹션 헤더 (주가분석, 뉴스/공시, 배당정보, 투자 등급)
+        if re.match(r'^(주가분석|뉴스/공시|배당정보|투자 등급)$', stripped):
+            parts.append(f'<div style="{s}font-weight:bold;margin-top:10px;">{esc}</div>')
+            continue
+
+        # 뉴스/공시 서브헤더
+        if re.match(r'^주요(뉴스|공시)\(.+\):$', stripped):
+            parts.append(f'<div style="{s}font-weight:bold;">{esc}</div>')
+            continue
+
+        # 분석: ("분석:" 부분만 bold)
+        if stripped.startswith('분석:'):
+            rest = html_lib.escape(stripped[3:])
+            parts.append(f'<div style="{s}"><b>분석:</b>{rest}</div>')
+            continue
+
+        # 일반 텍스트
+        parts.append(f'<div style="{s}">{esc}</div>')
+
+    parts.append('</body></html>')
+    return '\n'.join(parts)
+
+
 def strip_markdown(text):
-    # Remove markdown headers, bold, italics, bullet points, etc.
     text = re.sub(r'#{1,6}\s?', '', text)
     text = re.sub(r'\*\*(.*?)\*\*', r'\1', text)
     text = re.sub(r'\*(.*?)\*', r'\1', text)
     text = re.sub(r'_(.*?)_', r'\1', text)
-    text = re.sub(r'^- ', '', text, flags=re.MULTILINE)
-    text = re.sub(r'^\* ', '', text, flags=re.MULTILINE)
+    text = re.sub(r'^[-*] ', '', text, flags=re.MULTILINE)
     text = re.sub(r'^> ', '', text, flags=re.MULTILINE)
     return text
 
-def send_email(subject, plain_text_body):
+
+def send_email(subject, plain_body, html_body):
     sender_email = os.getenv("EMAIL_SENDER")
     sender_password = os.getenv("EMAIL_PASSWORD")
     receiver_env = os.getenv("EMAIL_RECEIVER")
@@ -26,11 +100,12 @@ def send_email(subject, plain_text_body):
         return
     receivers = [r.strip() for r in receiver_env.split(",")]
     try:
-        msg = MIMEMultipart()
+        msg = MIMEMultipart('alternative')
         msg['From'] = sender_email
         msg['To'] = ", ".join(receivers)
         msg['Subject'] = subject
-        msg.attach(MIMEText(plain_text_body, 'plain'))
+        msg.attach(MIMEText(plain_body, 'plain', 'utf-8'))
+        msg.attach(MIMEText(html_body, 'html', 'utf-8'))
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
         server.login(sender_email, sender_password)
@@ -39,19 +114,19 @@ def send_email(subject, plain_text_body):
     except Exception as e:
         print(f"Failed to send email: {e}")
 
+
 def generate_briefing():
     with open("data/latest_market_data.json", "r", encoding="utf-8") as f:
         full_data = json.load(f)
         market_data = full_data['market_data']
-    
+
     with open("portfolio.json", "r") as f:
         portfolio = json.load(f)
     holdings_list = portfolio.get("holdings", [])
-    
-    # 데이터를 두 섹션으로 분리
+
     holdings_data = {k: v for k, v in market_data.items() if k in holdings_list}
     discovery_data = {k: v for k, v in market_data.items() if k not in holdings_list}
-    
+
     api_key = os.getenv("GEMINI_API_KEY")
     client = genai.Client(api_key=api_key)
 
@@ -102,6 +177,8 @@ SYMBOL (회사명)
         자본성장력: ★★☆☆☆ (근거)
         산업모멘텀: ★★★☆☆ (근거)
 
+    분석: 해당 종목의 핵심 투자 포인트와 주의 사항을 2~3문장으로 요약.
+
     2. 섹션 2: 고배당주 발굴 (Discovery)
     - 후보군 전체를 평가한 뒤, 종합매력도(★) 기준 상위 5개 종목만 내림차순으로 작성하세요.
     - 종합매력도 계산: 배당성향도(30%) + 자본성장력(25%) + 산업모멘텀(25%) + 가격적정성(20%). 동점 시 배당 수익률이 높은 종목 우선.
@@ -141,7 +218,6 @@ SYMBOL (회사명)
     - 데이터가 0이면 전문 지식으로 추정치 분석.
     - 섹션을 명확히 분리하세요.
     - 불필요한 수식어 없이 간결한 문장으로 작성하세요.
-    - 분석 마지막에 'API 사용량 리포트' 섹션을 포함하세요.
 
     톤앤매너: 전문적, 한국어. (깔끔한 텍스트 구조로 작성)
     """
@@ -150,21 +226,35 @@ SYMBOL (회사명)
     briefing_md = response.text
     usage = response.usage_metadata
 
-    # 3. Calculate Token Usage (for report)
+    # API 사용량 리포트 (프로그래밍 방식으로 생성)
     LIMIT_TPM = 250000
-    total_tokens = (usage.total_token_count or 0)
+    total_tokens = usage.total_token_count or 0
     usage_percent = (total_tokens / LIMIT_TPM) * 100
-    usage_report = f"\n\n--- [API 사용량 리포트] ---\n- 모델: Gemini 2.5 Flash\n- 세션 토큰: {total_tokens:,}\n- 분당 한도 대비: {usage_percent:.2f}%\n"
+
+    stats = full_data.get("api_stats", {})
+    n = stats.get("yfinance", 0)
+    usage_report = (
+        f"\n\n---\n\nAPI 사용량 리포트\n\n"
+        f"    주식 가격 데이터: {stats.get('yfinance', n)}회 (yfinance)\n"
+        f"    뉴스 데이터: {stats.get('news', n)}회 (Finnhub / Yahoo Finance)\n"
+        f"    SEC 공시 데이터: {stats.get('fmp', n)}회 (FMP)\n"
+        f"    차트 생성: {stats.get('charts', n * 3)}회 (로컬)\n\n"
+        f"    Gemini AI 분석\n"
+        f"        모델: Gemini 2.5 Flash\n"
+        f"        세션 토큰: {total_tokens:,}\n"
+        f"        분당 한도 대비: {usage_percent:.2f}%\n"
+    )
 
     final_text = briefing_md + usage_report
 
-    # Save Markdown briefing
+    # .md 파일 저장
     with open(f"briefings/{datetime.now().strftime('%Y-%m-%d')}.md", "w", encoding="utf-8") as f:
         f.write(final_text)
 
-    # Send Cleaned Email
-    email_body = strip_markdown(final_text)
-    send_email(f"주식 리포트 {datetime.now().strftime('%Y-%m-%d')}", email_body)
+    # 이메일 발송 (HTML + plain text 동시 첨부)
+    plain_body = strip_markdown(final_text)
+    html_body = text_to_html(final_text)
+    send_email(f"주식 리포트 {datetime.now().strftime('%Y-%m-%d')}", plain_body, html_body)
 
 
 if __name__ == "__main__":

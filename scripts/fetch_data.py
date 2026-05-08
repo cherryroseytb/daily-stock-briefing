@@ -158,7 +158,13 @@ def main():
 
     result = {
         "date": datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "market_data": market_data
+        "market_data": market_data,
+        "api_stats": {
+            "yfinance": len(tickers),
+            "news": len(tickers),
+            "fmp": len(tickers),
+            "charts": len(tickers) * 3,
+        },
     }
 
     os.makedirs("data", exist_ok=True)
