@@ -43,13 +43,17 @@ def fetch_stock_data(tickers):
                 "current_price": current_price if current_price else 0,
                 "high_24h": float(history_24h["High"].max()) if not history_24h.empty else 0,
                 "low_24h": float(history_24h["Low"].min()) if not history_24h.empty else 0,
+                "fiftyTwoWeekHigh": info.get("fiftyTwoWeekHigh", 0),
+                "fiftyTwoWeekLow": info.get("fiftyTwoWeekLow", 0),
+                "dividendRate": info.get("dividendRate", 0),
+                "dividendYield": info.get("dividendYield", 0),
+                "exDividendDate": str(info.get("exDividendDate", "N/A")),
                 "charts": {
                     "24h": f"charts/{symbol}_24h.png",
                     "1m": f"charts/{symbol}_1m.png"
                 },
                 "news": get_finnhub_news(symbol, finnhub_key) if finnhub_key else [],
                 "financials": {
-                    "yield": info.get("dividendYield") if info.get("dividendYield") else 0,
                     "payout_ratio": info.get("payoutRatio") if info.get("payoutRatio") else 0,
                     "debt_to_equity": info.get("debtToEquity") if info.get("debtToEquity") else 0
                 }

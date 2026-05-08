@@ -55,19 +55,20 @@ def generate_briefing():
 
     브리핑 구성 및 지침:
     1. 보유 종목 상세 분석
-    - 데이터의 'high_24h', 'low_24h', 'current_price'를 사용하여 가격 흐름을 명시하세요. 데이터가 0이면 섹터 평균과 시장 분위기를 바탕으로 추정 분석을 작성하세요.
+    - 데이터의 'high_24h', 'low_24h', 'current_price', 'fiftyTwoWeekHigh/Low'를 사용하여 가격 분석을 작성하세요.
+    - 데이터가 0이면 섹터 특성과 시장 환경을 바탕으로 분석하세요.
     - 차트 이미지 삽입: 반드시 아래 형식을 사용하여 GitHub Raw URL을 생성하세요:
      ![24시간 차트](https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_24h.png)
      ![1개월 차트](https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_1m.png)
-     (SYMBOL은 각 종목의 티커로 대체)
     - 최근 뉴스를 [주요 뉴스], [긍정/공시], [부정/공시]로 분류하세요.
-    2. 투자 인사이트: 보유 종목에 대한 객관적이고 전문적인 진단.
+    2. 투자 인사이트: 보유 종목에 대한 객관적 진단.
     3. 고배당주 발굴 (Discovery):
-    - 사전 지식과 제공된 배당 데이터를 활용하여 재무가 건전한 고배당주 5개를 분석하세요. 데이터가 없더라도 종목의 일반적 상태를 기반으로 분석하세요.
+    - 사전 지식과 제공된 배당 데이터(dividendRate, dividendYield, exDividendDate)를 활용하여 고배당주 5개를 분석하세요.
+    - 각 종목별로 '현재가', '한달 흐름(차트 링크)', '52주 신고/신저가', '주당 배당금', '배당 수익률', '다음 배당락일', '최근 뉴스'를 표 형식이나 상세 항목으로 정리하세요.
 
-    톤앤매너: 전문적, 한국어. 
-    (이메일 발송용이므로 깔끔하게 작성하세요. '데이터가 없다'는 변명은 절대 하지 마세요.)
+    톤앤매너: 전문적, 한국어. (이메일 발송용이므로 깔끔하게 작성하세요.)
     """
+
 
     response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
     briefing_md = response.text
