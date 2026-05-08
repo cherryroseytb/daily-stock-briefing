@@ -1,20 +1,20 @@
 {
-  "date": "2026-05-08 20:16",
+  "date": "2026-05-08 20:25",
   "market_data": {
-    "BXSL": {
-      "symbol": "BXSL",
-      "name": "Blackstone Secured Lending Fund",
-      "price": 24.2,
-      "high_24h": 24.43,
-      "low_24h": 23.68,
-      "fiftyTwoWeekHigh": 32.81,
-      "fiftyTwoWeekLow": 22.47,
-      "dividendYield": 1264.0,
-      "dividendRate": 3.08,
-      "exDividendDate": "1782777600",
+    "OXLC": {
+      "symbol": "OXLC",
+      "name": "Oxford Lane Capital Corp.",
+      "price": 10.19,
+      "high_24h": 10.29,
+      "low_24h": 10.16,
+      "fiftyTwoWeekHigh": 24.9,
+      "fiftyTwoWeekLow": 8.01,
+      "dividendYield": 2358.0,
+      "dividendRate": 2.4,
+      "exDividendDate": "1778803200",
       "charts": {
-        "24h": "charts/BXSL_24h.png",
-        "1m": "charts/BXSL_1m.png"
+        "24h": "charts/OXLC_24h.png",
+        "1m": "charts/OXLC_1m.png"
       }
     },
     "FSK": {
@@ -33,116 +33,20 @@
         "1m": "charts/FSK_1m.png"
       }
     },
-    "EPD": {
-      "symbol": "EPD",
-      "name": "Enterprise Products Partners L.P.",
-      "price": 37.2,
-      "high_24h": 37.85,
-      "low_24h": 37.15,
-      "fiftyTwoWeekHigh": 39.74,
-      "fiftyTwoWeekLow": 30.01,
-      "dividendYield": 580.0,
-      "dividendRate": 2.19,
-      "exDividendDate": "1777507200",
+    "BXSL": {
+      "symbol": "BXSL",
+      "name": "Blackstone Secured Lending Fund",
+      "price": 24.2,
+      "high_24h": 24.43,
+      "low_24h": 23.68,
+      "fiftyTwoWeekHigh": 32.81,
+      "fiftyTwoWeekLow": 22.47,
+      "dividendYield": 1264.0,
+      "dividendRate": 3.08,
+      "exDividendDate": "1782777600",
       "charts": {
-        "24h": "charts/EPD_24h.png",
-        "1m": "charts/EPD_1m.png"
-      }
-    },
-    "AGNC": {
-      "symbol": "AGNC",
-      "name": "AGNC Investment Corp.",
-      "price": 10.85,
-      "high_24h": 10.89,
-      "low_24h": 10.74,
-      "fiftyTwoWeekHigh": 12.19,
-      "fiftyTwoWeekLow": 8.65,
-      "dividendYield": 1343.0,
-      "dividendRate": 1.44,
-      "exDividendDate": "1777507200",
-      "charts": {
-        "24h": "charts/AGNC_24h.png",
-        "1m": "charts/AGNC_1m.png"
-      }
-    },
-    "VZ": {
-      "symbol": "VZ",
-      "name": "Verizon Communications Inc.",
-      "price": 47.23,
-      "high_24h": 47.46,
-      "low_24h": 46.95,
-      "fiftyTwoWeekHigh": 51.68,
-      "fiftyTwoWeekLow": 38.39,
-      "dividendYield": 601.0,
-      "dividendRate": 2.83,
-      "exDividendDate": "1775779200",
-      "charts": {
-        "24h": "charts/VZ_24h.png",
-        "1m": "charts/VZ_1m.png"
-      }
-    },
-    "MSFT": {
-      "symbol": "MSFT",
-      "name": "Microsoft Corporation",
-      "price": 415.15,
-      "high_24h": 418.63,
-      "low_24h": 414.0,
-      "fiftyTwoWeekHigh": 555.45,
-      "fiftyTwoWeekLow": 356.28,
-      "dividendYield": 87.0,
-      "dividendRate": 3.64,
-      "exDividendDate": "1779321600",
-      "charts": {
-        "24h": "charts/MSFT_24h.png",
-        "1m": "charts/MSFT_1m.png"
-      }
-    },
-    "OXLC": {
-      "symbol": "OXLC",
-      "name": "Oxford Lane Capital Corp.",
-      "price": 10.19,
-      "high_24h": 10.29,
-      "low_24h": 10.16,
-      "fiftyTwoWeekHigh": 24.9,
-      "fiftyTwoWeekLow": 8.01,
-      "dividendYield": 2358.0,
-      "dividendRate": 2.4,
-      "exDividendDate": "1778803200",
-      "charts": {
-        "24h": "charts/OXLC_24h.png",
-        "1m": "charts/OXLC_1m.png"
-      }
-    },
-    "IONQ": {
-      "symbol": "IONQ",
-      "name": "IonQ, Inc.",
-      "price": 49.25,
-      "high_24h": 49.44,
-      "low_24h": 45.72,
-      "fiftyTwoWeekHigh": 84.64,
-      "fiftyTwoWeekLow": 25.89,
-      "dividendYield": 0,
-      "dividendRate": 0,
-      "exDividendDate": "N/A",
-      "charts": {
-        "24h": "charts/IONQ_24h.png",
-        "1m": "charts/IONQ_1m.png"
-      }
-    },
-    "O": {
-      "symbol": "O",
-      "name": "Realty Income Corporation",
-      "price": 61.92,
-      "high_24h": 62.68,
-      "low_24h": 61.58,
-      "fiftyTwoWeekHigh": 67.94,
-      "fiftyTwoWeekLow": 54.38,
-      "dividendYield": 524.0,
-      "dividendRate": 3.24,
-      "exDividendDate": "1777507200",
-      "charts": {
-        "24h": "charts/O_24h.png",
-        "1m": "charts/O_1m.png"
+        "24h": "charts/BXSL_24h.png",
+        "1m": "charts/BXSL_1m.png"
       }
     },
     "T": {
@@ -161,6 +65,22 @@
         "1m": "charts/T_1m.png"
       }
     },
+    "AGNC": {
+      "symbol": "AGNC",
+      "name": "AGNC Investment Corp.",
+      "price": 10.85,
+      "high_24h": 10.89,
+      "low_24h": 10.74,
+      "fiftyTwoWeekHigh": 12.19,
+      "fiftyTwoWeekLow": 8.65,
+      "dividendYield": 1343.0,
+      "dividendRate": 1.44,
+      "exDividendDate": "1777507200",
+      "charts": {
+        "24h": "charts/AGNC_24h.png",
+        "1m": "charts/AGNC_1m.png"
+      }
+    },
     "QCOM": {
       "symbol": "QCOM",
       "name": "QUALCOMM Incorporated",
@@ -177,20 +97,36 @@
         "1m": "charts/QCOM_1m.png"
       }
     },
-    "JNJ": {
-      "symbol": "JNJ",
-      "name": "Johnson & Johnson",
-      "price": 221.35,
-      "high_24h": 223.37,
-      "low_24h": 220.92,
-      "fiftyTwoWeekHigh": 251.71,
-      "fiftyTwoWeekLow": 146.12,
-      "dividendYield": 241.0,
-      "dividendRate": 5.36,
-      "exDividendDate": "1779753600",
+    "IONQ": {
+      "symbol": "IONQ",
+      "name": "IonQ, Inc.",
+      "price": 49.25,
+      "high_24h": 49.44,
+      "low_24h": 45.72,
+      "fiftyTwoWeekHigh": 84.64,
+      "fiftyTwoWeekLow": 25.89,
+      "dividendYield": 0,
+      "dividendRate": 0,
+      "exDividendDate": "N/A",
       "charts": {
-        "24h": "charts/JNJ_24h.png",
-        "1m": "charts/JNJ_1m.png"
+        "24h": "charts/IONQ_24h.png",
+        "1m": "charts/IONQ_1m.png"
+      }
+    },
+    "VZ": {
+      "symbol": "VZ",
+      "name": "Verizon Communications Inc.",
+      "price": 47.23,
+      "high_24h": 47.46,
+      "low_24h": 46.95,
+      "fiftyTwoWeekHigh": 51.68,
+      "fiftyTwoWeekLow": 38.39,
+      "dividendYield": 601.0,
+      "dividendRate": 2.83,
+      "exDividendDate": "1775779200",
+      "charts": {
+        "24h": "charts/VZ_24h.png",
+        "1m": "charts/VZ_1m.png"
       }
     },
     "ARCC": {
@@ -209,6 +145,54 @@
         "1m": "charts/ARCC_1m.png"
       }
     },
+    "EPD": {
+      "symbol": "EPD",
+      "name": "Enterprise Products Partners L.P.",
+      "price": 37.2,
+      "high_24h": 37.85,
+      "low_24h": 37.15,
+      "fiftyTwoWeekHigh": 39.74,
+      "fiftyTwoWeekLow": 30.01,
+      "dividendYield": 580.0,
+      "dividendRate": 2.19,
+      "exDividendDate": "1777507200",
+      "charts": {
+        "24h": "charts/EPD_24h.png",
+        "1m": "charts/EPD_1m.png"
+      }
+    },
+    "JNJ": {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "price": 221.35,
+      "high_24h": 223.37,
+      "low_24h": 220.92,
+      "fiftyTwoWeekHigh": 251.71,
+      "fiftyTwoWeekLow": 146.12,
+      "dividendYield": 241.0,
+      "dividendRate": 5.36,
+      "exDividendDate": "1779753600",
+      "charts": {
+        "24h": "charts/JNJ_24h.png",
+        "1m": "charts/JNJ_1m.png"
+      }
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 415.15,
+      "high_24h": 418.63,
+      "low_24h": 414.0,
+      "fiftyTwoWeekHigh": 555.45,
+      "fiftyTwoWeekLow": 356.28,
+      "dividendYield": 87.0,
+      "dividendRate": 3.64,
+      "exDividendDate": "1779321600",
+      "charts": {
+        "24h": "charts/MSFT_24h.png",
+        "1m": "charts/MSFT_1m.png"
+      }
+    },
     "PFLT": {
       "symbol": "PFLT",
       "name": "PennantPark Floating Rate Capital Ltd.",
@@ -223,6 +207,22 @@
       "charts": {
         "24h": "charts/PFLT_24h.png",
         "1m": "charts/PFLT_1m.png"
+      }
+    },
+    "O": {
+      "symbol": "O",
+      "name": "Realty Income Corporation",
+      "price": 61.92,
+      "high_24h": 62.68,
+      "low_24h": 61.58,
+      "fiftyTwoWeekHigh": 67.94,
+      "fiftyTwoWeekLow": 54.38,
+      "dividendYield": 524.0,
+      "dividendRate": 3.24,
+      "exDividendDate": "1777507200",
+      "charts": {
+        "24h": "charts/O_24h.png",
+        "1m": "charts/O_1m.png"
       }
     }
   }
