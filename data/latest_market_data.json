@@ -1,85 +1,43 @@
 {
-  "date": "2026-05-08 20:25",
+  "date": "2026-05-08 20:37",
   "market_data": {
-    "OXLC": {
-      "symbol": "OXLC",
-      "name": "Oxford Lane Capital Corp.",
-      "price": 10.19,
-      "high_24h": 10.29,
-      "low_24h": 10.16,
-      "fiftyTwoWeekHigh": 24.9,
-      "fiftyTwoWeekLow": 8.01,
-      "dividendYield": 2358.0,
-      "dividendRate": 2.4,
-      "exDividendDate": "1778803200",
-      "charts": {
-        "24h": "charts/OXLC_24h.png",
-        "1m": "charts/OXLC_1m.png"
-      }
-    },
-    "FSK": {
-      "symbol": "FSK",
-      "name": "FS KKR Capital Corp.",
-      "price": 10.84,
-      "high_24h": 11.05,
-      "low_24h": 10.64,
-      "fiftyTwoWeekHigh": 22.68,
-      "fiftyTwoWeekLow": 9.72,
-      "dividendYield": 2356.0,
-      "dividendRate": 2.58,
-      "exDividendDate": "1773792000",
-      "charts": {
-        "24h": "charts/FSK_24h.png",
-        "1m": "charts/FSK_1m.png"
-      }
-    },
-    "BXSL": {
-      "symbol": "BXSL",
-      "name": "Blackstone Secured Lending Fund",
-      "price": 24.2,
-      "high_24h": 24.43,
-      "low_24h": 23.68,
-      "fiftyTwoWeekHigh": 32.81,
-      "fiftyTwoWeekLow": 22.47,
-      "dividendYield": 1264.0,
-      "dividendRate": 3.08,
-      "exDividendDate": "1782777600",
-      "charts": {
-        "24h": "charts/BXSL_24h.png",
-        "1m": "charts/BXSL_1m.png"
-      }
-    },
-    "T": {
-      "symbol": "T",
-      "name": "AT&T Inc.",
-      "price": 25.16,
-      "high_24h": 25.4,
-      "low_24h": 25.11,
-      "fiftyTwoWeekHigh": 29.79,
-      "fiftyTwoWeekLow": 22.95,
-      "dividendYield": 439.0,
-      "dividendRate": 1.11,
-      "exDividendDate": "1775779200",
-      "charts": {
-        "24h": "charts/T_24h.png",
-        "1m": "charts/T_1m.png"
-      }
-    },
-    "AGNC": {
-      "symbol": "AGNC",
-      "name": "AGNC Investment Corp.",
-      "price": 10.85,
-      "high_24h": 10.89,
-      "low_24h": 10.74,
-      "fiftyTwoWeekHigh": 12.19,
-      "fiftyTwoWeekLow": 8.65,
-      "dividendYield": 1343.0,
-      "dividendRate": 1.44,
+    "O": {
+      "symbol": "O",
+      "name": "Realty Income Corporation",
+      "price": 61.92,
+      "high_24h": 62.68,
+      "low_24h": 61.58,
+      "fiftyTwoWeekHigh": 67.94,
+      "fiftyTwoWeekLow": 54.38,
+      "dividendYield": 524.0,
+      "dividendRate": 3.24,
       "exDividendDate": "1777507200",
       "charts": {
-        "24h": "charts/AGNC_24h.png",
-        "1m": "charts/AGNC_1m.png"
-      }
+        "24h": "charts/O_24h.png",
+        "1m": "charts/O_1m.png"
+      },
+      "news": [
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        }
+      ]
     },
     "QCOM": {
       "symbol": "QCOM",
@@ -95,23 +53,105 @@
       "charts": {
         "24h": "charts/QCOM_24h.png",
         "1m": "charts/QCOM_1m.png"
-      }
+      },
+      "news": [
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        }
+      ]
     },
-    "IONQ": {
-      "symbol": "IONQ",
-      "name": "IonQ, Inc.",
-      "price": 49.25,
-      "high_24h": 49.44,
-      "low_24h": 45.72,
-      "fiftyTwoWeekHigh": 84.64,
-      "fiftyTwoWeekLow": 25.89,
-      "dividendYield": 0,
-      "dividendRate": 0,
-      "exDividendDate": "N/A",
+    "FSK": {
+      "symbol": "FSK",
+      "name": "FS KKR Capital Corp.",
+      "price": 10.84,
+      "high_24h": 11.05,
+      "low_24h": 10.64,
+      "fiftyTwoWeekHigh": 22.68,
+      "fiftyTwoWeekLow": 9.72,
+      "dividendYield": 2356.0,
+      "dividendRate": 2.58,
+      "exDividendDate": "1773792000",
       "charts": {
-        "24h": "charts/IONQ_24h.png",
-        "1m": "charts/IONQ_1m.png"
-      }
+        "24h": "charts/FSK_24h.png",
+        "1m": "charts/FSK_1m.png"
+      },
+      "news": [
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        }
+      ]
+    },
+    "T": {
+      "symbol": "T",
+      "name": "AT&T Inc.",
+      "price": 25.16,
+      "high_24h": 25.4,
+      "low_24h": 25.11,
+      "fiftyTwoWeekHigh": 29.79,
+      "fiftyTwoWeekLow": 22.95,
+      "dividendYield": 439.0,
+      "dividendRate": 1.11,
+      "exDividendDate": "1775779200",
+      "charts": {
+        "24h": "charts/T_24h.png",
+        "1m": "charts/T_1m.png"
+      },
+      "news": [
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        }
+      ]
     },
     "VZ": {
       "symbol": "VZ",
@@ -127,39 +167,29 @@
       "charts": {
         "24h": "charts/VZ_24h.png",
         "1m": "charts/VZ_1m.png"
-      }
-    },
-    "ARCC": {
-      "symbol": "ARCC",
-      "name": "Ares Capital Corporation",
-      "price": 19.02,
-      "high_24h": 19.05,
-      "low_24h": 18.78,
-      "fiftyTwoWeekHigh": 23.42,
-      "fiftyTwoWeekLow": 17.4,
-      "dividendYield": 1013.0,
-      "dividendRate": 1.92,
-      "exDividendDate": "1781481600",
-      "charts": {
-        "24h": "charts/ARCC_24h.png",
-        "1m": "charts/ARCC_1m.png"
-      }
-    },
-    "EPD": {
-      "symbol": "EPD",
-      "name": "Enterprise Products Partners L.P.",
-      "price": 37.2,
-      "high_24h": 37.85,
-      "low_24h": 37.15,
-      "fiftyTwoWeekHigh": 39.74,
-      "fiftyTwoWeekLow": 30.01,
-      "dividendYield": 580.0,
-      "dividendRate": 2.19,
-      "exDividendDate": "1777507200",
-      "charts": {
-        "24h": "charts/EPD_24h.png",
-        "1m": "charts/EPD_1m.png"
-      }
+      },
+      "news": [
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        }
+      ]
     },
     "JNJ": {
       "symbol": "JNJ",
@@ -175,23 +205,143 @@
       "charts": {
         "24h": "charts/JNJ_24h.png",
         "1m": "charts/JNJ_1m.png"
-      }
+      },
+      "news": [
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        }
+      ]
     },
-    "MSFT": {
-      "symbol": "MSFT",
-      "name": "Microsoft Corporation",
-      "price": 415.15,
-      "high_24h": 418.63,
-      "low_24h": 414.0,
-      "fiftyTwoWeekHigh": 555.45,
-      "fiftyTwoWeekLow": 356.28,
-      "dividendYield": 87.0,
-      "dividendRate": 3.64,
-      "exDividendDate": "1779321600",
+    "ARCC": {
+      "symbol": "ARCC",
+      "name": "Ares Capital Corporation",
+      "price": 19.02,
+      "high_24h": 19.05,
+      "low_24h": 18.78,
+      "fiftyTwoWeekHigh": 23.42,
+      "fiftyTwoWeekLow": 17.4,
+      "dividendYield": 1013.0,
+      "dividendRate": 1.92,
+      "exDividendDate": "1781481600",
       "charts": {
-        "24h": "charts/MSFT_24h.png",
-        "1m": "charts/MSFT_1m.png"
-      }
+        "24h": "charts/ARCC_24h.png",
+        "1m": "charts/ARCC_1m.png"
+      },
+      "news": [
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        }
+      ]
+    },
+    "BXSL": {
+      "symbol": "BXSL",
+      "name": "Blackstone Secured Lending Fund",
+      "price": 24.2,
+      "high_24h": 24.43,
+      "low_24h": 23.68,
+      "fiftyTwoWeekHigh": 32.81,
+      "fiftyTwoWeekLow": 22.47,
+      "dividendYield": 1264.0,
+      "dividendRate": 3.08,
+      "exDividendDate": "1782777600",
+      "charts": {
+        "24h": "charts/BXSL_24h.png",
+        "1m": "charts/BXSL_1m.png"
+      },
+      "news": [
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        }
+      ]
+    },
+    "AGNC": {
+      "symbol": "AGNC",
+      "name": "AGNC Investment Corp.",
+      "price": 10.85,
+      "high_24h": 10.89,
+      "low_24h": 10.74,
+      "fiftyTwoWeekHigh": 12.19,
+      "fiftyTwoWeekLow": 8.65,
+      "dividendYield": 1343.0,
+      "dividendRate": 1.44,
+      "exDividendDate": "1777507200",
+      "charts": {
+        "24h": "charts/AGNC_24h.png",
+        "1m": "charts/AGNC_1m.png"
+      },
+      "news": [
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        }
+      ]
     },
     "PFLT": {
       "symbol": "PFLT",
@@ -207,23 +357,181 @@
       "charts": {
         "24h": "charts/PFLT_24h.png",
         "1m": "charts/PFLT_1m.png"
-      }
+      },
+      "news": [
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        }
+      ]
     },
-    "O": {
-      "symbol": "O",
-      "name": "Realty Income Corporation",
-      "price": 61.92,
-      "high_24h": 62.68,
-      "low_24h": 61.58,
-      "fiftyTwoWeekHigh": 67.94,
-      "fiftyTwoWeekLow": 54.38,
-      "dividendYield": 524.0,
-      "dividendRate": 3.24,
+    "IONQ": {
+      "symbol": "IONQ",
+      "name": "IonQ, Inc.",
+      "price": 49.25,
+      "high_24h": 49.44,
+      "low_24h": 45.72,
+      "fiftyTwoWeekHigh": 84.64,
+      "fiftyTwoWeekLow": 25.89,
+      "dividendYield": 0,
+      "dividendRate": 0,
+      "exDividendDate": "N/A",
+      "charts": {
+        "24h": "charts/IONQ_24h.png",
+        "1m": "charts/IONQ_1m.png"
+      },
+      "news": [
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        }
+      ]
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 415.15,
+      "high_24h": 418.63,
+      "low_24h": 414.0,
+      "fiftyTwoWeekHigh": 555.45,
+      "fiftyTwoWeekLow": 356.28,
+      "dividendYield": 87.0,
+      "dividendRate": 3.64,
+      "exDividendDate": "1779321600",
+      "charts": {
+        "24h": "charts/MSFT_24h.png",
+        "1m": "charts/MSFT_1m.png"
+      },
+      "news": [
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        }
+      ]
+    },
+    "EPD": {
+      "symbol": "EPD",
+      "name": "Enterprise Products Partners L.P.",
+      "price": 37.2,
+      "high_24h": 37.85,
+      "low_24h": 37.15,
+      "fiftyTwoWeekHigh": 39.74,
+      "fiftyTwoWeekLow": 30.01,
+      "dividendYield": 580.0,
+      "dividendRate": 2.19,
       "exDividendDate": "1777507200",
       "charts": {
-        "24h": "charts/O_24h.png",
-        "1m": "charts/O_1m.png"
-      }
+        "24h": "charts/EPD_24h.png",
+        "1m": "charts/EPD_1m.png"
+      },
+      "news": [
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        }
+      ]
+    },
+    "OXLC": {
+      "symbol": "OXLC",
+      "name": "Oxford Lane Capital Corp.",
+      "price": 10.19,
+      "high_24h": 10.29,
+      "low_24h": 10.16,
+      "fiftyTwoWeekHigh": 24.9,
+      "fiftyTwoWeekLow": 8.01,
+      "dividendYield": 2358.0,
+      "dividendRate": 2.4,
+      "exDividendDate": "1778803200",
+      "charts": {
+        "24h": "charts/OXLC_24h.png",
+        "1m": "charts/OXLC_1m.png"
+      },
+      "news": [
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        },
+        {
+          "title": "",
+          "publisher": ""
+        }
+      ]
     }
   }
 }
