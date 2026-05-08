@@ -1,46 +1,60 @@
 {
-  "date": "2026-05-08 19:25",
+  "date": "2026-05-08 19:46",
   "market_data": {
-    "BXSL": {
-      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
-    },
     "JNJ": {
-      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
-    },
-    "QCOM": {
-      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
-    },
-    "T": {
-      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
-    },
-    "VZ": {
-      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
-    },
-    "AGNC": {
-      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
-    },
-    "MSFT": {
-      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
-    },
-    "IONQ": {
-      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
-    },
-    "OXLC": {
-      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
-    },
-    "ARCC": {
-      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
-    },
-    "PFLT": {
+      "symbol": "JNJ",
       "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
     },
     "FSK": {
+      "symbol": "FSK",
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "T": {
+      "symbol": "T",
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "ARCC": {
+      "symbol": "ARCC",
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "AGNC": {
+      "symbol": "AGNC",
       "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
     },
     "EPD": {
+      "symbol": "EPD",
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "PFLT": {
+      "symbol": "PFLT",
       "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
     },
     "O": {
+      "symbol": "O",
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "QCOM": {
+      "symbol": "QCOM",
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "OXLC": {
+      "symbol": "OXLC",
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "BXSL": {
+      "symbol": "BXSL",
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "VZ": {
+      "symbol": "VZ",
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "IONQ": {
+      "symbol": "IONQ",
       "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
     }
   }
