@@ -55,19 +55,23 @@ def generate_briefing():
 
     브리핑 구성 및 지침:
     1. 보유 종목 상세 분석
-    - 데이터의 'high_24h', 'low_24h', 'current_price', 'fiftyTwoWeekHigh/Low'를 사용하여 가격 분석을 작성하세요.
-    - 데이터가 0이면 섹터 특성과 시장 환경을 바탕으로 분석하세요.
-    - 차트 이미지 삽입: 반드시 아래 형식을 사용하여 GitHub Raw URL을 생성하세요:
+    - 데이터에 포함된 'high_24h', 'low_24h', 'current_price', 'fiftyTwoWeekHigh/Low'를 반드시 표기하세요.
+    - 정보가 0이면 '시장 데이터 기반 추정치'임을 밝히고, 시장 상황을 바탕으로 전문적인 예측을 제공하세요.
+    - 모든 종목에 아래 형식으로 차트 이미지를 마크다운 형식으로 삽입하세요:
      ![24시간 차트](https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_24h.png)
      ![1개월 차트](https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_1m.png)
     - 최근 뉴스를 [주요 뉴스], [긍정/공시], [부정/공시]로 분류하세요.
-    2. 투자 인사이트: 보유 종목에 대한 객관적 진단.
+
+    2. 투자 인사이트: 보유 종목에 대한 객관적이고 전문적인 진단.
+
     3. 고배당주 발굴 (Discovery):
-    - 사전 지식과 제공된 배당 데이터(dividendRate, dividendYield, exDividendDate)를 활용하여 고배당주 5개를 분석하세요.
-    - 각 종목별로 '현재가', '한달 흐름(차트 링크)', '52주 신고/신저가', '주당 배당금', '배당 수익률', '다음 배당락일', '최근 뉴스'를 표 형식이나 상세 항목으로 정리하세요.
+    - 제공된 'dividendYield', 'dividendRate', 'exDividendDate' 등 배당 데이터를 반드시 활용하여 분석하세요.
+    - 각 종목별로 '현재가', '52주 신고/신저가', '주당 배당금', '배당 수익률', '다음 배당락일'을 표로 정리하세요.
+    - 데이터가 일부 누락되었더라도 해당 종목의 금융시장 내 일반적인 지위와 특성을 기반으로 전문적인 분석을 완성하세요.
 
     톤앤매너: 전문적, 한국어. (이메일 발송용이므로 깔끔하게 작성하세요.)
     """
+
 
 
     response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
