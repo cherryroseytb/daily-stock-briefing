@@ -14,7 +14,7 @@ def get_sec_filings(symbol):
 
     try:
         to_date = datetime.now().date()
-        from_date = to_date - timedelta(days=90)
+        from_date = to_date - timedelta(days=180)
         url = (
             "https://financialmodelingprep.com/stable/sec-filings-search/symbol"
             f"?symbol={symbol}"
@@ -92,6 +92,8 @@ def get_ticker_data(symbol):
         price = float(history_24h["Close"].iloc[-1]) if not history_24h.empty else 0
         high_24h = float(history_24h["High"].max()) if not history_24h.empty else price
         low_24h = float(history_24h["Low"].min()) if not history_24h.empty else price
+        high_1m = float(history_1m["High"].max()) if not history_1m.empty else 0
+        low_1m = float(history_1m["Low"].min()) if not history_1m.empty else 0
         
         return {
             "symbol": symbol,
@@ -99,6 +101,8 @@ def get_ticker_data(symbol):
             "price": round(price, 2),
             "high_24h": round(high_24h, 2),
             "low_24h": round(low_24h, 2),
+            "high_1m": round(high_1m, 2),
+            "low_1m": round(low_1m, 2),
             "fiftyTwoWeekHigh": info.get("fiftyTwoWeekHigh", 0),
             "fiftyTwoWeekLow": info.get("fiftyTwoWeekLow", 0),
             "dividendYield": round(float(info.get("dividendYield", 0) * 100), 2) if info.get("dividendYield") else 0,
@@ -110,7 +114,7 @@ def get_ticker_data(symbol):
                 "1y": f"charts/{symbol}_1y.png",
             },
             "news": get_news(symbol),
-            "sec_filings_3m": get_sec_filings(symbol),
+            "sec_filings_6m": get_sec_filings(symbol),
         }
     except Exception as e:
         print(f"Error {symbol}: {e}")
