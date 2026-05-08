@@ -65,7 +65,9 @@ def generate_briefing():
     지침:
     1. 섹션 1: 보유 종목 상세 분석 (Holdings)
     - 각 종목별로 종목명, 현재가, 24시간 변동률, 24시간 최고/최저가, 52주 고/저가를 하이라키 구조로 나열하세요.
-    - 차트 이미지 링크: 24시간 추이 및 1개월 추이 링크 표시.
+    - 차트 이미지 링크 (클릭 가능하게 전체 URL 작성):
+     24시간 추이: https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_24h.png
+     1개월 추이: https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_1m.png
     - [투자 등급 (별 1~5개)]을 종합매력도, 배당성향도, 가격적정성, 자본성장력, 산업모멘텀 항목으로 구분하여 ★로 표시하세요.
     - 뉴스는 [주요 뉴스], [긍정/공시], [부정/공시]로 분류하세요.
 
@@ -73,7 +75,7 @@ def generate_briefing():
     - 각 종목별 하이라키 구조:
      종목명
        현재가: $...
-       1개월 흐름(링크): ...
+       1개월 흐름: https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_1m.png
        주당 배당금(연간 예상): $...
        배당 수익률(연간 추정치): ...%
        배당 주기(월/분기/연): ...
@@ -85,24 +87,31 @@ def generate_briefing():
     - 마크다운 테이블, 굵게(#, **) 등 이메일에서 깨지는 기호는 절대 사용 금지.
     - 데이터가 0이면 전문 지식으로 추정치 분석.
     - 섹션을 명확히 분리하세요.
+    - 분석 마지막에 'API 사용량 리포트' 섹션을 포함하세요.
 
     톤앤매너: 전문적, 한국어. (깔끔한 텍스트 구조로 작성)
     """
 
-
-
-
-
     response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
     briefing_md = response.text
-    
+    usage = response.usage_metadata
+
+    # 3. Calculate Token Usage (for report)
+    LIMIT_TPM = 250000
+    total_tokens = (usage.total_token_count or 0)
+    usage_percent = (total_tokens / LIMIT_TPM) * 100
+    usage_report = f"\n\n--- [API 사용량 리포트] ---\n- 모델: Gemini 2.5 Flash\n- 세션 토큰: {total_tokens:,}\n- 분당 한도 대비: {usage_percent:.2f}%\n"
+
+    final_text = briefing_md + usage_report
+
     # Save Markdown briefing
     with open(f"briefings/{datetime.now().strftime('%Y-%m-%d')}.md", "w", encoding="utf-8") as f:
-        f.write(briefing_md)
-    
+        f.write(final_text)
+
     # Send Cleaned Email
-    email_body = strip_markdown(briefing_md)
+    email_body = strip_markdown(final_text)
     send_email(f"주식 리포트 {datetime.now().strftime('%Y-%m-%d')}", email_body)
+
 
 if __name__ == "__main__":
     generate_briefing()
