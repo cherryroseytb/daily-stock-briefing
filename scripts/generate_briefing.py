@@ -3,7 +3,7 @@ import os
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-import google.generativeai as genai
+from google import genai
 from datetime import datetime
 
 def send_email(subject, plain_text_body):
@@ -45,8 +45,7 @@ def generate_briefing():
         print("GEMINI_API_KEY not found in environment variables.")
         return
 
-    genai.configure(api_key=api_key)
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    client = genai.Client(api_key=api_key)
 
     # 1. Generate Markdown version for GitHub
     prompt_md = f"""
@@ -65,7 +64,7 @@ def generate_briefing():
 
 톤앤매너: 전문적이면서도 가독성 좋게 마크다운 형식으로 작성해주세요. 언어는 한국어로 작성하세요.
 """
-    response_md = model.generate_content(prompt_md)
+    response_md = client.models.generate_content(model="gemini-2.0-flash", contents=prompt_md)
     briefing_md = response_md.text
 
     # 2. Generate Plain Text version for Email
@@ -76,7 +75,7 @@ def generate_briefing():
 원본 마크다운 내용:
 {briefing_md}
 """
-    response_text = model.generate_content(prompt_text)
+    response_text = client.models.generate_content(model="gemini-2.0-flash", contents=prompt_text)
     briefing_plain_text = response_text.text
 
     # Save the Markdown briefing

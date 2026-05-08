@@ -40,7 +40,11 @@ def fetch_stock_data(tickers):
                 news = get_finnhub_news(symbol, finnhub_key)
             
             if not news: # Fallback to yfinance news
-                news = [{"title": n["title"], "publisher": n["publisher"], "link": n["link"]} for n in ticker.news[:3]]
+                raw_news = ticker.news or []
+                news = [
+                    {"title": n.get("title", ""), "publisher": n.get("publisher", ""), "link": n.get("link") or n.get("url", "")}
+                    for n in raw_news[:3]
+                ]
             
             data[symbol] = {
                 "name": info.get("longName", symbol),
