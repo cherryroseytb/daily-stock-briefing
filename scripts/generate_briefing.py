@@ -68,8 +68,8 @@ def generate_briefing():
     - 차트 이미지 링크 (클릭 가능하게 전체 URL 작성):
      24시간 추이: https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_24h.png
      1개월 추이: https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_1m.png
+    - 뉴스는 제공된 'title'과 'summary'를 분석하여 [주요 뉴스], [긍정/공시], [부정/공시]로 분류하세요.
     - [투자 등급 (별 1~5개)]을 종합매력도, 배당성향도, 가격적정성, 자본성장력, 산업모멘텀 항목으로 구분하여 ★로 표시하세요.
-    - 뉴스는 [주요 뉴스], [긍정/공시], [부정/공시]로 분류하세요.
 
     2. 섹션 2: 고배당주 발굴 (Discovery)
     - 각 종목별 하이라키 구조:

@@ -12,11 +12,11 @@ from datetime import datetime, timedelta
 import visualizer
 
 def get_news(symbol):
-    # 간단한 뉴스 수집 함수 (yfinance 사용)
     ticker = yf.Ticker(symbol)
     try:
         news = ticker.news
-        return [{"title": n.get("title", ""), "publisher": n.get("publisher", "")} for n in news[:5]]
+        # 'summary'를 포함하여 더 많은 문맥 정보를 전달
+        return [{"title": n.get("title", ""), "summary": n.get("summary", ""), "publisher": n.get("publisher", "")} for n in news[:5]]
     except:
         return []
 
