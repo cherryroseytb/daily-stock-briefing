@@ -1,7 +1,7 @@
-# Daily Stock Briefing — 계획서 및 제안사항 (Gemini 구현 완료)
+# Daily Stock Briefing — 계획서 및 제안사항 (Gemini 2.5 Flash 구현 완료)
 
-> 마지막 업데이트: 2026-05-07  
-> 목표: 매일 오전 8:30 KST, 해외 주식 시장 브리핑을 자동으로 생성해 이 레포에 저장 (Gemini 1.5 Flash 활용)
+> 마지막 업데이트: 2026-05-09  
+> 목표: 매일 오전 8:30 KST, 해외 주식 시장 브리핑을 자동으로 생성해 이 레포에 저장 (Gemini 2.5 Flash 활용)
 
 ---
 
@@ -9,14 +9,15 @@
 
 **구조:**
 ```
-GitHub Actions (매일 08:30 KST) → fetch_data.py (yfinance) → generate_briefing.py (Gemini AI) → Commit & Push
+GitHub Actions (매일 08:30 KST) → fetch_data.py (yfinance) → generate_briefing.py (Gemini 2.5 Flash) → Commit & Push
 ```
 
 **상세 흐름:**
 1. **GitHub Actions**: 스케줄러에 의해 매일 한국시간 오전 8:30 실행.
 2. **fetch_data.py**: `portfolio.json`을 읽어 `yfinance`를 통해 주가 및 최근 뉴스 수집 후 `data/latest_market_data.json` 저장.
-3. **generate_briefing.py**: Gemini API가 수집된 데이터를 읽고 투자자용 마크다운 브리핑 생성.
-4. **결과 저장**: `briefings/YYYY-MM-DD.md` 파일로 커밋 및 푸시.
+3. **generate_briefing.py**: Gemini 2.5 Flash (Free Tier)가 수집된 데이터를 읽고 투자자용 마크다운 브리핑 생성.
+4. **사용량 리포트**: 브리핑 하단에 해당 세션의 토큰 사용량 및 한도 대비 비율(%)을 자동으로 포함.
+5. **결과 저장**: `briefings/YYYY-MM-DD.md` 파일로 커밋 및 푸시.
 
 ---
 
@@ -25,7 +26,7 @@ GitHub Actions (매일 08:30 KST) → fetch_data.py (yfinance) → generate_brie
 자동 실행을 위해 다음 설정을 반드시 완료해주세요:
 
 1. **API 키 발급**:
-   - [Google AI Studio](https://aistudio.google.com/app/apikey)에서 무료 Gemini API 키 발급
+   - [Google AI Studio](https://aistudio.google.com/app/apikey)에서 **무료 티어(Free Tier)** Gemini API 키 발급
    - Alpha Vantage 및 Finnhub 무료 API 키 발급
 
 2. **이메일 발송용 앱 비밀번호 설정 (Gmail 기준)**:
@@ -35,12 +36,12 @@ GitHub Actions (매일 08:30 KST) → fetch_data.py (yfinance) → generate_brie
 3. **GitHub Secrets 등록**:
    - GitHub 레포지토리의 `Settings` > `Secrets and variables` > `Actions` 메뉴로 이동.
    - `New repository secret` 버튼 클릭하여 다음 키들을 각각 등록하세요:
-     - `GEMINI_API_KEY`: Gemini API 키
+     - `GEMINI_API_KEY`: Gemini API 키 (2.5 Flash 모델 지원)
      - `ALPHA_VANTAGE_API_KEY`: Alpha Vantage API 키
      - `FINNHUB_API_KEY`: Finnhub API 키
-     - `EMAIL_SENDER`: 브리핑을 보낼 이메일 주소 (예: myaccount@gmail.com)
-     - `EMAIL_PASSWORD`: 생성한 메일 '앱 비밀번호' (기존 로그인 비밀번호 아님)
-     - `EMAIL_RECEIVER`: 브리핑을 받을 이메일 주소 (보내는 메일과 같아도 됨)
+     - `EMAIL_SENDER`: 브리핑을 보낼 이메일 주소
+     - `EMAIL_PASSWORD`: 생성한 메일 '앱 비밀번호'
+     - `EMAIL_RECEIVER`: 브리핑을 받을 이메일 주소 (여러 개일 경우 콤마(,)로 구분. 예: user1@gmail.com,user2@gmail.com)
 
 ---
 

@@ -9,16 +9,19 @@ from datetime import datetime
 def send_email(subject, plain_text_body):
     sender_email = os.getenv("EMAIL_SENDER")
     sender_password = os.getenv("EMAIL_PASSWORD")
-    receiver_email = os.getenv("EMAIL_RECEIVER")
+    receiver_env = os.getenv("EMAIL_RECEIVER")
 
-    if not all([sender_email, sender_password, receiver_email]):
+    if not all([sender_email, sender_password, receiver_env]):
         print("Email credentials (EMAIL_SENDER, EMAIL_PASSWORD, EMAIL_RECEIVER) not fully configured. Skipping email.")
         return
+
+    # Split multiple emails by comma and clean whitespace
+    receivers = [r.strip() for r in receiver_env.split(",")]
 
     try:
         msg = MIMEMultipart()
         msg['From'] = sender_email
-        msg['To'] = receiver_email
+        msg['To'] = ", ".join(receivers)
         msg['Subject'] = subject
 
         msg.attach(MIMEText(plain_text_body, 'plain'))
@@ -28,9 +31,9 @@ def send_email(subject, plain_text_body):
         server.starttls()
         server.login(sender_email, sender_password)
         text = msg.as_string()
-        server.sendmail(sender_email, receiver_email, text)
+        server.sendmail(sender_email, receivers, text)
         server.quit()
-        print(f"Email sent successfully to {receiver_email}")
+        print(f"Email sent successfully to {len(receivers)} recipient(s): {', '.join(receivers)}")
     except Exception as e:
         print(f"Failed to send email: {e}")
 
@@ -66,6 +69,7 @@ def generate_briefing():
 """
     response_md = client.models.generate_content(model="gemini-2.5-flash", contents=prompt_md)
     briefing_md = response_md.text
+    usage_md = response_md.usage_metadata
 
     # 2. Generate Plain Text version for Email
     prompt_text = f"""
@@ -77,6 +81,35 @@ def generate_briefing():
 """
     response_text = client.models.generate_content(model="gemini-2.5-flash", contents=prompt_text)
     briefing_plain_text = response_text.text
+    usage_text = response_text.usage_metadata
+
+    # 3. Calculate Token Usage
+    # Gemini 2.5 Flash Free Tier limits: 250,000 TPM (Tokens Per Minute)
+    LIMIT_TPM = 250000
+    total_input = (usage_md.prompt_token_count or 0) + (usage_text.prompt_token_count or 0)
+    total_output = (usage_md.candidates_token_count or 0) + (usage_text.candidates_token_count or 0)
+    total_tokens = (usage_md.total_token_count or 0) + (usage_text.total_token_count or 0)
+    usage_percent = (total_tokens / LIMIT_TPM) * 100
+
+    usage_report_md = f"""
+---
+**[API 사용량 리포트]**
+- 모델: Gemini 2.5 Flash (Free Tier)
+- 이번 세션 사용 토큰: {total_tokens:,} (Input: {total_input:,} / Output: {total_output:,})
+- 분당 한도({LIMIT_TPM:,}) 대비 사용량: {usage_percent:.2f}%
+- 일일 남은 요청 횟수: (관리 콘솔에서 확인 가능, 최대 250회/일)
+"""
+
+    usage_report_plain = f"""
+------------------------------------------
+[API 사용량 리포트]
+- 모델: Gemini 2.5 Flash (Free Tier)
+- 이번 세션 사용 토큰: {total_tokens:,} (Input: {total_input:,} / Output: {total_output:,})
+- 분당 한도({LIMIT_TPM:,}) 대비 사용량: {usage_percent:.2f}%
+------------------------------------------
+"""
+    briefing_md += usage_report_md
+    briefing_plain_text += usage_report_plain
 
     # Save the Markdown briefing
     date_str = datetime.now().strftime("%Y-%m-%d")
