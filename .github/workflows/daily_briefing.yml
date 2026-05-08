@@ -43,6 +43,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/ briefings/ charts/
+          git add data/ briefings/ || true
+          [ -d "charts" ] && git add charts/ || true
           git commit -m "Auto-generate briefing and charts for $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
