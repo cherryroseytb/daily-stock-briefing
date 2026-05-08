@@ -1,128 +1,47 @@
 {
-  "date": "2026-05-08 18:08",
-  "watchlist_criteria": "연배당 10%+ 고배당주, 1-2년 내 부도 위험 없는 종목",
+  "date": "2026-05-08 19:25",
   "market_data": {
-    "QCOM": {
-      "name": "QUALCOMM Incorporated",
-      "current_price": 217.76,
-      "change_percent": 7.5,
-      "summary": "QUALCOMM Incorporated engages in the development and commercialization of foundational technologies for the wireless industry worldwide. It operates through three segments: Qualcomm CDMA Technologies (QCT); Qualcomm Technology Licensing (QTL); and Qualcomm Strategic Initiatives (QSI). The QCT segmen...",
-      "news": [
-        {
-          "title": "These S&P500 stocks have an unusual volume in today's session",
-          "publisher": "ChartMill",
-          "link": "https://finnhub.io/api/news?id=c5b595dba1b000565321c05304ba7a39de3f67f67526b19a5f408af8a6f69ef4"
-        },
-        {
-          "title": "Which S&P500 stocks are moving on Friday?",
-          "publisher": "ChartMill",
-          "link": "https://finnhub.io/api/news?id=b56cfbeebfeafbcbe9892086b769a8ef82c82efba99a4c4686c5f629a63140ef"
-        },
-        {
-          "title": "Daiwa Just Upgraded Qualcomm to Outperform: $225 Price Target Bets on Data Center AI Pivot",
-          "publisher": "Yahoo",
-          "link": "https://finnhub.io/api/news?id=3153b3e689e31bd418a5b1f5ea1f2ce02d2a7ccca9d39432bb11f674608bb33e"
-        },
-        {
-          "title": "HubSpot downgraded, Qualcomm upgraded: Wall Street's top analyst calls",
-          "publisher": "Yahoo",
-          "link": "https://finnhub.io/api/news?id=de648bc3686490162614c64a96430bd03954c8b8b3917680e8d3d930fd9c545d"
-        },
-        {
-          "title": "Stock Market Today: Dow Rises On Jobs Data, Iran Optimism; Coinbase, Cloudflare Dive (Live Coverage)",
-          "publisher": "Yahoo",
-          "link": "https://finnhub.io/api/news?id=9244f8bafd1a2a3a9e03dd5b55eb926752c7e711fe6d75893c9bbdf47abad4cd"
-        }
-      ]
+    "BXSL": {
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
     },
-    "IONQ": {
-      "name": "IonQ, Inc.",
-      "current_price": 48.005,
-      "change_percent": 0.68,
-      "summary": "IonQ, Inc. develops quantum computing systems in the United States, Switzerland, and Internationally. It sells access to quantum computers of various qubit capacities. The company also makes access to its quantum computers through cloud platforms, such as Amazon Web Services (AWS), Braket, Microsoft...",
-      "news": [
-        {
-          "title": "JP Morgan Maintains Neutral on IonQ, Raises Price Target to $50",
-          "publisher": "Benzinga",
-          "link": "https://finnhub.io/api/news?id=f446bbd5b7ea084cab77e2b041d7e55baa3ea43d5403dd73843ce3bf35fbe886"
-        },
-        {
-          "title": "Wall Street Lunch: DOJ, CFTC Investigate Suspicious $2.6B Oil Trades Tied To Iran Conflict Headlines",
-          "publisher": "SeekingAlpha",
-          "link": "https://finnhub.io/api/news?id=c72f70d0ca0b43934b1aeeea136451d75e0e340738188803ff5b9b4f424a0c7b"
-        },
-        {
-          "title": "Nasdaq 100 Climbs Records, Oil Extends Drop As Iran Weighs Hormuz Deal: Stock Market Today",
-          "publisher": "Benzinga",
-          "link": "https://finnhub.io/api/news?id=52fcc9d5ae47d661e3ad963c59ce552f449c588fc1e635f5a1940025deb2be74"
-        },
-        {
-          "title": "IonQ's Blowout Quarter Has One Big Catch",
-          "publisher": "Benzinga",
-          "link": "https://finnhub.io/api/news?id=dc99bec9d17a700050781fb177635b760ecaaac7b097c6e3c7b47262d2b7f7d6"
-        },
-        {
-          "title": "Wedbush Maintains Outperform on IonQ, Raises Price Target to $75",
-          "publisher": "Benzinga",
-          "link": "https://finnhub.io/api/news?id=1fce8f03226630f37377f02be29343f361cd95c1e1d3d26a5758c5ad8c96c5c4"
-        }
-      ]
+    "JNJ": {
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "QCOM": {
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "T": {
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "VZ": {
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "AGNC": {
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
     },
     "MSFT": {
-      "name": "Microsoft Corporation",
-      "current_price": 415.94,
-      "change_percent": -1.18,
-      "summary": "Microsoft Corporation develops and supports software, services, devices, and solutions worldwide. The Productivity and Business Processes segment offers Microsoft 365 commercial, enterprise mobility + security, windows commercial, power BI, exchange, sharepoint, Microsoft teams, security and complia...",
-      "news": [
-        {
-          "title": "Why Memory-Chip Stocks Are Top Of Mind For Investors",
-          "publisher": "Yahoo",
-          "link": "https://finnhub.io/api/news?id=18726fd8289830cd2bf455da0ae013dde9a4aab4fa598454eccc1c3e56dfbd65"
-        },
-        {
-          "title": "A New Milestone Suggests Microsoft’s (MSFT) AI Ecosystem May Be Gaining Even More Traction",
-          "publisher": "Yahoo",
-          "link": "https://finnhub.io/api/news?id=a8ec52f151b9fbeaf053f1aa2f7e8f866355cd7064ec2c5ae0f18c5fe783d7c7"
-        },
-        {
-          "title": "Memory Stocks Continue to Surge. What’s Driving Micron and Sandisk Higher.",
-          "publisher": "Yahoo",
-          "link": "https://finnhub.io/api/news?id=97d82b0a753739bb47505bc469bde5ce385d912a64b922a0d2a462a63f157028"
-        },
-        {
-          "title": "Top Midday Stories: Nvidia Chips Said at Center of Smuggling Probe; TCI Slashes Nearly All Its $8 Billion Microsoft Stake",
-          "publisher": "Yahoo",
-          "link": "https://finnhub.io/api/news?id=1b8971a3899c73a8a50a8e64d50f4cdfd13480e9238d9cf04a98238d03f944b5"
-        },
-        {
-          "title": "The Best Artificial Intelligence (AI) Stocks to Buy With $1,000 in May",
-          "publisher": "Yahoo",
-          "link": "https://finnhub.io/api/news?id=bfa1a2ff4d11d154d171f90091946bdfbed0337595b388642f3596c8d2f38c9c"
-        }
-      ]
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "IONQ": {
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
     },
     "OXLC": {
-      "name": "Oxford Lane Capital Corp.",
-      "current_price": 10.2601,
-      "change_percent": 0.79,
-      "summary": "Oxford Lane Capital Corp. is a close ended fund launched and managed by Oxford Lane Management LLC. It invests in fixed income securities. The fund primarily invests in securitization vehicles which in turn invest in senior secured loans made to companies whose debt is rated below investment grade o...",
-      "news": [
-        {
-          "title": "",
-          "publisher": "",
-          "link": ""
-        },
-        {
-          "title": "",
-          "publisher": "",
-          "link": ""
-        },
-        {
-          "title": "",
-          "publisher": "",
-          "link": ""
-        }
-      ]
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "ARCC": {
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "PFLT": {
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "FSK": {
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "EPD": {
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
+    },
+    "O": {
+      "error": "'FastInfo' object has no attribute 'fifty_two_week_high'"
     }
   }
 }
