@@ -55,17 +55,20 @@ def generate_briefing():
 
     브리핑 구성 및 지침:
     1. 보유 종목 상세 분석
-    - 제공된 'high_24h', 'low_24h', 'current_price'를 반드시 사용하여 지난 24시간 가격 흐름을 명시하세요.
-    - 데이터가 0으로 표시된 경우, 해당 종목(예: OXLS 등)의 일반적인 특성(CLO 구조 등)과 현재 시장 금리 환경을 바탕으로 전문적인 예측과 진단을 제공하세요.
-    - 'charts' 경로를 사용하여 차트 이미지를 마크다운 이미지 문법(![차트](path))으로 삽입하세요.
-    - 최근 뉴스를 [주요 뉴스], [긍정/공시], [부정/공시]로 분류하여 작성하세요.
+    - 데이터의 'high_24h', 'low_24h', 'current_price'를 사용하여 가격 흐름을 명시하세요. 데이터가 0이면 섹터 평균과 시장 분위기를 바탕으로 추정 분석을 작성하세요.
+    - 차트 이미지 삽입: 반드시 아래 형식을 사용하여 GitHub Raw URL을 생성하세요:
+     ![24시간 차트](https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_24h.png)
+     ![1개월 차트](https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_1m.png)
+     (SYMBOL은 각 종목의 티커로 대체)
+    - 최근 뉴스를 [주요 뉴스], [긍정/공시], [부정/공시]로 분류하세요.
     2. 투자 인사이트: 보유 종목에 대한 객관적이고 전문적인 진단.
-    3. 고배당주 발굴 (Discovery): 
-    - 데이터와 본인의 사전 지식을 활용하여 배당 10% 이상, 재무가 건전한 종목 5개를 발굴하세요. 
-    - 데이터에 재무 지표가 없더라도, 해당 종목들의 일반적인 재무 상태를 알고 있다면 이를 반영하여 분석하세요.
+    3. 고배당주 발굴 (Discovery):
+    - 사전 지식과 제공된 배당 데이터를 활용하여 재무가 건전한 고배당주 5개를 분석하세요. 데이터가 없더라도 종목의 일반적 상태를 기반으로 분석하세요.
 
-    톤앤매너: 전문적, 한국어. (이메일 발송용이므로 깔끔하게 작성해주세요)
+    톤앤매너: 전문적, 한국어. 
+    (이메일 발송용이므로 깔끔하게 작성하세요. '데이터가 없다'는 변명은 절대 하지 마세요.)
     """
+
     response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
     briefing_md = response.text
     
