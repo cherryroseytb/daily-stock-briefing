@@ -41,9 +41,12 @@ def fetch_stock_data(tickers):
             data[symbol] = {
                 "name": info.get("longName", symbol),
                 "current_price": current_price,
-                "high_24h": history_24h["High"].max(),
-                "low_24h": history_24h["Low"].min(),
-                "charts": {"24h": chart_24h, "1m": chart_1m},
+                "high_24h": float(history_24h["High"].max()) if not history_24h.empty else None,
+                "low_24h": float(history_24h["Low"].min()) if not history_24h.empty else None,
+                "charts": {
+                    "24h": f"charts/{symbol}_24h.png",
+                    "1m": f"charts/{symbol}_1m.png"
+                },
                 "news": get_finnhub_news(symbol, finnhub_key) if finnhub_key else [],
                 "financials": {
                     "yield": info.get("dividendYield"),

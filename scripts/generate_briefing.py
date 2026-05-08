@@ -47,21 +47,23 @@ def generate_briefing():
     client = genai.Client(api_key=api_key)
 
     prompt = f"""
-당신은 전문 투자 분석가입니다. 아래 제공된 시장 데이터를 분석하여 상세 주식 브리핑을 작성해주세요.
+    당신은 전문 투자 분석가입니다. 아래 제공된 시장 데이터를 분석하여 상세 주식 브리핑을 작성해주세요.
 
-날짜: {market_data['date']}
-시장 데이터:
-{json.dumps(market_data['market_data'], ensure_ascii=False, indent=2)}
+    날짜: {market_data['date']}
+    시장 데이터:
+    {json.dumps(market_data['market_data'], ensure_ascii=False, indent=2)}
 
-브리핑 구성:
-1. 보유 종목 상세 분석
-   - 지난 24시간: 최고/최저/최종 가격 기록
-   - 최근 24시간 뉴스, 긍정 뉴스, 부정 뉴스, 전문가 코멘트 분리
-2. 투자 인사이트: 보유 종목에 대한 객관적 진단
-3. 고배당주 발굴 (Discovery): 배당 10% 이상, 재무 건전성 양호한 종목 5개 분석
+    브리핑 구성 및 지침:
+    1. 보유 종목 상세 분석
+    - 데이터에 포함된 'high_24h', 'low_24h', 'current_price'를 반드시 사용하여 지난 24시간 가격 흐름을 기록하세요.
+    - 'charts' 객체 내의 경로를 사용하여 차트 이미지를 마크다운 형식으로 삽입하세요 (예: ![차트](charts/SYMBOL_24h.png)).
+    - 최근 24시간 뉴스, 긍정 뉴스, 부정 뉴스, 전문가 코멘트 분리하여 작성.
+    2. 투자 인사이트: 보유 종목에 대한 객관적 진단.
+    3. 고배당주 발굴 (Discovery): 배당 10% 이상, 재무 건전성 양호한 종목 5개 분석.
 
-톤앤매너: 전문적, 한국어. (이메일 발송용이므로 깔끔하게 작성해주세요)
-"""
+    톤앤매너: 전문적, 한국어. (이메일 발송용이므로 깔끔하게 작성해주세요)
+    """
+
     response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
     briefing_md = response.text
     
