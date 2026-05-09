@@ -8,6 +8,30 @@ import yfinance as yf
 
 import visualizer
 
+# 투자 판단에 유의미한 공시 타입만 필터링
+_IMPORTANT_FORMS = {
+    "8-K", "10-Q", "10-K",
+    "424B2", "424B3",       # 증권 추가 발행
+    "425",                   # 합병/인수
+    "SC 13G", "SC 13D",     # 대주주 지분 변동
+    "DEF 14A",              # 주주총회 안건
+    "S-3", "S-3ASR",        # 증권 등록
+}
+
+_FORM_LABELS = {
+    "8-K":      "중요 사건 공시",
+    "10-Q":     "분기 보고서",
+    "10-K":     "연간 보고서",
+    "424B2":    "증권 추가 발행",
+    "424B3":    "증권 추가 발행",
+    "425":      "합병/인수 관련 공시",
+    "SC 13G":   "대주주 지분 공시",
+    "SC 13D":   "대주주 지분 공시(적극적)",
+    "DEF 14A":  "주주총회 위임장",
+    "S-3":      "증권 등록",
+    "S-3ASR":   "증권 등록",
+}
+
 def get_sec_filings(symbol):
     api_key = os.getenv("FMP_API_KEY")
     if not api_key:
@@ -30,16 +54,20 @@ def get_sec_filings(symbol):
             if response.status_code == 200:
                 filings = response.json() or []
                 parsed = []
-                for item in filings[:8]:
+                for item in filings:
+                    form_type = item.get("type", "")
+                    if form_type not in _IMPORTANT_FORMS:
+                        continue
                     filed_date = item.get("fillingDate") or item.get("acceptedDate") or ""
                     parsed.append({
-                        "form_type": item.get("type", ""),
-                        "title": item.get("title", ""),
+                        "form_type": form_type,
+                        "form_label": _FORM_LABELS.get(form_type, form_type),
                         "description": item.get("description", ""),
                         "filed_at": filed_date,
                         "source": "SEC/FMP",
-                        "url": item.get("finalLink") or item.get("link") or "",
                     })
+                    if len(parsed) >= 5:
+                        break
                 return parsed
             print(f"FMP API {symbol} HTTP {response.status_code} (시도 {attempt+1}/3)")
         except Exception as e:
