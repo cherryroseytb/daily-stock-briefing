@@ -73,7 +73,7 @@ def text_to_html(text):
 
         # 섹션 제목 (섹션 1:, 섹션 2: 또는 1. 형식 모두 처리)
         if re.match(r'^섹션 \d+:', stripped) or re.match(r'^\d+\.\s*(보유|고배당)', stripped):
-            parts.append(f'<div style="{s}font-size:16px;font-weight:bold;margin-top:20px;">{esc}{inline_link}</div>')
+            parts.append(f'<div style="{s}font-size:16px;font-weight:bold;color:#c0392b;margin-top:20px;">{esc}{inline_link}</div>')
             continue
 
         # API 사용량 리포트 헤더
