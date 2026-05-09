@@ -172,10 +172,12 @@ def generate_briefing():
     - 섹션명(주가분석, 배당정보, 뉴스/공시, 투자 등급)에는 [] 기호 사용 금지.
     - 별점은 ★/☆ 합쳐 항상 5칸: 예) 3점=★★★☆☆
     - 뉴스: title+summary 참고해 종목 관련 핵심 한 줄 요약. (소스, 날짜, 긍정/중립/부정)
-    - 공시: `form_label`(한글 공시 유형)과 `description`을 함께 활용해 한 줄 요약. 형식: "한글유형(form_type): 핵심내용. (SEC/FMP, 날짜, 긍정/중립/부정)". error 필드 있으면 그대로 표시.
+    - 공시: `sec_filings_6m`의 `form_label`(한글 공시 유형), `form_type`, `importance`, `description`을 함께 활용해 한 줄 요약. 형식: "한글유형(form_type, 중요도): 핵심내용. (SEC/FMP, 날짜, 긍정/중립/부정)". error 필드 있으면 그대로 표시.
+    - 공시 필터: `sec_filings_filter.raw_count`가 1 이상인데 `sec_filings_6m`에 fallback_reason이 있으면 "중요 공시는 아니지만 최근 기타 SEC 공시 N건 확인"처럼 표현하고, 절대 "공시 없음"이라고 쓰지 마세요.
+    - 공시 필터: `sec_filings_filter.excluded_count`가 크면 Form 4/S-8 등 저중요도 공시가 제외되었음을 한 줄로만 간단히 언급하세요. 단, 핵심 공시보다 위에 배치하지 마세요.
     - 뉴스/공시 우선순위: 최근 24시간 우선, 실적·M&A·배당정책 등 주가 영향 큰 항목 상위 배치.
     - 뉴스 없으면: `최근 3일간 주요한 뉴스 없음`
-    - 공시 없으면: `최근 6개월간 주요한 공시 없음`
+    - 공시 없으면: `sec_filings_filter.raw_count`가 0일 때만 `최근 6개월간 주요한 공시 없음`이라고 쓰세요.
     - 배당락일 주당 금액: dividendRate(연간)÷12(월배당), ÷4(분기배당), 그대로(연배당).
     - 최근1달(1M): low_1m, high_1m 사용. N/A 금지.
     - 최근1년(1Y): fiftyTwoWeekLow ~ fiftyTwoWeekHigh 사용.

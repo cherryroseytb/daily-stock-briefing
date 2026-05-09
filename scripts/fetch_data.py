@@ -1,6 +1,8 @@
 import json
 import os
+import re
 import time
+from collections import Counter
 from datetime import datetime, timedelta
 
 import requests
@@ -8,17 +10,21 @@ import yfinance as yf
 
 import visualizer
 
-# 투자 판단에 유의미한 공시 타입만 필터링 (FMP는 SCHEDULE 13G 등 다양한 표기 사용)
-_IMPORTANT_FORMS = {
-    "8-K", "8-K/A",
-    "10-Q", "10-Q/A",
-    "10-K", "10-K/A",
-    "424B2", "424B3",
-    "425",
-    "SC 13G", "SC 13G/A", "SC 13D", "SC 13D/A",
-    "SCHEDULE 13G", "SCHEDULE 13G/A", "SCHEDULE 13D", "SCHEDULE 13D/A",
-    "DEF 14A",
-    "S-3", "S-3ASR",
+# form type 단독 allowlist 대신 중요도 점수로 필터링한다.
+# FMP는 같은 SEC 양식도 "SC 13G", "SCHEDULE 13G"처럼 다르게 반환할 수 있다.
+_FORM_BASE_SCORES = {
+    "8-K": 5, "8-K/A": 4,
+    "10-Q": 4, "10-Q/A": 3,
+    "10-K": 4, "10-K/A": 3,
+    "424B2": 4, "424B3": 4, "424B5": 4,
+    "425": 5,
+    "SC 13G": 2, "SC 13G/A": 2, "SC 13D": 3, "SC 13D/A": 3,
+    "SCHEDULE 13G": 2, "SCHEDULE 13G/A": 2,
+    "SCHEDULE 13D": 3, "SCHEDULE 13D/A": 3,
+    "DEF 14A": 3,
+    "S-3": 3, "S-3/A": 2, "S-3ASR": 3,
+    "S-8": 1,
+    "4": 1, "4/A": 1,
 }
 
 _FORM_LABELS = {
@@ -41,13 +47,108 @@ _FORM_LABELS = {
     "SCHEDULE 13D/A":   "대주주 지분 공시(적극적, 수정)",
     "DEF 14A":          "주주총회 위임장",
     "S-3":              "증권 등록",
+    "S-3/A":            "증권 등록(수정)",
     "S-3ASR":           "증권 등록",
+    "S-8":              "종업원 보상 증권 등록",
+    "4":                "임원/내부자 주식거래",
+    "4/A":              "임원/내부자 주식거래(수정)",
 }
 
+_HIGH_SIGNAL_KEYWORDS = (
+    "merger", "acquisition", "tender offer", "business combination",
+    "earnings", "financial results", "quarterly results", "annual results",
+    "dividend", "distribution", "bankruptcy", "restructuring",
+    "material definitive agreement", "departure of directors",
+    "chief executive officer", "chief financial officer", "ceo", "cfo",
+)
+
+_LOW_SIGNAL_KEYWORDS = (
+    "employee benefit", "incentive plan", "equity incentive",
+    "automatic shelf registration",
+)
+
+
+def _normalize_form_type(form_type):
+    normalized = re.sub(r"\s+", " ", str(form_type or "").strip().upper())
+    if normalized.startswith("FORM "):
+        normalized = normalized[5:]
+    if normalized in {"13G", "13G/A"}:
+        return f"SC {normalized}"
+    if normalized in {"13D", "13D/A"}:
+        return f"SC {normalized}"
+    return normalized
+
+
+def _filing_text(item):
+    return " ".join(
+        str(item.get(key, ""))
+        for key in ("title", "description", "type")
+        if item.get(key)
+    ).lower()
+
+
+def _classify_filing(item):
+    form_type = _normalize_form_type(item.get("type", ""))
+    text = _filing_text(item)
+    score = _FORM_BASE_SCORES.get(form_type, 0)
+    reasons = []
+
+    if score:
+        reasons.append("known_form")
+    if any(keyword in text for keyword in _HIGH_SIGNAL_KEYWORDS):
+        score += 2
+        reasons.append("high_signal_keyword")
+    if any(keyword in text for keyword in _LOW_SIGNAL_KEYWORDS):
+        score -= 1
+        reasons.append("low_signal_keyword")
+
+    if score >= 5:
+        importance = "high"
+    elif score >= 3:
+        importance = "medium"
+    elif score >= 2:
+        importance = "low"
+    else:
+        importance = "noise"
+
+    return {
+        "form_type": form_type,
+        "score": score,
+        "importance": importance,
+        "reasons": reasons or ["unrecognized_form"],
+    }
+
+
+def _parse_filing(item, classification, fallback=False):
+    form_type = classification["form_type"]
+    filed_date = item.get("fillingDate") or item.get("acceptedDate") or ""
+    parsed = {
+        "form_type": form_type,
+        "form_label": _FORM_LABELS.get(form_type, "기타 SEC 공시"),
+        "importance": classification["importance"],
+        "importance_score": classification["score"],
+        "description": item.get("description", "") or item.get("title", ""),
+        "filed_at": filed_date,
+        "source": "SEC/FMP",
+        "url": item.get("finalLink") or item.get("link") or "",
+    }
+    if fallback:
+        parsed["fallback_reason"] = "importance_filter_empty"
+    return parsed
+
+
 def get_sec_filings(symbol):
+    bundle = get_sec_filings_bundle(symbol)
+    return bundle["items"]
+
+
+def get_sec_filings_bundle(symbol):
     api_key = os.getenv("FMP_API_KEY")
     if not api_key:
-        return [{"error": "FMP API 키 없음"}]
+        return {
+            "items": [{"error": "FMP API 키 없음"}],
+            "filter": {"status": "error", "message": "FMP API 키 없음"},
+        }
 
     to_date = datetime.now().date()
     from_date = to_date - timedelta(days=180)
@@ -65,22 +166,63 @@ def get_sec_filings(symbol):
             response = requests.get(url, timeout=20)
             if response.status_code == 200:
                 filings = response.json() or []
-                parsed = []
+                candidates = []
+                excluded_forms = Counter()
+                excluded_examples = []
+
                 for item in filings:
-                    form_type = item.get("type", "")
-                    if form_type not in _IMPORTANT_FORMS:
+                    classification = _classify_filing(item)
+                    form_type = classification["form_type"] or "UNKNOWN"
+                    if classification["score"] < 2:
+                        excluded_forms[form_type] += 1
+                        if len(excluded_examples) < 3:
+                            excluded_examples.append({
+                                "form_type": form_type,
+                                "description": item.get("description", "") or item.get("title", ""),
+                                "reason": ",".join(classification["reasons"]),
+                            })
                         continue
-                    filed_date = item.get("fillingDate") or item.get("acceptedDate") or ""
-                    parsed.append({
-                        "form_type": form_type,
-                        "form_label": _FORM_LABELS.get(form_type, form_type),
-                        "description": item.get("description", ""),
-                        "filed_at": filed_date,
-                        "source": "SEC/FMP",
-                    })
-                    if len(parsed) >= 5:
-                        break
-                return parsed
+
+                    candidates.append(_parse_filing(item, classification))
+
+                candidates.sort(
+                    key=lambda filing: (
+                        filing["importance_score"],
+                        filing.get("filed_at", ""),
+                    ),
+                    reverse=True,
+                )
+                parsed = candidates[:5]
+                status = "ok"
+
+                # 원본 공시가 있는데 전부 필터링되면 "공시 없음"으로 오해하지 않도록
+                # 최근 기타 공시를 최소한 남긴다.
+                if filings and not parsed:
+                    fallback_items = []
+                    for item in filings[:3]:
+                        fallback_items.append(_parse_filing(
+                            item,
+                            _classify_filing(item),
+                            fallback=True,
+                        ))
+                    parsed = fallback_items
+                    status = "fallback_unfiltered"
+
+                excluded_count = sum(excluded_forms.values())
+                hidden_count = max(len(filings) - len(parsed) - excluded_count, 0)
+
+                return {
+                    "items": parsed,
+                    "filter": {
+                        "status": status,
+                        "raw_count": len(filings),
+                        "shown_count": len(parsed),
+                        "excluded_count": excluded_count,
+                        "hidden_count": hidden_count,
+                        "excluded_forms": dict(excluded_forms),
+                        "excluded_examples": excluded_examples,
+                    },
+                }
             print(f"FMP API {symbol} HTTP {response.status_code} (시도 {attempt+1}/3)")
         except Exception as e:
             print(f"FMP API {symbol} 예외 (시도 {attempt+1}/3): {e}")
@@ -89,7 +231,10 @@ def get_sec_filings(symbol):
             time.sleep(30)
 
     print(f"FMP API {symbol} 최종 실패")
-    return [{"error": "FMP API 실패-응답없음"}]
+    return {
+        "items": [{"error": "FMP API 실패-응답없음"}],
+        "filter": {"status": "error", "message": "FMP API 실패-응답없음"},
+    }
 
 def get_news(symbol):
     # 1순위: Finnhub
@@ -164,6 +309,8 @@ def get_ticker_data(symbol):
         high_1m = float(history_1m["High"].max()) if not history_1m.empty else 0
         low_1m = float(history_1m["Low"].min()) if not history_1m.empty else 0
 
+        sec_filings = get_sec_filings_bundle(symbol)
+
         return {
             "symbol": symbol,
             "name": info.get("longName", symbol),
@@ -183,7 +330,8 @@ def get_ticker_data(symbol):
                 "1y": f"charts/{symbol}_1y.png",
             },
             "news": get_news(symbol),
-            "sec_filings_6m": get_sec_filings(symbol),
+            "sec_filings_6m": sec_filings["items"],
+            "sec_filings_filter": sec_filings["filter"],
         }
     except Exception as e:
         print(f"Error {symbol}: {e}")
