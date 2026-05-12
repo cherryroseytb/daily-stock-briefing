@@ -1,250 +1,12 @@
 {
-  "date": "2026-05-11 00:13",
+  "date": "2026-05-12 01:15",
   "market_data": {
-    "VZ": {
-      "symbol": "VZ",
-      "name": "Verizon Communications Inc.",
-      "price": 47.23,
-      "high_24h": 47.46,
-      "low_24h": 46.95,
-      "high_1m": 48.65,
-      "low_1m": 44.27,
-      "fiftyTwoWeekHigh": 51.68,
-      "fiftyTwoWeekLow": 38.39,
-      "dividendYield": 599.0,
-      "dividendRate": 2.83,
-      "exDividendDate": "1775779200",
-      "charts": {
-        "24h": "charts/VZ_24h.png",
-        "1m": "charts/VZ_1m.png",
-        "1y": "charts/VZ_1y.png"
-      },
-      "news": [
-        {
-          "title": "Goldman Sachs Retirement Survey 2025: 58% of Americans Expect to Outlive Their Savings, and the Income Strategy That Changes the Math",
-          "summary": "The Goldman Sachs Retirement Survey 2025 captures a tension that runs through the entire retirement landscape. A full 68% of working respondents say they are confident they will meet their retirement goals. At the same time, 58% believe they will outlive their savings. Goldman calls this the Optimism Gap, a split between how workers feel ... Goldman Sachs Retirement Survey 2025: 58% of Americans Expect to Outlive Their Savings, and the Income Strategy That Changes the Math",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 17:50"
-        },
-        {
-          "title": "How The Investment Story Is Shifting For Verizon Communications (VZ)",
-          "summary": "Verizon Communications now carries an assessed fair value price target of US$51.85 per share, compared with the prior US$51.58. That shift sits against mixed analyst research, where some firms have raised targets by US$1 to US$5 and one major broker now uses US$56, while others question the growth outlook and disclosure quality. As you read on, you will see how to interpret these moves and follow the evolving narrative around Verizon. Stay updated as the Fair Value for Verizon Communications...",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 17:09"
-        },
-        {
-          "title": "A $185,000 Portfolio That Covers Your Groceries, Utilities, and Phone Bill Every Month",
-          "summary": "The average American household spends about $519 a month on groceries, based on the latest BLS Consumer Expenditure Survey figure of $6,224 a year, and grocery prices are still rising: food-at-home prices were up 1.9% year over year as of March 2026. Add about $280 for utilities and roughly $100 for phone and internet, plus ... A $185,000 Portfolio That Covers Your Groceries, Utilities, and Phone Bill Every Month",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 13:30"
-        },
-        {
-          "title": "Verizon: The Buy Case Still Holds After Q1",
-          "summary": "Verizon recently released its Q1 '26 earnings, and the share price was up 1.6% following EPS beating expectations. See why I rate VZ stock a Buy.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-05-10 07:21"
-        },
-        {
-          "title": "Ron DeSantis Praises Elon Musk's 'Pro-Human' AI Vision After SpaceX-Anthropic Partnership",
-          "summary": "Governor Ron DeSantis (R-FL) has hailed the SpaceX and Anthropic partnership, praising the Elon Musk-led company’s approach to artificial intelligence. Pro-Human For The Win “Pro-human for the win,” DeSantis said in a post on the social media platform X. He...",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-09 19:31"
-        },
-        {
-          "title": "$5,000 Monthly Passive Income For Financial Freedom",
-          "summary": "Learn why financial independence matters and explore a simple 9-fund buy-and-hold income portfolio aiming for $5,000/month in 10â12 yearsâread now.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-05-09 08:15"
-        },
-        {
-          "title": "Erste Group Downgrades Verizon (VZ) to Hold on Weak Earnings Growth Outlook",
-          "summary": "With a YTD Return of 17.08% as of May 7, Verizon Communications Inc. (NYSE:VZ) is included among the 10 Best Stocks to Buy to Beat the S&P 500. On May 5, Erste Group downgraded Verizon Communications Inc. (NYSE:VZ) to Hold from Buy, saying the company’s earnings growth remains below the sector average. The analyst said this trend […]",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-09 00:30"
-        },
-        {
-          "title": "Top Analyst Reports for Palantir, GE Aerospace & Verizon",
-          "summary": "PLTR, GE and Verizon headline Zacks' top analyst reports as AI, aerospace demand and broadband growth drive investor focus.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-08 20:23"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-05-01 13:16:31",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/732712/000119312526200654/d697317ds8.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-05-01 10:05:53",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000023/vz-20260331.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-04-30 14:27:29",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/732712/000210011926001207/xslSCHEDULE_13G_X02/primary_doc.xml",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      }
-    },
-    "FSK": {
-      "symbol": "FSK",
-      "name": "FS KKR Capital Corp.",
-      "price": 10.84,
-      "high_24h": 11.05,
-      "low_24h": 10.64,
-      "high_1m": 11.73,
-      "low_1m": 10.0,
-      "fiftyTwoWeekHigh": 22.68,
-      "fiftyTwoWeekLow": 9.72,
-      "dividendYield": 2380.0,
-      "dividendRate": 2.58,
-      "exDividendDate": "1773792000",
-      "charts": {
-        "24h": "charts/FSK_24h.png",
-        "1m": "charts/FSK_1m.png",
-        "1y": "charts/FSK_1y.png"
-      },
-      "news": [
-        {
-          "title": "FSK SHAREHOLDER REMINDER: Faruqi & Faruqi, LLP Reminds FS KKR Capital (FSK) Investors of Securities Class Action Deadline on July 3, 2026",
-          "summary": "Faruqi & Faruqi, LLP, a leading national securities law firm, is investigating potential c...",
-          "publisher": "Finnhub",
-          "published_at": "2026-05-10 09:21"
-        },
-        {
-          "title": "FSK INVESTOR NOTICE: Robbins Geller Rudman & Dowd LLP Announces that FS KKR Capital Corp. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit",
-          "summary": "The law firm of Robbins Geller Rudman & Dowd LLP announces that the FS KKR class action lawsuit – captioned Stuart v. FS KKR Capital Corp., No. 26-cv-02969 – seeks to represent purchasers or...",
-          "publisher": "Finnhub",
-          "published_at": "2026-05-08 22:13"
-        },
-        {
-          "title": "FSK Faruqi & Faruqi, LLP Reminds FS KKR Capital (FSK) Investors of Securities Class Action Deadline on July 3, 2026",
-          "summary": "Faruqi & Faruqi, LLP, a leading national securities law firm, is investigating potential cl...",
-          "publisher": "Finnhub",
-          "published_at": "2026-05-08 11:43"
-        },
-        {
-          "title": "The Most Undervalued Stocks I Am Buying Right Now",
-          "summary": "The S&P 500 looks historically expensive even as risks keep rising. Click here for a detailed analysis.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-05-08 07:15"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-05-05 08:20:58",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926055298/tm2613399d1_defa14a.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-04-30 16:29:17",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926053006/tm2612974d1_defa14a.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-04-30 16:27:51",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926053002/tm2612974d1_defa14a.htm",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      }
-    },
     "OXLC": {
       "symbol": "OXLC",
       "name": "Oxford Lane Capital Corp.",
-      "price": 10.19,
-      "high_24h": 10.29,
-      "low_24h": 10.16,
+      "price": 10.11,
+      "high_24h": 10.24,
+      "low_24h": 10.1,
       "high_1m": 10.58,
       "low_1m": 9.43,
       "fiftyTwoWeekHigh": 24.9,
@@ -370,36 +132,72 @@
         ]
       }
     },
-    "ARCC": {
-      "symbol": "ARCC",
-      "name": "Ares Capital Corporation",
-      "price": 19.02,
-      "high_24h": 19.05,
-      "low_24h": 18.78,
-      "high_1m": 19.46,
-      "low_1m": 17.88,
-      "fiftyTwoWeekHigh": 23.42,
-      "fiftyTwoWeekLow": 17.4,
-      "dividendYield": 1010.0,
-      "dividendRate": 1.92,
-      "exDividendDate": "1781481600",
+    "QCOM": {
+      "symbol": "QCOM",
+      "name": "QUALCOMM Incorporated",
+      "price": 237.59,
+      "high_24h": 247.9,
+      "low_24h": 231.2,
+      "high_1m": 247.9,
+      "low_1m": 126.46,
+      "fiftyTwoWeekHigh": 247.898,
+      "fiftyTwoWeekLow": 121.99,
+      "dividendYield": 168.0,
+      "dividendRate": 3.68,
+      "exDividendDate": "1780531200",
       "charts": {
-        "24h": "charts/ARCC_24h.png",
-        "1m": "charts/ARCC_1m.png",
-        "1y": "charts/ARCC_1y.png"
+        "24h": "charts/QCOM_24h.png",
+        "1m": "charts/QCOM_1m.png",
+        "1y": "charts/QCOM_1y.png"
       },
       "news": [
         {
-          "title": "Ares Management: Why I Believe This Fallen Star Remains A Sell",
-          "summary": "Ares Management faces private credit headwinds as defaults and redemptions rise and fees compress. Read why I am pessimistic about ARES stock.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-05-10 10:55"
+          "title": "Applied Materials makes unexpected AI move as demand explodes",
+          "summary": "Days before its fiscal second-quarter earnings report on May 14, Applied Materials (AMAT) unveiled a new co-innovation partnership with TSMC, the world's most important chipmaker, to be conducted inside Applied's new $5 billion EPIC Center in Silicon Valley. It is the largest U.S. investment ever ...",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 23:37"
         },
         {
-          "title": "BDC NAVs Are Down; Don't Panic Sell",
-          "summary": "BDC sector Q1 2026 earnings show widespread NAV contractions, yet attractive price-to-NAV ratios suggest these adjustments are logical. Read why the sector stays firm.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-05-09 09:15"
+          "title": "Top Research Reports for UnitedHealth, Merck & Qualcomm",
+          "summary": "UnitedHealth, Merck and QUALCOMM lead Zacks' top research picks as analysts highlight growth drivers, earnings trends and key risks.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 21:18"
+        },
+        {
+          "title": "Dow Jones Futures: AI, Chip Stocks Thrive Despite Oil Prices, Trump Comments; CPI Inflation Due",
+          "summary": "The major indexes rose slightly Monday as AI and chips shrugged off higher oil prices as Trump said Iran ceasefire \"on life support.\"",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 21:12"
+        },
+        {
+          "title": "US Equity Indexes Advance, Treasury Yields Rise With Crude Oil as Trump Explores Options to Tame Iran",
+          "summary": "US equity indexes rose on Monday, alongside crude oil futures and Treasury yields, as President Dona",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 21:09"
+        },
+        {
+          "title": "Qualcomm Stock Is Rising. Why the Chip Stock Hit a Record High.",
+          "summary": "Qualcomm stock surged Monday, notching its first record closing high since 2024 as enthusiasm around AI chips and data-center demand continues to build.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 20:55"
+        },
+        {
+          "title": "S&P 500, Nasdaq Reach New Peaks as Traders Track US-Iran Conflict",
+          "summary": "The S&P 500 and the Nasdaq Composite hit fresh highs on Monday as traders continued to track develop",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 20:52"
+        },
+        {
+          "title": "S&P 500 Hits Record Despite Iran Cease-Fire Concerns. Oil and Tech Stocks Rally.",
+          "summary": "The phrase, emerging from Southeast Asia, is the best way to describe the market action on Monday.  The S&P 500 rose 0.2% while the tech-heavy Nasdaq was up 0.1%.  Investors had seen the S&P 500 and Nasdaq finish at a record last week as well.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 20:01"
+        },
+        {
+          "title": "Qualcomm Stock Just Doubled: Breakout or Blow-Off?",
+          "summary": "A series of bullish catalysts just launched Qualcomm stock to record highs.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 19:36"
         }
       ],
       "sec_filings_6m": [
@@ -409,9 +207,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-05-08 16:18:22",
+          "filed_at": "2026-05-06 16:47:21",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026032891/arcc-20260507.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000065/xslF345X06/edgardoc.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -420,9 +218,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-05-06 16:27:59",
+          "filed_at": "2026-05-04 16:56:03",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926056291/arcc-20260504x424b2.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000064/xslF345X06/edgardoc.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -431,9 +229,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-05-04 17:12:24",
+          "filed_at": "2026-05-04 16:51:14",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926055006/tm2613051d8_497ad.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000063/xslF345X06/edgardoc.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -468,9 +266,9 @@
     "O": {
       "symbol": "O",
       "name": "Realty Income Corporation",
-      "price": 61.92,
-      "high_24h": 62.68,
-      "low_24h": 61.58,
+      "price": 62.35,
+      "high_24h": 62.6,
+      "low_24h": 61.98,
       "high_1m": 65.07,
       "low_1m": 61.52,
       "fiftyTwoWeekHigh": 67.94,
@@ -484,6 +282,30 @@
         "1y": "charts/O_1y.png"
       },
       "news": [
+        {
+          "title": "Freedom Broker Upgrades Realty Income (O)",
+          "summary": "",
+          "publisher": "Fintel",
+          "published_at": "2026-05-12 00:04"
+        },
+        {
+          "title": "9-11% Monthly Dividends For Retirement Income: One To Buy And One To Sell",
+          "summary": "We compare GPIQ vs. QYLD covered call ETFs for high monthly dividendsâread which offers better risk/reward for passive income investors here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-05-11 18:05"
+        },
+        {
+          "title": "How Much You Really Need Invested to Earn $500 a Month in Dividends Without Lifting a Finger",
+          "summary": "Five hundred dollars a month in passive dividend income can make a meaningful dent in everyday expenses, whether it helps cover a car payment, part of a utility bill, groceries, or a few recurring subscriptions. $500 a month works out to $6,000 a year, and the capital you need to generate that figure depends entirely ... How Much You Really Need Invested to Earn $500 a Month in Dividends Without Lifting a Finger",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 12:42"
+        },
+        {
+          "title": "A $200,000 Portfolio That Quietly Pays You $930 a Month",
+          "summary": "Turning $200,000 into $930 a month takes a portfolio yield of about 5.6%. That is not some kind of fantasy math from a spreadsheet séance. It is simply $11,160 a year in income from a six-figure portfolio built to pay. That $930 monthly check can cover a car payment and insurance, a family grocery bill, ... A $200,000 Portfolio That Quietly Pays You $930 a Month",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 11:29"
+        },
         {
           "title": "Goldman Sachs Retirement Survey 2025: 58% of Americans Expect to Outlive Their Savings, and the Income Strategy That Changes the Math",
           "summary": "The Goldman Sachs Retirement Survey 2025 captures a tension that runs through the entire retirement landscape. A full 68% of working respondents say they are confident they will meet their retirement goals. At the same time, 58% believe they will outlive their savings. Goldman calls this the Optimism Gap, a split between how workers feel ... Goldman Sachs Retirement Survey 2025: 58% of Americans Expect to Outlive Their Savings, and the Income Strategy That Changes the Math",
@@ -507,30 +329,6 @@
           "summary": "The U.S. median wage for full-time, year-round workers sits near $51,000 a year. A portfolio of $730,000 can clear that bar, but only if the yield is set deliberately. The math is unforgiving in both directions: too conservative and the portfolio falls short, too aggressive and the income may not survive the next decade. Here ... A $730,000 Portfolio That Pays More Than What Most Americans Earn at Work",
           "publisher": "Yahoo",
           "published_at": "2026-05-10 12:30"
-        },
-        {
-          "title": "From Oil Shock To Earnings Pop",
-          "summary": "U.S. equity markets extended their record-setting rally as oil prices retreated. Click here to read more about the market and the real estate outlook.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-05-10 09:00"
-        },
-        {
-          "title": "A $500,000 Dividend Portfolio That Pays More Than a Full-Time Minimum Wage Job",
-          "summary": "A full-time federal minimum wage worker in the United States earns $7.25 an hour, or about $15,080 a year before taxes, working 40 hours a week for 52 weeks. The question for anyone with capital: what does it take to clear that bar without having to ask anyone, “Do you want fries with that?” On ... A $500,000 Dividend Portfolio That Pays More Than a Full-Time Minimum Wage Job",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-09 15:30"
-        },
-        {
-          "title": "How to Build $5,000 a Month in Dividend Income",
-          "summary": "Five thousand dollars a month in dividend income is the number where a paycheck stops being mandatory. $60,000 a year happens to sit right around the median earnings for full-time, year-round workers in the US, which means hitting this milestone effectively replaces a full-time job with a portfolio. The question is how much capital it ... How to Build $5,000 a Month in Dividend Income",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-09 14:30"
-        },
-        {
-          "title": "The Dividend Portfolio That Outlasts a 4% Withdrawal Plan by a Decade",
-          "summary": "The 4% withdrawal rule was built for a different rate environment. Today, with the 10-year Treasury yielding about 4.4% and core PCE inflation sitting in the 90th percentile of its 12-month range, retirees are asking a sharper question: can a dividend-income portfolio outlast a 4% drawdown by a full decade? The math says yes, but ... The Dividend Portfolio That Outlasts a 4% Withdrawal Plan by a Decade",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-09 11:30"
         }
       ],
       "sec_filings_6m": [
@@ -599,11 +397,11 @@
     "BXSL": {
       "symbol": "BXSL",
       "name": "Blackstone Secured Lending Fund",
-      "price": 24.2,
-      "high_24h": 24.43,
-      "low_24h": 23.68,
+      "price": 23.64,
+      "high_24h": 24.08,
+      "low_24h": 23.6,
       "high_1m": 25.29,
-      "low_1m": 22.47,
+      "low_1m": 23.02,
       "fiftyTwoWeekHigh": 32.81,
       "fiftyTwoWeekLow": 22.47,
       "dividendYield": 1264.0,
@@ -615,6 +413,12 @@
         "1y": "charts/BXSL_1y.png"
       },
       "news": [
+        {
+          "title": "Blackstone Secured Lending: High Yield And NAV Discount Aren't Enough To Ignore Rising Credit Risks",
+          "summary": "Blackstone Secured Lending faces mounting risks with sequential declines in net investment income and NAV. Read why BXSL stock is a Hold.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-05-11 07:30"
+        },
         {
           "title": "Blackstone Secured Lending Fund. (BXSL) Q1 2026 Earnings Call Transcript",
           "summary": "Blackstone Secured Lending Fund. (BXSL) Q1 2026 Earnings Call May 7, 2026 9:30 AM EDTCompany ParticipantsStacy Wang - Head of Stakeholder RelationsBrad...",
@@ -638,12 +442,6 @@
           "summary": "Blackstone Secured Lending (BXSL) yields 12.7% and trades below NAV.",
           "publisher": "SeekingAlpha",
           "published_at": "2026-05-09 01:48"
-        },
-        {
-          "title": "Wells Fargo Maintains Underweight on Blackstone Secured, Lowers Price Target to $22",
-          "summary": "Wells Fargo  analyst Finian O&#39;Shea   maintains Blackstone Secured (NYSE:BXSL) with a Underweight and lowers the price target from $24 to $22.",
-          "publisher": "Benzinga",
-          "published_at": "2026-05-08 09:05"
         }
       ],
       "sec_filings_6m": [
@@ -709,252 +507,14 @@
         ]
       }
     },
-    "EPD": {
-      "symbol": "EPD",
-      "name": "Enterprise Products Partners L.P.",
-      "price": 37.2,
-      "high_24h": 37.85,
-      "low_24h": 37.15,
-      "high_1m": 39.01,
-      "low_1m": 35.67,
-      "fiftyTwoWeekHigh": 39.74,
-      "fiftyTwoWeekLow": 30.01,
-      "dividendYield": 589.0,
-      "dividendRate": 2.19,
-      "exDividendDate": "1777507200",
-      "charts": {
-        "24h": "charts/EPD_24h.png",
-        "1m": "charts/EPD_1m.png",
-        "1y": "charts/EPD_1y.png"
-      },
-      "news": [
-        {
-          "title": "How To Turn Hormuz Instability Into High Dividends",
-          "summary": "Markets are pricing in âclose to a dealâ noiseâwhile Hormuz, fertilizer, PMIs, and aluminum signal real shortages. Learn more.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-05-09 10:30"
-        },
-        {
-          "title": "Dividend Champion, Contender, And Challenger Highlights: Week Of May 10",
-          "summary": "A weekly summary of dividend activity for Dividend Champions, Contenders, and Challengers. Read this week's list here.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-05-08 18:04"
-        },
-        {
-          "title": "MLP/Midstream 2025 Total Shareholder Yields Rise",
-          "summary": "Total shareholder yields combine dividends & buybacks to create a complete view of returns. We examine total shareholder yield at the index level for MLPs and changes over the last few years",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-05-08 10:40"
-        },
-        {
-          "title": "Enterprise Products Partners: Pick Up This Passive Income Machine Now",
-          "summary": "Enterprise Products Partners remains a \"Buy\" with an attractive dividend and fair value pricing. Here's what investors need to know about EPD stock.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-05-08 07:31"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-05-07 13:04:48",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1061219/000106121926000014/epd-20260331.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-04-27 18:01:43",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1061219/000106121926000010/epd-20260428.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-03-27 16:14:22",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1061219/000119312526129053/d134793dex101.htm",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      }
-    },
-    "QCOM": {
-      "symbol": "QCOM",
-      "name": "QUALCOMM Incorporated",
-      "price": 219.14,
-      "high_24h": 228.04,
-      "low_24h": 208.63,
-      "high_1m": 228.05,
-      "low_1m": 126.46,
-      "fiftyTwoWeekHigh": 228.05,
-      "fiftyTwoWeekLow": 121.99,
-      "dividendYield": 168.0,
-      "dividendRate": 3.68,
-      "exDividendDate": "1780531200",
-      "charts": {
-        "24h": "charts/QCOM_24h.png",
-        "1m": "charts/QCOM_1m.png",
-        "1y": "charts/QCOM_1y.png"
-      },
-      "news": [
-        {
-          "title": "Qualcomm’s AI Device Push Tests Shift Beyond Smartphones For Investors",
-          "summary": "Qualcomm (NasdaqGS:QCOM) CEO says the company is developing next-generation AI devices in partnership with nearly all major AI players. The plan focuses on AI-native consumer hardware such as glasses, wearables and ambient devices that sit beyond traditional smartphones. This shift points to a broader role for Qualcomm chips across emerging AI agent and wearable use cases. For investors who know Qualcomm mainly for smartphone processors and connectivity, this push into AI wearables and...",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 19:06"
-        },
-        {
-          "title": "Aaron Levie Says AI Agents Will Make Work More Accessible While Giving Experts A 'Huge Edge'",
-          "summary": "Aaron Levie says AI agents will democratize complex work but increase demand for experts and skilled professionals.",
-          "publisher": "Benzinga",
-          "published_at": "2026-05-10 04:35"
-        },
-        {
-          "title": "Qualcomm CEO Says OpenAI, Meta Are Working On AI Wearables That Could Replace Smartphones",
-          "summary": "Qualcomm CEO says AI wearables with OpenAI and Meta could replace smartphones, shifting control from apps to AI agents in a new device era.",
-          "publisher": "Benzinga",
-          "published_at": "2026-05-10 01:44"
-        },
-        {
-          "title": "Qualcomm Missed on Guidance. Investors Are Shrugging It Off as They Wait for Data Centers to Take QCOM Stock Higher.",
-          "summary": "Qualcomm says the company has a growing opportunity in data.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-09 21:00"
-        },
-        {
-          "title": "Apple dominated the 2026 chip war. Google’s partners are left to buy scraps",
-          "summary": "Apple (NASDAQ: AAPL) and Alphabet (NASDAQ: GOOGL) both just reported, and the contrast runs deeper than the headline numbers suggest. Apple posted its best March quarter ever. Alphabet delivered 63% Cloud growth. The real story sits one layer below: who controls the silicon underneath the next wave of AI hardware. Apple Locked the Foundry. Google ... Apple dominated the 2026 chip war. Google’s partners are left to buy scraps",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-09 17:27"
-        },
-        {
-          "title": "The Nasdaq's top winners are now running hotter than in 2000: Chart of the Day",
-          "summary": "The top dot-com stocks were making history 2000. Today's Nasdaq winners are crushing those gains.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-09 12:27"
-        },
-        {
-          "title": "Qualcomm’s CEO is working with ‘pretty much all’ major AI players on top-secret devices—and powering OpenAI’s first push into hardware",
-          "summary": "The phone is dying. Cristiano Amon knows what's replacing it—he just won't tell you yet.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-09 10:26"
-        },
-        {
-          "title": "Intel (INTC) Is Up 16.0% After Securing Preliminary Apple Chip Manufacturing Pact - What's Changed",
-          "summary": "In recent weeks, Intel and Apple reached a preliminary agreement for Intel to manufacture some of the chips that power Apple devices, while Intel also named former Qualcomm executive Alex Katouzian to lead its Client Computing and Physical AI Group and confirmed Pushkar Ranade as chief technology officer. Together with Intel’s new AI-focused leadership structure and an expanded push into factory optimization and advanced computing, the Apple deal signals a broad attempt to reposition the...",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-09 05:17"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-05-06 16:47:21",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000065/xslF345X06/edgardoc.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-05-04 16:56:03",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000064/xslF345X06/edgardoc.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-05-04 16:51:14",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000063/xslF345X06/edgardoc.xml",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      }
-    },
     "AGNC": {
       "symbol": "AGNC",
       "name": "AGNC Investment Corp.",
-      "price": 10.85,
-      "high_24h": 10.89,
-      "low_24h": 10.74,
+      "price": 10.82,
+      "high_24h": 10.9,
+      "low_24h": 10.78,
       "high_1m": 11.07,
-      "low_1m": 10.17,
+      "low_1m": 10.23,
       "fiftyTwoWeekHigh": 12.19,
       "fiftyTwoWeekLow": 8.65,
       "dividendYield": 1327.0,
@@ -1042,72 +602,48 @@
         ]
       }
     },
-    "T": {
-      "symbol": "T",
-      "name": "AT&T Inc.",
-      "price": 25.16,
-      "high_24h": 25.4,
-      "low_24h": 25.11,
-      "high_1m": 27.13,
-      "low_1m": 24.94,
-      "fiftyTwoWeekHigh": 29.79,
-      "fiftyTwoWeekLow": 22.95,
-      "dividendYield": 441.0,
-      "dividendRate": 1.11,
-      "exDividendDate": "1775779200",
+    "ARCC": {
+      "symbol": "ARCC",
+      "name": "Ares Capital Corporation",
+      "price": 18.69,
+      "high_24h": 18.97,
+      "low_24h": 18.66,
+      "high_1m": 19.46,
+      "low_1m": 17.9,
+      "fiftyTwoWeekHigh": 23.42,
+      "fiftyTwoWeekLow": 17.4,
+      "dividendYield": 1028.0,
+      "dividendRate": 1.92,
+      "exDividendDate": "1781481600",
       "charts": {
-        "24h": "charts/T_24h.png",
-        "1m": "charts/T_1m.png",
-        "1y": "charts/T_1y.png"
+        "24h": "charts/ARCC_24h.png",
+        "1m": "charts/ARCC_1m.png",
+        "1y": "charts/ARCC_1y.png"
       },
       "news": [
         {
-          "title": "AT&T: Should Investors Buy Into the Turnaround?",
-          "summary": "This stock has risen from the ashes to become a compelling buy-and-hold dividend investment.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 20:50"
-        },
-        {
-          "title": "AT&T: Locking In A 6.2-6.3% Yield With Baby Bonds And Preferred Stock",
-          "summary": "AT&T continues to deliver robust financial results. Read more about common shares and baby bonds from this telecom giant.",
+          "title": "9-11% Monthly Dividends For Retirement Income: One To Buy And One To Sell",
+          "summary": "We compare GPIQ vs. QYLD covered call ETFs for high monthly dividendsâread which offers better risk/reward for passive income investors here.",
           "publisher": "SeekingAlpha",
-          "published_at": "2026-05-09 11:40"
+          "published_at": "2026-05-11 18:05"
         },
         {
-          "title": "Tutor Perini Cash Strength And Backlog Underpin Buyback And Valuation Gap",
-          "summary": "Tutor Perini (NYSE:TPC) reported record Q1 operating cash flow alongside strong project execution. The company secured major new contract wins and highlighted a project backlog near $20b. Tutor Perini announced a share repurchase program and outlined plans to refinance debt to reduce interest expenses. Tutor Perini, a large civil and building contractor, sits at the intersection of public infrastructure work and complex private projects. For investors watching construction and engineering...",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-08 18:21"
-        },
-        {
-          "title": "Should LUMN Stock Be Part of Your Portfolio Post Q1 Earnings Miss?",
-          "summary": "Lumen's Q1 loss widens, and revenues slide, yet $13 billion in AI-driven PCF deals and NaaS traction fuel a hold-vs-wait debate.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-08 14:53"
-        },
-        {
-          "title": "Is Quanta Services (PWR) Stock Outpacing Its Construction Peers This Year?",
-          "summary": "Here is how Quanta Services (PWR) and Tutor Perini (TPC) have performed compared to their sector so far this year.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-08 13:40"
-        },
-        {
-          "title": "Is Tutor Perini (TPC) Stock Undervalued Right Now?",
-          "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-08 13:40"
-        },
-        {
-          "title": "Wall Street Roundup: Market Turning Lemons Into Limoncello",
-          "summary": "Rally in AI infrastructure stocks; tech stock valuations. Disney earnings. Layoff cycle.",
+          "title": "Ares Capital's Financial Performance Likely Remains Trapped",
+          "summary": "Ares Capital faces challenges amid a weakening investment market, impacting both trading and financial fundamentals. Click here to read my most recent analysis.",
           "publisher": "SeekingAlpha",
-          "published_at": "2026-05-08 13:18"
+          "published_at": "2026-05-11 17:35"
         },
         {
-          "title": "Why Fast-paced Mover Tutor Perini (TPC) Is a Great Choice for Value Investors",
-          "summary": "Tutor Perini (TPC) made it through our 'Fast-Paced Momentum at a Bargain' screen and could be a great choice for investors looking for stocks that have gained strong momentum recently but are still trading at reasonable prices.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-08 12:55"
+          "title": "Ares Management: Why I Believe This Fallen Star Remains A Sell",
+          "summary": "Ares Management faces private credit headwinds as defaults and redemptions rise and fees compress. Read why I am pessimistic about ARES stock.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-05-10 10:55"
+        },
+        {
+          "title": "BDC NAVs Are Down; Don't Panic Sell",
+          "summary": "BDC sector Q1 2026 earnings show widespread NAV contractions, yet attractive price-to-NAV ratios suggest these adjustments are logical. Read why the sector stays firm.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-05-09 09:15"
         }
       ],
       "sec_filings_6m": [
@@ -1117,9 +653,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-05-04 16:17:20",
+          "filed_at": "2026-05-11 16:06:30",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000236/xslF345X06/form4.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926058639/tm2614090d1_8k.htm",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -1128,9 +664,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-05-04 16:16:58",
+          "filed_at": "2026-05-08 16:18:22",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000235/xslF345X06/form4.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026032891/arcc-20260507.htm",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -1139,110 +675,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-05-04 16:16:23",
+          "filed_at": "2026-05-06 16:27:59",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000234/xslF345X06/form4.xml",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      }
-    },
-    "IONQ": {
-      "symbol": "IONQ",
-      "name": "IonQ, Inc.",
-      "price": 49.25,
-      "high_24h": 49.44,
-      "low_24h": 45.72,
-      "high_1m": 53.49,
-      "low_1m": 27.82,
-      "fiftyTwoWeekHigh": 84.64,
-      "fiftyTwoWeekLow": 25.89,
-      "dividendYield": 0,
-      "dividendRate": 0,
-      "exDividendDate": "N/A",
-      "charts": {
-        "24h": "charts/IONQ_24h.png",
-        "1m": "charts/IONQ_1m.png",
-        "1y": "charts/IONQ_1y.png"
-      },
-      "news": [
-        {
-          "title": "Consumer Tech News (May 4- 8): Big Tech Gain On AI Momentum, Pentagon Awards $500M AI Contract & More",
-          "summary": "AI demand surges across chips and cloud as AMD beats estimates, Nvidia expands ecosystem deals, and OpenAI partners scale rapidly across infrastructure and enterprise.",
-          "publisher": "Benzinga",
-          "published_at": "2026-05-10 08:00"
-        },
-        {
-          "title": "IonQ, Inc. (IONQ) Q1 2026 Earnings Call Transcript",
-          "summary": "IonQ, Inc. (IONQ) Q1 2026 Earnings Call May 6, 2026 4:30 PM EDTCompany ParticipantsHanley DonofrioNiccolo de Masi - President, CEO & ChairmanInder Singh...",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-05-09 08:21"
-        },
-        {
-          "title": "SkyWater Technology Shareholders Approve Proposed Merger With IonQ",
-          "summary": "SkyWater Technology, Inc. (NASDAQ:SKYT) (the &#34;Company&#34;), the largest exclusively U.S.-based, semiconductor foundry, today announced that its stockholders approved at a special meeting held earlier today, the Company&#39;s",
-          "publisher": "Benzinga",
-          "published_at": "2026-05-08 12:28"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-05-08 21:55:03",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526215307/xslF345X06/ownership.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-05-07 17:11:53",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1819974/000095014226001324/eh260776838_425.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-05-07 16:06:47",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526211876/ionq-20260331.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926056291/arcc-20260504x424b2.htm",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -1277,9 +712,9 @@
     "PFLT": {
       "symbol": "PFLT",
       "name": "PennantPark Floating Rate Capital Ltd.",
-      "price": 8.92,
-      "high_24h": 9.11,
-      "low_24h": 8.88,
+      "price": 8.73,
+      "high_24h": 8.95,
+      "low_24h": 8.72,
       "high_1m": 9.27,
       "low_1m": 8.18,
       "fiftyTwoWeekHigh": 10.88,
@@ -1296,32 +731,50 @@
         {
           "title": "PennantPark (PFLT) Q2 2026 Earnings Transcript",
           "summary": "Simply press star 1 on your telephone keypad.  If you would like to withdraw your question, press star 2 on your telephone keypad.  It is now my pleasure to turn the call over to Art Penn, chairman and chief executive officer of PennantPark Floating Rate Capital Ltd. Mr. Penn, you may begin your conference.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-08 14:04"
-        },
-        {
-          "title": "PennantPark Floating Rate Capital : Investor Presentation – March 31, 2026",
-          "summary": "‌Independent Private Credit Platform | Investing Since 2007‌ PennantPark Floating Rate Capital Ltd. Investor Presentation - March 31, 2026 ...",
-          "publisher": "Finnhub",
-          "published_at": "2026-05-08 13:41"
+          "publisher": "Motley Fool",
+          "published_at": "2026-05-08T14:04"
         },
         {
           "title": "PennantPark Floating Rate Capital Ltd. Q2 2026 Earnings Call Summary",
           "summary": "Moby summary of PennantPark Floating Rate Capital Ltd.'s Q2 2026 earnings call",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-08 12:30"
+          "publisher": "Moby",
+          "published_at": "2026-05-08T12:30"
         },
         {
-          "title": "PennantPark Floating Rate Capital (PFLT) Q2 2026 Earnings Call Transcript",
-          "summary": "PennantPark Floating Rate Capital (PFLT) Q2 2026 Earnings Call May 8, 2026 9:00 AM EDTCompany ParticipantsArthur Penn - Founder, Chairman & CEOJose...",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-05-08 11:01"
+          "title": "PennantPark (PFLT) Q2 Earnings and Revenues Lag Estimates",
+          "summary": "PennantPark (PFLT) delivered earnings and revenue surprises of -3.57% and -2.71%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "publisher": "Zacks",
+          "published_at": "2026-05-07T23:05"
         },
         {
-          "title": "Transcript : PennantPark Floating Rate Capital Ltd., Q2 2026 Earnings Call, May 08, 2026",
-          "summary": "Presentation Operator MessageOperator Good morning, and welcome to the PennantPark Floating Rate Capital's Second Fiscal Quarter 2026 Earnings Conference Call. Today's conference is being recorded....",
-          "publisher": "Finnhub",
-          "published_at": "2026-05-08 10:05"
+          "title": "Can PennantPark’s First-Lien Loans Keep Funding Income Payments",
+          "summary": "Income investors holding PennantPark Floating Rate Capital (NYSE:PFLT) face a direct question: can a business development company that has under-earned its distribution for four straight quarters keep paying $0.1025 a month? The data points in two directions, and the answer hinges largely on a single joint venture. PFLT is a BDC that functions as a ... Can PennantPark’s First-Lien Loans Keep Funding Income Payments",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-05-04T12:30"
+        },
+        {
+          "title": "Ares Management (ARES) Misses Q1 Earnings and Revenue Estimates",
+          "summary": "Ares Management (ARES) delivered earnings and revenue surprises of -6.19% and -2.53%, respectively, for the quarter ended March 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "publisher": "Zacks",
+          "published_at": "2026-05-01T11:25"
+        },
+        {
+          "title": "PennantPark Floating Rate Capital (PFLT) Stands Out as Rate Shifts Create Opportunity",
+          "summary": "PennantPark Floating Rate Capital Ltd. (NYSE:PFLT) is included among the 10 Monthly Dividend Stocks to Buy and Hold Forever. PennantPark Floating Rate Capital Ltd. (NYSE:PFLT) is a business development company (BDC) that focuses on investing in middle-market companies. There are risks tied to this part of the market. Even so, the company’s management team has done […]",
+          "publisher": "Insider Monkey",
+          "published_at": "2026-04-23T20:32"
+        },
+        {
+          "title": "Is the Options Market Predicting a Spike in PennantPark Stock?",
+          "summary": "Investors need to pay close attention to PFLT stock based on the movements in the options market lately.",
+          "publisher": "Zacks",
+          "published_at": "2026-04-13T20:16"
+        },
+        {
+          "title": "PennantPark’s 14% yield is running on fumes as dividend coverage cracks",
+          "summary": "PennantPark Floating Rate Capital (NYSE:PFLT) has paid its shareholders a $0.1025 monthly dividend without interruption for over three years, producing an annualized yield near 14% at current prices. But the income backing it is not keeping up. How PennantPark earns its income PennantPark is a Business Development Company that lends directly to smaller private businesses ... PennantPark’s 14% yield is running on fumes as dividend coverage cracks",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-04-13T13:00"
         }
       ],
       "sec_filings_6m": [
@@ -1387,14 +840,276 @@
         ]
       }
     },
+    "MSFT": {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 412.68,
+      "high_24h": 412.68,
+      "low_24h": 405.5,
+      "high_1m": 433.7,
+      "low_1m": 371.02,
+      "fiftyTwoWeekHigh": 555.45,
+      "fiftyTwoWeekLow": 356.28,
+      "dividendYield": 88.0,
+      "dividendRate": 3.64,
+      "exDividendDate": "1779321600",
+      "charts": {
+        "24h": "charts/MSFT_24h.png",
+        "1m": "charts/MSFT_1m.png",
+        "1y": "charts/MSFT_1y.png"
+      },
+      "news": [
+        {
+          "title": "What Happens to Taiwan Semiconductor Stock if the AI Build-Out Slows Down? Here's My Answer.",
+          "summary": "The foundry giant's growth has become increasingly tied to a small group of hyperscalers spending heavily on artificial intelligence.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 22:51"
+        },
+        {
+          "title": "Should You Really Ignore Palantir's Steep Valuation and Buy the Stock? Here's What History Says.",
+          "summary": "Valuation concerns have hurt the stock in recent times.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 22:30"
+        },
+        {
+          "title": "Microsoft Retirement Buyout Highlights Evolving Workforce And AI Investment Priorities",
+          "summary": "Microsoft (NasdaqGS:MSFT) has launched a large voluntary retirement buyout program for eligible U.S. employees. The offer includes extended cash payouts and healthcare benefits tied to specific age and years of service criteria. The move points to a significant shift in workforce planning as the company commits large sums to AI and infrastructure spending. Microsoft sits at the center of enterprise software, cloud services and AI infrastructure, so any large workforce move tends to draw...",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 20:13"
+        },
+        {
+          "title": "Microsoft's Satya Nadella testifies in Elon Musk, OpenAI trial",
+          "summary": "Yahoo Finance Tech Editor Dan Howley joins Market Domination to discuss Microsoft (MSFT) CEO Satya Nadella testifying in the high-stakes trial involving Elon Musk and OpenAI (OPAI.PVT).",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 20:07"
+        },
+        {
+          "title": "Microsoft CEO says he was never given 'clarity' on why Altman was fired from OpenAI during Musk trial",
+          "summary": "Microsoft CEO Satya Nadella said he was never given 'clarity' on why OpenAI's board fired Sam Altman in 2023.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 19:53"
+        },
+        {
+          "title": "Big tech earnings reinforce strength of AI demand across chips, cloud and software: Wedbush",
+          "summary": "Big tech firms are poised to extend their rally following a strong earnings season and continued momentum in artificial intelligence spending, according to Wedbush analysts, who pointed to accelerating enterprise adoption and sustained demand across chips, cloud infrastructure, software and...",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 19:51"
+        },
+        {
+          "title": "Former OpenAI executive Sutskever discloses nearly $7 billion stake in AI firm",
+          "summary": "Former OpenAI Chief Scientist Ilya Sutskever said on Monday his ownership stake in the artificial intelligence startup is ‌worth about $7 billion, as he testified in a legal fight between ‌Elon Musk and OpenAI.  • The trial could determine the future of OpenAI, which spearheaded widespread use ​of AI with its ChatGPT chatbot and has been raising billions of dollars from investors to build out its computing power ahead of a potential trillion-dollar IPO.  • Musk is seeking fundamental changes to the governance of the company as ‌well as $150 billion in damages ⁠from OpenAI and Microsoft, one of its largest investors.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 19:49"
+        },
+        {
+          "title": "Big Tech Keeps Piling On AI Debt. Spending Is Set to Soar.",
+          "summary": "Gone are the days when operating cash flow could cover the bills. 2026 is shaping up to be a milestone year.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 19:07"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-04-30 11:37:00",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000210011926000820/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-04-29 16:06:24",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-04-29 16:03:31",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-20260429.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      }
+    },
+    "FSK": {
+      "symbol": "FSK",
+      "name": "FS KKR Capital Corp.",
+      "price": 10.76,
+      "high_24h": 11.06,
+      "low_24h": 10.54,
+      "high_1m": 11.73,
+      "low_1m": 10.0,
+      "fiftyTwoWeekHigh": 22.68,
+      "fiftyTwoWeekLow": 9.72,
+      "dividendYield": 2380.0,
+      "dividendRate": 2.58,
+      "exDividendDate": "1773792000",
+      "charts": {
+        "24h": "charts/FSK_24h.png",
+        "1m": "charts/FSK_1m.png",
+        "1y": "charts/FSK_1y.png"
+      },
+      "news": [
+        {
+          "title": "FS KKR Capital Corp (FSK) Q1 2026 Earnings Call Transcript",
+          "summary": "FS KKR Capital Corp (FSK) Q1 2026 Earnings Call May 11, 2026 9:00 AM EDTCompany ParticipantsCaitlin WelchMichael Forman - Chairman & CEODaniel Pietrzak...",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-05-11 15:30"
+        },
+        {
+          "title": "FS KKR Capital: It Would Be Hard To Design A Poorer Set Of Results",
+          "summary": "FSK reported a significant miss on all key metrics, including net investment income, NAV, and adjusted EPS. Learn more about FSK stock here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-05-11 14:22"
+        },
+        {
+          "title": "FS KKR Capital Corp. Declares Distribution for the Second Quarter 2026, Payable on or About July 2, 2026",
+          "summary": "On May 6, 2026, FS KKR Capital Corp.'s board of directors declared a distribution for the second quarter of $0.42 per share, which will be paid on or about July 2, 2026 to stockholders of record as of...",
+          "publisher": "Finnhub",
+          "published_at": "2026-05-11 12:37"
+        },
+        {
+          "title": "Fs Kkr Capital Corp. Announces Senior Secured Revolving Credit Agreement",
+          "summary": "On May 8, 2026, FS KKR Capital Corp. entered into an amendment to its Senior Secured Revolving Credit Agreement, by and among the Company, as borrower, each of the lenders party thereto, JPMorgan...",
+          "publisher": "Finnhub",
+          "published_at": "2026-05-11 12:36"
+        },
+        {
+          "title": "FS KKR Capital Corp (NYSE:FSK) Misses Q1 2026 Earnings and Revenue Estimates",
+          "summary": "FS KKR Capital Corp. (FSK) reported Q1 2026 earnings misses on both EPS and revenue, with shares falling 2.7% premarket as the BDC faces private credit portfolio challenges.",
+          "publisher": "ChartMill",
+          "published_at": "2026-05-11 12:24"
+        },
+        {
+          "title": "Transcript : FS KKR Capital Corp., Q1 2026 Earnings Call, May 11, 2026",
+          "summary": "Presentation Operator MessageOperator Good morning, ladies and gentlemen. Welcome to FS KKR Capital Corp.'s First Quarter 2026 Earnings Conference Call. [Operator Instructions] Please note that",
+          "publisher": "Finnhub",
+          "published_at": "2026-05-11 10:35"
+        },
+        {
+          "title": "FS KKR Capital Q1 Adj. EPS $0.41 Misses $0.44 Estimate, Sales $304.000M Miss $328.970M Estimate",
+          "summary": "FS KKR Capital (NYSE:FSK) reported quarterly earnings of $0.41 per share which missed the analyst consensus estimate of $0.44 by 6.82 percent. This is a 36.92 percent decrease over earnings of $0.65 per share from the",
+          "publisher": "Benzinga",
+          "published_at": "2026-05-11 08:17"
+        },
+        {
+          "title": "FS KKR Capital NAV drops on portfolio losses",
+          "summary": "FS KKR Capital reported a wider first-quarter loss and a sharp drop in net asset value, hit by portfolio losses, new non-accruals and spread widening, and launched a $300 million share repurchase...",
+          "publisher": "Finnhub",
+          "published_at": "2026-05-11 07:20"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-05-11 15:14:19",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1422183/000114036126020502/ny20072853x1_sctoc.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-05-11 07:11:18",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1422183/000162828026033118/fsk-20260331.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-05-11 06:59:03",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926058250/tm2614112d1_ex99-1.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      }
+    },
     "JNJ": {
       "symbol": "JNJ",
       "name": "Johnson & Johnson",
-      "price": 221.35,
-      "high_24h": 223.37,
-      "low_24h": 220.92,
-      "high_1m": 244.2,
-      "low_1m": 220.63,
+      "price": 221.44,
+      "high_24h": 223.28,
+      "low_24h": 220.37,
+      "high_1m": 242.19,
+      "low_1m": 220.37,
       "fiftyTwoWeekHigh": 251.71,
       "fiftyTwoWeekLow": 146.12,
       "dividendYield": 242.0,
@@ -1407,52 +1122,52 @@
       },
       "news": [
         {
-          "title": "Goldman Sachs Retirement Survey 2025: 58% of Americans Expect to Outlive Their Savings, and the Income Strategy That Changes the Math",
-          "summary": "The Goldman Sachs Retirement Survey 2025 captures a tension that runs through the entire retirement landscape. A full 68% of working respondents say they are confident they will meet their retirement goals. At the same time, 58% believe they will outlive their savings. Goldman calls this the Optimism Gap, a split between how workers feel ... Goldman Sachs Retirement Survey 2025: 58% of Americans Expect to Outlive Their Savings, and the Income Strategy That Changes the Math",
+          "title": "Johnson & Johnson (JNJ) Highlights Strong Phase 3 Results for TREMFYA Across Dosing Regimens",
+          "summary": "We recently compiled a list of the 10 Best Cancer Stocks to Buy for the Long Term. Johnson & Johnson is among the best cancer stocks. TheFly reported on May 5 that JNJ released Phase 3 FUZION study results evaluating TREMFYA in adults with active perianal fistulizing Crohn’s disease. At 24 weeks, the therapy showed […]",
           "publisher": "Yahoo",
-          "published_at": "2026-05-10 17:50"
+          "published_at": "2026-05-11 20:01"
         },
         {
-          "title": "Goldman Sachs Retirement Survey 2025: Retirement Could Cost $2.5 Million by 2043, and Most Americans Are Not Saving Fast Enough to Keep Up",
-          "summary": "The Goldman Sachs Retirement Survey & Insights Report 2025 puts a hard number on what many workers already sense: the bar for retirement keeps moving higher. The estimated total cost of retirement for a unisex retiree is projected to reach $2,569,000 by 2043, up from $1,747,000 in 2033. That climb reflects two forces working together. ... Goldman Sachs Retirement Survey 2025: Retirement Could Cost $2.5 Million by 2043, and Most Americans Are Not Saving Fast Enough to Keep Up",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 15:43"
+          "title": "Johnson & Johnson to Participate in the Goldman Sachs 47th Annual Global Healthcare Conference",
+          "summary": "Johnson & Johnson will participate in the Goldman Sachs 47th Annual Global Healthcare Conference on Tuesday, June 9th, 2026. Management will participate in a Fireside Chat at 10:00 a.m. Eastern...",
+          "publisher": "Finnhub",
+          "published_at": "2026-05-11 16:35"
         },
         {
-          "title": "2 Dividend Stocks That Are No-Brainer Buys in May",
-          "summary": "Markets are on the rise, but worries about a recession remain elevated as May gets underway.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 14:35"
+          "title": "Boston Scientific: Poised To Rebound With The Healthcare Sector, But When?",
+          "summary": "Boston Scientific Corporation outlook: EP share loss vs PFA leadership, Watchman & neuromod growth, improving margins and low valuation. Click for more on BSX.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-05-11 16:30"
         },
         {
-          "title": "A $500,000 Dividend Portfolio That Pays More Than a Full-Time Minimum Wage Job",
-          "summary": "A full-time federal minimum wage worker in the United States earns $7.25 an hour, or about $15,080 a year before taxes, working 40 hours a week for 52 weeks. The question for anyone with capital: what does it take to clear that bar without having to ask anyone, “Do you want fries with that?” On ... A $500,000 Dividend Portfolio That Pays More Than a Full-Time Minimum Wage Job",
+          "title": "Merck Stock Down 7% in a Month: Should Investors Hold or Exit?",
+          "summary": "Merck falls 7% despite an earnings beat as a pipeline setback and Gardasil weakness act as dampeners. However, Keytruda and new launches support growth.",
           "publisher": "Yahoo",
-          "published_at": "2026-05-09 15:30"
+          "published_at": "2026-05-11 15:18"
         },
         {
-          "title": "Johnson & Johnson CEO: America’s innovation advantage starts with health",
-          "summary": "From AI-accelerated drug discovery to a $55 billion domestic manufacturing push, the U.S. health innovation engine is just getting started.",
+          "title": "Talvey (Johnson & Johnson: talquetamab-tgvs) Market Research Report 2026: Epidemiology, Pipeline Analysis, Insights & Forecasts, 2020-2025, 2025-2030F, 2035F",
+          "summary": "Key market opportunities in the Talvey market include rising prevalence of autoimmune diseases, increasing healthcare expenditures, and expanding biosimilar development. The market is driven by personalized immunotherapy, targeted therapies, digital monitoring tools, and regional production amid tariff pressures.Dublin, May 11, 2026 (GLOBE NEWSWIRE) -- The \"Talvey Market Report 2026: Epidemiology, Pipeline Analysis, Market Insights & Forecasts\" has been added to ResearchAndMarkets.com's offering",
           "publisher": "Yahoo",
-          "published_at": "2026-05-09 11:30"
+          "published_at": "2026-05-11 14:21"
         },
         {
-          "title": "The Nationwide Social Security Survey Says Most Americans Are Flying Blind on Benefits, Here’s the Income Strategy That Fills the Gap",
-          "summary": "A new Nationwide Retirement Institute survey paints a stark picture: most Americans approaching retirement do not actually understand the program they are banking on. Only 21% of respondents correctly identified their full retirement age based on their year of birth, and the average adult answered just 8 of 15 true-or-false questions about Social Security correctly. ... The Nationwide Social Security Survey Says Most Americans Are Flying Blind on Benefits, Here’s the Income Strategy That Fills t",
+          "title": "FarmaMondo Group appoints Independent Board Director Natalie Douglas, global pharmaceutical managed access and commercialization pioneer",
+          "summary": "FarmaMondo Group, an international commercial pharmaceutical organization that partners with pharma and biotech to deliver innovative and specialty medicines to the 50+ emerging markets, today announces the appointment of Natalie Douglas as Independent Board Director. Douglas is best known for pioneering the managed access to commercialization drug program, now the accepted model for how the pharmaceutical industry delivers access to many international markets.",
           "publisher": "Yahoo",
-          "published_at": "2026-05-08 19:40"
+          "published_at": "2026-05-11 12:01"
         },
         {
-          "title": "Nationwide Survey: 83% of Americans Are Worried Social Security Won’t Survive, and Here’s What to Do About It",
-          "summary": "The fear is loud, and the data backs it up. According to the Nationwide Retirement Institute’s 2025 Social Security Survey, 83% of Americans currently receiving or expecting to receive Social Security are concerned about the program’s future. That worry is not happening in a vacuum. The Social Security Administration’s own trustees project that the Old-Age ... Nationwide Survey: 83% of Americans Are Worried Social Security Won’t Survive, and Here’s What to Do About It",
+          "title": "Johnson & Johnson reinforces its leadership in advancing neuropsychiatry with new portfolio and pipeline data at APA and ASCP",
+          "summary": "Johnson & Johnson (NYSE: JNJ) announced today that 18 abstracts featuring new and encore data from the Company's robust neuropsychiatry portfolio and pipeline will be presented at two upcoming scientific meetings: the American Psychiatric Association (APA) Annual Meeting (May 16-20, San Francisco) and the American Society of Clinical Psychopharmacology (ASCP) Annual Meeting (May 26-29, Miami). The presentations will highlight the Company's latest research across key neuropsychiatric disorders, i",
           "publisher": "Yahoo",
-          "published_at": "2026-05-08 16:41"
+          "published_at": "2026-05-11 12:00"
         },
         {
-          "title": "3 Unstoppable Dividend King Stocks to Buy Right Now for Less Than $550",
-          "summary": "These companies pay some of the world's most bankable dividends.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-08 12:20"
+          "title": "Sanofi: Great Yield And Plenty Of Upside Potential",
+          "summary": "Sanofi (SNY) stock: Strong Buy with 5.5%+ yield, undervalued multiples, and 16â20% projected returns from its robust pipelineâread the thesis here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-05-11 11:08"
         }
       ],
       "sec_filings_6m": [
@@ -1518,72 +1233,60 @@
         ]
       }
     },
-    "MSFT": {
-      "symbol": "MSFT",
-      "name": "Microsoft Corporation",
-      "price": 415.15,
-      "high_24h": 418.63,
-      "low_24h": 414.0,
-      "high_1m": 433.7,
-      "low_1m": 367.05,
-      "fiftyTwoWeekHigh": 555.45,
-      "fiftyTwoWeekLow": 356.28,
-      "dividendYield": 88.0,
-      "dividendRate": 3.64,
-      "exDividendDate": "1779321600",
+    "IONQ": {
+      "symbol": "IONQ",
+      "name": "IonQ, Inc.",
+      "price": 56.9,
+      "high_24h": 58.54,
+      "low_24h": 48.15,
+      "high_1m": 58.54,
+      "low_1m": 27.87,
+      "fiftyTwoWeekHigh": 84.64,
+      "fiftyTwoWeekLow": 25.89,
+      "dividendYield": 0,
+      "dividendRate": 0,
+      "exDividendDate": "N/A",
       "charts": {
-        "24h": "charts/MSFT_24h.png",
-        "1m": "charts/MSFT_1m.png",
-        "1y": "charts/MSFT_1y.png"
+        "24h": "charts/IONQ_24h.png",
+        "1m": "charts/IONQ_1m.png",
+        "1y": "charts/IONQ_1y.png"
       },
       "news": [
         {
-          "title": "FIS Selected to Streamline Reconciliations for Australia's Largest Bank",
-          "summary": "JACKSONVILLE, Fla., May 10, 2026--Global financial technology leader FIS® (NYSE: FIS) has been selected by the Commonwealth Bank of Australia (CommBank), the nation's largest bank, to streamline reconciliations through FIS Data Integrity Manager. In a banking environment, reconciliation ensures financial accuracy by verifying millions of daily transactions across complex systems. The fully-hosted solution will process over 150 million transactions per day.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 23:00"
+          "title": "What's Going On With IonQ Stock Monday?",
+          "summary": "IonQ shares surge 15% after smashing Q1 revenue targets and raising 2026 guidance. Get the latest on the SkyWater merger and technicals.",
+          "publisher": "Benzinga",
+          "published_at": "2026-05-11 13:58"
         },
         {
-          "title": "Iran May Have Found a New Way to Threaten Trump’s Economy — And It’s Not Oil",
-          "summary": "The stock market has spent much of 2026 acting like geopolitical risk is just background noise. The S&P 500 keeps pushing toward record highs, AI spending remains red hot, and investors have largely shrugged off the widening conflict involving Iran. But what if Tehran found a pressure point far more dangerous than oil tankers? That’s ... Iran May Have Found a New Way to Threaten Trump’s Economy — And It’s Not Oil",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 22:35"
+          "title": "Why Rigetti Computing Stock Is Surging On Monday?",
+          "summary": "Rigetti Computing Inc (RGTI) stock surges on Monday ahead of Q1 earnings. Learn how short interest and Nvidia&#39;s latest AI tools are driving the rally.",
+          "publisher": "Benzinga",
+          "published_at": "2026-05-11 13:54"
         },
         {
-          "title": "CrowdStrike Expands AI Security Reach Through QuiltWorks And Microsoft Defender",
-          "summary": "CrowdStrike Holdings (NasdaqGS:CRWD) expanded its Project QuiltWorks AI cybersecurity coalition with new global technology and consulting partners. New members include Armadin, Cognizant, HCLTech, Infosys, KPMG, NTT DATA, Tata Consultancy Services, and Wipro. The company also launched Falcon OverWatch for Defender, bringing AI powered threat hunting to Microsoft endpoint customers. CrowdStrike Holdings, trading at about $505.74, has seen very strong multi year share price appreciation,...",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 20:06"
+          "title": "Liquidia, Beazer Homes, Circle Internet Group And Other Big Stocks Moving Higher On Monday",
+          "summary": "US stocks rise, Nasdaq up 0.3%. Liquidia Corp (LQDA) beats Q1 expectations, shares rise 15.7%. Other big gainers: MRAM, GSIT, BZH, WYFI, INOD, AAOI, NVTS, HIMX, VICR, LITE, HYMC, IONQ.",
+          "publisher": "Benzinga",
+          "published_at": "2026-05-11 11:56"
         },
         {
-          "title": "Better Artificial Intelligence (AI) Stock: Alphabet or Microsoft",
-          "summary": "Alphabet and Microsoft are two of the largest companies in the world.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 17:50"
+          "title": "The King's Foundation and FormationQ Launch \"Harmonious Urban Growth\" Programme to Help Cities Plan Sustainable Expansion Using Quantum Optimisation",
+          "summary": "LONDON and AUSTIN, Texas, May 11, 2026 /PRNewswire/ -- The King's Foundation and FormationQ today announced a new partnership to showcase how towns and cities across the Commonwealth can grow...",
+          "publisher": "Finnhub",
+          "published_at": "2026-05-11 03:01"
         },
         {
-          "title": "The global economy is experiencing the largest capex cycle ever, with nearly $5 trillion seen by the end of the decade—and it’s not all AI spending",
-          "summary": "At the same time, AI capital spending, while overlapping with the energy transition somewhat, is also galloping ahead full speed.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 17:32"
+          "title": "Consumer Tech News (May 4- 8): Big Tech Gain On AI Momentum, Pentagon Awards $500M AI Contract & More",
+          "summary": "AI demand surges across chips and cloud as AMD beats estimates, Nvidia expands ecosystem deals, and OpenAI partners scale rapidly across infrastructure and enterprise.",
+          "publisher": "Benzinga",
+          "published_at": "2026-05-10 08:00"
         },
         {
-          "title": "NVIDIA’s Huang says AI will make intelligence a commodity for billions",
-          "summary": "Investing.com -- NVIDIA chief executive Jensen Huang said on Sunday that artificial intelligence will make intelligence itself a commodity accessible to anyone, from carpenters to shopkeepers, adding that the technology will reach billions of people who have never had access to computing power before.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 17:25"
-        },
-        {
-          "title": "Microsoft Faces Kenya Data Center Delay And China Patent Ruling Risk",
-          "summary": "Microsoft (NasdaqGS:MSFT) has seen its planned US$1b data center expansion in Kenya stall after talks over government payment guarantees broke down. The project setback affects the timing of a major cloud and AI infrastructure buildout in an important African growth market. Separately, a long-running patent dispute over touchscreen and graphical user interface technology with Newman Infinite/Unlimited has reached China's Supreme People's Court. Microsoft previously sought to invalidate the...",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 17:07"
-        },
-        {
-          "title": "Prediction: AI Infrastructure Stocks Will Crush the S&P 500 in 2026",
-          "summary": "Some AI stocks are trading at very reasonable levels right now.",
-          "publisher": "Yahoo",
-          "published_at": "2026-05-10 16:35"
+          "title": "IonQ, Inc. (IONQ) Q1 2026 Earnings Call Transcript",
+          "summary": "IonQ, Inc. (IONQ) Q1 2026 Earnings Call May 6, 2026 4:30 PM EDTCompany ParticipantsHanley DonofrioNiccolo de Masi - President, CEO & ChairmanInder Singh...",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-05-09 08:21"
         }
       ],
       "sec_filings_6m": [
@@ -1593,9 +1296,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-04-30 11:37:00",
+          "filed_at": "2026-05-08 21:55:03",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000210011926000820/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526215307/xslF345X06/ownership.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -1604,9 +1307,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-04-29 16:06:24",
+          "filed_at": "2026-05-07 17:11:53",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1819974/000095014226001324/eh260776838_425.htm",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -1615,9 +1318,360 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-04-29 16:03:31",
+          "filed_at": "2026-05-07 16:06:47",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-20260429.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1824920/000119312526211876/ionq-20260331.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      }
+    },
+    "EPD": {
+      "symbol": "EPD",
+      "name": "Enterprise Products Partners L.P.",
+      "price": 37.91,
+      "high_24h": 38.18,
+      "low_24h": 37.21,
+      "high_1m": 39.01,
+      "low_1m": 35.67,
+      "fiftyTwoWeekHigh": 39.74,
+      "fiftyTwoWeekLow": 30.01,
+      "dividendYield": 589.0,
+      "dividendRate": 2.19,
+      "exDividendDate": "1777507200",
+      "charts": {
+        "24h": "charts/EPD_24h.png",
+        "1m": "charts/EPD_1m.png",
+        "1y": "charts/EPD_1y.png"
+      },
+      "news": [
+        {
+          "title": "Investment-Grade: +6% Yield - My Retirement Income",
+          "summary": "Find calm in steady dividends from businesses with massive free cash flow generation. Click here for a detailed analysis.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-05-11 07:35"
+        },
+        {
+          "title": "How To Turn Hormuz Instability Into High Dividends",
+          "summary": "Markets are pricing in âclose to a dealâ noiseâwhile Hormuz, fertilizer, PMIs, and aluminum signal real shortages. Learn more.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-05-09 10:30"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-05-07 13:04:48",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1061219/000106121926000014/epd-20260331.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-04-27 18:01:43",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1061219/000106121926000010/epd-20260428.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-03-27 16:14:22",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1061219/000119312526129053/d134793dex101.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      }
+    },
+    "T": {
+      "symbol": "T",
+      "name": "AT&T Inc.",
+      "price": 24.88,
+      "high_24h": 25.34,
+      "low_24h": 24.66,
+      "high_1m": 26.76,
+      "low_1m": 24.66,
+      "fiftyTwoWeekHigh": 29.79,
+      "fiftyTwoWeekLow": 22.95,
+      "dividendYield": 441.0,
+      "dividendRate": 1.11,
+      "exDividendDate": "1775779200",
+      "charts": {
+        "24h": "charts/T_24h.png",
+        "1m": "charts/T_1m.png",
+        "1y": "charts/T_1y.png"
+      },
+      "news": [
+        {
+          "title": "AI Infrastructure Stock Sparks Frazzled Breakout While Pulling Off This Trifecta",
+          "summary": "Earning a spot on the IBD 50, Stock Spotlight and IBD Leaderboard, AI data center play Dycom looks to reconnect with buy zone.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 16:45"
+        },
+        {
+          "title": "Nice Remains Leading Cloud Contact Center Player With Limited Competition, Morgan Stanley Says",
+          "summary": "Nice (NICE) remains a leading player in the cloud contact center market, with limited competitors ab",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 16:08"
+        },
+        {
+          "title": "Wall Street Lunch: Does AT&T's History Help Ease AI Capex Fears?",
+          "summary": "Wall Street is nervous about hyperscaler capex. The combined capex of Amazon, Microsoft, Alphabet, and Meta was over $200B in 2024. Two years later it is on track to approach $700B.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-05-11 13:15"
+        },
+        {
+          "title": "Will $475M Alkira Buyout Boost LUMN's Cloud & Security Revenues?",
+          "summary": "Lumen's $475M Alkira deal aims to build a programmable AI-era network, expanding its enterprise reach and boosting digital growth.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 12:52"
+        },
+        {
+          "title": "The #1 Thing I Wish I Knew Before Chasing 10%+ Yields",
+          "summary": "Discover the key filter that matters most for high-yield dividend stocksâbeyond diversification and payout ratiosâplus lessons from past mistakes.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-05-11 09:05"
+        },
+        {
+          "title": "AT&T: Should Investors Buy Into the Turnaround?",
+          "summary": "This stock has risen from the ashes to become a compelling buy-and-hold dividend investment.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-10 20:50"
+        },
+        {
+          "title": "AT&T: Locking In A 6.2-6.3% Yield With Baby Bonds And Preferred Stock",
+          "summary": "AT&T continues to deliver robust financial results. Read more about common shares and baby bonds from this telecom giant.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-05-09 11:40"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-05-04 16:17:20",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000236/xslF345X06/form4.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-05-04 16:16:58",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000235/xslF345X06/form4.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-05-04 16:16:23",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000234/xslF345X06/form4.xml",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      }
+    },
+    "VZ": {
+      "symbol": "VZ",
+      "name": "Verizon Communications Inc.",
+      "price": 47.23,
+      "high_24h": 47.99,
+      "low_24h": 46.97,
+      "high_1m": 48.65,
+      "low_1m": 44.27,
+      "fiftyTwoWeekHigh": 51.68,
+      "fiftyTwoWeekLow": 38.39,
+      "dividendYield": 599.0,
+      "dividendRate": 2.83,
+      "exDividendDate": "1775779200",
+      "charts": {
+        "24h": "charts/VZ_24h.png",
+        "1m": "charts/VZ_1m.png",
+        "1y": "charts/VZ_1y.png"
+      },
+      "news": [
+        {
+          "title": "These 5 Stocks Yield More Than 5% and Are Still Growing Profits",
+          "summary": "High-yield dividend stocks are rare in today’s market. Verizon, Kimberly-Clark, and three others still offer payouts above 5% while growing earnings.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 18:42"
+        },
+        {
+          "title": "Verizon’s Worldwide Hybrid Bond Sale Drive Hits $12 Billion",
+          "summary": "(Bloomberg) -- Verizon Communications Inc. is selling $4 billion of hybrid bonds in the US dollar investment-grade debt market for the first time after issuing the equivalent of $8 billion of them in other currencies over the last six months.Most Read from BloombergIran Makes New Offer on Uranium in Response to US, WSJ SaysInside a Year of Chaos and Conflict at Kevin Hart’s Media CompanyTrump Rejects New Iran Peace Offer as ‘Totally Unacceptable’Modi Asks Indians to Stop Buying Gold, Hitting Jew",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 18:02"
+        },
+        {
+          "title": "Verizon files for pricing term sheet for two-part, fixed-to-fixed rate junior subordinated notes of up to $4.0 billion - SEC filing",
+          "summary": "Verizon Communications Inc: Verizon files for pricing term sheet for two-part, fixed-to-fixed rate junior subordinated notes of up to $4.0 billion - SEC filing...",
+          "publisher": "Finnhub",
+          "published_at": "2026-05-11 17:58"
+        },
+        {
+          "title": "AI Infrastructure Stock Sparks Frazzled Breakout While Pulling Off This Trifecta",
+          "summary": "Earning a spot on the IBD 50, Stock Spotlight and IBD Leaderboard, AI data center play Dycom looks to reconnect with buy zone.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 16:45"
+        },
+        {
+          "title": "Sports Illustrated Beyond the Pitch: SI Introduces a Four City VIP Event Series This Summer Surrounding The World's Soccer Championship",
+          "summary": "50 Cent, The Chainsmokers, Nelly, Diplo and Gordo headline premium fan first events in Los Angeles, Dallas, Miami, and New York this summer NEW YORK, NY / ACCESS Newswire / May 11, 2026 /Sports Illustrated is launching SI Beyond the Pitch, a first-ever, ...",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 14:00"
+        },
+        {
+          "title": "TELUS Q1 Earnings & Revenues Decrease Y/Y, Dividend Announced",
+          "summary": "TU Q1 earnings and revenue fell Y/Y, but customer additions, free cash flow growth and a reaffirmed 2026 outlook kept focus on execution.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 14:00"
+        },
+        {
+          "title": "Will $475M Alkira Buyout Boost LUMN's Cloud & Security Revenues?",
+          "summary": "Lumen's $475M Alkira deal aims to build a programmable AI-era network, expanding its enterprise reach and boosting digital growth.",
+          "publisher": "Yahoo",
+          "published_at": "2026-05-11 12:52"
+        },
+        {
+          "title": "Verizon Communications Inc. Announces Tender Offers and Consent Solicitations for 20 Series of Verizon and Certain of Its Subsidiaries? Notes",
+          "summary": "Verizon Communications Inc. announced the commencement of offers to purchase for cash, on behalf of itself and certain of its wholly-owned subsidiaries, any and all of the outstanding series of debt...",
+          "publisher": "Finnhub",
+          "published_at": "2026-05-11 12:35"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-05-11 17:15:33",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/732712/000119312526217121/d30694dfwp.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-05-11 12:23:48",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/732712/000170268426000026/xslF345X06/wk-form4_1778516625.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-05-11 12:22:51",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/732712/000211110326000017/xslF345X06/wk-form4_1778516569.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
