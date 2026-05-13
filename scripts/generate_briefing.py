@@ -153,6 +153,8 @@ def generate_briefing():
 
     holdings_data = {k: v for k, v in market_data.items() if k in holdings_list}
     discovery_data = {k: v for k, v in market_data.items() if k not in holdings_list}
+    candidate_rankings = full_data.get("candidate_rankings", [])
+    screening_meta = full_data.get("screening_meta", {})
 
     api_key = os.getenv("GEMINI_API_KEY")
     client = genai.Client(api_key=api_key)
@@ -163,6 +165,8 @@ def generate_briefing():
     날짜: {full_data['date']}
     보유 종목 데이터: {json.dumps(holdings_data, ensure_ascii=False)}
     발굴 후보 데이터: {json.dumps(discovery_data, ensure_ascii=False)}
+    스크리닝 사전 순위 (참고용): {json.dumps(candidate_rankings, ensure_ascii=False)}
+    스크리닝 메타: 글로벌 {screening_meta.get('seed_pool_size', '?')}개 풀 → AI {screening_meta.get('ai_selected_count', '?')}개 선정 → 점수 상위 5개
 
     === 출력 규칙 ===
     - 인사말(안녕하세요 등), 수신/발신/날짜 헤더, 서론 문단, 맺음말(궁금한 점... 감사합니다... 드림 등) 일체 금지.
@@ -212,8 +216,10 @@ SYMBOL (회사명)
     분석: 핵심 투자 포인트와 주의 사항을 2~3문장으로 요약.
 
     2. 섹션 2: 고배당주 발굴 (Discovery)
-    - 후보군 전체 평가 후 종합매력도 기준 상위 5개만 내림차순 작성.
+    - 이 후보들은 글로벌 {screening_meta.get('seed_pool_size', '?')}개 Seed Pool → AI 1차 선정 → 100점 스코어링을 통해 추려진 Top 5입니다.
+    - 스크리닝 사전 순위(screening_score 기준)를 참고하되, 최종 순서는 종합매력도(아래 기준) 기준으로 작성하세요.
     - 종합매력도 계산: 배당성향도(30%) + 자본성장력(25%) + 산업모멘텀(25%) + 가격적정성(20%). 동점 시 배당수익률 높은 종목 우선.
+    - 5개 전부 작성하세요 (상위 5개만 이미 전달된 상태입니다).
     - 아래 형식을 정확히 따르세요:
 
 SYMBOL (회사명)
