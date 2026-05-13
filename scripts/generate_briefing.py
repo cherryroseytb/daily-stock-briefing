@@ -43,7 +43,7 @@ def text_to_html(text):
     lines = text.split('\n')
     parts = [
         '<html><body style="font-family:Arial,sans-serif;font-size:14px;'
-        'line-height:1.8;color:#222;max-width:820px;margin:0 auto;padding:16px;">'
+        'line-height:1.8;color:#222;max-width:1200px;margin:0;padding:16px;">'
     ]
 
     for line in lines:
