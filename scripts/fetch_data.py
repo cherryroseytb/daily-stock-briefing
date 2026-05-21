@@ -4,12 +4,67 @@ import re
 import time
 from collections import Counter
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 
 import requests
 import yfinance as yf
 from google import genai
 
 import visualizer
+
+KST = ZoneInfo("Asia/Seoul")
+MAX_SCREENING_CANDIDATES = 20
+TOP_N = 5
+NEWS_LIMIT = 5
+UNIVERSE_PATH = "data/universe/stock_universe.json"
+CACHE_DIR = "data/cache"
+INFO_CACHE_HOURS = 24
+NEWS_CACHE_HOURS = 12
+SEC_CACHE_HOURS = 72
+
+
+def now_kst():
+    return datetime.now(KST)
+
+
+def _dedupe_symbols(symbols):
+    result = []
+    seen = set()
+    for symbol in symbols:
+        normalized = str(symbol).strip().upper()
+        if normalized and normalized not in seen:
+            seen.add(normalized)
+            result.append(normalized)
+    return result
+
+
+def _cache_path(namespace, key):
+    safe_key = re.sub(r"[^A-Z0-9_.-]", "_", str(key).upper())
+    return os.path.join(CACHE_DIR, namespace, f"{safe_key}.json")
+
+
+def _read_cache(namespace, key, max_age_hours):
+    path = _cache_path(namespace, key)
+    try:
+        if not os.path.exists(path):
+            return None
+        modified = datetime.fromtimestamp(os.path.getmtime(path), tz=KST)
+        if now_kst() - modified > timedelta(hours=max_age_hours):
+            return None
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+def _write_cache(namespace, key, payload):
+    path = _cache_path(namespace, key)
+    try:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+    except Exception:
+        pass
 
 # ──────────────────────────────────────────────
 # 글로벌 고배당주 Seed Pool (~95개)
@@ -53,6 +108,99 @@ SEED_POOL = [
     # 국제 ADR — 호주 / 기타
     "BHP", "RIO", "WPM",
 ]
+
+THEME_POOLS = {
+    "AI/반도체": [
+        "NVDA", "AMD", "AVGO", "TSM", "ASML", "MU", "ARM", "QCOM", "AMAT", "LRCX",
+    ],
+    "전력/데이터센터": [
+        "VST", "CEG", "ETN", "PWR", "GEV", "NEE", "SO", "DUK", "AMT", "DLR",
+    ],
+    "방산/우주": [
+        "LMT", "RTX", "NOC", "GD", "HII", "KTOS", "PLTR", "BA", "LHX", "RKLB",
+    ],
+    "원전/우라늄": [
+        "CCJ", "CEG", "BWXT", "UEC", "NXE", "SMR", "LEU", "UUUU",
+    ],
+    "헬스케어/비만치료": [
+        "LLY", "NVO", "AMGN", "REGN", "VRTX", "ISRG", "TMO", "ABT", "MRK", "PFE",
+    ],
+    "금리인하/리츠": [
+        "VNQ", "XLRE", "O", "AMT", "DLR", "PLD", "EQIX", "NEE", "TLT", "IYR",
+    ],
+    "에너지/인프라": [
+        "XOM", "CVX", "COP", "SLB", "LNG", "EPD", "ET", "MPLX", "WMB", "KMI",
+    ],
+}
+
+QUALITY_POOL = [
+    "MSFT", "AAPL", "GOOGL", "AMZN", "META", "BRK-B", "COST", "V", "MA", "ADBE",
+    "NVDA", "AVGO", "ASML", "TSM", "AMD", "QCOM", "TXN", "ADI", "AMAT", "LRCX",
+    "LLY", "NVO", "UNH", "JNJ", "ISRG", "TMO", "REGN", "VRTX", "ABT", "MRK",
+    "CAT", "ETN", "GE", "HON", "PH", "DE", "WM", "UNP", "UPS", "LIN",
+    "HD", "MCD", "SBUX", "PG", "KO", "PEP", "NKE", "LOW", "WMT", "TGT",
+    "JPM", "MS", "BLK", "SPGI", "MCO", "AXP", "ICE", "CME", "SCHW", "BK",
+]
+
+
+def default_universe():
+    return {
+        "version": 1,
+        "updated_at": now_kst().strftime("%Y-%m-%d %H:%M %Z"),
+        "refresh_policy": {
+            "dividend": "monthly",
+            "theme": "weekly",
+            "quality": "quarterly",
+        },
+        "dividend": SEED_POOL,
+        "theme": THEME_POOLS,
+        "quality": QUALITY_POOL,
+    }
+
+
+def load_universe():
+    fallback = default_universe()
+    try:
+        with open(UNIVERSE_PATH, "r", encoding="utf-8") as f:
+            loaded = json.load(f)
+        return {
+            "version": loaded.get("version", fallback["version"]),
+            "updated_at": loaded.get("updated_at", fallback["updated_at"]),
+            "refresh_policy": loaded.get("refresh_policy", fallback["refresh_policy"]),
+            "dividend": _dedupe_symbols(loaded.get("dividend") or fallback["dividend"]),
+            "theme": loaded.get("theme") or fallback["theme"],
+            "quality": _dedupe_symbols(loaded.get("quality") or fallback["quality"]),
+        }
+    except Exception:
+        return fallback
+
+
+def get_report_profile(run_dt=None):
+    run_dt = run_dt or now_kst()
+    weekday = run_dt.weekday()
+    if weekday in {0, 3}:
+        return {
+            "type": "dividend",
+            "title": "고배당/현금흐름 후보",
+            "description": "배당률, 배당 지속성, 재무 안정성을 기준으로 현금흐름형 후보를 선별합니다.",
+        }
+    if weekday in {1, 4}:
+        return {
+            "type": "theme",
+            "title": "모멘텀/테마 후보",
+            "description": "최근 뉴스와 시장 모멘텀이 붙은 주요 테마 안에서 후보를 선별합니다.",
+        }
+    if weekday in {2, 5}:
+        return {
+            "type": "quality",
+            "title": "장기 퀄리티 후보",
+            "description": "3년 이상 보유 관점에서 사업 품질, 재무 안정성, 성장성을 기준으로 선별합니다.",
+        }
+    return {
+        "type": "weekly_summary",
+        "title": "주간 요약",
+        "description": "이번 주 브리핑과 후보를 요약하고 다음 주 체크포인트를 정리합니다.",
+    }
 
 # ──────────────────────────────────────────────
 # SEC 공시 필터링 상수
@@ -189,6 +337,10 @@ def _parse_filing(item, classification, fallback=False):
 # SEC 공시 수집
 # ──────────────────────────────────────────────
 def get_sec_filings_bundle(symbol):
+    cached = _read_cache("sec_filings", symbol, SEC_CACHE_HOURS)
+    if cached is not None:
+        return cached
+
     api_key = os.getenv("FMP_API_KEY")
     if not api_key:
         return {
@@ -196,7 +348,7 @@ def get_sec_filings_bundle(symbol):
             "filter": {"status": "error", "message": "FMP API 키 없음"},
         }
 
-    to_date = datetime.now().date()
+    to_date = now_kst().date()
     from_date = to_date - timedelta(days=180)
     url = (
         "https://financialmodelingprep.com/stable/sec-filings-search/symbol"
@@ -249,7 +401,7 @@ def get_sec_filings_bundle(symbol):
                 excluded_count = sum(excluded_forms.values())
                 hidden_count = max(len(filings) - len(parsed) - excluded_count, 0)
 
-                return {
+                result = {
                     "items": parsed,
                     "filter": {
                         "status": status,
@@ -261,6 +413,8 @@ def get_sec_filings_bundle(symbol):
                         "excluded_examples": excluded_examples,
                     },
                 }
+                _write_cache("sec_filings", symbol, result)
+                return result
             print(f"FMP API {symbol} HTTP {response.status_code} (시도 {attempt+1}/3)")
         except Exception as e:
             print(f"FMP API {symbol} 예외 (시도 {attempt+1}/3): {e}")
@@ -279,25 +433,30 @@ def get_sec_filings_bundle(symbol):
 # 뉴스 수집
 # ──────────────────────────────────────────────
 def get_news(symbol):
+    cached = _read_cache("news", symbol, NEWS_CACHE_HOURS)
+    if cached is not None:
+        return cached
+
     api_key = os.getenv("FINNHUB_API_KEY")
     if api_key:
         try:
-            from_dt = (datetime.now() - timedelta(days=3)).strftime("%Y-%m-%d")
-            to_dt = datetime.now().strftime("%Y-%m-%d")
+            from_dt = (now_kst() - timedelta(days=3)).strftime("%Y-%m-%d")
+            to_dt = now_kst().strftime("%Y-%m-%d")
             url = f"https://finnhub.io/api/v1/company-news?symbol={symbol}&from={from_dt}&to={to_dt}&token={api_key}"
             response = requests.get(url, timeout=10)
             if response.status_code == 200:
                 news = response.json()
                 if news:
                     parsed = []
-                    for n in news[:8]:
-                        published_dt = datetime.fromtimestamp(n.get("datetime", 0) or 0)
+                    for n in news[:NEWS_LIMIT]:
+                        published_dt = datetime.fromtimestamp(n.get("datetime", 0) or 0, tz=KST)
                         parsed.append({
                             "title": n.get("headline", ""),
                             "summary": n.get("summary", ""),
                             "publisher": n.get("source", ""),
                             "published_at": published_dt.strftime("%Y-%m-%d %H:%M"),
                         })
+                    _write_cache("news", symbol, parsed)
                     return parsed
         except Exception:
             pass
@@ -307,14 +466,14 @@ def get_news(symbol):
         news_items = ticker.news or []
         if news_items:
             parsed = []
-            for n in news_items[:8]:
+            for n in news_items[:NEWS_LIMIT]:
                 content = n.get("content", n)
                 title = content.get("title") or n.get("title", "")
                 summary = content.get("summary") or n.get("summary", "")
                 publisher = (content.get("provider", {}) or {}).get("displayName") or n.get("publisher", "Yahoo Finance")
                 pub_raw = content.get("pubDate") or n.get("providerPublishTime")
                 if isinstance(pub_raw, int):
-                    pub_str = datetime.fromtimestamp(pub_raw).strftime("%Y-%m-%d %H:%M")
+                    pub_str = datetime.fromtimestamp(pub_raw, tz=KST).strftime("%Y-%m-%d %H:%M")
                 else:
                     pub_str = str(pub_raw or "")[:16]
                 if title:
@@ -324,10 +483,12 @@ def get_news(symbol):
                         "publisher": publisher,
                         "published_at": pub_str,
                     })
+            _write_cache("news", symbol, parsed)
             return parsed
     except Exception:
         pass
 
+    _write_cache("news", symbol, [])
     return []
 
 
@@ -385,14 +546,19 @@ def get_ticker_data(symbol):
 # ──────────────────────────────────────────────
 # 스코어링용 경량 데이터 수집 (차트/뉴스/공시 없음)
 # ──────────────────────────────────────────────
-def get_ticker_info_light(symbol):
+def get_ticker_info_light(symbol, require_dividend=False):
+    cached = _read_cache("ticker_info_light", symbol, INFO_CACHE_HOURS)
+    if cached is not None:
+        if require_dividend and cached.get("dividend_yield_pct", 0) <= 0:
+            return {"symbol": symbol, "skip": "배당 없음"}
+        return cached
+
     try:
         ticker = yf.Ticker(symbol)
         info = ticker.info
 
         dividend_yield = info.get("dividendYield") or 0
-        # 배당 없는 종목은 스코어링 불필요
-        if dividend_yield <= 0:
+        if require_dividend and dividend_yield <= 0:
             return {"symbol": symbol, "skip": "배당 없음"}
 
         # 5년 배당 이력 일관성 확인
@@ -402,7 +568,7 @@ def get_ticker_info_light(symbol):
         except Exception:
             dividend_consistent = None  # 데이터 없으면 중립
 
-        return {
+        result = {
             "symbol": symbol,
             "name": info.get("longName", symbol),
             "dividend_yield_pct": round(dividend_yield * 100, 2),
@@ -410,11 +576,22 @@ def get_ticker_info_light(symbol):
             "market_cap": info.get("marketCap") or 0,
             "debt_to_equity": info.get("debtToEquity"),
             "payout_ratio": info.get("payoutRatio"),
+            "profit_margins": info.get("profitMargins"),
+            "operating_margins": info.get("operatingMargins"),
+            "return_on_equity": info.get("returnOnEquity"),
+            "revenue_growth": info.get("revenueGrowth"),
+            "earnings_growth": info.get("earningsGrowth"),
+            "free_cashflow": info.get("freeCashflow") or 0,
+            "beta": info.get("beta"),
+            "trailing_pe": info.get("trailingPE"),
+            "forward_pe": info.get("forwardPE"),
             "fifty_two_week_high": info.get("fiftyTwoWeekHigh") or 0,
             "fifty_two_week_low": info.get("fiftyTwoWeekLow") or 0,
-            "current_price": info.get("regularMarketPrice") or 0,
+            "current_price": info.get("regularMarketPrice") or info.get("currentPrice") or 0,
             "dividend_consistent": dividend_consistent,
         }
+        _write_cache("ticker_info_light", symbol, result)
+        return result
     except Exception as e:
         return {"symbol": symbol, "error": str(e)}
 
@@ -424,7 +601,7 @@ def _check_dividend_consistency(dividends, years=5):
     if dividends is None or dividends.empty:
         return None
 
-    cutoff = datetime.now() - timedelta(days=years * 365)
+    cutoff = now_kst() - timedelta(days=years * 365)
     try:
         # timezone-aware 인덱스 처리
         if dividends.index.tz is not None:
@@ -518,33 +695,251 @@ def score_candidate(info):
     return score, details
 
 
+def _pct(value):
+    if value is None:
+        return None
+    try:
+        return float(value) * 100
+    except Exception:
+        return None
+
+
+def _price_position(info):
+    price = info.get("current_price") or 0
+    low = info.get("fifty_two_week_low") or 0
+    high = info.get("fifty_two_week_high") or 0
+    if not price or not low or not high or high <= low:
+        return None
+    return max(0, min(1, (price - low) / (high - low)))
+
+
+def score_theme_candidate(info):
+    score = 0
+    details = {}
+
+    market_cap = info.get("market_cap", 0)
+    if market_cap >= 100_000_000_000:
+        cap_score = 20
+    elif market_cap >= 20_000_000_000:
+        cap_score = 17
+    elif market_cap >= 5_000_000_000:
+        cap_score = 13
+    elif market_cap >= 1_000_000_000:
+        cap_score = 8
+    else:
+        cap_score = 3
+    score += cap_score
+
+    revenue_growth = _pct(info.get("revenue_growth"))
+    if revenue_growth is None:
+        growth_score = 10
+    elif revenue_growth >= 25:
+        growth_score = 25
+    elif revenue_growth >= 15:
+        growth_score = 21
+    elif revenue_growth >= 8:
+        growth_score = 16
+    elif revenue_growth >= 0:
+        growth_score = 10
+    else:
+        growth_score = 4
+    score += growth_score
+
+    operating_margin = _pct(info.get("operating_margins"))
+    if operating_margin is None:
+        margin_score = 8
+    elif operating_margin >= 30:
+        margin_score = 15
+    elif operating_margin >= 18:
+        margin_score = 12
+    elif operating_margin >= 8:
+        margin_score = 8
+    elif operating_margin >= 0:
+        margin_score = 5
+    else:
+        margin_score = 1
+    score += margin_score
+
+    position = _price_position(info)
+    if position is None:
+        price_score = 10
+    elif position <= 0.35:
+        price_score = 20
+    elif position <= 0.65:
+        price_score = 16
+    elif position <= 0.85:
+        price_score = 10
+    else:
+        price_score = 5
+    score += price_score
+
+    dte = info.get("debt_to_equity")
+    if dte is None:
+        debt_score = 10
+    elif dte <= 75:
+        debt_score = 20
+    elif dte <= 150:
+        debt_score = 15
+    elif dte <= 300:
+        debt_score = 9
+    else:
+        debt_score = 3
+    score += debt_score
+
+    details.update({
+        "market_cap": market_cap,
+        "cap_score": cap_score,
+        "revenue_growth_pct": revenue_growth,
+        "growth_score": growth_score,
+        "operating_margin_pct": operating_margin,
+        "margin_score": margin_score,
+        "price_position_52w": position,
+        "price_score": price_score,
+        "debt_to_equity": dte,
+        "debt_score": debt_score,
+    })
+    return score, details
+
+
+def score_quality_candidate(info):
+    score = 0
+    details = {}
+
+    market_cap = info.get("market_cap", 0)
+    if market_cap >= 200_000_000_000:
+        cap_score = 15
+    elif market_cap >= 50_000_000_000:
+        cap_score = 13
+    elif market_cap >= 10_000_000_000:
+        cap_score = 10
+    else:
+        cap_score = 5
+    score += cap_score
+
+    roe = _pct(info.get("return_on_equity"))
+    if roe is None:
+        roe_score = 10
+    elif roe >= 30:
+        roe_score = 20
+    elif roe >= 20:
+        roe_score = 17
+    elif roe >= 12:
+        roe_score = 13
+    elif roe >= 0:
+        roe_score = 8
+    else:
+        roe_score = 2
+    score += roe_score
+
+    operating_margin = _pct(info.get("operating_margins"))
+    if operating_margin is None:
+        margin_score = 10
+    elif operating_margin >= 30:
+        margin_score = 20
+    elif operating_margin >= 20:
+        margin_score = 17
+    elif operating_margin >= 12:
+        margin_score = 13
+    elif operating_margin >= 0:
+        margin_score = 8
+    else:
+        margin_score = 2
+    score += margin_score
+
+    revenue_growth = _pct(info.get("revenue_growth"))
+    earnings_growth = _pct(info.get("earnings_growth"))
+    growth_base = max(v for v in [revenue_growth, earnings_growth, 0] if v is not None)
+    if growth_base >= 25:
+        growth_score = 20
+    elif growth_base >= 15:
+        growth_score = 17
+    elif growth_base >= 8:
+        growth_score = 13
+    elif growth_base >= 0:
+        growth_score = 8
+    else:
+        growth_score = 3
+    score += growth_score
+
+    fcf = info.get("free_cashflow", 0)
+    cash_score = 15 if fcf > 5_000_000_000 else 12 if fcf > 1_000_000_000 else 8 if fcf > 0 else 4
+    score += cash_score
+
+    position = _price_position(info)
+    if position is None:
+        valuation_score = 5
+    elif position <= 0.55:
+        valuation_score = 10
+    elif position <= 0.8:
+        valuation_score = 7
+    else:
+        valuation_score = 4
+    score += valuation_score
+
+    details.update({
+        "market_cap": market_cap,
+        "cap_score": cap_score,
+        "roe_pct": roe,
+        "roe_score": roe_score,
+        "operating_margin_pct": operating_margin,
+        "margin_score": margin_score,
+        "revenue_growth_pct": revenue_growth,
+        "earnings_growth_pct": earnings_growth,
+        "growth_score": growth_score,
+        "free_cashflow": fcf,
+        "cash_score": cash_score,
+        "price_position_52w": position,
+        "valuation_score": valuation_score,
+    })
+    return score, details
+
+
 # ──────────────────────────────────────────────
 # Gemini로 Seed Pool → 30개 후보 선정
 # ──────────────────────────────────────────────
-def select_candidates_with_ai(seed_pool, api_key):
+def select_candidates_with_ai(seed_pool, api_key, profile):
+    seed_pool = _dedupe_symbols(seed_pool)
     if not api_key:
-        print("GEMINI_API_KEY 없음 — seed pool 앞 30개로 fallback")
-        return seed_pool[:30]
+        print(f"GEMINI_API_KEY 없음 — seed pool 앞 {MAX_SCREENING_CANDIDATES}개로 fallback")
+        return seed_pool[:MAX_SCREENING_CANDIDATES]
 
     client = genai.Client(api_key=api_key)
-    prompt = f"""
-You are a professional investment analyst specializing in high-dividend stocks.
-
-From the following list of global high-dividend stock tickers, select exactly 30 stocks that best meet these criteria:
-1. Annual dividend yield of 10% or more (high-risk stocks acceptable)
-2. No dividend cuts in the past 5 years (maintained or increased)
+    report_type = profile["type"]
+    if report_type == "dividend":
+        criteria = """
+1. Annual dividend yield of 10% or more when available
+2. No obvious recent dividend cut risk
 3. No meaningful bankruptcy risk when considering debt levels and market capitalization
+4. Sector diversification
+"""
+    elif report_type == "theme":
+        criteria = """
+1. Strong relevance to current market themes and catalysts
+2. Sufficient liquidity and market capitalization
+3. Recent business momentum or news relevance
+4. Avoid penny stocks and highly speculative micro-caps
+"""
+    else:
+        criteria = """
+1. Durable competitive position for a 3+ year holding period
+2. Strong profitability or cash-flow profile
+3. Healthy balance sheet and manageable valuation risk
+4. Sector diversification
+"""
 
-If more than 30 stocks meet criteria 1-3, prioritize by:
-- Higher dividend yield
-- Longer track record of consistent dividends
-- Stronger financial position (larger market cap, lower debt)
-- Sector diversification (avoid selecting too many from the same category)
+    prompt = f"""
+You are a professional investment analyst.
+
+Today's discovery theme: {profile['title']}
+Description: {profile['description']}
+
+From the following ticker universe, select exactly {MAX_SCREENING_CANDIDATES} stocks that best meet these criteria:
+{criteria}
 
 Available tickers:
 {', '.join(seed_pool)}
 
-IMPORTANT: Respond with ONLY a JSON array of exactly 30 ticker symbols. No explanation, no markdown, no other text.
+IMPORTANT: Respond with ONLY a JSON array of exactly {MAX_SCREENING_CANDIDATES} ticker symbols. No explanation, no markdown, no other text.
 Example format: ["ARCC", "MAIN", "OXLC", ...]
 """
 
@@ -563,45 +958,133 @@ Example format: ["ARCC", "MAIN", "OXLC", ...]
                      if isinstance(t, str) and t.strip().upper() in seed_pool]
             if len(valid) >= 10:
                 print(f"AI 선정 완료: {len(valid)}개")
-                return valid[:30]
+                return valid[:MAX_SCREENING_CANDIDATES]
 
-        print("AI 응답 파싱 실패 — seed pool 앞 30개로 fallback")
+        print(f"AI 응답 파싱 실패 — seed pool 앞 {MAX_SCREENING_CANDIDATES}개로 fallback")
     except Exception as e:
-        print(f"AI 선정 오류: {e} — seed pool 앞 30개로 fallback")
+        print(f"AI 선정 오류: {e} — seed pool 앞 {MAX_SCREENING_CANDIDATES}개로 fallback")
 
-    return seed_pool[:30]
+    return seed_pool[:MAX_SCREENING_CANDIDATES]
+
+
+def get_seed_pool_for_profile(universe, profile):
+    report_type = profile["type"]
+    if report_type == "dividend":
+        return _dedupe_symbols(universe.get("dividend", SEED_POOL))
+    if report_type == "quality":
+        return _dedupe_symbols(universe.get("quality", QUALITY_POOL))
+
+    theme_map = universe.get("theme") or THEME_POOLS
+    flattened = []
+    for symbols in theme_map.values():
+        flattened.extend(symbols)
+    return _dedupe_symbols(flattened)
 
 
 # ──────────────────────────────────────────────
 # 메인 실행
 # ──────────────────────────────────────────────
+def build_weekly_summary_data(profile):
+    os.makedirs("data", exist_ok=True)
+    recent = []
+    cutoff = now_kst().date() - timedelta(days=7)
+    briefings_dir = "briefings"
+    if os.path.isdir(briefings_dir):
+        for name in sorted(os.listdir(briefings_dir), reverse=True):
+            if not name.endswith(".md"):
+                continue
+            date_text = name[:-3]
+            try:
+                file_date = datetime.strptime(date_text, "%Y-%m-%d").date()
+            except ValueError:
+                continue
+            if file_date < cutoff:
+                continue
+            path = os.path.join(briefings_dir, name)
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    content = f.read()
+                recent.append({
+                    "date": date_text,
+                    "file": path,
+                    "content": content[:12000],
+                })
+            except Exception as e:
+                recent.append({"date": date_text, "file": path, "error": str(e)})
+
+    return {
+        "date": now_kst().strftime("%Y-%m-%d %H:%M"),
+        "report_profile": profile,
+        "market_data": {},
+        "candidate_rankings": [],
+        "weekly_sources": recent[:7],
+        "screening_meta": {
+            "mode": "weekly_summary",
+            "source_count": len(recent[:7]),
+            "top5": [],
+        },
+        "api_stats": {
+            "yfinance": 0,
+            "news": 0,
+            "fmp": 0,
+            "charts": 0,
+            "limits": {
+                "max_screening_candidates": MAX_SCREENING_CANDIDATES,
+                "news_per_ticker": NEWS_LIMIT,
+                "info_cache_hours": INFO_CACHE_HOURS,
+                "news_cache_hours": NEWS_CACHE_HOURS,
+                "sec_cache_hours": SEC_CACHE_HOURS,
+            },
+        },
+    }
+
+
 def main():
     with open("portfolio.json", "r") as f:
         portfolio = json.load(f)
 
     holdings = portfolio.get("holdings", [])
     gemini_key = os.getenv("GEMINI_API_KEY")
+    run_dt = now_kst()
+    profile = get_report_profile(run_dt)
+    universe = load_universe()
+
+    if profile["type"] == "weekly_summary":
+        print("=" * 50)
+        print("Sunday profile: weekly summary data build")
+        print("=" * 50)
+        result = build_weekly_summary_data(profile)
+        with open("data/latest_market_data.json", "w", encoding="utf-8") as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+        print("완료 — data/latest_market_data.json 저장됨")
+        return
 
     # Step 1: AI가 seed pool에서 30개 후보 선정
     print("=" * 50)
-    print("Step 1: AI 후보 종목 선정 (seed pool → 30개)")
+    print(f"Step 1: AI 후보 종목 선정 ({profile['title']})")
     print("=" * 50)
-    ai_candidates = select_candidates_with_ai(SEED_POOL, gemini_key)
+    seed_pool = get_seed_pool_for_profile(universe, profile)
+    ai_candidates = select_candidates_with_ai(seed_pool, gemini_key, profile)
     print(f"선정된 후보: {ai_candidates}")
 
-    # Step 2: 30개 경량 데이터 수집 + 스코어링
+    # Step 2: 후보 경량 데이터 수집 + 스코어링
     print("\n" + "=" * 50)
     print("Step 2: 후보 종목 스코어링")
     print("=" * 50)
     scored = []
     for symbol in ai_candidates:
         print(f"  스코어링: {symbol}")
-        info_light = get_ticker_info_light(symbol)
+        info_light = get_ticker_info_light(symbol, require_dividend=(profile["type"] == "dividend"))
         if "error" in info_light or "skip" in info_light:
             reason = info_light.get("error") or info_light.get("skip")
             print(f"    → 제외: {reason}")
             continue
-        s, details = score_candidate(info_light)
+        if profile["type"] == "theme":
+            s, details = score_theme_candidate(info_light)
+        elif profile["type"] == "quality":
+            s, details = score_quality_candidate(info_light)
+        else:
+            s, details = score_candidate(info_light)
         scored.append({
             "symbol": symbol,
             "name": info_light.get("name", symbol),
@@ -612,10 +1095,10 @@ def main():
         print(f"    → 점수: {s}/100 (배당률 {info_light.get('dividend_yield_pct', 0):.1f}%)")
 
     scored.sort(key=lambda x: x["score"], reverse=True)
-    top5_symbols = [s["symbol"] for s in scored[:5]]
-    print(f"\nTop 5 최종 선정: {top5_symbols}")
+    top5_symbols = [s["symbol"] for s in scored[:TOP_N]]
+    print(f"\nTop {TOP_N} 최종 선정: {top5_symbols}")
 
-    # Step 3: holdings + top5 전체 데이터 수집 (차트/뉴스/공시 포함)
+    # Step 3: holdings + topN 전체 데이터 수집 (차트/뉴스/공시 포함)
     print("\n" + "=" * 50)
     print("Step 3: 전체 데이터 수집 (holdings + Top 5)")
     print("=" * 50)
@@ -633,20 +1116,31 @@ def main():
         market_data[symbol] = data
 
     result = {
-        "date": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "date": run_dt.strftime("%Y-%m-%d %H:%M"),
+        "report_profile": profile,
         "market_data": market_data,
-        "candidate_rankings": scored[:5],
+        "candidate_rankings": scored[:TOP_N],
         "screening_meta": {
-            "seed_pool_size": len(SEED_POOL),
+            "mode": profile["type"],
+            "title": profile["title"],
+            "seed_pool_size": len(seed_pool),
             "ai_selected_count": len(ai_candidates),
             "scored_count": len(scored),
             "top5": top5_symbols,
+            "max_screening_candidates": MAX_SCREENING_CANDIDATES,
         },
         "api_stats": {
             "yfinance": len(all_tickers) + len(ai_candidates),
             "news": len(all_tickers),
             "fmp": len(all_tickers),
             "charts": len(all_tickers) * 3,
+            "limits": {
+                "max_screening_candidates": MAX_SCREENING_CANDIDATES,
+                "news_per_ticker": NEWS_LIMIT,
+                "info_cache_hours": INFO_CACHE_HOURS,
+                "news_cache_hours": NEWS_CACHE_HOURS,
+                "sec_cache_hours": SEC_CACHE_HOURS,
+            },
         },
     }
 

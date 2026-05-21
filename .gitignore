@@ -1,5 +1,6 @@
 # Python cache
 __pycache__/
+.pycache/
 *.py[cod]
 
 # Virtual environments
@@ -8,3 +9,6 @@ venv/
 
 # Local env files
 .env
+
+# Runtime API cache
+data/cache/

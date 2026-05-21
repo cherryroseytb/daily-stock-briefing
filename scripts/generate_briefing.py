@@ -6,8 +6,15 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 from google import genai
+
+KST = ZoneInfo("Asia/Seoul")
+
+
+def now_kst():
+    return datetime.now(KST)
 
 
 def _merge_chart_links(text):
@@ -142,10 +149,119 @@ def send_email(subject, plain_body, html_body):
         print(f"Failed to send email: {e}")
 
 
+def build_weekly_prompt(full_data):
+    weekly_sources = full_data.get("weekly_sources", [])
+    return f"""
+    당신은 전문 투자 분석가입니다. 아래 이번 주 브리핑 자료를 사용하여 주간 요약을 작성하세요.
+
+    날짜: {full_data['date']}
+    주간 브리핑 원문: {json.dumps(weekly_sources, ensure_ascii=False)}
+
+    === 출력 규칙 ===
+    - 인사말, 수신/발신/날짜 헤더, 맺음말 금지.
+    - **, *, #, __ 등 마크다운 기호 일체 사용 금지. 순수 텍스트만 사용.
+    - 섹션 제목은 반드시 `섹션 1:`, `섹션 2:`, `섹션 3:` 형식으로 작성하세요.
+    - 들여쓰기는 스페이스 4칸 단위로 계층을 구분하세요.
+    - 같은 종목이 여러 번 등장하면 반복 신호로 묶어서 설명하세요.
+    - 외부 데이터가 아니라 제공된 이번 주 브리핑만 근거로 요약하세요.
+
+    지침:
+    1. 섹션 1: 보유 종목 주간 변화
+    - 이번 주 보유 종목에서 반복된 긍정/부정 이슈를 정리하세요.
+    - 가격, 뉴스, 공시, 투자등급 변화 관점으로 5~8줄로 요약하세요.
+
+    2. 섹션 2: 이번 주 발굴 후보 요약
+    - 이번 주 섹션2에 등장한 후보 중 반복 등장하거나 중요도가 높았던 종목을 정리하세요.
+    - 고배당, 테마, 장기 퀄리티 후보가 섞여 있으면 유형별로 나눠 설명하세요.
+
+    3. 섹션 3: 다음 주 체크포인트
+    - 다음 주에 확인할 가격 구간, 뉴스 이벤트, 공시 리스크, 배당 이슈를 구체적으로 정리하세요.
+    - 신규 매수 권고처럼 단정하지 말고 관찰 포인트 중심으로 작성하세요.
+
+    톤앤매너: 전문적, 한국어, 간결한 문장.
+    """
+
+
+def section2_guidance(screening_meta, report_profile):
+    title = report_profile.get("title", "발굴 후보")
+    report_type = report_profile.get("type", "dividend")
+
+    if report_type == "theme":
+        criteria = (
+            "모멘텀강도(30%) + 산업모멘텀(25%) + 재무안정성(20%) + "
+            "가격적정성(15%) + 자본성장력(10%)"
+        )
+        extra = (
+            "- 배당정보는 있으면 짧게 언급하되, 배당이 핵심 평가 기준이 아닙니다.\n"
+            "- 최근 뉴스/공시와 사업 촉매를 중심으로 테마 적합성을 설명하세요."
+        )
+        subsection = "테마/모멘텀"
+    elif report_type == "quality":
+        criteria = (
+            "사업품질(30%) + 자본성장력(25%) + 재무안정성(20%) + "
+            "가격적정성(15%) + 산업모멘텀(10%)"
+        )
+        extra = (
+            "- 3년 이상 장기 보유 관점에서 경쟁력, 수익성, 현금흐름, 밸류에이션 리스크를 설명하세요.\n"
+            "- 배당정보는 보조 정보로만 사용하세요."
+        )
+        subsection = "장기투자 적합성"
+    else:
+        criteria = (
+            "배당성향도(30%) + 자본성장력(25%) + 산업모멘텀(25%) + 가격적정성(20%)"
+        )
+        extra = (
+            "- 배당수익률, 배당 지속성, 부채 부담, 배당 삭감 리스크를 중심으로 설명하세요.\n"
+            "- 배당정보 섹션을 반드시 포함하세요."
+        )
+        subsection = "배당정보"
+
+    return f"""
+    2. 섹션 2: {title} (Discovery)
+    - 이 후보들은 글로벌 {screening_meta.get('seed_pool_size', '?')}개 후보 풀 → AI 1차 선정 → 100점 스코어링을 통해 추려진 Top 5입니다.
+    - 오늘의 발굴 주제: {report_profile.get('description', '')}
+    - 스크리닝 사전 순위(screening_score 기준)를 참고하되, 최종 순서는 종합매력도 기준으로 작성하세요.
+    - 종합매력도 계산: {criteria}.
+    - 5개 전부 작성하세요 (상위 5개만 이미 전달된 상태입니다).
+    {extra}
+    - 아래 형식을 정확히 따르세요:
+
+SYMBOL (회사명)
+
+    주가분석
+        현재가: $... (24H : $저가 - $고가)
+            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_24h.png
+        최근1달(1M): $저가 - $고가
+            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_1m.png
+        최근1년(1Y): $저가 ~ $고가
+            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_1y.png
+
+    {subsection}
+        오늘 주제와 연결되는 핵심 평가 요소를 1~2줄로 설명.
+
+    뉴스/공시
+        주요뉴스(최근3일):
+            뉴스 핵심 한 줄. (소스, 날짜, 긍정/중립/부정)
+        주요공시(최근6달):
+            공시 핵심 한 줄. (SEC/FMP, 날짜, 긍정/중립/부정)
+
+    투자 등급
+        종합매력도: ★★★☆☆ (근거)
+        배당성향도: ★★★★☆ (근거)
+        가격적정성: ★★★☆☆ (근거)
+        자본성장력: ★★☆☆☆ (근거)
+        산업모멘텀: ★★★☆☆ (근거)
+
+    분석: ...
+    """
+
+
 def generate_briefing():
     with open("data/latest_market_data.json", "r", encoding="utf-8") as f:
         full_data = json.load(f)
         market_data = full_data['market_data']
+
+    report_profile = full_data.get("report_profile", {})
 
     with open("portfolio.json", "r") as f:
         portfolio = json.load(f)
@@ -159,7 +275,12 @@ def generate_briefing():
     api_key = os.getenv("GEMINI_API_KEY")
     client = genai.Client(api_key=api_key)
 
-    prompt = f"""
+    if report_profile.get("type") == "weekly_summary":
+        prompt = build_weekly_prompt(full_data)
+    else:
+        section2_text = section2_guidance(screening_meta, report_profile)
+
+        prompt = f"""
     당신은 전문 투자 분석가입니다. 아래 데이터를 사용하여 브리핑을 작성하세요.
 
     날짜: {full_data['date']}
@@ -215,41 +336,7 @@ SYMBOL (회사명)
 
     분석: 핵심 투자 포인트와 주의 사항을 2~3문장으로 요약.
 
-    2. 섹션 2: 고배당주 발굴 (Discovery)
-    - 이 후보들은 글로벌 {screening_meta.get('seed_pool_size', '?')}개 Seed Pool → AI 1차 선정 → 100점 스코어링을 통해 추려진 Top 5입니다.
-    - 스크리닝 사전 순위(screening_score 기준)를 참고하되, 최종 순서는 종합매력도(아래 기준) 기준으로 작성하세요.
-    - 종합매력도 계산: 배당성향도(30%) + 자본성장력(25%) + 산업모멘텀(25%) + 가격적정성(20%). 동점 시 배당수익률 높은 종목 우선.
-    - 5개 전부 작성하세요 (상위 5개만 이미 전달된 상태입니다).
-    - 아래 형식을 정확히 따르세요:
-
-SYMBOL (회사명)
-
-    주가분석
-        현재가: $... (24H : $저가 - $고가)
-            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_24h.png
-        최근1달(1M): $저가 - $고가
-            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_1m.png
-        최근1년(1Y): $저가 ~ $고가
-            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/SYMBOL_1y.png
-
-    배당정보
-        배당 수익률(연간 추정치): ...% (월/분기/연)
-        다음 배당락일: YYYY-MM-DD (주당 $...)
-
-    뉴스/공시
-        주요뉴스(최근3일):
-            뉴스 핵심 한 줄. (소스, 날짜, 긍정/중립/부정)
-        주요공시(최근6달):
-            공시 핵심 한 줄. (SEC/FMP, 날짜, 긍정/중립/부정)
-
-    투자 등급
-        종합매력도: ★★★☆☆ (근거)
-        배당성향도: ★★★★☆ (근거)
-        가격적정성: ★★★☆☆ (근거)
-        자본성장력: ★★☆☆☆ (근거)
-        산업모멘텀: ★★★☆☆ (근거)
-
-    분석: ...
+    {section2_text}
 
     3. 제약사항:
     - 마크다운 기호(**, *, #) 절대 사용 금지.
@@ -269,12 +356,17 @@ SYMBOL (회사명)
     usage_percent = (total_tokens / LIMIT_TPM) * 100
 
     stats = full_data.get("api_stats", {})
+    limits = stats.get("limits", {})
     n = stats.get("yfinance", 0)
     usage_report = (
         f"\n\n---\n\nAPI 사용량 리포트\n\n"
         f"    주식 가격 데이터: {stats.get('yfinance', n)}회 (yfinance)\n"
         f"    뉴스 데이터: {stats.get('news', n)}회 (Finnhub / Yahoo Finance)\n"
         f"    SEC 공시 데이터: {stats.get('fmp', n)}회 (FMP)\n\n"
+        f"    요청 제한/캐시\n"
+        f"        스크리닝 후보 상한: {limits.get('max_screening_candidates', 'N/A')}개\n"
+        f"        뉴스 캐시: {limits.get('news_cache_hours', 'N/A')}시간\n"
+        f"        SEC 공시 캐시: {limits.get('sec_cache_hours', 'N/A')}시간\n\n"
         f"    Gemini AI 분석\n"
         f"        모델: Gemini 2.5 Flash\n"
         f"        세션 토큰: {total_tokens:,}\n"
@@ -283,12 +375,13 @@ SYMBOL (회사명)
 
     final_text = briefing_md + usage_report
 
-    with open(f"briefings/{datetime.now().strftime('%Y-%m-%d')}.md", "w", encoding="utf-8") as f:
+    today = now_kst().strftime('%Y-%m-%d')
+    with open(f"briefings/{today}.md", "w", encoding="utf-8") as f:
         f.write(final_text)
 
     plain_body = strip_markdown(final_text)
     html_body = text_to_html(final_text)
-    send_email(f"주식 리포트 {datetime.now().strftime('%Y-%m-%d')}", plain_body, html_body)
+    send_email(f"주식 리포트 {today}", plain_body, html_body)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-21 00:00 KST",
+  "refresh_policy": {
+    "dividend": "monthly",
+    "theme": "weekly",
+    "quality": "quarterly"
+  },
+  "dividend": [
+    "ARCC", "MAIN", "OXLC", "FSK", "BXSL", "PFLT", "HTGC", "ORCC",
+    "PSEC", "GAIN", "GLAD", "SLRC", "GBDC", "CSWC", "TPVG", "SAR",
+    "TCPC", "FDUS", "MRCC", "NEWT", "PNNT", "AGNC", "NLY", "RITM",
+    "RC", "TWO", "IVR", "EARN", "NYMT", "GPMT", "AOMR", "RWT",
+    "SACH", "O", "STAG", "NNN", "LTC", "OHI", "SBRA", "MPW",
+    "GOOD", "EPD", "ET", "MPLX", "WES", "PAA", "DKL", "UTF",
+    "GOF", "PDI", "PTY", "ECC", "ETV", "BGT", "GHY", "PHK",
+    "RQI", "JPC", "AWF", "EXD", "QYLD", "XYLD", "RYLD", "SVOL",
+    "JEPI", "JEPQ", "T", "VZ", "MO", "PM", "D", "SO", "PPL",
+    "LUMN", "BTI", "SHEL", "BP", "UL", "GSK", "ORAN", "TTE",
+    "VOD", "ENB", "BCE", "TRP", "CM", "BNS", "TD", "PBR",
+    "VALE", "ITUB", "BBD", "BHP", "RIO", "WPM"
+  ],
+  "theme": {
+    "AI/semiconductor": [
+      "NVDA", "AMD", "AVGO", "TSM", "ASML", "MU", "ARM", "QCOM", "AMAT", "LRCX"
+    ],
+    "power/datacenter": [
+      "VST", "CEG", "ETN", "PWR", "GEV", "NEE", "SO", "DUK", "AMT", "DLR"
+    ],
+    "defense/space": [
+      "LMT", "RTX", "NOC", "GD", "HII", "KTOS", "PLTR", "BA", "LHX", "RKLB"
+    ],
+    "nuclear/uranium": [
+      "CCJ", "CEG", "BWXT", "UEC", "NXE", "SMR", "LEU", "UUUU"
+    ],
+    "healthcare/obesity": [
+      "LLY", "NVO", "AMGN", "REGN", "VRTX", "ISRG", "TMO", "ABT", "MRK", "PFE"
+    ],
+    "rates/reit": [
+      "VNQ", "XLRE", "O", "AMT", "DLR", "PLD", "EQIX", "NEE", "TLT", "IYR"
+    ],
+    "energy/infrastructure": [
+      "XOM", "CVX", "COP", "SLB", "LNG", "EPD", "ET", "MPLX", "WMB", "KMI"
+    ]
+  },
+  "quality": [
+    "MSFT", "AAPL", "GOOGL", "AMZN", "META", "BRK-B", "COST", "V", "MA", "ADBE",
+    "NVDA", "AVGO", "ASML", "TSM", "AMD", "QCOM", "TXN", "ADI", "AMAT", "LRCX",
+    "LLY", "NVO", "UNH", "JNJ", "ISRG", "TMO", "REGN", "VRTX", "ABT", "MRK",
+    "CAT", "ETN", "GE", "HON", "PH", "DE", "WM", "UNP", "UPS", "LIN",
+    "HD", "MCD", "SBUX", "PG", "KO", "PEP", "NKE", "LOW", "WMT", "TGT",
+    "JPM", "MS", "BLK", "SPGI", "MCO", "AXP", "ICE", "CME", "SCHW", "BK"
+  ]
+}
