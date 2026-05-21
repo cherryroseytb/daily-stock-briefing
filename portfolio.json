@@ -1,9 +1,14 @@
 {
-  "holdings": ["QCOM", "IONQ", "MSFT", "OXLC", "ASML"],
+  "holdings": ["QCOM", "IONQ", "MSFT", "OXLC", "ASML", "035420.KS"],
   "watchlist_criteria": {
     "dividend_yield_min_pct": 10,
     "dividend_cut_years": 5,
     "bankruptcy_risk": "low",
     "top_n": 5
-  }
+  },
+  "email_receivers": [
+    "thelement@lgdisplay.com",
+    "cherryrose.ytb@gmail.com",
+    "reasonlim@naver.com"
+  ]
 }

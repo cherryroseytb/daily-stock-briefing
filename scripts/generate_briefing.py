@@ -129,10 +129,14 @@ def strip_markdown(text):
 def send_email(subject, plain_body, html_body):
     sender_email = os.getenv("EMAIL_SENDER")
     sender_password = os.getenv("EMAIL_PASSWORD")
-    receiver_env = os.getenv("EMAIL_RECEIVER")
-    if not all([sender_email, sender_password, receiver_env]):
+    # 수신자 목록은 portfolio.json에서 관리한다 (GitHub Secrets 의존성 제거)
+    try:
+        with open("portfolio.json", "r", encoding="utf-8") as f:
+            receivers = [r.strip() for r in json.load(f).get("email_receivers", []) if r.strip()]
+    except Exception:
+        receivers = []
+    if not all([sender_email, sender_password, receivers]):
         return
-    receivers = [r.strip() for r in receiver_env.split(",")]
     try:
         msg = MIMEMultipart('alternative')
         msg['From'] = sender_email
@@ -303,6 +307,7 @@ def generate_briefing():
     - 뉴스/공시 우선순위: 최근 24시간 우선, 실적·M&A·배당정책 등 주가 영향 큰 항목 상위 배치.
     - 뉴스 없으면: `최근 3일간 주요한 뉴스 없음`
     - 공시 없으면: `sec_filings_filter.raw_count`가 0일 때만 `최근 6개월간 주요한 공시 없음`이라고 쓰세요.
+    - 비미국 종목: `sec_filings_filter.status`가 `non_us`이면 공시 항목을 `미국 종목만 검색 가능합니다`라고만 쓰세요.
     - 배당락일 주당 금액: dividendRate(연간)÷12(월배당), ÷4(분기배당), 그대로(연배당).
     - 최근1달(1M): low_1m, high_1m 사용. N/A 금지.
     - 최근1년(1Y): fiftyTwoWeekLow ~ fiftyTwoWeekHigh 사용.

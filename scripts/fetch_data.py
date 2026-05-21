@@ -336,7 +336,19 @@ def _parse_filing(item, classification, fallback=False):
 # ──────────────────────────────────────────────
 # SEC 공시 수집
 # ──────────────────────────────────────────────
+def _is_us_ticker(symbol):
+    # 미국 종목은 거래소 접미사가 없음 (예: 035420.KS는 KOSPI)
+    return "." not in str(symbol)
+
+
 def get_sec_filings_bundle(symbol):
+    # SEC EDGAR/FMP는 미국 상장 종목만 지원
+    if not _is_us_ticker(symbol):
+        return {
+            "items": [],
+            "filter": {"status": "non_us", "message": "미국 종목만 검색 가능합니다"},
+        }
+
     cached = _read_cache("sec_filings", symbol, SEC_CACHE_HOURS)
     if cached is not None:
         return cached

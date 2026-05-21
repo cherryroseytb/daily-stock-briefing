@@ -41,7 +41,7 @@ GitHub Actions (매일 08:30 KST) → fetch_data.py (yfinance) → generate_brie
      - `FINNHUB_API_KEY`: Finnhub API 키
      - `EMAIL_SENDER`: 브리핑을 보낼 이메일 주소
      - `EMAIL_PASSWORD`: 생성한 메일 '앱 비밀번호'
-     - `EMAIL_RECEIVER`: 브리핑을 받을 이메일 주소 (여러 개일 경우 콤마(,)로 구분. 예: user1@gmail.com,user2@gmail.com)
+   - 수신자 이메일은 `portfolio.json`의 `email_receivers` 배열에서 관리합니다 (GitHub Secrets 사용 안 함).
 
 ---
 
