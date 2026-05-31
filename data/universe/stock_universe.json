@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updated_at": "2026-05-25 05:55 KST",
+  "version": 3,
+  "updated_at": "2026-06-01 05:59 KST",
   "refresh_policy": {
     "dividend": "monthly",
     "theme": "weekly",
@@ -110,11 +110,11 @@
       "AVGO",
       "TSM",
       "ASML",
-      "MU",
       "ARM",
       "QCOM",
       "AMAT",
-      "LRCX"
+      "LRCX",
+      "SMCI"
     ],
     "AI Power & Digital Infrastructure": [
       "VST",
@@ -122,11 +122,10 @@
       "ETN",
       "PWR",
       "GEV",
-      "NEE",
-      "SO",
-      "DUK",
-      "AMT",
-      "DLR"
+      "EQIX",
+      "CCI",
+      "NEP",
+      "PLD"
     ],
     "Geopolitical Resilience (Defense & Space": [
       "LMT",
@@ -136,9 +135,9 @@
       "HII",
       "KTOS",
       "PLTR",
-      "BA",
       "LHX",
-      "RKLB"
+      "RKLB",
+      "BA"
     ],
     "Energy Security (Nuclear & Uranium)": [
       "CCJ",
@@ -148,7 +147,8 @@
       "NXE",
       "SMR",
       "LEU",
-      "UUUU"
+      "UUUU",
+      "DNN"
     ],
     "Health & Longevity (GLP-1 & Biotech)": [
       "LLY",
@@ -160,7 +160,7 @@
       "TMO",
       "ABT",
       "MRK",
-      "PFE"
+      "DHR"
     ],
     "Industrial Automation & Efficiency": [
       "ROK",
@@ -171,18 +171,20 @@
       "IR",
       "ITW",
       "AOS",
-      "GGG"
+      "CGNX",
+      "PTC"
     ],
-    "Real Estate & Income": [
-      "O",
-      "PLD",
+    "Digital & Niche Real Estate": [
       "EQIX",
-      "AMT",
-      "DLR",
-      "SPG",
-      "PSA",
+      "PLD",
       "VICI",
-      "WPC"
+      "AMT",
+      "CCI",
+      "STAG",
+      "O",
+      "REXR",
+      "PSA",
+      "CUBE"
     ],
     "Traditional Energy & Midstream": [
       "XOM",
