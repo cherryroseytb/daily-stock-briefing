@@ -2,7 +2,7 @@ name: Daily Stock Briefing Routine
 
 on:
   schedule:
-    - cron: '30 22 * * *' # 22:30 UTC = 07:30 KST (GitHub schedule delay compensation)
+    - cron: '0 22 * * *' # 22:00 UTC = 07:00 KST (GitHub schedule delay compensation)
   workflow_dispatch: # Allows manual trigger
 
 jobs:
