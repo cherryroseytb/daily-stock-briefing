@@ -718,17 +718,27 @@ def get_ticker_data(symbol):
         history_1m = ticker.history(period="1mo")
         history_1y = ticker.history(period="1y")
 
-        visualizer.generate_chart(symbol, history_24h, "24h")
-        visualizer.generate_chart(symbol, history_1m, "1m")
-        visualizer.generate_chart(symbol, history_1y, "1y")
-
         info = ticker.info
 
-        price = float(history_24h["Close"].iloc[-1]) if not history_24h.empty else 0
+        # 역사 데이터 충분 여부 판단 (신규 상장 등으로 데이터 없는 경우)
+        has_1m = len(history_1m) > 5
+        has_1y = len(history_1y) > 5
+        data_limited = not has_1m and not has_1y
+
+        # 데이터 있는 구간만 차트 생성
+        if not history_24h.empty:
+            visualizer.generate_chart(symbol, history_24h, "24h")
+        if has_1m:
+            visualizer.generate_chart(symbol, history_1m, "1m")
+        if has_1y:
+            visualizer.generate_chart(symbol, history_1y, "1y")
+
+        # 현재가: 24h 히스토리 → info 순서로 fallback
+        price = float(history_24h["Close"].iloc[-1]) if not history_24h.empty else float(info.get("regularMarketPrice") or info.get("currentPrice") or 0)
         high_24h = float(history_24h["High"].max()) if not history_24h.empty else price
         low_24h = float(history_24h["Low"].min()) if not history_24h.empty else price
-        high_1m = float(history_1m["High"].max()) if not history_1m.empty else 0
-        low_1m = float(history_1m["Low"].min()) if not history_1m.empty else 0
+        high_1m = float(history_1m["High"].max()) if has_1m else 0
+        low_1m = float(history_1m["Low"].min()) if has_1m else 0
 
         # 국내 주식은 OpenDART, 해외 주식은 SEC/FMP
         if _is_korean_ticker(symbol):
@@ -741,10 +751,19 @@ def get_ticker_data(symbol):
         display_name = display_names.get(symbol)
         news_query = display_name or info.get("longName")
 
+        charts = {}
+        if not history_24h.empty:
+            charts["24h"] = f"charts/{symbol}_24h.png"
+        if has_1m:
+            charts["1m"] = f"charts/{symbol}_1m.png"
+        if has_1y:
+            charts["1y"] = f"charts/{symbol}_1y.png"
+
         return {
             "symbol": symbol,
             "name": info.get("longName", symbol),
             "display_name": display_name or info.get("longName", symbol),
+            "data_limited": data_limited,
             "price": round(price, 2),
             "high_24h": round(high_24h, 2),
             "low_24h": round(low_24h, 2),
@@ -755,11 +774,7 @@ def get_ticker_data(symbol):
             "dividendYield": round(float(info.get("dividendYield", 0) * 100), 2) if info.get("dividendYield") else 0,
             "dividendRate": info.get("dividendRate", 0) or 0,
             "exDividendDate": str(info.get("exDividendDate", "N/A")),
-            "charts": {
-                "24h": f"charts/{symbol}_24h.png",
-                "1m": f"charts/{symbol}_1m.png",
-                "1y": f"charts/{symbol}_1y.png",
-            },
+            "charts": charts,
             "news": get_news(symbol, company_name=news_query),
             "sec_filings_6m": sec_filings["items"],
             "sec_filings_filter": sec_filings["filter"],

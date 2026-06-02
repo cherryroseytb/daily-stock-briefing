@@ -313,6 +313,7 @@ def generate_briefing():
     - 배당락일 주당 금액: dividendRate(연간)÷12(월배당), ÷4(분기배당), 그대로(연배당).
     - 최근1달(1M): low_1m, high_1m 사용. N/A 금지.
     - 최근1년(1Y): fiftyTwoWeekLow ~ fiftyTwoWeekHigh 사용.
+    - data_limited가 true인 종목: 종목명 바로 아래에 `* 신규 상장 종목으로 역사 데이터 미제공. 현재가만 표시합니다.` 한 줄 추가. 주가분석에서 차트 링크([24H]/[1M]/[1Y])와 1M/1Y 범위는 생략하고 현재가만 작성.
     - 종목 헤더 표시 규칙:
         * display_name 필드가 있으면 반드시 그 이름을 먼저 쓰고 종목코드/티커를 괄호에 표시. 예: 씨메스로보틱스 (475400), 미니맥스그룹 (0100.HK)
         * display_name이 없는 해외 주식: 티커를 먼저 쓰고 영문 회사명을 괄호에 표시. 예: AMBA (Ambarella)
