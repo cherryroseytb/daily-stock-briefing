@@ -563,6 +563,108 @@ def get_news(symbol, company_name=None):
 
 
 # ──────────────────────────────────────────────
+# OpenDART 공시 수집 (국내 주식 전용)
+# ──────────────────────────────────────────────
+_DART_REPORT_LABELS = {
+    "A": "정기공시",
+    "B": "주요사항보고",
+    "C": "발행공시",
+    "D": "지분공시",
+    "E": "기타공시",
+    "F": "외부감사관련",
+    "I": "거래소공시",
+    "J": "공정위공시",
+}
+
+_DART_IMPORTANCE = {
+    "A": "high",   # 분기/반기/사업보고서
+    "B": "high",   # 주요사항보고
+    "D": "medium", # 지분공시
+    "C": "medium", # 발행공시
+    "I": "medium", # 거래소공시
+}
+
+
+def get_dart_filings_bundle(symbol):
+    """OpenDART API로 국내 주식 공시 수집"""
+    cached = _read_cache("dart_filings", symbol, SEC_CACHE_HOURS)
+    if cached is not None:
+        return cached
+
+    api_key = os.getenv("OPENDART_API_KEY")
+    if not api_key:
+        return {"items": [{"error": "OPENDART_API_KEY 없음"}], "filter": {"status": "error"}}
+
+    # 1단계: 종목코드로 corp_code 조회
+    stock_code = symbol.split(".")[0]
+    try:
+        resp = requests.get(
+            "https://opendart.fss.or.kr/api/company.json",
+            params={"crtfc_key": api_key, "stock_code": stock_code},
+            timeout=10,
+        )
+        if resp.status_code != 200 or resp.json().get("status") != "000":
+            result = {"items": [], "filter": {"status": "corp_not_found", "stock_code": stock_code}}
+            _write_cache("dart_filings", symbol, result)
+            return result
+        corp_code = resp.json().get("corp_code", "")
+    except Exception as e:
+        return {"items": [{"error": str(e)}], "filter": {"status": "error"}}
+
+    # 2단계: 최근 6개월 공시 목록 조회
+    to_date = now_kst().date()
+    from_date = to_date - timedelta(days=180)
+    try:
+        resp = requests.get(
+            "https://opendart.fss.or.kr/api/list.json",
+            params={
+                "crtfc_key": api_key,
+                "corp_code": corp_code,
+                "bgn_de": from_date.strftime("%Y%m%d"),
+                "end_de": to_date.strftime("%Y%m%d"),
+                "page_no": 1,
+                "page_count": 15,
+            },
+            timeout=10,
+        )
+        data = resp.json()
+        if data.get("status") != "000":
+            result = {"items": [], "filter": {"status": "no_filings", "raw_count": 0}}
+            _write_cache("dart_filings", symbol, result)
+            return result
+
+        filings = data.get("list", [])
+        parsed = []
+        for item in filings:
+            pblntf_ty = item.get("pblntf_ty", "E")
+            importance = _DART_IMPORTANCE.get(pblntf_ty, "low")
+            if importance == "low" and len(parsed) >= 5:
+                continue
+            parsed.append({
+                "form_type": pblntf_ty,
+                "form_label": _DART_REPORT_LABELS.get(pblntf_ty, "기타공시"),
+                "importance": importance,
+                "description": item.get("report_nm", ""),
+                "filed_at": item.get("rcept_dt", ""),
+                "source": "DART",
+                "url": f"https://dart.fss.or.kr/dsaf001/main.do?rcpNo={item.get('rcept_no', '')}",
+            })
+
+        result = {
+            "items": parsed[:5],
+            "filter": {
+                "status": "ok",
+                "raw_count": len(filings),
+                "shown_count": min(len(parsed), 5),
+            },
+        }
+        _write_cache("dart_filings", symbol, result)
+        return result
+    except Exception as e:
+        return {"items": [{"error": str(e)}], "filter": {"status": "error"}}
+
+
+# ──────────────────────────────────────────────
 # 전체 데이터 수집 (holdings + top5용)
 # ──────────────────────────────────────────────
 def get_ticker_data(symbol):
@@ -584,7 +686,11 @@ def get_ticker_data(symbol):
         high_1m = float(history_1m["High"].max()) if not history_1m.empty else 0
         low_1m = float(history_1m["Low"].min()) if not history_1m.empty else 0
 
-        sec_filings = get_sec_filings_bundle(symbol)
+        # 국내 주식은 OpenDART, 해외 주식은 SEC/FMP
+        if _is_korean_ticker(symbol):
+            sec_filings = get_dart_filings_bundle(symbol)
+        else:
+            sec_filings = get_sec_filings_bundle(symbol)
 
         return {
             "symbol": symbol,

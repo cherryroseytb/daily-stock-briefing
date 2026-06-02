@@ -309,6 +309,7 @@ def generate_briefing():
     - 뉴스 없으면: `최근 3일간 주요한 뉴스 없음`
     - 공시 없으면: `sec_filings_filter.raw_count`가 0일 때만 `최근 6개월간 주요한 공시 없음`이라고 쓰세요.
     - 비미국 종목: `sec_filings_filter.status`가 `non_us`이면 공시 항목을 `미국 종목만 검색 가능합니다`라고만 쓰세요.
+    - 국내 주식 공시: source가 `DART`이면 `주요공시(최근6달):` 항목에 "공시유형: 보고서명 (DART, 날짜, 긍정/중립/부정)" 형식으로 작성하세요.
     - 배당락일 주당 금액: dividendRate(연간)÷12(월배당), ÷4(분기배당), 그대로(연배당).
     - 최근1달(1M): low_1m, high_1m 사용. N/A 금지.
     - 최근1년(1Y): fiftyTwoWeekLow ~ fiftyTwoWeekHigh 사용.
@@ -370,8 +371,9 @@ SYMBOL (회사명)
     usage_report = (
         f"\n\n---\n\nAPI 사용량 리포트\n\n"
         f"    주식 가격 데이터: {stats.get('yfinance', n)}회 (yfinance)\n"
-        f"    뉴스 데이터: {stats.get('news', n)}회 (Finnhub / Yahoo Finance)\n"
-        f"    SEC 공시 데이터: {stats.get('fmp', n)}회 (FMP)\n\n"
+        f"    뉴스 데이터: {stats.get('news', n)}회 (Finnhub / Yahoo Finance / Naver)\n"
+        f"    SEC 공시 데이터: {stats.get('fmp', n)}회 (FMP)\n"
+        f"    국내 공시 데이터: {stats.get('dart', n)}회 (OpenDART)\n\n"
         f"    요청 제한/캐시\n"
         f"        스크리닝 후보 상한: {limits.get('max_screening_candidates', 'N/A')}개\n"
         f"        뉴스 캐시: {limits.get('news_cache_hours', 'N/A')}시간\n"
