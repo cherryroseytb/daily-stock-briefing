@@ -88,8 +88,8 @@ def text_to_html(text):
             parts.append(f'<div style="{s}font-weight:bold;margin-top:20px;">{esc}</div>')
             continue
 
-        # 종목명 (SYMBOL (회사명), 최상위 레벨)
-        if re.match(r'^[A-Z]{1,6}\s+\(.+\)\s*$', stripped) and indent == 0:
+        # 종목명 — 영문 티커 또는 한글 회사명 + 괄호 형식, 최상위 레벨
+        if indent == 0 and re.match(r'^([A-Z][\w.\-]*|[가-힣].+)\s+\(.+\)\s*$', stripped):
             parts.append(f'<div style="{s}font-size:15px;font-weight:bold;margin-top:14px;">{esc}{inline_link}</div>')
             continue
 
