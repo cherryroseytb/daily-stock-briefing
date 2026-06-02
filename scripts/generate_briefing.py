@@ -357,7 +357,18 @@ SYMBOL (회사명)
     톤앤매너: 전문적, 한국어.
     """
 
-    response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
+    # 503 일시 과부하 대비 재시도 (최대 3회, 60초 간격)
+    import time as _time
+    for attempt in range(3):
+        try:
+            response = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
+            break
+        except Exception as e:
+            if attempt < 2 and "503" in str(e):
+                print(f"Gemini 503 — {60}초 후 재시도 ({attempt + 1}/3)")
+                _time.sleep(60)
+            else:
+                raise
     briefing_md = response.text
     usage = response.usage_metadata
 
