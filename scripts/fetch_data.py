@@ -500,8 +500,8 @@ def get_news(symbol, company_name=None):
     if cached is not None:
         return cached
 
-    # 국내 주식: 네이버 검색 API 사용
-    if _is_korean_ticker(symbol):
+    # 국내 주식 또는 한글 이름이 있는 종목: 네이버 검색 API 사용
+    if _is_korean_ticker(symbol) or not _is_english_name(company_name):
         parsed = _get_news_naver(symbol, company_name)
         _write_cache("news", symbol, parsed)
         return parsed
@@ -664,6 +664,15 @@ def get_dart_filings_bundle(symbol):
         return {"items": [{"error": str(e)}], "filter": {"status": "error"}}
 
 
+# portfolio.json의 display_names 로드 (한글 이름 매핑)
+def _load_display_names():
+    try:
+        with open("portfolio.json", "r", encoding="utf-8") as f:
+            return json.load(f).get("display_names", {})
+    except Exception:
+        return {}
+
+
 # ──────────────────────────────────────────────
 # 전체 데이터 수집 (holdings + top5용)
 # ──────────────────────────────────────────────
@@ -692,9 +701,15 @@ def get_ticker_data(symbol):
         else:
             sec_filings = get_sec_filings_bundle(symbol)
 
+        # portfolio.json display_names 우선 사용 (한글명 있으면 뉴스 검색에도 활용)
+        display_names = _load_display_names()
+        display_name = display_names.get(symbol)
+        news_query = display_name or info.get("longName")
+
         return {
             "symbol": symbol,
             "name": info.get("longName", symbol),
+            "display_name": display_name or info.get("longName", symbol),
             "price": round(price, 2),
             "high_24h": round(high_24h, 2),
             "low_24h": round(low_24h, 2),
@@ -710,7 +725,7 @@ def get_ticker_data(symbol):
                 "1m": f"charts/{symbol}_1m.png",
                 "1y": f"charts/{symbol}_1y.png",
             },
-            "news": get_news(symbol, company_name=info.get("longName")),
+            "news": get_news(symbol, company_name=news_query),
             "sec_filings_6m": sec_filings["items"],
             "sec_filings_filter": sec_filings["filter"],
         }

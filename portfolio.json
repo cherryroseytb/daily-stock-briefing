@@ -1,5 +1,11 @@
 {
   "holdings": ["QCOM", "IONQ", "MSFT", "OXLC", "ASML", "AMBA", "475400.KQ", "058610.KQ", "389500.KQ", "0100.HK"],
+  "display_names": {
+    "475400.KQ": "씨메스로보틱스",
+    "058610.KQ": "에스피지",
+    "389500.KQ": "에스비비테크",
+    "0100.HK": "미니맥스그룹"
+  },
   "watchlist_criteria": {
     "dividend_yield_min_pct": 10,
     "dividend_cut_years": 5,
