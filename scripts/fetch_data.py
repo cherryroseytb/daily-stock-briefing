@@ -444,11 +444,60 @@ def get_sec_filings_bundle(symbol):
 # ──────────────────────────────────────────────
 # 뉴스 수집
 # ──────────────────────────────────────────────
-def get_news(symbol):
+def _is_korean_ticker(symbol):
+    return str(symbol).upper().endswith((".KQ", ".KS"))
+
+
+def _get_news_naver(symbol, company_name=None):
+    """네이버 검색 API로 국내 주식 뉴스 수집"""
+    client_id = os.getenv("NAVER_CLIENT_ID")
+    client_secret = os.getenv("NAVER_CLIENT_SECRET")
+    if not client_id or not client_secret:
+        return []
+
+    query = company_name or symbol.split(".")[0]
+    try:
+        response = requests.get(
+            "https://openapi.naver.com/v1/search/news.json",
+            headers={"X-Naver-Client-Id": client_id, "X-Naver-Client-Secret": client_secret},
+            params={"query": query, "display": NEWS_LIMIT, "sort": "date"},
+            timeout=10,
+        )
+        if response.status_code == 200:
+            parsed = []
+            for item in response.json().get("items", []):
+                title = re.sub(r"<[^>]+>", "", item.get("title", ""))
+                description = re.sub(r"<[^>]+>", "", item.get("description", ""))
+                pub_date = item.get("pubDate", "")
+                domain = ""
+                link = item.get("originallink", "") or item.get("link", "")
+                if link:
+                    parts = link.split("/")
+                    domain = parts[2] if len(parts) > 2 else link
+                parsed.append({
+                    "title": title,
+                    "summary": description,
+                    "publisher": domain,
+                    "published_at": pub_date[:16] if pub_date else "",
+                })
+            return parsed
+    except Exception as e:
+        print(f"Naver API {symbol} 오류: {e}")
+    return []
+
+
+def get_news(symbol, company_name=None):
     cached = _read_cache("news", symbol, NEWS_CACHE_HOURS)
     if cached is not None:
         return cached
 
+    # 국내 주식: 네이버 검색 API 사용
+    if _is_korean_ticker(symbol):
+        parsed = _get_news_naver(symbol, company_name)
+        _write_cache("news", symbol, parsed)
+        return parsed
+
+    # 해외 주식: Finnhub → yfinance 순서로 시도
     api_key = os.getenv("FINNHUB_API_KEY")
     if api_key:
         try:
@@ -546,7 +595,7 @@ def get_ticker_data(symbol):
                 "1m": f"charts/{symbol}_1m.png",
                 "1y": f"charts/{symbol}_1y.png",
             },
-            "news": get_news(symbol),
+            "news": get_news(symbol, company_name=info.get("longName")),
             "sec_filings_6m": sec_filings["items"],
             "sec_filings_filter": sec_filings["filter"],
         }
