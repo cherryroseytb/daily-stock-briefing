@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-02 10:33",
+  "date": "2026-06-02 10:41",
   "report_profile": {
     "type": "theme",
     "title": "모멘텀/테마 후보",
@@ -676,7 +676,7 @@
       "symbol": "475400.KQ",
       "name": "CMES Robotics Inc.",
       "display_name": "씨메스로보틱스",
-      "price": 28350.0,
+      "price": 28450.0,
       "high_24h": 30500.0,
       "low_24h": 26600.0,
       "high_1m": 42600.0,
@@ -723,17 +723,64 @@
           "published_at": "Mon, 01 Jun 2026"
         }
       ],
-      "sec_filings_6m": [],
+      "sec_filings_6m": [
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "분기보고서 (2026.03)",
+          "filed_at": "20260514",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514000133"
+        },
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "단일판매ㆍ공급계약체결              ",
+          "filed_at": "20260511",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511900360"
+        },
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "단일판매ㆍ공급계약체결              ",
+          "filed_at": "20260507",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507900146"
+        },
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "상호변경안내              ",
+          "filed_at": "20260327",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260327902492"
+        },
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+          "filed_at": "20260327",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260327001694"
+        }
+      ],
       "sec_filings_filter": {
-        "status": "corp_not_found",
-        "stock_code": "475400"
+        "status": "ok",
+        "raw_count": 15,
+        "shown_count": 5
       }
     },
     "058610.KQ": {
       "symbol": "058610.KQ",
       "name": "SPG Co., Ltd.",
       "display_name": "에스피지",
-      "price": 122200.0,
+      "price": 123700.0,
       "high_24h": 134100.0,
       "low_24h": 118000.0,
       "high_1m": 152400.0,
@@ -780,17 +827,64 @@
           "published_at": "Mon, 01 Jun 2026"
         }
       ],
-      "sec_filings_6m": [],
+      "sec_filings_6m": [
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "분기보고서 (2026.03)",
+          "filed_at": "20260514",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514000342"
+        },
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+          "filed_at": "20260513",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260513900250"
+        },
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "기업설명회(IR)개최              ",
+          "filed_at": "20260511",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511900184"
+        },
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "기업설명회(IR)개최              ",
+          "filed_at": "20260331",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331900531"
+        },
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "기업가치제고계획(자율공시)              ",
+          "filed_at": "20260326",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326900680"
+        }
+      ],
       "sec_filings_filter": {
-        "status": "corp_not_found",
-        "stock_code": "058610"
+        "status": "ok",
+        "raw_count": 15,
+        "shown_count": 5
       }
     },
     "389500.KQ": {
       "symbol": "389500.KQ",
       "name": "Sbb Tech Co.,Ltd",
       "display_name": "에스비비테크",
-      "price": 64700.0,
+      "price": 65400.0,
       "high_24h": 78500.0,
       "low_24h": 64500.0,
       "high_1m": 115000.0,
@@ -837,10 +931,57 @@
           "published_at": "Mon, 01 Jun 2026"
         }
       ],
-      "sec_filings_6m": [],
+      "sec_filings_6m": [
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "[기재정정]단일판매ㆍ공급계약체결              ",
+          "filed_at": "20260529",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529900707"
+        },
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "단일판매ㆍ공급계약체결              ",
+          "filed_at": "20260519",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260519900397"
+        },
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "분기보고서 (2026.03)",
+          "filed_at": "20260514",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514001019"
+        },
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "[기재정정]단일판매ㆍ공급계약체결              ",
+          "filed_at": "20260331",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331904589"
+        },
+        {
+          "form_type": "E",
+          "form_label": "기타공시",
+          "importance": "low",
+          "description": "주식매수선택권부여에관한신고",
+          "filed_at": "20260331",
+          "source": "DART",
+          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331004518"
+        }
+      ],
       "sec_filings_filter": {
-        "status": "corp_not_found",
-        "stock_code": "389500"
+        "status": "ok",
+        "raw_count": 15,
+        "shown_count": 5
       }
     },
     "0100.HK": {
@@ -850,10 +991,10 @@
       "price": 0,
       "high_24h": 0,
       "low_24h": 0,
-      "high_1m": 907.5,
-      "low_1m": 702.0,
-      "fiftyTwoWeekHigh": 907.5,
-      "fiftyTwoWeekLow": 702.0,
+      "high_1m": 708.0,
+      "low_1m": 708.0,
+      "fiftyTwoWeekHigh": 708.0,
+      "fiftyTwoWeekLow": 708.0,
       "dividendYield": 0,
       "dividendRate": 0,
       "exDividendDate": "N/A",
@@ -1326,10 +1467,10 @@
           "published_at": "2026-06-02 06:38"
         },
         {
-          "title": "Meet the Latest $1 Trillion Stock",
-          "summary": "Micron was valued at around $100 billion a year ago.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-02 04:31"
+          "title": "Tracking Bridgewater Associates 13F Portfolio - Q1 2026 Update",
+          "summary": "Bridgewaterâs Q1 2026 13F: tech/semis conviction with new TSM stake, boosts to AMZN/NVDA, and big exits (CRM, ADBE). See more here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-06-02 06:38"
         }
       ],
       "sec_filings_6m": [
@@ -1429,6 +1570,12 @@
       },
       "news": [
         {
+          "title": "Tracking Bridgewater Associates 13F Portfolio - Q1 2026 Update",
+          "summary": "Bridgewaterâs Q1 2026 13F: tech/semis conviction with new TSM stake, boosts to AMZN/NVDA, and big exits (CRM, ADBE). See more here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-06-02 06:38"
+        },
+        {
           "title": "3 Market-Beating Stocks on Our Watchlist",
           "summary": "Companies that consistently increase their sales, margins, or returns on capital are usually rewarded with the best returns, and those that can do all three for years on end are almost always the legendary stocks that return 100 times your money.",
           "publisher": "Yahoo",
@@ -1451,12 +1598,6 @@
           "summary": "Evans reframes AI as a capital spending story, comparing it to the railroad era. Companies building the infrastructure will matter more than those using it. He suggests investing in power generation, grid infrastructure, semiconductors, data centers, and enterprise software. ",
           "publisher": "Benzinga",
           "published_at": "2026-06-01 18:16"
-        },
-        {
-          "title": "The Semiconductor Play Nobody Owns Just Lapped Wall Street’s Biggest Names",
-          "summary": "A $10,000 position in Invesco Semiconductors ETF (NASDAQ:PSI) on the last trading day of 2025 was worth ~$20,496 by the close on May 26, 2026, and that is the kind of arithmetic that ruins dinner parties. Your brother-in-law at Goldman is up 10.07% in the S&P 500. Your friend who only buys the Nasdaq 100 ... The Semiconductor Play Nobody Owns Just Lapped Wall Street’s Biggest Names",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-01 02:10"
         }
       ],
       "sec_filings_6m": [
