@@ -448,6 +448,11 @@ def _is_korean_ticker(symbol):
     return str(symbol).upper().endswith((".KQ", ".KS"))
 
 
+def _is_english_name(name):
+    """영문 회사명 여부 판별 (한글 없으면 영문으로 간주)"""
+    return not bool(re.search(r'[가-힣]', name or ''))
+
+
 def _get_news_naver(symbol, company_name=None):
     """네이버 검색 API로 국내 주식 뉴스 수집"""
     client_id = os.getenv("NAVER_CLIENT_ID")
@@ -455,7 +460,11 @@ def _get_news_naver(symbol, company_name=None):
     if not client_id or not client_secret:
         return []
 
-    query = company_name or symbol.split(".")[0]
+    # yfinance는 한국 종목명을 영문으로 반환 → 종목코드 숫자로 검색
+    if company_name and not _is_english_name(company_name):
+        query = company_name
+    else:
+        query = symbol.split(".")[0]  # e.g. "475400"
     try:
         response = requests.get(
             "https://openapi.naver.com/v1/search/news.json",

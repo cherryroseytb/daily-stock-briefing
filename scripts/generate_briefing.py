@@ -228,6 +228,7 @@ def section2_guidance(screening_meta, report_profile):
     - 종합매력도 계산: {criteria}.
     - 5개 전부 작성하세요 (상위 5개만 이미 전달된 상태입니다).
     {extra}
+    - 종목 헤더: 국내 주식(.KQ/.KS)은 한글 회사명 먼저, 종목코드 괄호. 예: 씨메스로보틱스 (475400). 해외 주식은 티커 먼저, 영문 회사명 괄호. 예: AMBA (Ambarella).
     - 아래 형식을 정확히 따르세요:
 
 SYMBOL (회사명)
@@ -311,6 +312,9 @@ def generate_briefing():
     - 배당락일 주당 금액: dividendRate(연간)÷12(월배당), ÷4(분기배당), 그대로(연배당).
     - 최근1달(1M): low_1m, high_1m 사용. N/A 금지.
     - 최근1년(1Y): fiftyTwoWeekLow ~ fiftyTwoWeekHigh 사용.
+    - 종목 헤더 표시 규칙:
+        * 국내 주식(.KQ/.KS): 한글 회사명을 먼저 쓰고 종목코드를 괄호에 표시. 예: 씨메스로보틱스 (475400)
+        * 해외 주식(미국/홍콩 등): 티커를 먼저 쓰고 영문 회사명을 괄호에 표시. 예: AMBA (Ambarella)
 
     지침:
     1. 섹션 1: 보유 종목 상세 분석 (Holdings)
