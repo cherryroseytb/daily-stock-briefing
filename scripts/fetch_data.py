@@ -585,6 +585,44 @@ _DART_IMPORTANCE = {
 }
 
 
+def _get_dart_corp_code(stock_code, api_key):
+    """corpCode.xml ZIP으로 전체 기업코드 다운로드 후 종목코드→corp_code 매핑 반환 (24h 캐시)"""
+    import io, zipfile
+    from xml.etree import ElementTree as ET
+
+    cached = _read_cache("dart_meta", "corp_codes", 24)
+    if cached:
+        return cached.get(stock_code)
+
+    try:
+        resp = requests.get(
+            "https://opendart.fss.or.kr/api/corpCode.xml",
+            params={"crtfc_key": api_key},
+            timeout=30,
+        )
+        if resp.status_code != 200:
+            print(f"DART corpCode.xml 다운로드 실패: {resp.status_code}")
+            return None
+
+        with zipfile.ZipFile(io.BytesIO(resp.content)) as z:
+            xml_data = z.read(z.namelist()[0])
+
+        root = ET.fromstring(xml_data)
+        corp_map = {}
+        for item in root.findall(".//list"):
+            sc = (item.findtext("stock_code") or "").strip()
+            cc = (item.findtext("corp_code") or "").strip()
+            if sc:
+                corp_map[sc] = cc
+
+        _write_cache("dart_meta", "corp_codes", corp_map)
+        print(f"DART 기업코드 로드 완료: {len(corp_map)}개")
+        return corp_map.get(stock_code)
+    except Exception as e:
+        print(f"DART corpCode.xml 파싱 오류: {e}")
+        return None
+
+
 def get_dart_filings_bundle(symbol):
     """OpenDART API로 국내 주식 공시 수집"""
     cached = _read_cache("dart_filings", symbol, SEC_CACHE_HOURS)
@@ -595,21 +633,15 @@ def get_dart_filings_bundle(symbol):
     if not api_key:
         return {"items": [{"error": "OPENDART_API_KEY 없음"}], "filter": {"status": "error"}}
 
-    # 1단계: 종목코드로 corp_code 조회
     stock_code = symbol.split(".")[0]
-    try:
-        resp = requests.get(
-            "https://opendart.fss.or.kr/api/company.json",
-            params={"crtfc_key": api_key, "stock_code": stock_code},
-            timeout=10,
-        )
-        if resp.status_code != 200 or resp.json().get("status") != "000":
-            result = {"items": [], "filter": {"status": "corp_not_found", "stock_code": stock_code}}
-            _write_cache("dart_filings", symbol, result)
-            return result
-        corp_code = resp.json().get("corp_code", "")
-    except Exception as e:
-        return {"items": [{"error": str(e)}], "filter": {"status": "error"}}
+
+    # 1단계: corpCode.xml에서 corp_code 조회
+    corp_code = _get_dart_corp_code(stock_code, api_key)
+    if not corp_code:
+        print(f"DART corp_code 없음: {symbol} (stock_code={stock_code})")
+        result = {"items": [], "filter": {"status": "corp_not_found", "stock_code": stock_code}}
+        _write_cache("dart_filings", symbol, result)
+        return result
 
     # 2단계: 최근 6개월 공시 목록 조회
     to_date = now_kst().date()
@@ -628,8 +660,10 @@ def get_dart_filings_bundle(symbol):
             timeout=10,
         )
         data = resp.json()
+        print(f"DART list.json {symbol}: status={data.get('status')}, count={data.get('total_count', 0)}")
+
         if data.get("status") != "000":
-            result = {"items": [], "filter": {"status": "no_filings", "raw_count": 0}}
+            result = {"items": [], "filter": {"status": f"dart_error_{data.get('status')}", "raw_count": 0}}
             _write_cache("dart_filings", symbol, result)
             return result
 
@@ -661,6 +695,7 @@ def get_dart_filings_bundle(symbol):
         _write_cache("dart_filings", symbol, result)
         return result
     except Exception as e:
+        print(f"DART list.json {symbol} 오류: {e}")
         return {"items": [{"error": str(e)}], "filter": {"status": "error"}}
 
 
