@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "updated_at": "2026-06-02 07:33 KST",
+  "version": 5,
+  "updated_at": "2026-06-08 06:12 KST",
   "refresh_policy": {
     "dividend": "monthly",
     "theme": "weekly",
@@ -77,15 +77,27 @@
       "MU"
     ],
     "AI Power & Digital Infrastructure": [
-      "VST",
-      "CEG",
+      "EQIX",
+      "DLR",
+      "AMT",
       "ETN",
       "PWR",
+      "VST",
+      "CEG",
       "GEV",
-      "EQIX",
-      "CCI",
-      "NEP",
-      "PLD"
+      "VRT"
+    ],
+    "AI Software & Enterprise Transformation": [
+      "MSFT",
+      "GOOGL",
+      "ORCL",
+      "ADBE",
+      "CRM",
+      "NOW",
+      "SNOW",
+      "CDNS",
+      "ANSS",
+      "PANW"
     ],
     "Geopolitical Resilience (Defense & Space": [
       "LMT",
@@ -134,17 +146,16 @@
       "CGNX",
       "PTC"
     ],
-    "Digital & Niche Real Estate": [
-      "EQIX",
-      "PLD",
+    "Experience & Specialized Real Estate": [
       "VICI",
-      "AMT",
-      "CCI",
-      "STAG",
       "O",
-      "REXR",
+      "STAG",
+      "PLD",
       "PSA",
-      "CUBE"
+      "CUBE",
+      "EXR",
+      "ARE",
+      "SBAC"
     ],
     "Traditional Energy & Midstream": [
       "XOM",
