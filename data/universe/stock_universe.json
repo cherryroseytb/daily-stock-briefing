@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "updated_at": "2026-06-08 06:12 KST",
+  "version": 6,
+  "updated_at": "2026-06-15 06:12 KST",
   "refresh_policy": {
     "dividend": "monthly",
     "theme": "weekly",
@@ -74,9 +74,10 @@
       "AMAT",
       "LRCX",
       "SMCI",
-      "MU"
+      "MU",
+      "TXN"
     ],
-    "AI Power & Digital Infrastructure": [
+    "AI Infrastructure & Data Centers": [
       "EQIX",
       "DLR",
       "AMT",
@@ -85,9 +86,10 @@
       "VST",
       "CEG",
       "GEV",
-      "VRT"
+      "VRT",
+      "VERT"
     ],
-    "AI Software & Enterprise Transformation": [
+    "AI Software & Enterprise AI": [
       "MSFT",
       "GOOGL",
       "ORCL",
@@ -97,21 +99,22 @@
       "SNOW",
       "CDNS",
       "ANSS",
-      "PANW"
+      "PANW",
+      "ZS"
     ],
-    "Geopolitical Resilience (Defense & Space": [
+    "Geopolitical Resilience & Defense": [
       "LMT",
       "RTX",
       "NOC",
       "GD",
       "HII",
+      "LHX",
       "KTOS",
       "PLTR",
-      "LHX",
-      "RKLB",
-      "BA"
+      "CYBR",
+      "FTNT"
     ],
-    "Energy Security (Nuclear & Uranium)": [
+    "Nuclear & Uranium Energy": [
       "CCJ",
       "CEG",
       "BWXT",
@@ -120,9 +123,10 @@
       "SMR",
       "LEU",
       "UUUU",
-      "DNN"
+      "DNN",
+      "URA"
     ],
-    "Health & Longevity (GLP-1 & Biotech)": [
+    "Health & Longevity": [
       "LLY",
       "NVO",
       "AMGN",
@@ -132,7 +136,8 @@
       "TMO",
       "ABT",
       "MRK",
-      "DHR"
+      "DHR",
+      "GILD"
     ],
     "Industrial Automation & Efficiency": [
       "ROK",
@@ -144,9 +149,10 @@
       "ITW",
       "AOS",
       "CGNX",
-      "PTC"
+      "PTC",
+      "DD"
     ],
-    "Experience & Specialized Real Estate": [
+    "Experiential & Specialized Real Estate": [
       "VICI",
       "O",
       "STAG",
@@ -155,7 +161,8 @@
       "CUBE",
       "EXR",
       "ARE",
-      "SBAC"
+      "SBAC",
+      "SPG"
     ],
     "Traditional Energy & Midstream": [
       "XOM",
@@ -167,7 +174,8 @@
       "ET",
       "MPLX",
       "WMB",
-      "KMI"
+      "KMI",
+      "OXY"
     ]
   },
   "quality": [
