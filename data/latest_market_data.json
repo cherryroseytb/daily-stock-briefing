@@ -1,61 +1,61 @@
 {
-  "date": "2026-06-17 08:16",
+  "date": "2026-06-18 08:13",
   "report_profile": {
-    "type": "quality",
-    "title": "장기 퀄리티 후보",
-    "description": "3년 이상 보유 관점에서 사업 품질, 재무 안정성, 성장성을 기준으로 선별합니다."
+    "type": "dividend",
+    "title": "고배당/현금흐름 후보",
+    "description": "배당률, 배당 지속성, 재무 안정성을 기준으로 현금흐름형 후보를 선별합니다."
   },
   "market_data": {
-    "QCOM": {
-      "symbol": "QCOM",
-      "name": "QUALCOMM Incorporated",
-      "display_name": "QUALCOMM Incorporated",
+    "ASML": {
+      "symbol": "ASML",
+      "name": "ASML Holding N.V.",
+      "display_name": "ASML Holding N.V.",
       "data_limited": false,
-      "price": 213.82,
-      "high_24h": 231.19,
-      "low_24h": 213.81,
-      "high_1m": 258.96,
-      "low_1m": 190.1,
-      "fiftyTwoWeekHigh": 259.92,
-      "fiftyTwoWeekLow": 121.99,
-      "dividendYield": 167.0,
-      "dividendRate": 3.68,
-      "exDividendDate": "1780531200",
+      "price": 1868.02,
+      "high_24h": 1938.49,
+      "low_24h": 1865.32,
+      "high_1m": 1938.49,
+      "low_1m": 1441.31,
+      "fiftyTwoWeekHigh": 1938.4899,
+      "fiftyTwoWeekLow": 683.48,
+      "dividendYield": 49.0,
+      "dividendRate": 8.79,
+      "exDividendDate": "1777248000",
       "charts": {
-        "24h": "charts/QCOM_24h.png",
-        "1m": "charts/QCOM_1m.png",
-        "1y": "charts/QCOM_1y.png"
+        "24h": "charts/ASML_24h.png",
+        "1m": "charts/ASML_1m.png",
+        "1y": "charts/ASML_1y.png"
       },
       "news": [
         {
-          "title": "Bernstein weighs in on potential Qualcomm-Tenstorrent deal",
-          "summary": "Bernstein maintained its Market-Perform rating on Qualcomm following the report, making no changes to its financial model. Rasgon wrote: \"We make no changes to our model at this time, and await any further newsflow that might be forthcoming into the company's analyst day in a couple of weeks. We rate Qualcomm Market-Perform.\"",
+          "title": "Stock Market Today, June 17: Stocks Slide on Fed Rate Hike Fears",
+          "summary": "Investors weighed hawkish central bank messaging and rising Treasury yields, today, June 17, 2026.",
           "publisher": "Yahoo",
-          "published_at": "2026-06-17 05:26"
+          "published_at": "2026-06-18 06:29"
         },
         {
-          "title": "SNAP Stock Drops — Snap Launches AR Smart Glasses, But Retail Is ‘Skeptical’ On Over $2,000 Price Tag",
-          "summary": "Snap Inc. has officially opened preorders for Specs, a pair of standalone augmented reality glasses that blend digital content with the real world without requiring a smartphone.",
+          "title": "Why Intel Stock Is Up After the SpaceX IPO",
+          "summary": "SpaceX is more of an AI stock than a space stock -- and that's great news for Intel.",
           "publisher": "Yahoo",
-          "published_at": "2026-06-17 04:49"
+          "published_at": "2026-06-18 05:03"
         },
         {
-          "title": "Microsoft reveals new Surface laptops starting at $1,499",
-          "summary": "Microsoft (MSFT) is unveiling its latest generation of Surface and Surface Pro laptops, with price tags starting at $1,499. Yahoo Finance Tech Editor Dan Howley joins the Market Domination team to dive into the specs of these new PCs, which come amid the lengthy shortage in memory chip supply.",
+          "title": "ASML CEO Flags Terafab Opportunity as AI Demand Stays Enormous",
+          "summary": "ASML says Musk's Terafab could be a major fab project, provided supply constraints are managed.",
           "publisher": "Yahoo",
-          "published_at": "2026-06-17 04:46"
+          "published_at": "2026-06-18 03:59"
         },
         {
-          "title": "Qualcomm Stock Jumps -- CEO Unveils Bold AI Wearables Push",
-          "summary": "AI Wearables Boom Sends Qualcomm Stock Higher",
+          "title": "Applied Materials, ASML, Lam Hit Record Highs, Lead Chip Gear Stocks Rally",
+          "summary": "Shares of several leading semiconductor equipment firms, including ASML, hit record highs on Wednesday.",
           "publisher": "Yahoo",
-          "published_at": "2026-06-17 04:20"
+          "published_at": "2026-06-18 02:13"
         },
         {
-          "title": "Qualcomm Is Eyeing a Massive AI Pivot. Why Wall Street Is Still Cautious.",
-          "summary": "J.P. Morgan believes the chip maker could target more than $3 billion in data-center revenue for fiscal 2027 at its upcoming investor day.",
+          "title": "Why Is ASML Stock Up Again Today?",
+          "summary": "SpaceX is an AI company, and when AI companies do well, so does ASML.",
           "publisher": "Yahoo",
-          "published_at": "2026-06-17 03:12"
+          "published_at": "2026-06-18 01:01"
         }
       ],
       "sec_filings_6m": [
@@ -65,9 +65,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-06-11 18:45:58",
+          "filed_at": "2026-06-05 08:33:45",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000071/xslF345X06/edgardoc.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026041057/formsd.htm",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -76,9 +76,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-05-21 16:13:55",
+          "filed_at": "2026-04-23 08:47:08",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000070/xslF345X06/edgardoc.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026026703/form6-kagmdisclosureofagmr.htm",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -87,20 +87,20 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-05-15 16:03:18",
+          "filed_at": "2026-04-15 06:02:24",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000069/conflictmineralsformsd1231.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026025147/presentationinvestorrela.htm",
           "fallback_reason": "importance_filter_empty"
         }
       ],
       "sec_filings_filter": {
         "status": "fallback_unfiltered",
-        "raw_count": 20,
+        "raw_count": 7,
         "shown_count": 3,
-        "excluded_count": 20,
+        "excluded_count": 7,
         "hidden_count": 0,
         "excluded_forms": {
-          "UNKNOWN": 20
+          "UNKNOWN": 7
         },
         "excluded_examples": [
           {
@@ -119,228 +119,6 @@
             "reason": "unrecognized_form"
           }
         ]
-      }
-    },
-    "IONQ": {
-      "symbol": "IONQ",
-      "name": "IonQ, Inc.",
-      "display_name": "IonQ, Inc.",
-      "data_limited": false,
-      "price": 56.1,
-      "high_24h": 60.89,
-      "low_24h": 55.91,
-      "high_1m": 73.65,
-      "low_1m": 45.51,
-      "fiftyTwoWeekHigh": 84.64,
-      "fiftyTwoWeekLow": 25.89,
-      "dividendYield": 0,
-      "dividendRate": 0,
-      "exDividendDate": "N/A",
-      "charts": {
-        "24h": "charts/IONQ_24h.png",
-        "1m": "charts/IONQ_1m.png",
-        "1y": "charts/IONQ_1y.png"
-      },
-      "news": [
-        {
-          "title": "IonQ Stock Is Surging Monday: What's Driving The Move?",
-          "summary": "IonQ shares are surging Monday morning amid Bitcoin rising past the $66,000-level, while major index futures are pointing higher.",
-          "publisher": "Benzinga",
-          "published_at": "2026-06-15 19:03"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-06-12 21:55:05",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1670723/000119312526270054/xslF345X06/ownership.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-06-12 21:55:05",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1480011/000119312526270051/xslF345X06/ownership.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-06-12 21:55:03",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1189870/000119312526270050/xslF345X06/ownership.xml",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      }
-    },
-    "MSFT": {
-      "symbol": "MSFT",
-      "name": "Microsoft Corporation",
-      "display_name": "Microsoft Corporation",
-      "data_limited": false,
-      "price": 393.92,
-      "high_24h": 396.84,
-      "low_24h": 390.69,
-      "high_1m": 466.32,
-      "low_1m": 382.27,
-      "fiftyTwoWeekHigh": 555.45,
-      "fiftyTwoWeekLow": 356.28,
-      "dividendYield": 91.0,
-      "dividendRate": 3.64,
-      "exDividendDate": "1787184000",
-      "charts": {
-        "24h": "charts/MSFT_24h.png",
-        "1m": "charts/MSFT_1m.png",
-        "1y": "charts/MSFT_1y.png"
-      },
-      "news": [
-        {
-          "title": "SpaceX surges past Amazon, briefly tops Microsoft in market cap",
-          "summary": "The move builds on an already historic run. SpaceX priced its IPO at $135 per share on June 12, 2026, in what was the largest public offering in history, raising $75 billion initially. Underwriters exercised their greenshoe option on June 15, lifting total proceeds to $85.7 billion. Tuesday's close puts SPCX up roughly 50% from its IPO price in just four trading sessions, a pace that has rattled even the most seasoned market observers.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 06:29"
-        },
-        {
-          "title": "Surging SpaceX overtakes Amazon to become 5th biggest company",
-          "summary": "SpaceX shares surged again Tuesday, lifting Elon Musk's rocket company above Amazon into fifth place in market value as a record-breaking IPO gives way to a torrid buying frenzy.Shares of SpaceX have soared about 40 percent in three sessions since last week's IPO, which raised a record-breaking $85.7 billion.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 06:15"
-        },
-        {
-          "title": "Update: Dow Logs Back-to-Back Record High in Mixed Session Ahead of Fed Decision",
-          "summary": "(Updates with market moves at the end of the day.) The Dow Jones Industrial Average hit a fresh r",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 05:39"
-        },
-        {
-          "title": "SpaceX passes Amazon as valuation balloons to $2.7T",
-          "summary": "SpaceX's valuation has increased by $1 trillion since its shares started trading on Friday.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 05:11"
-        },
-        {
-          "title": "What Trump's clamp down on Anthropic is signaling to rest of the world",
-          "summary": "The Trump administration pushes harder on Anthropic (ANTH.PVT) after the private AI developer pulled its Claude Mythos and Fable 5 models from the market in response to demands to cut AI product access to foreign governments. Yahoo Finance Tech Editor Dan Howley joins the Market Domination team in reporting on the day's biggest tech headlines.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 05:10"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-06-16 18:07:25",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000135/xslF345X06/form4.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-06-15 18:06:19",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000133/xslF345X06/form4.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-06-12 18:07:08",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000131/xslF345X06/form4.xml",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 97,
-      "screening_details": {
-        "market_cap": 2925540409344,
-        "cap_score": 15,
-        "roe_pct": 34.013999,
-        "roe_score": 20,
-        "operating_margin_pct": 46.326,
-        "margin_score": 20,
-        "revenue_growth_pct": 18.3,
-        "earnings_growth_pct": 23.400000000000002,
-        "growth_score": 17,
-        "free_cashflow": 37011251200,
-        "cash_score": 15,
-        "price_position_52w": 0.1885324094994226,
-        "valuation_score": 10
       }
     },
     "OXLC": {
@@ -348,22 +126,28 @@
       "name": "Oxford Lane Capital Corp.",
       "display_name": "Oxford Lane Capital Corp.",
       "data_limited": false,
-      "price": 8.78,
-      "high_24h": 9.13,
-      "low_24h": 8.77,
-      "high_1m": 10.06,
-      "low_1m": 8.77,
+      "price": 8.38,
+      "high_24h": 8.78,
+      "low_24h": 8.33,
+      "high_1m": 9.84,
+      "low_1m": 8.33,
       "fiftyTwoWeekHigh": 21.15,
       "fiftyTwoWeekLow": 8.01,
-      "dividendYield": 2586.0,
+      "dividendYield": 2733.0,
       "dividendRate": 2.4,
-      "exDividendDate": "1781568000",
+      "exDividendDate": "1784246400",
       "charts": {
         "24h": "charts/OXLC_24h.png",
         "1m": "charts/OXLC_1m.png",
         "1y": "charts/OXLC_1y.png"
       },
       "news": [
+        {
+          "title": "My 3 Favorite Areas To Invest For Stress-Free Income Now",
+          "summary": "I see limited upside and elevated downside risk in current AI-driven, high-valuation markets.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-06-17 18:15"
+        },
         {
           "title": "Under the Radar: Buying a Dollar for 85 Cents",
           "summary": " ",
@@ -440,56 +224,56 @@
         ]
       }
     },
-    "ASML": {
-      "symbol": "ASML",
-      "name": "ASML Holding N.V.",
-      "display_name": "ASML Holding N.V.",
+    "MSFT": {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "display_name": "Microsoft Corporation",
       "data_limited": false,
-      "price": 1803.92,
-      "high_24h": 1881.16,
-      "low_24h": 1802.74,
-      "high_1m": 1913.7,
-      "low_1m": 1441.31,
-      "fiftyTwoWeekHigh": 1913.7,
-      "fiftyTwoWeekLow": 683.48,
-      "dividendYield": 46.0,
-      "dividendRate": 8.79,
-      "exDividendDate": "1777248000",
+      "price": 378.87,
+      "high_24h": 390.37,
+      "low_24h": 377.37,
+      "high_1m": 466.32,
+      "low_1m": 377.37,
+      "fiftyTwoWeekHigh": 555.45,
+      "fiftyTwoWeekLow": 356.28,
+      "dividendYield": 92.0,
+      "dividendRate": 3.64,
+      "exDividendDate": "1787184000",
       "charts": {
-        "24h": "charts/ASML_24h.png",
-        "1m": "charts/ASML_1m.png",
-        "1y": "charts/ASML_1y.png"
+        "24h": "charts/MSFT_24h.png",
+        "1m": "charts/MSFT_1m.png",
+        "1y": "charts/MSFT_1y.png"
       },
       "news": [
         {
-          "title": "Elon Musk Just Delivered Fantastic News for ASML Stock Investors",
-          "summary": "Tesla and SpaceX are all-in on building a massive semiconductor manufacturing capability, and that's great news for the European company.",
+          "title": "Gaming gets hit by memory shortage: A look at Sandisk's $3K PlayStation 5 SSD",
+          "summary": "The memory shortage is hitting the gaming sphere, with Sandisk's (SNDK) PlayStation 5 storage SSD costing nearly $3,000. Yahoo Finance Technology Editor Dan Howley breaks down the details.",
           "publisher": "Yahoo",
-          "published_at": "2026-06-17 05:39"
+          "published_at": "2026-06-18 05:36"
         },
         {
-          "title": "ASML Surges 36% in 3 Months: Should Investors Buy the Stock?",
-          "summary": "ASML's 36% three-month surge highlights AI-driven chip demand and EUV leadership, but premium valuation and mixed estimates suggest caution.",
+          "title": "Nasdaq, US stocks slide as Fed forecasts possible rate hike",
+          "summary": "US stocks (^DJI, ^IXIC, ^GSPC) ended Wednesday's session in negative territory after Federal Reserve officials unanimously voted to hold interest rates at their June FOMC meeting today, while also forecasting at least one possible rate hike ahead. Yahoo Finance Markets and Data Editor Jared Blikre breaks down the trading day's market reactions to the Fed's big decision. This was Kevin Warsh's first FOMC meeting he presided over as the new chairman of the Fed.",
           "publisher": "Yahoo",
-          "published_at": "2026-06-17 02:45"
+          "published_at": "2026-06-18 05:15"
         },
         {
-          "title": "ASML Holding N.V. (ASML) Rallied on Market Dominance",
-          "summary": "Columbia Threadneedle Investments, an investment management company, released its first-quarter 2026 investor letter for the “Columbia Global Technology Growth Fund”. A copy of the letter is available to download here. In Q1 2026, the Fund’s institutional Class shares fell –6.05%, outperforming the S&P Global 1200 Information Technology Index, which declined –6.57%. Positive performance was mainly due […]",
+          "title": "Oracle Disputes Report on Failed Microsoft Cloud Deal",
+          "summary": "Oracle said details in a report about failed cloud deal talks with Microsoft were inaccurate.",
           "publisher": "Yahoo",
-          "published_at": "2026-06-16 23:40"
+          "published_at": "2026-06-18 04:47"
         },
         {
-          "title": "ASML Could Soar Higher in 12 Months and Here’s Why We’d Buy It",
-          "summary": "ASML (NASDAQ:ASML) has been one of 2026’s defining AI infrastructure trades, with the Dutch lithography monopolist riding a record order book, a raised full-year guide, and renewed mega-cap enthusiasm to fresh highs. After a 74.81% year-to-date run, the question is whether the rally still has room. Our 24/7 Wall St. price target for ASML is ... ASML Could Soar Higher in 12 Months and Here’s Why We’d Buy It",
+          "title": "Sector Update: Tech Stocks Rise Late Afternoon",
+          "summary": "Tech stocks were higher late Wednesday afternoon, with the State Street Technology Select Sector SPD",
           "publisher": "Yahoo",
-          "published_at": "2026-06-16 22:48"
+          "published_at": "2026-06-18 04:38"
         },
         {
-          "title": "Elon Musk Calls This \"The Greatest Company in Europe\"",
-          "summary": "On social media, Musk recently boasted about a tech giant in Europe, saying that it \"should be treasured.\"",
+          "title": "PLTR Stock: What Does Its Valuation Imply?",
+          "summary": "This is a hyper-growth chapter for Palantir, defined by demand it cannot meet. Its Artificial Intelligence Platform, AIP, is positioned as one of the few reliable ways for institutions to deploy AI without operational chaos.",
           "publisher": "Yahoo",
-          "published_at": "2026-06-16 22:20"
+          "published_at": "2026-06-18 04:38"
         }
       ],
       "sec_filings_6m": [
@@ -499,9 +283,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-06-05 08:33:45",
+          "filed_at": "2026-06-16 18:07:25",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026041057/formsd.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000135/xslF345X06/form4.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -510,9 +294,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-04-23 08:47:08",
+          "filed_at": "2026-06-15 18:06:19",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026026703/form6-kagmdisclosureofagmr.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000133/xslF345X06/form4.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -521,20 +305,20 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-04-15 06:02:24",
+          "filed_at": "2026-06-12 18:07:08",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026025147/presentationinvestorrela.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000131/xslF345X06/form4.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
       "sec_filings_filter": {
         "status": "fallback_unfiltered",
-        "raw_count": 7,
+        "raw_count": 20,
         "shown_count": 3,
-        "excluded_count": 7,
+        "excluded_count": 20,
         "hidden_count": 0,
         "excluded_forms": {
-          "UNKNOWN": 7
+          "UNKNOWN": 20
         },
         "excluded_examples": [
           {
@@ -555,292 +339,32 @@
         ]
       }
     },
-    "475400.KQ": {
-      "symbol": "475400.KQ",
-      "name": "CMES Robotics Inc.",
-      "display_name": "씨메스로보틱스",
+    "ARCC": {
+      "symbol": "ARCC",
+      "name": "Ares Capital Corporation",
+      "display_name": "Ares Capital Corporation",
       "data_limited": false,
-      "price": 24650.0,
-      "high_24h": 26450.0,
-      "low_24h": 24650.0,
-      "high_1m": 32100.0,
-      "low_1m": 22200.0,
-      "fiftyTwoWeekHigh": 46950.0,
-      "fiftyTwoWeekLow": 0.0,
-      "dividendYield": 0,
-      "dividendRate": 0,
-      "exDividendDate": "N/A",
-      "charts": {
-        "24h": "charts/475400.KQ_24h.png",
-        "1m": "charts/475400.KQ_1m.png",
-        "1y": "charts/475400.KQ_1y.png"
-      },
-      "news": [
-        {
-          "title": "[포토뉴스] 공장의 ‘눈’과 ‘손’이 딱 만나는 순간",
-          "summary": "등 산업 AX 구현을 위한 주요 기술과 적용 사례가 소개됐다. 산업 현장의 비전 AI(Vision AI) 기반 로봇 자동화가 확산되고 있다. 서동균 씨메스로보틱스 본부장은 이러한 동향을 짚었다. (촬영 : 헬로티 )",
-          "publisher": "www.hellot.net",
-          "published_at": "Tue, 16 Jun 2026"
-        },
-        {
-          "title": "로봇주 동반 조정…휴림로봇 레인보우로보틱스 두산로보틱스 유진로봇...",
-          "summary": "엔젤로보틱스와 씨메스로보틱스도 약세를 보이며 로봇 테마 전반에 차익실현 매물이 출회되는 양상을 나타냈다. 현대무벡스는 물류자동화와 스마트 물류 시스템 사업을 주력으로 영위하고 있다. 최근 인공지능(AI)과... ",
-          "publisher": "www.cbci.co.kr",
-          "published_at": "Tue, 16 Jun 2026"
-        },
-        {
-          "title": "[2026 산업 AX 코리아] 씨메스로보틱스, 3D 비전·AI 통합 솔루션으로 제...",
-          "summary": "씨메스로보틱스가 이번 전시에서 3D 비전과 AI를 결합한 산업용 자동화 솔루션을 선보이며 관람객들의 이목을 집중시켰다. 씨메스로보틱스는 이번 행사를 통해 제조·물류 현장의 지능형 자동화를 주제로 부스를 꾸미고... ",
-          "publisher": "www.hellot.net",
-          "published_at": "Tue, 16 Jun 2026"
-        },
-        {
-          "title": "[2026 산업AX KOREA] ‘현장 실행력’ 경쟁의 서막 알린 산업 AX, 데이터...",
-          "summary": "CNS, 씨메스로보틱스 등이 대거 참여했다. 이들 업체은 데이터 인프라, 제조실행시스템, AI 비전, 디지털 트윈, 피지컬 AI, 협동로봇, 물류 자동화, 로봇자동화 솔루션을 각 세션과 쇼케이스에서 나눠 소개했다.... ",
-          "publisher": "www.hellot.net",
-          "published_at": "Tue, 16 Jun 2026"
-        },
-        {
-          "title": "AMAT도 반했네…티로보틱스, 자율주행 물류로봇 '돌풍'",
-          "summary": "로봇 관련 종목 가운데 제닉스로보틱스, 나우로보틱스, 씨메스로보틱스, 에스비비테크는 차세대 로봇 기술과 정밀 제어 시스템 경쟁력을 바탕으로 시장의 관심을 받고 있다. 두산로보틱스와 레인보우로보틱스 역시... ",
-          "publisher": "www.pinpointnews.co.kr",
-          "published_at": "Tue, 16 Jun 2026"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "E",
-          "form_label": "기타공시",
-          "importance": "low",
-          "description": "단일판매ㆍ공급계약체결              ",
-          "filed_at": "20260615",
-          "source": "DART",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615900184"
-        },
-        {
-          "form_type": "E",
-          "form_label": "기타공시",
-          "importance": "low",
-          "description": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "filed_at": "20260608",
-          "source": "DART",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608000432"
-        },
-        {
-          "form_type": "E",
-          "form_label": "기타공시",
-          "importance": "low",
-          "description": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "filed_at": "20260608",
-          "source": "DART",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608000414"
-        },
-        {
-          "form_type": "E",
-          "form_label": "기타공시",
-          "importance": "low",
-          "description": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "filed_at": "20260608",
-          "source": "DART",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608000406"
-        },
-        {
-          "form_type": "E",
-          "form_label": "기타공시",
-          "importance": "low",
-          "description": "임원ㆍ주요주주특정증권등소유상황보고서",
-          "filed_at": "20260608",
-          "source": "DART",
-          "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260608000395"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "ok",
-        "raw_count": 15,
-        "shown_count": 5
-      }
-    },
-    "META": {
-      "symbol": "META",
-      "name": "Meta Platforms, Inc.",
-      "display_name": "Meta Platforms, Inc.",
-      "data_limited": false,
-      "price": 600.3,
-      "high_24h": 605.78,
-      "low_24h": 592.0,
-      "high_1m": 642.4,
-      "low_1m": 556.49,
-      "fiftyTwoWeekHigh": 796.25,
-      "fiftyTwoWeekLow": 520.26,
-      "dividendYield": 35.0,
-      "dividendRate": 2.1,
+      "price": 18.1,
+      "high_24h": 18.62,
+      "low_24h": 18.1,
+      "high_1m": 18.93,
+      "low_1m": 17.96,
+      "fiftyTwoWeekHigh": 23.42,
+      "fiftyTwoWeekLow": 17.4,
+      "dividendYield": 1031.0,
+      "dividendRate": 1.92,
       "exDividendDate": "1781481600",
       "charts": {
-        "24h": "charts/META_24h.png",
-        "1m": "charts/META_1m.png",
-        "1y": "charts/META_1y.png"
+        "24h": "charts/ARCC_24h.png",
+        "1m": "charts/ARCC_1m.png",
+        "1y": "charts/ARCC_1y.png"
       },
       "news": [
         {
-          "title": "Stock Market Today, June 16: Snap Falls After Launch of $2,195 AR Glasses",
-          "summary": "On June 16, 2026, investors weighed Snap’s pricey new AR glasses against its long-term hardware ambitions and activist pressure.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 05:57"
-        },
-        {
-          "title": "Meta Threads Reaches 500 Million Monthly Users",
-          "summary": "The update underscores Threads' growing role in Meta's social media ecosystem.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 04:21"
-        },
-        {
-          "title": "Meta Pushes Threads Deeper Into Communities",
-          "summary": "New community tools aim to boost engagement",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 04:21"
-        },
-        {
-          "title": "Threads Hits 500 Million Users as Meta Advances Toward 1 Billion Goal",
-          "summary": "Meta said Threads reached 500 million monthly users, while Korea app time rose over 80%.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 04:20"
-        },
-        {
-          "title": "Meta Stock Rises as Threads Hits 500 Million Monthly Users",
-          "summary": "Meta Reveals Major Threads Upgrade After Reaching 500 Million Users",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 04:19"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-06-03 19:45:36",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1181218/000095010326008488/xslF345X06/ownership.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-06-03 19:42:18",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008487/xslF345X06/ownership.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-05-29 18:51:23",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008089/xslF345X06/ownership.xml",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 100,
-      "screening_details": {
-        "market_cap": 1523587088384,
-        "cap_score": 15,
-        "roe_pct": 32.930002,
-        "roe_score": 20,
-        "operating_margin_pct": 40.617,
-        "margin_score": 20,
-        "revenue_growth_pct": 33.1,
-        "earnings_growth_pct": 62.4,
-        "growth_score": 20,
-        "free_cashflow": 25558249472,
-        "cash_score": 15,
-        "price_position_52w": 0.2896844088553935,
-        "valuation_score": 10
-      }
-    },
-    "AVGO": {
-      "symbol": "AVGO",
-      "name": "Broadcom Inc.",
-      "display_name": "Broadcom Inc.",
-      "data_limited": false,
-      "price": 376.84,
-      "high_24h": 391.79,
-      "low_24h": 376.49,
-      "high_1m": 495.0,
-      "low_1m": 370.33,
-      "fiftyTwoWeekHigh": 495.0,
-      "fiftyTwoWeekLow": 244.17,
-      "dividendYield": 66.0,
-      "dividendRate": 2.6,
-      "exDividendDate": "1782086400",
-      "charts": {
-        "24h": "charts/AVGO_24h.png",
-        "1m": "charts/AVGO_1m.png",
-        "1y": "charts/AVGO_1y.png"
-      },
-      "news": [
-        {
-          "title": "Stock Market Today, June 16: Nvidia, Broadcom, and Micron Technology Lead Drop in Nasdaq",
-          "summary": "Retail investors reassess growth favorites as Robinhood’s job cuts ripple through a market tilting toward industrial and financial stocks, today, June 16, 2026.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 06:44"
-        },
-        {
-          "title": "Intel Spinout Cornelis Wins Supercomputer Chip Role",
-          "summary": "Cornelis networking chips will connect computers in a U.S. nuclear-research supercomputer.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 04:20"
-        },
-        {
-          "title": "2 S&P 500 Stocks for Long-Term Investors and 1 We Question",
-          "summary": "The S&P 500 (^GSPC) is home to the biggest and most well-known companies in the market, making it a go-to index for investors seeking stability. But not all large-cap stocks are created equal - some are struggling with slowing growth, declining margins, or increased competition.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 03:57"
-        },
-        {
-          "title": "Marvell: A Great Franchise Priced For Perfection",
-          "summary": "Marvell is rated a Hold, as current pricing assumes near-flawless execution and sustained AI-driven momentum through FY2028. Read more on MRVL stock here.",
+          "title": "2 Attractive-Yield Dividend Stocks That Could Benefit If Inflation Stays Hot",
+          "summary": "Ares Capital and Verizon offer high yields and strong fundamentals amid persistent inflation and potential rate hikes. Read more about ARCC and VZ stocks here.",
           "publisher": "SeekingAlpha",
-          "published_at": "2026-06-17 03:31"
-        },
-        {
-          "title": "Meet the Super Semiconductor Stock Crushing Nvidia and Broadcom in 2026",
-          "summary": "Networking player Credo is positioned to grow much faster than the semiconductor giants.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 03:17"
+          "published_at": "2026-06-16 16:30"
         }
       ],
       "sec_filings_6m": [
@@ -850,9 +374,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-06-15 17:11:58",
+          "filed_at": "2026-06-05 20:52:40",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1432602/000173016826000056/xslF345X06/wk-form4_1781557916.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026041366/arcc-20260604.htm",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -861,9 +385,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-06-11 09:07:29",
+          "filed_at": "2026-06-05 16:30:39",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526266777/d152717d8k.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926071006/tm2616745d1_4033.pdf",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -872,9 +396,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-06-09 09:45:18",
+          "filed_at": "2026-06-03 16:05:02",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526263128/d227938ds4.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926070093/tm267561d7_defa14a.htm",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -905,73 +429,68 @@
           }
         ]
       },
-      "screening_score": 100,
+      "screening_score": 72,
       "screening_details": {
-        "market_cap": 1792228065280,
-        "cap_score": 15,
-        "roe_pct": 37.280998,
-        "roe_score": 20,
-        "operating_margin_pct": 48.988,
-        "margin_score": 20,
-        "revenue_growth_pct": 47.9,
-        "earnings_growth_pct": 85.39999999999999,
-        "growth_score": 20,
-        "free_cashflow": 27212249088,
-        "cash_score": 15,
-        "price_position_52w": 0.5284056930989116,
-        "valuation_score": 10
+        "dividend_yield_pct": 1031.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 12996213760,
+        "cap_score": 20,
+        "debt_to_equity": 112.911,
+        "debt_score": 12
       }
     },
-    "V": {
-      "symbol": "V",
-      "name": "Visa Inc.",
-      "display_name": "Visa Inc.",
+    "BXSL": {
+      "symbol": "BXSL",
+      "name": "Blackstone Secured Lending Fund",
+      "display_name": "Blackstone Secured Lending Fund",
       "data_limited": false,
-      "price": 333.22,
-      "high_24h": 333.26,
-      "low_24h": 324.38,
-      "high_1m": 335.17,
-      "low_1m": 309.0,
-      "fiftyTwoWeekHigh": 359.66,
-      "fiftyTwoWeekLow": 293.89,
-      "dividendYield": 83.0,
-      "dividendRate": 2.68,
-      "exDividendDate": "1778544000",
+      "price": 23.48,
+      "high_24h": 23.99,
+      "low_24h": 23.42,
+      "high_1m": 24.26,
+      "low_1m": 23.15,
+      "fiftyTwoWeekHigh": 32.81,
+      "fiftyTwoWeekLow": 22.47,
+      "dividendYield": 1294.0,
+      "dividendRate": 3.08,
+      "exDividendDate": "1782777600",
       "charts": {
-        "24h": "charts/V_24h.png",
-        "1m": "charts/V_1m.png",
-        "1y": "charts/V_1y.png"
+        "24h": "charts/BXSL_24h.png",
+        "1m": "charts/BXSL_1m.png",
+        "1y": "charts/BXSL_1y.png"
       },
       "news": [
         {
-          "title": "Top dow jones movers in Tuesday's session",
-          "summary": "Curious about the top performers within the dow jones index one hour before the close of the markets on Tuesday? Dive into the list of today's session's top gainers and losers for a comprehensive overview.",
-          "publisher": "ChartMill",
-          "published_at": "2026-06-17 04:10"
+          "title": "Forget JEPI: Three Business Development Company ETFs Yielding Over 12% From Private Credit Loans",
+          "summary": "Many retirees who decided to buy the JP Morgan Equity Premium ETF (NYSE: JEPI) were wowed by its 8% yield and JP Morgan pedigree after seeing it advertised on Fox Business News and MS Now. While that’s certainly a solidly high yield, there are some more adventurous investors who have been receiving double-digit yields ... Forget JEPI: Three Business Development Company ETFs Yielding Over 12% From Private Credit Loans",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-06-08T15:37"
         },
         {
-          "title": "Visa vs Mastercard: The Better Buy This Year",
-          "summary": "If you have $2,500 to put into payments networks today, the choice between Visa (NYSE:V) and Mastercard (NYSE:MA) is sharper than usual. Both just posted Q1 FY2026 results that beat estimates, both leaned on resilient cross-border spending, and both rolled out new platforms aimed at agentic commerce and stablecoins. The businesses, however, are pulling in ... Visa vs Mastercard: The Better Buy This Year",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 03:20"
+          "title": "Cerebras initiated, Crocs upgraded: Wall Street's top analyst calls",
+          "summary": "Cerebras initiated, Crocs upgraded: Wall Street's top analyst calls",
+          "publisher": "The Fly",
+          "published_at": "2026-06-08T14:08"
         },
         {
-          "title": "TheFork Joins AmEx's Growing Global Dining Network in $700M Deal",
-          "summary": "American Express will acquire TheFork from Tripadvisor for about $700M, expanding its dining network to roughly 75,000 bookable venues across Europe.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 03:16"
+          "title": "How a $500,000 Position in Senior Loan ETFs Can Generate $35,000 a Year With Floating-Rate Protection",
+          "summary": "A $500,000 position generating a 7% blended yield produces $35,000 in annual income, or about $2,917 per month. That is the arithmetic behind the headline and the same calculation a 62-year-old retiree might use when evaluating how much of a portfolio to allocate to floating-rate credit. Senior bank loans generate income from loans whose interest ... How a $500,000 Position in Senior Loan ETFs Can Generate $35,000 a Year With Floating-Rate Protection",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-06-07T14:25"
         },
         {
-          "title": "Visa vs. PayPal: Which Payments Stock Wins the Upside Race?",
-          "summary": "V's growth across payments, AI commerce, stablecoins and money movement supports stronger earnings momentum and higher upside than PYPL.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 02:08"
+          "title": "Traded BDCs from Blackstone, Golub receive negative outlooks from Moody's",
+          "summary": "Moody’s affirmed the Baa2 ratings of Blackstone Secured Lending Fund (NYSE: BXSL) and Golub Capital BDC (Nasdaq: GBDC), but revised both BDCs’ outlooks to negative, from stable, citing “elevated leverage and weakening asset quality” at each lender. The June 1 revisions follow rising non-accruals at both BXSL and GBDC in Q1. The Blackstone BDC saw non-accruals rise to 4.7% of its portfolio at cost as of March 31, from 0.6% in Q4 2025, primarily driven by the addition of Thoma Bravo–backed softwar",
+          "publisher": "Pitchbook",
+          "published_at": "2026-06-05T15:08"
         },
         {
-          "title": "Stay informed with the top movers within the dow jones index on Tuesday.",
-          "summary": "Wondering what's happening in today's session for the dow jones index? Stay informed with the top movers within the dow jones index on Tuesday.",
-          "publisher": "ChartMill",
-          "published_at": "2026-06-17 01:40"
+          "title": "A $625,000 Portfolio That Quietly Pays $4,200 a Month From Just Three Income Sleeves",
+          "summary": "An annual income target of approximately $50,400, or $4,200 per month, is a reasonable goal for a single 64-year-old retiree who wants investment income to carry most of the load before Social Security benefits begin. In that scenario, Social Security eventually becomes a supplement to retirement income rather than its primary source. The key question ... A $625,000 Portfolio That Quietly Pays $4,200 a Month From Just Three Income Sleeves",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-06-04T13:07"
         }
       ],
       "sec_filings_6m": [
@@ -981,9 +500,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-06-15 11:47:46",
+          "filed_at": "2026-05-21 16:08:12",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/876661/000087666126000531/xslF25X02/primary_doc.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026060043/ea0291766-8k_blackstone.htm",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -992,9 +511,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-05-13 18:06:34",
+          "filed_at": "2026-05-18 16:06:20",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000083/xslF345X06/form4.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026058432/ea0290101-03_424b2.htm",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -1003,20 +522,20 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-05-12 16:12:37",
+          "filed_at": "2026-05-14 16:45:03",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000119312526219449/d477284d8a12g.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026056735/ea0290101-04_fwp.htm",
           "fallback_reason": "importance_filter_empty"
         }
       ],
       "sec_filings_filter": {
         "status": "fallback_unfiltered",
-        "raw_count": 20,
+        "raw_count": 17,
         "shown_count": 3,
-        "excluded_count": 20,
+        "excluded_count": 17,
         "hidden_count": 0,
         "excluded_forms": {
-          "UNKNOWN": 20
+          "UNKNOWN": 17
         },
         "excluded_examples": [
           {
@@ -1036,73 +555,68 @@
           }
         ]
       },
-      "screening_score": 97,
+      "screening_score": 72,
       "screening_details": {
-        "market_cap": 633508855808,
-        "cap_score": 15,
-        "roe_pct": 60.349,
-        "roe_score": 20,
-        "operating_margin_pct": 67.34599999999999,
-        "margin_score": 20,
-        "revenue_growth_pct": 17.1,
-        "earnings_growth_pct": 35.5,
-        "growth_score": 20,
-        "free_cashflow": 20839749632,
-        "cash_score": 15,
-        "price_position_52w": 0.5964725558765394,
-        "valuation_score": 7
+        "dividend_yield_pct": 1294.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 5464995328,
+        "cap_score": 20,
+        "debt_to_equity": 131.71,
+        "debt_score": 12
       }
     },
-    "MA": {
-      "symbol": "MA",
-      "name": "Mastercard Incorporated",
-      "display_name": "Mastercard Incorporated",
+    "O": {
+      "symbol": "O",
+      "name": "Realty Income Corporation",
+      "display_name": "Realty Income Corporation",
       "data_limited": false,
-      "price": 501.33,
-      "high_24h": 501.49,
-      "low_24h": 489.51,
-      "high_1m": 512.9,
-      "low_1m": 464.52,
-      "fiftyTwoWeekHigh": 601.77,
-      "fiftyTwoWeekLow": 464.52,
-      "dividendYield": 71.0,
-      "dividendRate": 3.48,
-      "exDividendDate": "1775692800",
+      "price": 60.57,
+      "high_24h": 62.01,
+      "low_24h": 60.31,
+      "high_1m": 62.97,
+      "low_1m": 59.48,
+      "fiftyTwoWeekHigh": 67.94,
+      "fiftyTwoWeekLow": 55.86,
+      "dividendYield": 523.0,
+      "dividendRate": 3.25,
+      "exDividendDate": "1782777600",
       "charts": {
-        "24h": "charts/MA_24h.png",
-        "1m": "charts/MA_1m.png",
-        "1y": "charts/MA_1y.png"
+        "24h": "charts/O_24h.png",
+        "1m": "charts/O_1m.png",
+        "1y": "charts/O_1y.png"
       },
       "news": [
         {
-          "title": "Mastercard Board of Directors Announces Quarterly Dividend",
-          "summary": "PURCHASE, N.Y., June 16, 2026--Mastercard Incorporated (NYSE: MA) today announced that its Board of Directors has declared a quarterly cash dividend of 87 cents per share.",
+          "title": "Worried About a Market Crash? These 3 Dividend Stocks Could Help Reduce Your Risk",
+          "summary": "The stocks on this list offer above-average yields and aren't volatile investments.",
           "publisher": "Yahoo",
-          "published_at": "2026-06-17 05:11"
+          "published_at": "2026-06-18 00:20"
         },
         {
-          "title": "Mastercard Announces Annual Meeting Results",
-          "summary": "PURCHASE, N.Y., June 16, 2026--Mastercard Incorporated (NYSE:MA) announced the results of its annual meeting of stockholders, held today.",
-          "publisher": "Yahoo",
-          "published_at": "2026-06-17 05:10"
+          "title": "Win Big With These Dividends No Matter Where The Economy Is Heading",
+          "summary": "For retirement, investors should build a cash engine that performs in any economic weather. Check out the outlook for some of the major sectors we are invested in.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-06-17 16:35"
         },
         {
-          "title": "Mastercard Unveils New Cohort of Small Business Fund Recipients",
-          "summary": "Today, Mastercard announced its latest recipients of the Mastercard Small Business Fund. Now in its fourth year, the program supports women-owned small businesses by providing critical resources to help them scale and succeed. Awarded with a $10,000 grant, access to resources to fuel business growth and a Priceless experience in Toronto offering expert mentorship, community building opportunities, and actionable insights, the initiative is designed to help small businesses build for tomorrow.",
+          "title": "How to Build $3,000 a Month in Dividend Income to Cover the Average Social Security Check",
+          "summary": "The average retired worker receives roughly $2,000 a month from Social Security. For many retirees, that covers only part of the budget. Building a second Social Security-sized check from dividends can help cover housing, healthcare, travel, family support, or simply provide a larger margin of safety in retirement. The challenge is not finding the right stock. ... How to Build $3,000 a Month in Dividend Income to Cover the Average Social Security Check",
           "publisher": "Yahoo",
-          "published_at": "2026-06-17 05:10"
+          "published_at": "2026-06-17 03:49"
         },
         {
-          "title": "Visa vs Mastercard: The Better Buy This Year",
-          "summary": "If you have $2,500 to put into payments networks today, the choice between Visa (NYSE:V) and Mastercard (NYSE:MA) is sharper than usual. Both just posted Q1 FY2026 results that beat estimates, both leaned on resilient cross-border spending, and both rolled out new platforms aimed at agentic commerce and stablecoins. The businesses, however, are pulling in ... Visa vs Mastercard: The Better Buy This Year",
+          "title": "This Dividend Stock Has Paid Shareholders Every Month for 30+ Years. It's Not Done Yet.",
+          "summary": "This stock is a rare combination of income and growth potential.",
           "publisher": "Yahoo",
-          "published_at": "2026-06-17 03:20"
+          "published_at": "2026-06-16 23:46"
         },
         {
-          "title": "TheFork Joins AmEx's Growing Global Dining Network in $700M Deal",
-          "summary": "American Express will acquire TheFork from Tripadvisor for about $700M, expanding its dining network to roughly 75,000 bookable venues across Europe.",
+          "title": "Realty Income (O) Stock Could Be 12.4% Undervalued After Its Latest Dividend Affirmation",
+          "summary": "Realty Income (O) has reaffirmed its monthly dividend at US$0.2710 per share, payable on July 15, 2026, with both the ex dividend date and record date set for June 30, 2026. See our latest analysis for Realty Income. At a share price of US$62.14, Realty Income has delivered an 8.43% year to date share price return and a 14.32% total shareholder return over the past year, reflecting recent performance supported by regular dividend affirmations and ongoing portfolio activity. If consistent...",
           "publisher": "Yahoo",
-          "published_at": "2026-06-17 03:16"
+          "published_at": "2026-06-16 21:08"
         }
       ],
       "sec_filings_6m": [
@@ -1112,9 +626,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-06-08 16:02:24",
+          "filed_at": "2026-05-26 18:32:41",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1141391/000119312526261669/d128075d8k.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/726728/000140305126000004/xslF345X06/wk-form4_1779834758.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -1123,9 +637,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-06-05 16:06:25",
+          "filed_at": "2026-05-26 18:30:30",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1141391/000119312526259545/d110955d424b2.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/726728/000118348726000002/xslF345X06/wk-form4_1779834628.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -1134,9 +648,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-06-04 17:19:07",
+          "filed_at": "2026-05-26 18:28:30",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1141391/000119312526257761/d148721dfwp.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/726728/000124803226000005/xslF345X06/wk-form4_1779834507.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -1167,151 +681,349 @@
           }
         ]
       },
-      "screening_score": 97,
+      "screening_score": 72,
       "screening_details": {
-        "market_cap": 442967097344,
-        "cap_score": 15,
-        "roe_pct": 232.076,
-        "roe_score": 20,
-        "operating_margin_pct": 60.836,
-        "margin_score": 20,
-        "revenue_growth_pct": 15.8,
-        "earnings_growth_pct": 21.2,
-        "growth_score": 17,
-        "free_cashflow": 16148124672,
-        "cash_score": 15,
-        "price_position_52w": 0.26819672131147543,
-        "valuation_score": 10
+        "dividend_yield_pct": 523.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 56481071104,
+        "cap_score": 20,
+        "debt_to_equity": 73.467,
+        "debt_score": 12
+      }
+    },
+    "STAG": {
+      "symbol": "STAG",
+      "name": "STAG Industrial, Inc.",
+      "display_name": "STAG Industrial, Inc.",
+      "data_limited": false,
+      "price": 37.27,
+      "high_24h": 38.43,
+      "low_24h": 37.04,
+      "high_1m": 38.99,
+      "low_1m": 36.28,
+      "fiftyTwoWeekHigh": 39.99,
+      "fiftyTwoWeekLow": 33.72,
+      "dividendYield": 403.0,
+      "dividendRate": 1.55,
+      "exDividendDate": "1782777600",
+      "charts": {
+        "24h": "charts/STAG_24h.png",
+        "1m": "charts/STAG_1m.png",
+        "1y": "charts/STAG_1y.png"
+      },
+      "news": [
+        {
+          "title": "Terreno Realty Adds Alexandria Asset as Industrial Demand Holds Up",
+          "summary": "Terreno Realty's $13M Alexandria buy expands its D.C. industrial footprint, adding a leased infill asset near key highways as demand holds up.",
+          "publisher": "Yahoo",
+          "published_at": "2026-06-18 00:55"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-04-30 14:05:19",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1479094/000210011926001138/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-04-29 16:03:08",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1479094/000147909426000019/stag-20260427.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-04-29 15:07:46",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1479094/000210012126000653/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 72,
+      "screening_details": {
+        "dividend_yield_pct": 403.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 7275268608,
+        "cap_score": 20,
+        "debt_to_equity": 88.148,
+        "debt_score": 12
+      }
+    },
+    "VICI": {
+      "symbol": "VICI",
+      "name": "VICI Properties Inc.",
+      "display_name": "VICI Properties Inc.",
+      "data_limited": false,
+      "price": 27.24,
+      "high_24h": 27.9,
+      "low_24h": 27.14,
+      "high_1m": 28.93,
+      "low_1m": 27.01,
+      "fiftyTwoWeekHigh": 34.01,
+      "fiftyTwoWeekLow": 26.55,
+      "dividendYield": 643.0,
+      "dividendRate": 1.8,
+      "exDividendDate": "1781740800",
+      "charts": {
+        "24h": "charts/VICI_24h.png",
+        "1m": "charts/VICI_1m.png",
+        "1y": "charts/VICI_1y.png"
+      },
+      "news": [
+        {
+          "title": "VICI Properties Adds Club Med Resort to Experiential Growth Push",
+          "summary": "VICI's Carambola Beach Resort deal with Club Med expands its experiential portfolio, adding premium resort exposure, while leveraging risks remain.",
+          "publisher": "Yahoo",
+          "published_at": "2026-06-16 21:38"
+        },
+        {
+          "title": "Club Med St. Croix Redevelopment Might Change The Case For Investing In VICI Properties (VICI)",
+          "summary": "Earlier in June 2026, Club Med and VICI Properties Inc. announced that VICI acquired the Carambola Beach Resort in the U.S. Virgin Islands and entered a long-term triple-net lease, under which VICI will fund a full redevelopment to Club Med’s Exclusive Collection standards while Club Med operates the 150-key property. The project aims to create a flagship sustainable, all-inclusive resort that supports local employment and economic activity through BREEAM and Green Globe-aligned...",
+          "publisher": "Yahoo",
+          "published_at": "2026-06-16 09:15"
+        },
+        {
+          "title": "VICI Properties and Club Med Announce Acquisition and Redevelopment of Carambola Beach Resort in St. Croix",
+          "summary": "ST. CROIX, U.S. Virgin Islands & NEW YORK, June 15, 2026--Club Med, the pioneer of the all-inclusive concept with nearly 60 resorts in some of the world’s most desired vacation destinations, and VICI Properties Inc. (NYSE: VICI), an S&P 500 experiential real estate investment trust, announced today the acquisition and planned redevelopment of the iconic Carambola Beach Resort, located in the U.S. Virgin Islands, marking the return of Club Med to U.S. shores. The future Club Med St. Croix will re",
+          "publisher": "Yahoo",
+          "published_at": "2026-06-15 21:15"
+        },
+        {
+          "title": "CLUB MED ADVANCES STRATEGIC NORTH AMERICAN EXPANSION WITH THE REDEVELOPMENT OF CARAMBOLA BEACH RESORT IN ST. CROIX IN PARTNERSHIP WITH VICI PROPERTIES",
+          "summary": "Club Med, the pioneer of the all-inclusive concept with nearly 60 resorts in some of the world's most desired vacation destinations, and VICI Properties Inc. (NYSE: VICI), an S&P 500 experiential real estate investment trust, announced today the acquisition and planned redevelopment of the iconic Carambola Beach Resort, located in the U.S. Virgin Islands, marking the return of Club Med to U.S. shores. The future Club Med St. Croix will reinforce the hospitality brand's leadership in the premium",
+          "publisher": "Yahoo",
+          "published_at": "2026-06-15 21:15"
+        },
+        {
+          "title": "Club Med, VICI Properties Acquire Carambola Beach Resort; Financial Terms Undisclosed",
+          "summary": "Club Med, the pioneer of the all-inclusive concept with nearly 60 resorts in some of the world&#39;s most desired vacation destinations, and VICI Properties Inc. (NYSE:VICI), an S&amp;P 500 experiential real estate",
+          "publisher": "Benzinga",
+          "published_at": "2026-06-15 17:17"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-06-02 16:32:05",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1661712/000166171226000001/xslF345X06/wk-form4_1780432322.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-04-30 14:23:01",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1705696/000210011926001185/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-04-29 16:18:00",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1705696/000170569626000069/vici-20260331.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 72,
+      "screening_details": {
+        "dividend_yield_pct": 643.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 29320722432,
+        "cap_score": 20,
+        "debt_to_equity": 61.853,
+        "debt_score": 12
       }
     }
   },
   "candidate_rankings": [
     {
-      "symbol": "META",
-      "name": "Meta Platforms, Inc.",
-      "score": 100,
-      "dividend_yield_pct": 35.0,
+      "symbol": "ARCC",
+      "name": "Ares Capital Corporation",
+      "score": 72,
+      "dividend_yield_pct": 1031.0,
       "details": {
-        "market_cap": 1523587088384,
-        "cap_score": 15,
-        "roe_pct": 32.930002,
-        "roe_score": 20,
-        "operating_margin_pct": 40.617,
-        "margin_score": 20,
-        "revenue_growth_pct": 33.1,
-        "earnings_growth_pct": 62.4,
-        "growth_score": 20,
-        "free_cashflow": 25558249472,
-        "cash_score": 15,
-        "price_position_52w": 0.2896844088553935,
-        "valuation_score": 10
+        "dividend_yield_pct": 1031.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 12996213760,
+        "cap_score": 20,
+        "debt_to_equity": 112.911,
+        "debt_score": 12
       }
     },
     {
-      "symbol": "AVGO",
-      "name": "Broadcom Inc.",
-      "score": 100,
-      "dividend_yield_pct": 66.0,
+      "symbol": "BXSL",
+      "name": "Blackstone Secured Lending Fund",
+      "score": 72,
+      "dividend_yield_pct": 1294.0,
       "details": {
-        "market_cap": 1792228065280,
-        "cap_score": 15,
-        "roe_pct": 37.280998,
-        "roe_score": 20,
-        "operating_margin_pct": 48.988,
-        "margin_score": 20,
-        "revenue_growth_pct": 47.9,
-        "earnings_growth_pct": 85.39999999999999,
-        "growth_score": 20,
-        "free_cashflow": 27212249088,
-        "cash_score": 15,
-        "price_position_52w": 0.5284056930989116,
-        "valuation_score": 10
+        "dividend_yield_pct": 1294.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 5464995328,
+        "cap_score": 20,
+        "debt_to_equity": 131.71,
+        "debt_score": 12
       }
     },
     {
-      "symbol": "MSFT",
-      "name": "Microsoft Corporation",
-      "score": 97,
-      "dividend_yield_pct": 91.0,
+      "symbol": "O",
+      "name": "Realty Income Corporation",
+      "score": 72,
+      "dividend_yield_pct": 523.0,
       "details": {
-        "market_cap": 2925540409344,
-        "cap_score": 15,
-        "roe_pct": 34.013999,
-        "roe_score": 20,
-        "operating_margin_pct": 46.326,
-        "margin_score": 20,
-        "revenue_growth_pct": 18.3,
-        "earnings_growth_pct": 23.400000000000002,
-        "growth_score": 17,
-        "free_cashflow": 37011251200,
-        "cash_score": 15,
-        "price_position_52w": 0.1885324094994226,
-        "valuation_score": 10
+        "dividend_yield_pct": 523.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 56481071104,
+        "cap_score": 20,
+        "debt_to_equity": 73.467,
+        "debt_score": 12
       }
     },
     {
-      "symbol": "V",
-      "name": "Visa Inc.",
-      "score": 97,
-      "dividend_yield_pct": 83.0,
+      "symbol": "STAG",
+      "name": "STAG Industrial, Inc.",
+      "score": 72,
+      "dividend_yield_pct": 403.0,
       "details": {
-        "market_cap": 633508855808,
-        "cap_score": 15,
-        "roe_pct": 60.349,
-        "roe_score": 20,
-        "operating_margin_pct": 67.34599999999999,
-        "margin_score": 20,
-        "revenue_growth_pct": 17.1,
-        "earnings_growth_pct": 35.5,
-        "growth_score": 20,
-        "free_cashflow": 20839749632,
-        "cash_score": 15,
-        "price_position_52w": 0.5964725558765394,
-        "valuation_score": 7
+        "dividend_yield_pct": 403.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 7275268608,
+        "cap_score": 20,
+        "debt_to_equity": 88.148,
+        "debt_score": 12
       }
     },
     {
-      "symbol": "MA",
-      "name": "Mastercard Incorporated",
-      "score": 97,
-      "dividend_yield_pct": 71.0,
+      "symbol": "VICI",
+      "name": "VICI Properties Inc.",
+      "score": 72,
+      "dividend_yield_pct": 643.0,
       "details": {
-        "market_cap": 442967097344,
-        "cap_score": 15,
-        "roe_pct": 232.076,
-        "roe_score": 20,
-        "operating_margin_pct": 60.836,
-        "margin_score": 20,
-        "revenue_growth_pct": 15.8,
-        "earnings_growth_pct": 21.2,
-        "growth_score": 17,
-        "free_cashflow": 16148124672,
-        "cash_score": 15,
-        "price_position_52w": 0.26819672131147543,
-        "valuation_score": 10
+        "dividend_yield_pct": 643.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 29320722432,
+        "cap_score": 20,
+        "debt_to_equity": 61.853,
+        "debt_score": 12
       }
     }
   ],
   "screening_meta": {
-    "mode": "quality",
-    "title": "장기 퀄리티 후보",
-    "seed_pool_size": 60,
+    "mode": "dividend",
+    "title": "고배당/현금흐름 후보",
+    "seed_pool_size": 54,
     "ai_selected_count": 20,
-    "scored_count": 20,
+    "scored_count": 15,
     "top5": [
-      "META",
-      "AVGO",
-      "MSFT",
-      "V",
-      "MA"
+      "ARCC",
+      "BXSL",
+      "O",
+      "STAG",
+      "VICI"
     ],
     "max_screening_candidates": 20
   },
   "api_stats": {
-    "yfinance": 30,
-    "news": 10,
-    "fmp": 10,
-    "charts": 30,
+    "yfinance": 28,
+    "news": 8,
+    "fmp": 8,
+    "charts": 24,
     "limits": {
       "max_screening_candidates": 20,
       "news_per_ticker": 5,
