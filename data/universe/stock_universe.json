@@ -1,6 +1,6 @@
 {
-  "version": 6,
-  "updated_at": "2026-06-15 06:12 KST",
+  "version": 7,
+  "updated_at": "2026-06-22 06:13 KST",
   "refresh_policy": {
     "dividend": "monthly",
     "theme": "weekly",
@@ -63,7 +63,7 @@
     "ABR"
   ],
   "theme": {
-    "AI & Semiconductor Innovation": [
+    "AI Semiconductors & Accelerators": [
       "NVDA",
       "AMD",
       "AVGO",
@@ -71,25 +71,23 @@
       "ASML",
       "ARM",
       "QCOM",
-      "AMAT",
-      "LRCX",
-      "SMCI",
       "MU",
+      "MRVL",
       "TXN"
     ],
     "AI Infrastructure & Data Centers": [
       "EQIX",
       "DLR",
       "AMT",
-      "ETN",
-      "PWR",
-      "VST",
-      "CEG",
-      "GEV",
       "VRT",
-      "VERT"
+      "PWR",
+      "ETN",
+      "SMCI",
+      "ANET",
+      "DELL",
+      "HPE"
     ],
-    "AI Software & Enterprise AI": [
+    "Enterprise AI & Software": [
       "MSFT",
       "GOOGL",
       "ORCL",
@@ -102,17 +100,26 @@
       "PANW",
       "ZS"
     ],
-    "Geopolitical Resilience & Defense": [
+    "Cybersecurity & Data Privacy": [
+      "CRWD",
+      "PANW",
+      "ZS",
+      "FTNT",
+      "OKTA",
+      "S",
+      "CYBR",
+      "NET",
+      "PLTR"
+    ],
+    "Defense & Aerospace": [
       "LMT",
       "RTX",
       "NOC",
       "GD",
       "HII",
       "LHX",
-      "KTOS",
-      "PLTR",
-      "CYBR",
-      "FTNT"
+      "BA",
+      "HWM"
     ],
     "Nuclear & Uranium Energy": [
       "CCJ",
@@ -126,20 +133,16 @@
       "DNN",
       "URA"
     ],
-    "Health & Longevity": [
+    "GLP-1 & Metabolic Health": [
       "LLY",
       "NVO",
       "AMGN",
-      "REGN",
-      "VRTX",
-      "ISRG",
-      "TMO",
-      "ABT",
-      "MRK",
-      "DHR",
-      "GILD"
+      "VKTX",
+      "GPCR",
+      "DXCM",
+      "ISRG"
     ],
-    "Industrial Automation & Efficiency": [
+    "Industrial Automation & Reshoring": [
       "ROK",
       "EMR",
       "HON",
@@ -150,32 +153,43 @@
       "AOS",
       "CGNX",
       "PTC",
-      "DD"
+      "FTV"
     ],
-    "Experiential & Specialized Real Estate": [
-      "VICI",
-      "O",
-      "STAG",
+    "Energy Transition & Grid Modernization": [
+      "NEE",
+      "PWR",
+      "ETN",
+      "GEV",
+      "FSLR",
+      "ENPH",
+      "SEDG",
+      "CEG",
+      "XEL",
+      "BEPC"
+    ],
+    "Specialized Real Estate": [
       "PLD",
       "PSA",
       "CUBE",
       "EXR",
       "ARE",
-      "SBAC",
-      "SPG"
+      "STAG",
+      "VICI",
+      "O",
+      "LSI"
     ],
-    "Traditional Energy & Midstream": [
+    "Traditional Energy & Energy Security": [
       "XOM",
       "CVX",
       "COP",
-      "SLB",
-      "LNG",
+      "OXY",
       "EPD",
       "ET",
       "MPLX",
       "WMB",
       "KMI",
-      "OXY"
+      "PXD",
+      "SLB"
     ]
   },
   "quality": [
