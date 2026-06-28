@@ -1,6 +1,6 @@
 {
-  "version": 7,
-  "updated_at": "2026-06-22 06:13 KST",
+  "version": 8,
+  "updated_at": "2026-06-29 06:00 KST",
   "refresh_policy": {
     "dividend": "monthly",
     "theme": "weekly",
@@ -63,44 +63,33 @@
     "ABR"
   ],
   "theme": {
-    "AI Semiconductors & Accelerators": [
+    "AI Semiconductors & Hardware": [
       "NVDA",
-      "AMD",
       "AVGO",
+      "AMD",
       "TSM",
       "ASML",
       "ARM",
-      "QCOM",
       "MU",
-      "MRVL",
-      "TXN"
-    ],
-    "AI Infrastructure & Data Centers": [
-      "EQIX",
-      "DLR",
-      "AMT",
-      "VRT",
-      "PWR",
-      "ETN",
+      "QCOM",
       "SMCI",
-      "ANET",
       "DELL",
-      "HPE"
+      "VRT",
+      "MRVL"
     ],
     "Enterprise AI & Software": [
       "MSFT",
       "GOOGL",
       "ORCL",
       "ADBE",
-      "CRM",
       "NOW",
+      "CRM",
       "SNOW",
       "CDNS",
       "ANSS",
-      "PANW",
-      "ZS"
+      "HUBS"
     ],
-    "Cybersecurity & Data Privacy": [
+    "Cybersecurity & Data Protection": [
       "CRWD",
       "PANW",
       "ZS",
@@ -111,15 +100,17 @@
       "NET",
       "PLTR"
     ],
-    "Defense & Aerospace": [
-      "LMT",
-      "RTX",
-      "NOC",
-      "GD",
-      "HII",
-      "LHX",
-      "BA",
-      "HWM"
+    "Energy Transition & Grid Modernization": [
+      "PWR",
+      "ETN",
+      "NEE",
+      "XEL",
+      "SO",
+      "D",
+      "GEV",
+      "FSLR",
+      "ENPH",
+      "SMR"
     ],
     "Nuclear & Uranium Energy": [
       "CCJ",
@@ -127,20 +118,18 @@
       "BWXT",
       "UEC",
       "NXE",
-      "SMR",
       "LEU",
       "UUUU",
-      "DNN",
-      "URA"
+      "DNN"
     ],
     "GLP-1 & Metabolic Health": [
       "LLY",
       "NVO",
       "AMGN",
       "VKTX",
-      "GPCR",
       "DXCM",
-      "ISRG"
+      "ISRG",
+      "VRTX"
     ],
     "Industrial Automation & Reshoring": [
       "ROK",
@@ -153,30 +142,19 @@
       "AOS",
       "CGNX",
       "PTC",
-      "FTV"
+      "FTV",
+      "DE"
     ],
-    "Energy Transition & Grid Modernization": [
-      "NEE",
-      "PWR",
-      "ETN",
-      "GEV",
-      "FSLR",
-      "ENPH",
-      "SEDG",
-      "CEG",
-      "XEL",
-      "BEPC"
-    ],
-    "Specialized Real Estate": [
-      "PLD",
-      "PSA",
-      "CUBE",
-      "EXR",
-      "ARE",
-      "STAG",
-      "VICI",
-      "O",
-      "LSI"
+    "Defense & Aerospace": [
+      "LMT",
+      "RTX",
+      "NOC",
+      "GD",
+      "HII",
+      "LHX",
+      "BA",
+      "HWM",
+      "TDY"
     ],
     "Traditional Energy & Energy Security": [
       "XOM",
@@ -190,6 +168,31 @@
       "KMI",
       "PXD",
       "SLB"
+    ],
+    "Global Infrastructure & Materials": [
+      "CAT",
+      "UNP",
+      "CSX",
+      "MLM",
+      "VMC",
+      "STLD",
+      "NUE",
+      "VALE",
+      "RIO",
+      "BHP",
+      "FCX"
+    ],
+    "Specialized Real Estate & Data Centers": [
+      "PLD",
+      "PSA",
+      "EQIX",
+      "DLR",
+      "CUBE",
+      "EXR",
+      "ARE",
+      "STAG",
+      "VICI",
+      "O"
     ]
   },
   "quality": [
