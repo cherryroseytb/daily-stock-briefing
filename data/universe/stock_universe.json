@@ -1,6 +1,6 @@
 {
-  "version": 10,
-  "updated_at": "2026-07-06 05:58 KST",
+  "version": 11,
+  "updated_at": "2026-07-13 05:44 KST",
   "refresh_policy": {
     "dividend": "monthly",
     "theme": "weekly",
@@ -63,7 +63,7 @@
     "ABR"
   ],
   "theme": {
-    "AI Semiconductors & Hardware": [
+    "AI Semiconductors & Accelerators": [
       "NVDA",
       "AVGO",
       "AMD",
@@ -72,22 +72,22 @@
       "ARM",
       "MU",
       "QCOM",
-      "SMCI",
-      "DELL",
-      "VRT",
-      "MRVL"
+      "MRVL",
+      "AMAT",
+      "LRCX",
+      "TXN"
     ],
-    "Enterprise AI & Software": [
+    "Enterprise AI & Software Solutions": [
       "MSFT",
       "GOOGL",
       "ORCL",
       "ADBE",
       "NOW",
       "CRM",
-      "SNOW",
       "CDNS",
       "ANSS",
-      "HUBS"
+      "HUBS",
+      "MDB"
     ],
     "Cybersecurity & Data Protection": [
       "CRWD",
@@ -95,42 +95,42 @@
       "ZS",
       "FTNT",
       "OKTA",
-      "S",
       "CYBR",
       "NET",
-      "PLTR"
+      "PLTR",
+      "VEEV"
     ],
-    "Energy Transition & Grid Modernization": [
+    "Electrification & Grid Modernization": [
       "PWR",
       "ETN",
+      "GE",
+      "GEV",
       "NEE",
       "XEL",
       "SO",
       "D",
-      "GEV",
-      "FSLR",
-      "ENPH",
-      "SMR"
+      "AEE",
+      "VWS"
     ],
-    "Nuclear & Uranium Energy": [
+    "Nuclear & Uranium Revival": [
       "CCJ",
       "CEG",
       "BWXT",
       "UEC",
       "NXE",
-      "LEU",
-      "UUUU",
-      "DNN"
+      "LEU"
     ],
-    "GLP-1 & Metabolic Health": [
+    "GLP-1 & Metabolic Health Innovation": [
       "LLY",
       "NVO",
       "AMGN",
       "VKTX",
       "DXCM",
-      "ISRG"
+      "ABBV",
+      "ELV",
+      "ILMN"
     ],
-    "Industrial Automation & Reshoring": [
+    "Industrial Automation & Digital Transfor": [
       "ROK",
       "EMR",
       "HON",
@@ -144,7 +144,7 @@
       "FTV",
       "DE"
     ],
-    "Defense & Aerospace": [
+    "Defense & Aerospace Security": [
       "LMT",
       "RTX",
       "NOC",
@@ -153,9 +153,10 @@
       "LHX",
       "BA",
       "HWM",
-      "TDY"
+      "TDY",
+      "KBR"
     ],
-    "Traditional Energy & Energy Security": [
+    "Energy Security & Infrastructure": [
       "XOM",
       "CVX",
       "COP",
@@ -168,7 +169,7 @@
       "PXD",
       "SLB"
     ],
-    "Global Infrastructure & Materials": [
+    "Global Infrastructure & Critical Materia": [
       "CAT",
       "UNP",
       "CSX",
@@ -179,19 +180,26 @@
       "VALE",
       "RIO",
       "BHP",
-      "FCX"
+      "FCX",
+      "X"
     ],
-    "Specialized Real Estate & Data Centers": [
-      "PLD",
-      "PSA",
+    "Data Center & Digital Infrastructure REI": [
       "EQIX",
       "DLR",
       "CUBE",
-      "EXR",
-      "ARE",
-      "STAG",
-      "VICI",
-      "O"
+      "PLD",
+      "PSA",
+      "CCI",
+      "AMT",
+      "EXR"
+    ],
+    "Precision Agriculture & Food Security": [
+      "DE",
+      "AGCO",
+      "CNHI",
+      "MOS",
+      "NTR",
+      "BG"
     ]
   },
   "quality": [
