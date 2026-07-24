@@ -1,9 +1,9 @@
 {
-  "date": "2026-07-24 07:43",
+  "date": "2026-07-25 07:49",
   "report_profile": {
-    "type": "theme",
-    "title": "모멘텀/테마 후보",
-    "description": "최근 뉴스와 시장 모멘텀이 붙은 주요 테마 안에서 후보를 선별합니다."
+    "type": "quality",
+    "title": "장기 퀄리티 후보",
+    "description": "3년 이상 보유 관점에서 사업 품질, 재무 안정성, 성장성을 기준으로 선별합니다."
   },
   "market_data": {
     "ASML": {
@@ -11,9 +11,9 @@
       "name": "ASML Holding N.V.",
       "display_name": "ASML Holding N.V.",
       "data_limited": false,
-      "price": 1803.17,
-      "high_24h": 1823.57,
-      "low_24h": 1780.24,
+      "price": 1757.35,
+      "high_24h": 1797.87,
+      "low_24h": 1739.88,
       "high_1m": 1999.96,
       "low_1m": 1703.4,
       "fiftyTwoWeekHigh": 1999.96,
@@ -28,34 +28,34 @@
       },
       "news": [
         {
+          "title": "LRCX Poised for a Q4 Earnings Surprise: Should You Buy the Stock Now?",
+          "summary": "Lam Research's Q4 results are expected to reflect the benefits of strong demand for AI chips and rising DRAM spending.",
+          "publisher": "Yahoo",
+          "published_at": "2026-07-24 21:44"
+        },
+        {
+          "title": "TSMC: Robust Margins, Strong Guidance, The Market Is Getting Out Of Hand Here",
+          "summary": "TSMC Q2 earnings surged, but CapEx fears hit shares. Click here to read more on the TSM stock.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-07-24 16:30"
+        },
+        {
+          "title": "AMSL, AMAT, KLAC, LRCX: Chipmaking Equipment Stocks Rise On Intel’s CapEx Bump",
+          "summary": "ASML Holding, Lam Research, KLA Corp and Applied Materials are among the world’s top suppliers of semiconductor manufacturing equipment.",
+          "publisher": "Yahoo",
+          "published_at": "2026-07-24 11:44"
+        },
+        {
+          "title": "AI Chip Stocks Just Got Crushed. 3 Semiconductor ETFs to Buy the Dip On",
+          "summary": "Semiconductor stocks just took a bruising, but the companies powering every major AI buildout are nowhere near done growing. Three ETFs offer very different ways to position for the rebound, and the choice you make now could matter a lot.",
+          "publisher": "Yahoo",
+          "published_at": "2026-07-24 07:14"
+        },
+        {
           "title": "Established Firm Harding Loevner Enters ETF Market With LOEV for International Investors",
           "summary": "A 35-year-old institutional powerhouse just made its first move into the ETF market, betting that quality stock picking in developed markets abroad can justify a fee 23 times higher than its cheapest rival.",
           "publisher": "Yahoo",
           "published_at": "2026-07-24 04:41"
-        },
-        {
-          "title": "Stock Market Today: Nasdaq Pounded As Oil Surges; Metals Firm Hits New Entry (Live Coverage)",
-          "summary": "The Nasdaq composite led a wide-ranging sell-off and the Dow Jones Industrial Average moved sharply lower Thursday as major indexes struggled to lift off their intraday lows.  Google-parent Alphabet and Tesla led the sell-off on the stock market today after their quarterly earnings reports.  In Thursday late-afternoon action, the tech-heavy Nasdaq composite endured more selling and plunged 2.4%.",
-          "publisher": "Yahoo",
-          "published_at": "2026-07-24 04:21"
-        },
-        {
-          "title": "ASML, IBD Stock Of The Day, Rebounds From Post-Earnings Swoon",
-          "summary": "ASML is the IBD Stock Of The Day as the Dutch semiconductor equipment giant holds strong after its beat-and-raise Q2 earnings report.",
-          "publisher": "Yahoo",
-          "published_at": "2026-07-24 02:44"
-        },
-        {
-          "title": "ASML Holdings' EUV Leadership Strengthens Long-Term Growth",
-          "summary": "ASML's EUV dominance and next-gen High-NA systems position it to benefit as AI demand drives advanced chip production.",
-          "publisher": "Yahoo",
-          "published_at": "2026-07-24 01:24"
-        },
-        {
-          "title": "Stock Market Today: Dow Slammed 600 Points, But Micron, Chip Gear Stocks Rise; Alphabet Slides (Live Coverage)",
-          "summary": "Stock Market Today: The Dow Jones index dropped 600 points Thursday as Alphabet and Tesla stock dived on earnings. Oil prices jumped.",
-          "publisher": "Yahoo",
-          "published_at": "2026-07-24 00:31"
         }
       ],
       "sec_filings_6m": [
@@ -126,14 +126,14 @@
       "name": "Oxford Lane Capital Corp.",
       "display_name": "Oxford Lane Capital Corp.",
       "data_limited": false,
-      "price": 8.65,
-      "high_24h": 8.82,
-      "low_24h": 8.6,
+      "price": 8.51,
+      "high_24h": 8.68,
+      "low_24h": 8.5,
       "high_1m": 9.13,
-      "low_1m": 8.14,
+      "low_1m": 8.28,
       "fiftyTwoWeekHigh": 19.05,
       "fiftyTwoWeekLow": 8.01,
-      "dividendYield": 2715.0,
+      "dividendYield": 2775.0,
       "dividendRate": 2.4,
       "exDividendDate": "1786924800",
       "charts": {
@@ -241,14 +241,14 @@
       "name": "QUALCOMM Incorporated",
       "display_name": "QUALCOMM Incorporated",
       "data_limited": false,
-      "price": 171.2,
-      "high_24h": 173.95,
-      "low_24h": 168.31,
+      "price": 166.97,
+      "high_24h": 171.1,
+      "low_24h": 165.77,
       "high_1m": 219.43,
       "low_1m": 164.77,
       "fiftyTwoWeekHigh": 259.92,
       "fiftyTwoWeekLow": 121.99,
-      "dividendYield": 210.0,
+      "dividendYield": 215.0,
       "dividendRate": 3.68,
       "exDividendDate": "1788393600",
       "charts": {
@@ -258,34 +258,34 @@
       },
       "news": [
         {
-          "title": "Marvell Technology Stock And The Forecast It Kept Outgrowing",
-          "summary": "The chipmaker kept telling investors its own AI targets were too low, but the message took a while to land.",
+          "title": "TSMC might set up a price hike that could come straight for your next phone, laptop, or tablet",
+          "summary": "Reports suggest TSMC plans to hike chip prices by up to 10% in 2027, a change that could ripple into the cost of nearly every device you buy.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 04:28"
+          "published_at": "2026-07-25 06:31"
         },
         {
-          "title": "Qualcomm (QCOM) Stock Gets Fair Value Boost After Investor Day Reset",
-          "summary": "The updated analyst fair value estimate for Qualcomm has shifted from US$168.50 to US$221.23, signaling a reset in how the stock’s long term potential is being framed. This move lines up with fresh research after Qualcomm’s Investor Day, where opinions split between enthusiasm for its AI data center and non handset targets, and caution around competition, handset demand, and licensing risks. Read on to see what is driving this evolving story and how to track future twists in the Qualcomm...",
+          "title": "MRVL Has Momentum. The Question Is The Price",
+          "summary": "This AI chipmaker is on a historic run, but the price of admission is steep, forcing investors to decide if the engine has more power than the market has already paid for.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 04:10"
+          "published_at": "2026-07-25 06:14"
         },
         {
-          "title": "Qualcomm deepens ties with major Apple rival",
-          "summary": "Qualcomm and Samsung expanded their chip partnership this week, putting Snapdragon silicon inside nearly every new device in the Galaxy lineup. For over a decade, Samsung ran a split system, selling some flagship phones with its own Exynos processor and others with a Snapdragon chip depending on ...",
+          "title": "Qualcomm (QCOM) Raises Product Prices And Deepens Samsung Snapdragon Ties",
+          "summary": "Qualcomm (NasdaqGS:QCOM) plans significant double digit price increases on select products, citing higher supplier costs and ongoing supply shortages. The company is also expanding its partnership with Samsung to use advanced Snapdragon platforms in Galaxy mobile devices, wearables, and AR products. Both developments highlight changes in Qualcomm's pricing approach and its role within the broader Galaxy device ecosystem. Qualcomm sits at the center of global connectivity and processing,...",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 03:03"
+          "published_at": "2026-07-25 06:09"
         },
         {
-          "title": "Is Qualcomm Stock a Smart Buy Before Q3 Earnings Release?",
-          "summary": "QCOM is set to report Q3 results with new Snapdragon launches boosting AI, PCs and smartphones, but competition and Android demand remain key challenges.",
+          "title": "QCOM Stock Drops 2% — Qualcomm Reportedly Plans Chip Price Hikes Amid Rising Supply Costs",
+          "summary": "Qualcomm has notified customers that it will raise chip prices by double-digit percentages starting September 1.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 01:08"
+          "published_at": "2026-07-25 04:35"
         },
         {
-          "title": "Wetour Robotics Joins Qualcomm Partner Network to Advance Orchestra Physical AI",
-          "summary": "The membership gives Wetour Robotics access to Qualcomm development resources as it evaluates Dragonwing technologies for potential industrial and embedded applications of its Orchestra edge AI platform. Key Investor TakeawaysWetour Robotics (NASDAQ:WETO) has joined the Qualcomm Partner Network’s Industrial and Embedded IoT Track.",
+          "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+          "summary": "Tech stocks were lower late Friday afternoon, with the State Street Technology Select Sector SPDR ET",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 00:32"
+          "published_at": "2026-07-25 04:31"
         }
       ],
       "sec_filings_6m": [
@@ -356,9 +356,9 @@
       "name": "Amazon.com, Inc.",
       "display_name": "Amazon.com, Inc.",
       "data_limited": false,
-      "price": 233.56,
-      "high_24h": 238.35,
-      "low_24h": 223.68,
+      "price": 232.07,
+      "high_24h": 234.95,
+      "low_24h": 231.35,
       "high_1m": 258.08,
       "low_1m": 225.55,
       "fiftyTwoWeekHigh": 278.56,
@@ -373,34 +373,34 @@
       },
       "news": [
         {
-          "title": "When AI CapEx Eats Cash: Is Alphabet’s Huge Bet Building a Moat or Sinking Margins?",
-          "summary": "Alphabet  reported blowout earnings results late Wednesday, but the stock is dropping after the search giant again raised its forecast for capital expenditures.  The Google-parent reported second-quarter adjusted earnings of $9.11 per share, well ahead of Wall Street’s consensus estimate for earnings of $2.88 per share, according to FactSet.  Alphabet said the results included $6.26 a share in gains on the fair value of its equity securities.",
+          "title": "Dow Jones Futures: Apple Earnings, Iran News, Fed Meeting Loom As AI Stocks Sell Off",
+          "summary": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Apple, Microsoft, Meta Platforms, Amazon.com headline a massive earnings wave. The Federal Reserve meets, with a rate hike a possibility.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 05:40"
+          "published_at": "2026-07-25 06:14"
         },
         {
-          "title": "Why Amazon Stock is Down Today",
-          "summary": "Amazon Slides Ahead of Earnings on China Probe and AI Cost Concerns",
+          "title": "ORCL Has Left Its Peers Behind. Or Has It?",
+          "summary": "The market has sent Oracle's stock to the bottom of its peer group, even as its business performance ranks near the top, creating a stark disconnect between price and reality.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 05:20"
+          "published_at": "2026-07-25 05:47"
         },
         {
-          "title": "Amazon (AMZN) Faces Senate Probe As FTC Settlement Puts Prime Practices In Focus",
-          "summary": "US lawmakers have opened a Senate investigation into Amazon's marketplace over alleged Chinese influence on the platform. Amazon has agreed to a US$2.5b settlement with the FTC related to allegations of unauthorized Prime enrollments. These parallel actions focus on the company’s governance, customer consent practices, and oversight of third-party sellers. Amazon.com, NasdaqGS:AMZN, sits at the center of global e-commerce and cloud services, connecting millions of buyers with third-party...",
+          "title": "Dow Gains 200 Points But Can't Escape Down Week. Blame Earnings.",
+          "summary": "The Dow rose on Friday, but the blue-chip index couldn’t stave off its third-consecutive weekly decline.  The Nasdaq dropped 0.6%.  Stocks traded sideways all day, as another slide in chip stocks dragged down the S&P 500 and Nasdaq.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 05:08"
+          "published_at": "2026-07-25 05:04"
         },
         {
-          "title": "2 reasons why Microsoft belongs in your portfolio: D.A. Davidson's Gil Luria",
-          "summary": "D.A. Davidson's Gil Luria joins Yahoo Finance's Josh Lipton to explain why Microsoft (MSFT) is a top AI stock, arguing that its multi-year access to OpenAI’s technology and the rise of open-source models make owning a proprietary frontier model unnecessary.",
+          "title": "Why Tesla, Google, and other Mag 7 stocks are losing billions in valuation",
+          "summary": "Yahoo Finance Markets and Data Editor Jared Blikre takes a closer look at stock valuation losses from Tesla (TSLA), Alphabet (GOOG, GOOGL), Meta (META), Amazon (AMZN), and Microsoft (MSFT).",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 05:08"
+          "published_at": "2026-07-25 05:00"
         },
         {
-          "title": "Amazon, Walmart, & cautious consumers are major headwinds for Albertson's: A closer look",
-          "summary": "Albertson's (ACI) cut its annual profit outlook, citing the cautious consumer landscape. Yahoo Finance Senior Reporter Brooke DiPalma and Market Domination host Josh Lipton discuss the details. Yahoo Finance's AlphaSpace is a premium investment platform that combines data, charting, news, analysis, and more to help retail investors understand markets.",
+          "title": "AI spending restraint will reward Magnificent 7 shares, expert says",
+          "summary": "STORY: Investor concerns over the growing cost of AI investments have become a central theme for markets after results from Google parent Alphabet, and Tesla, highlighted rising capital spending and cash burn among major technology companies.That has set a cautious tone ahead of next week's earnings from Microsoft, Amazon and Meta.If those companies \"continue to raise their CapEx spending, then guess what? There'll be a negative reaction from the stocks, just like we saw this week from Google,\" Reyle said.\"I think the real trick will be, one of these guys is going to finally say 'enough's enough' and they will finally cut back on spending,\" he added. \"And guess what? Their stock price will react positively to that.\"To that point, Reyle noted that Apple, which has avoided massive AI spending, has seen its stock rise more than 20% this year.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 05:03"
+          "published_at": "2026-07-25 04:56"
         }
       ],
       "sec_filings_6m": [
@@ -471,14 +471,14 @@
       "name": "Microsoft Corporation",
       "display_name": "Microsoft Corporation",
       "data_limited": false,
-      "price": 381.43,
-      "high_24h": 391.78,
-      "low_24h": 377.4,
+      "price": 381.74,
+      "high_24h": 386.6,
+      "low_24h": 380.65,
       "high_1m": 405.99,
       "low_1m": 349.2,
       "fiftyTwoWeekHigh": 555.45,
       "fiftyTwoWeekLow": 349.2,
-      "dividendYield": 93.0,
+      "dividendYield": 95.0,
       "dividendRate": 3.64,
       "exDividendDate": "1787184000",
       "charts": {
@@ -488,34 +488,34 @@
       },
       "news": [
         {
-          "title": "Stock Market Today, July 23: Alphabet Slides 7% After Announcing 2026 Capex of Roughly $200 Billion",
-          "summary": "Today, July 23, 2026, investors punished the search giant after it raised capital spending forecasts again, signaling aggressive AI investment ahead.",
+          "title": "Dow Jones Futures: Apple Earnings, Iran News, Fed Meeting Loom As AI Stocks Sell Off",
+          "summary": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Apple, Microsoft, Meta Platforms, Amazon.com headline a massive earnings wave. The Federal Reserve meets, with a rate hike a possibility.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 06:15"
+          "published_at": "2026-07-25 06:14"
         },
         {
-          "title": "Oklo (OKLO) Could Be 45% Below Fair Value Following $200 Million Federal Program",
-          "summary": "Oklo (OKLO) is back in focus after the Trump administration selected the company for a US$200 million federal program that links advanced nuclear reactors to AI data centers, alongside Microsoft and Nvidia. See our latest analysis for Oklo. The federal backing has arrived after a difficult stretch for Oklo’s stock, with the share price down 42.8% year to date and 41.8% over 90 days, even though the 5 year total shareholder return is up more than fourfold. Recent momentum has been fading...",
+          "title": "ORCL Has Left Its Peers Behind. Or Has It?",
+          "summary": "The market has sent Oracle's stock to the bottom of its peer group, even as its business performance ranks near the top, creating a stark disconnect between price and reality.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 06:13"
+          "published_at": "2026-07-25 05:47"
         },
         {
-          "title": "Pentagon awards Oracle nearly $7 billion deal in latest software consolidation push",
-          "summary": "The Pentagon announced on Thursday a nearly $7 billion, up-to-10-year agreement with Oracle ‌to consolidate the department's on-premises software licenses ‌into a single contract, the latest move by the Pentagon's technology ​chief to cut costs by eliminating fragmented purchasing.  The Enterprise Software Agreement, negotiated by the Department of the Navy, is between the Pentagon and Oracle for its on-premises ‌compute usage.  The agreement ⁠spans five years, with a further five-year option, and covers the entire Pentagon, along ⁠with the U.S. Coast Guard and the intelligence community.",
+          "title": "AMD, Newly Emboldened, Is Taking Direct Aim at Nvidia",
+          "summary": "AMD says its chips are superior to Nvidia, Intel, and Arm offerings. It’s out-of-character bravado for the firm.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 06:01"
+          "published_at": "2026-07-25 05:19"
         },
         {
-          "title": "When AI CapEx Eats Cash: Is Alphabet’s Huge Bet Building a Moat or Sinking Margins?",
-          "summary": "Alphabet  reported blowout earnings results late Wednesday, but the stock is dropping after the search giant again raised its forecast for capital expenditures.  The Google-parent reported second-quarter adjusted earnings of $9.11 per share, well ahead of Wall Street’s consensus estimate for earnings of $2.88 per share, according to FactSet.  Alphabet said the results included $6.26 a share in gains on the fair value of its equity securities.",
+          "title": "The Most Basic Economics Lesson Is Why I Won’t Stop Buying Nvidia This Earnings Season",
+          "summary": "Every quarter, Wall Street fixates on whether hyperscalers will blink and cut their AI budgets, and every quarter the order books tell a completely different story. Here is the basic economic principle that keeps one investor hitting buy on NVDA ahead of August earnings.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 05:40"
+          "published_at": "2026-07-25 05:16"
         },
         {
-          "title": "AMD Stock Gets Jaw Dropping Price Target Hike from Benchmark",
-          "summary": "AMD Wins Big Vote of Confidence With $685 Price Target Raise",
+          "title": "Microsoft (MSFT) Stock May Be 43% Undervalued After Fresh AI Deal News",
+          "summary": "Microsoft stock has pulled back from its highs and is down over the past year, yet valuation checks suggest the market may be underpricing the company, with both the intrinsic value estimate from a Discounted Cash Flow (DCF) approach and earnings multiples pointing to upside relative to the current share price. Over the past 5 years Microsoft has returned 38.8%, which shows that even after recent weakness the longer term shareholder experience has still been positive. Heavy AI infrastructure...",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 05:17"
+          "published_at": "2026-07-25 05:08"
         }
       ],
       "sec_filings_6m": [
@@ -580,70 +580,73 @@
           }
         ]
       },
-      "screening_score": 96,
+      "screening_score": 97,
       "screening_details": {
-        "market_cap": 2834542100480,
-        "cap_score": 20,
-        "revenue_growth_pct": 18.3,
-        "growth_score": 21,
+        "market_cap": 2835433652224,
+        "cap_score": 15,
+        "roe_pct": 34.013999,
+        "roe_score": 20,
         "operating_margin_pct": 46.326,
-        "margin_score": 15,
-        "price_position_52w": 0.15699393939393932,
-        "price_score": 20,
-        "debt_to_equity": 30.271,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 18.3,
+        "earnings_growth_pct": 23.400000000000002,
+        "growth_score": 17,
+        "free_cashflow": 37011251200,
+        "cash_score": 15,
+        "price_position_52w": 0.15757575757575754,
+        "valuation_score": 10
       }
     },
-    "NVDA": {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "display_name": "NVIDIA Corporation",
+    "META": {
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "display_name": "Meta Platforms, Inc.",
       "data_limited": false,
-      "price": 208.7,
-      "high_24h": 210.87,
-      "low_24h": 205.96,
-      "high_1m": 214.39,
-      "low_1m": 189.8,
-      "fiftyTwoWeekHigh": 236.54,
-      "fiftyTwoWeekLow": 164.07,
-      "dividendYield": 47.0,
-      "dividendRate": 1.0,
-      "exDividendDate": "1780531200",
+      "price": 595.2,
+      "high_24h": 609.98,
+      "low_24h": 594.6,
+      "high_1m": 686.08,
+      "low_1m": 540.18,
+      "fiftyTwoWeekHigh": 796.25,
+      "fiftyTwoWeekLow": 520.26,
+      "dividendYield": 33.0,
+      "dividendRate": 2.1,
+      "exDividendDate": "1781481600",
       "charts": {
-        "24h": "charts/NVDA_24h.png",
-        "1m": "charts/NVDA_1m.png",
-        "1y": "charts/NVDA_1y.png"
+        "24h": "charts/META_24h.png",
+        "1m": "charts/META_1m.png",
+        "1y": "charts/META_1y.png"
       },
       "news": [
         {
-          "title": "Nvidia, Amkor strike $1.5 billion chip packaging deal",
-          "summary": "Amkor Technology said on Thursday it had entered a multi-year agreement ‌with Nvidia worth $1.5 billion to expand ‌advanced semiconductor packaging and test capacity in the U.S., as ​the chip industry races to build out AI infrastructure.  • ⁠Under the agreement, Nvidia will make a prepayment to support the expansion ⁠of Amkor's U.S. advanced packaging operations, including capacity in Arizona.  • The companies will jointly develop ​packaging and ​testing technologies for Nvidia's ​AI and accelerated-computing ‌platforms, focusing on combining different types of chips in a single package.",
+          "title": "Dow Jones Futures: Apple Earnings, Iran News, Fed Meeting Loom As AI Stocks Sell Off",
+          "summary": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Apple, Microsoft, Meta Platforms, Amazon.com headline a massive earnings wave. The Federal Reserve meets, with a rate hike a possibility.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 06:44"
+          "published_at": "2026-07-25 06:14"
         },
         {
-          "title": "Nvidia's Stock Hasn't Been This Cheap Since 2019. Here's Why It's the Best Buy in the Market Now.",
-          "summary": "Nvidia is looking attractively priced.",
+          "title": "AI spending restraint will reward Magnificent 7 shares, expert says",
+          "summary": "STORY: Investor concerns over the growing cost of AI investments have become a central theme for markets after results from Google parent Alphabet, and Tesla, highlighted rising capital spending and cash burn among major technology companies.That has set a cautious tone ahead of next week's earnings from Microsoft, Amazon and Meta.If those companies \"continue to raise their CapEx spending, then guess what? There'll be a negative reaction from the stocks, just like we saw this week from Google,\" Reyle said.\"I think the real trick will be, one of these guys is going to finally say 'enough's enough' and they will finally cut back on spending,\" he added. \"And guess what? Their stock price will react positively to that.\"To that point, Reyle noted that Apple, which has avoided massive AI spending, has seen its stock rise more than 20% this year.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 06:41"
+          "published_at": "2026-07-25 04:56"
         },
         {
-          "title": "Why Eos Energy Stock Just Hit a 52-Week Low After a 49% Plunge in the First Half of 2026",
-          "summary": "Eos Energy is sinking despite a promising battery energy storage technology and a booming backlog. Is it a value trap or an opportunity?",
+          "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+          "summary": "Tech stocks were lower late Friday afternoon, with the State Street Technology Select Sector SPDR ET",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 06:33"
+          "published_at": "2026-07-25 04:31"
         },
         {
-          "title": "Pacific Gas & Electric Co. Q2 2026 Earnings Call Summary",
-          "summary": "Moby summary of Pacific Gas & Electric Co.'s Q2 2026 earnings call",
+          "title": "Jensen Huang Preaches Open-Weight Openness to Sell More Chips",
+          "summary": "The chip king’s debut post on X, backed by twenty-five other big tech companies, supports open weights as Washington prepares to clamp down.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 06:32"
+          "published_at": "2026-07-25 04:22"
         },
         {
-          "title": "Lockheed Martin Corporation Q2 2026 Earnings Call Summary",
-          "summary": "Moby summary of Lockheed Martin Corporation's Q2 2026 earnings call",
+          "title": "Rising Interest Rates Are a Danger for Markets—and a Reason to Own TIPS",
+          "summary": "Real risk-free bond yields haven’t been this high in years.  As for 30-year maturities, you would have to go back to the 2008-09 financial crisis to encounter real yields of nearly 3%.  Real interest rates are what you earn after the bite taken by inflation.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 06:26"
+          "published_at": "2026-07-25 04:07"
         }
       ],
       "sec_filings_6m": [
@@ -653,9 +656,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-07-20 17:00:07",
+          "filed_at": "2026-07-22 18:40:11",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000062/xslSCHEDULE_13G_X01/primary_doc.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326011028/xslF345X06/ownership.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -664,9 +667,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-07-15 17:03:12",
+          "filed_at": "2026-07-15 20:26:24",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000131026426000002/xslF345X06/wk-form3_1784149389.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326010694/xslF345X06/ownership.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -675,9 +678,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-07-06 17:01:46",
+          "filed_at": "2026-07-08 19:13:22",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000005/xslF345X06/wk-form4_1783371701.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326010417/xslF345X06/ownership.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -708,18 +711,21 @@
           }
         ]
       },
-      "screening_score": 96,
+      "screening_score": 100,
       "screening_details": {
-        "market_cap": 5056375554048,
-        "cap_score": 20,
-        "revenue_growth_pct": 85.2,
-        "growth_score": 25,
-        "operating_margin_pct": 65.596,
-        "margin_score": 15,
-        "price_position_52w": 0.6166689664688837,
-        "price_score": 16,
-        "debt_to_equity": 6.555,
-        "debt_score": 20
+        "market_cap": 1510844137472,
+        "cap_score": 15,
+        "roe_pct": 32.930002,
+        "roe_score": 20,
+        "operating_margin_pct": 40.617,
+        "margin_score": 20,
+        "revenue_growth_pct": 33.1,
+        "earnings_growth_pct": 62.4,
+        "growth_score": 20,
+        "free_cashflow": 25558249472,
+        "cash_score": 15,
+        "price_position_52w": 0.27149534403420433,
+        "valuation_score": 10
       }
     },
     "AVGO": {
@@ -727,9 +733,9 @@
       "name": "Broadcom Inc.",
       "display_name": "Broadcom Inc.",
       "data_limited": false,
-      "price": 392.8,
-      "high_24h": 397.6,
-      "low_24h": 386.82,
+      "price": 381.92,
+      "high_24h": 389.27,
+      "low_24h": 378.75,
       "high_1m": 407.52,
       "low_1m": 356.43,
       "fiftyTwoWeekHigh": 495.0,
@@ -744,34 +750,34 @@
       },
       "news": [
         {
-          "title": "Marvell Technology Stock And The Forecast It Kept Outgrowing",
-          "summary": "The chipmaker kept telling investors its own AI targets were too low, but the message took a while to land.",
+          "title": "Missed Out on Nvidia's Historic Run? These 2 Tech Winners Are Just Getting Started.",
+          "summary": "Broadcom and Micron still have major growth ahead of them.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 04:28"
+          "published_at": "2026-07-25 06:50"
         },
         {
-          "title": "SiTime is Riding the Shift to AI Timing and Smarter Networks",
-          "summary": "SITM is gaining from AI's need for precise timing, faster optical links and richer clocking content as networks scale.",
+          "title": "MRVL Has Momentum. The Question Is The Price",
+          "summary": "This AI chipmaker is on a historic run, but the price of admission is steep, forcing investors to decide if the engine has more power than the market has already paid for.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 03:26"
+          "published_at": "2026-07-25 06:14"
         },
         {
-          "title": "Best Monthly Dividend ETFs for Consistent Income",
-          "summary": "If you're looking for more frequent payouts, you can still enjoy the benefits of low fees and broad diversification, thanks to these top monthly dividend ETFs.",
+          "title": "AMD Stock Scores Price-Target Hikes On AI Computer News",
+          "summary": "AMD earned plaudits from Wall Street for its latest processors and computer systems for artificial intelligence.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 02:31"
+          "published_at": "2026-07-25 03:27"
         },
         {
-          "title": "Is Qualcomm Stock a Smart Buy Before Q3 Earnings Release?",
-          "summary": "QCOM is set to report Q3 results with new Snapdragon launches boosting AI, PCs and smartphones, but competition and Android demand remain key challenges.",
+          "title": "AI Memory Stocks Lead Chip Selloff",
+          "summary": "Micron, AMD and memory names fall as risk appetite weakens",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 01:08"
+          "published_at": "2026-07-25 03:24"
         },
         {
-          "title": "Cerebras Scores With CrowdStrike Deal: What it Means for Investors",
-          "summary": "CBRS' CrowdStrike pact brings wafer-scale AI inference to real-time cyber defense, widening its enterprise reach as cloud growth accelerates.",
+          "title": "FDVV’s 2.8% yield hides tech mega-cap risk in dividend portfolio",
+          "summary": "FDVV markets itself as a dividend ETF, but a quarter of its portfolio sits in tech giants that barely yield anything. Whether that tradeoff quietly undermines your income strategy depends on what is actually holding the distribution together.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 00:57"
+          "published_at": "2026-07-25 03:04"
         }
       ],
       "sec_filings_6m": [
@@ -836,18 +842,21 @@
           }
         ]
       },
-      "screening_score": 96,
+      "screening_score": 100,
       "screening_details": {
-        "market_cap": 1867207540736,
-        "cap_score": 20,
-        "revenue_growth_pct": 47.9,
-        "growth_score": 25,
+        "market_cap": 1817015091200,
+        "cap_score": 15,
+        "roe_pct": 37.280998,
+        "roe_score": 20,
         "operating_margin_pct": 48.988,
-        "margin_score": 15,
-        "price_position_52w": 0.5195182529640565,
-        "price_score": 16,
-        "debt_to_equity": 74.018,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 47.9,
+        "earnings_growth_pct": 85.39999999999999,
+        "growth_score": 20,
+        "free_cashflow": 27212249088,
+        "cash_score": 15,
+        "price_position_52w": 0.4700782604620648,
+        "valuation_score": 10
       }
     },
     "GOOGL": {
@@ -855,11 +864,11 @@
       "name": "Alphabet Inc.",
       "display_name": "Alphabet Inc.",
       "data_limited": false,
-      "price": 317.65,
-      "high_24h": 324.49,
-      "low_24h": 314.91,
+      "price": 319.77,
+      "high_24h": 324.18,
+      "low_24h": 317.33,
       "high_1m": 375.27,
-      "low_1m": 314.91,
+      "low_1m": 314.9,
       "fiftyTwoWeekHigh": 408.61,
       "fiftyTwoWeekLow": 187.82,
       "dividendYield": 26.0,
@@ -872,34 +881,34 @@
       },
       "news": [
         {
-          "title": "Europe’s Tech Fine Could Trigger New Tariffs, Undermining US Trade Deal",
-          "summary": "The trading partners may be taking several steps back from the hard-fought truce that was ratified in June.",
+          "title": "Dow Jones Futures: Apple Earnings, Iran News, Fed Meeting Loom As AI Stocks Sell Off",
+          "summary": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Apple, Microsoft, Meta Platforms, Amazon.com headline a massive earnings wave. The Federal Reserve meets, with a rate hike a possibility.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 06:40"
+          "published_at": "2026-07-25 06:14"
         },
         {
-          "title": "Dow Jones Futures: Market Sells Off On Oil Prices, Google, Tesla; Intel Jumps Late, SpaceX Starship Launch Due",
-          "summary": "The Nasdaq undercut key levels as Google and Tesla led titans lower while oil prices soared. A big SpaceX launch is due.",
+          "title": "How Verizon’s Q2 Results, Dark-Fiber Deal With Google And Raised Outlook At Verizon (VZ) Has Changed Its Investment Story",
+          "summary": "Verizon Communications has reported its second-quarter 2026 results, with revenue of US$34,253 million and net income of US$3,835 million, while also completing US$3,500 million of share repurchases under its January 2026 buyback program. Alongside the earnings release, Verizon unveiled a dark-fiber deal with Google worth more than US$1 billion and raised its 2026 outlook for adjusted earnings, free cash flow and share repurchases, pointing to growing emphasis on AI infrastructure...",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 06:35"
+          "published_at": "2026-07-25 06:11"
         },
         {
-          "title": "Stock Market Today, July 23: Tesla Drops 15%, Leading Tech Stock Slide",
-          "summary": "On July 23, 2026, massive capital expenditure plans triggered a broad retreat across technology stocks, as soaring crude oil added to inflation fears.",
+          "title": "Weekly Wrap: Bitcoin Holds Firm As Stocks Post Losing Week",
+          "summary": "Bitcoin (CRYPTO: $BTC) has outperformed stocks over the past week despite rising market volatility caused by corpor...",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 06:30"
+          "published_at": "2026-07-25 06:11"
         },
         {
-          "title": "Stock Market Today, July 23: Alphabet Slides 7% After Announcing 2026 Capex of Roughly $200 Billion",
-          "summary": "Today, July 23, 2026, investors punished the search giant after it raised capital spending forecasts again, signaling aggressive AI investment ahead.",
+          "title": "Big Tech Earnings Week is Over. Who Won and Lost?",
+          "summary": "Big tech earnings week punished spenders despite beats. Price, money flow, options, and analyst data reveal who won and lost.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 06:15"
+          "published_at": "2026-07-25 06:07"
         },
         {
-          "title": "Update: US Equity Indexes Slump, Crude Oil Soars as Trump Warns of Big Iran Attack",
-          "summary": "(Updates with index/price moves and company/geopolitical news from the first paragraph.) US equit",
+          "title": "Uber Stock Slides Nearly 5% After Report Says Alphabet’s Waymo Could Walk Away From Their Robotaxi Deal",
+          "summary": "The reported split could reshape the robotaxi race as Waymo looks to expand independently and Uber faces fresh questions over its autonomous vehicle strategy.",
           "publisher": "Yahoo",
-          "published_at": "2026-07-24 06:03"
+          "published_at": "2026-07-25 05:53"
         }
       ],
       "sec_filings_6m": [
@@ -964,70 +973,73 @@
           }
         ]
       },
-      "screening_score": 92,
+      "screening_score": 97,
       "screening_details": {
-        "market_cap": 3876635279360,
-        "cap_score": 20,
-        "revenue_growth_pct": 24.2,
-        "growth_score": 21,
+        "market_cap": 3910399426560,
+        "cap_score": 15,
+        "roe_pct": 48.676,
+        "roe_score": 20,
         "operating_margin_pct": 34.033,
-        "margin_score": 15,
-        "price_position_52w": 0.5882059875900176,
-        "price_score": 16,
-        "debt_to_equity": 17.605,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 24.2,
+        "earnings_growth_pct": 294.09999999999997,
+        "growth_score": 20,
+        "free_cashflow": 25521500160,
+        "cash_score": 15,
+        "price_position_52w": 0.5974908283889669,
+        "valuation_score": 7
       }
     },
-    "TSM": {
-      "symbol": "TSM",
-      "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "display_name": "Taiwan Semiconductor Manufacturing Company Limited",
+    "MA": {
+      "symbol": "MA",
+      "name": "Mastercard Incorporated",
+      "display_name": "Mastercard Incorporated",
       "data_limited": false,
-      "price": 415.58,
-      "high_24h": 420.84,
-      "low_24h": 411.8,
-      "high_1m": 479.0,
-      "low_1m": 386.02,
-      "fiftyTwoWeekHigh": 479.0,
-      "fiftyTwoWeekLow": 223.7,
-      "dividendYield": 90.0,
-      "dividendRate": 3.79,
-      "exDividendDate": "1789516800",
+      "price": 539.66,
+      "high_24h": 540.0,
+      "low_24h": 529.68,
+      "high_1m": 551.72,
+      "low_1m": 487.76,
+      "fiftyTwoWeekHigh": 601.77,
+      "fiftyTwoWeekLow": 464.52,
+      "dividendYield": 66.0,
+      "dividendRate": 3.48,
+      "exDividendDate": "1783555200",
       "charts": {
-        "24h": "charts/TSM_24h.png",
-        "1m": "charts/TSM_1m.png",
-        "1y": "charts/TSM_1y.png"
+        "24h": "charts/MA_24h.png",
+        "1m": "charts/MA_1m.png",
+        "1y": "charts/MA_1y.png"
       },
       "news": [
         {
-          "title": "Taiwan Semiconductor: Inside The Price Dispute That Can Change The AI Supply Chain",
-          "summary": "Taiwan Semiconductor, Nvidia, and ASML dominate the AI semiconductor supply chain, each exerting significant pricing power. Click to read in detail.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-07-23 23:46"
+          "title": "PayPal to Report Q2 Earnings: What Should Investors Do?",
+          "summary": "PYPL heads into Q2 earnings with TPV growth and platform expansion in focus but faces margin pressure, competition and macroeconomic uncertainty.",
+          "publisher": "Yahoo",
+          "published_at": "2026-07-25 03:11"
         },
         {
-          "title": "ASML: Surging AI CapEx A Catalyst",
-          "summary": "ASML Holding N.V.'s Q2 â26 beat and raised the 2026 outlook on AI chip demand. Click for this updated look at ASML stock following their latest earnings.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-07-23 22:36"
+          "title": "Mastercard expands virtual card platform with new controls and embedded ecosystem partnerships",
+          "summary": "Citi will be the first issuer to roll out the new capabilities globally",
+          "publisher": "Yahoo",
+          "published_at": "2026-07-25 00:24"
         },
         {
-          "title": "An Agentic AI Tide Lifting All Boats",
-          "summary": "Agentic AI is shifting compute demand from GPUs back to CPUsâfueling rallies in Dell, Intel & AMD. Read the full analysis here.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-07-23 22:16"
+          "title": "Capex fears trigger biggest Tech sell-off since 'Liberation Day'",
+          "summary": "Capital expenditure (capex) concerns are weighing on technology stocks as investors scrutinize Big Tech's heavy spending on AI infrastructure. Robinhood (HOOD) chief investment officer Stephanie Guild and Miller Tabak managing director and equity strategist Matt Maley join Opening Bid Host Brian Sozzi to discuss why rising capex has become a key concern for the market.",
+          "publisher": "Yahoo",
+          "published_at": "2026-07-24 23:16"
         },
         {
-          "title": "BorZen Tien's Recent Buy: Acquires $301K In Taiwan Semiconductor Stock",
-          "summary": "On July 23, BorZen Tien, VP at Taiwan Semiconductor (NYSE:TSM) executed a significant insider buy, as disclosed in the latest SEC filing.\nWhat Happened: Tien made a significant move by purchasing 4,010 shares of Taiwan",
-          "publisher": "Benzinga",
-          "published_at": "2026-07-23 20:00"
+          "title": "American Express Sinks 6% After Q2 Earnings Beat as Visa, Mastercard Hold Steady",
+          "summary": "American Express just posted a clear earnings beat, yet its stock is cratering while Visa and Mastercard barely flinch. The divergence points to a specific tension inside the report that traders are punishing hard.",
+          "publisher": "Yahoo",
+          "published_at": "2026-07-24 23:04"
         },
         {
-          "title": "Elon Musk’s Unexpected Micron Moment — A Strange Twist in Tesla’s Earnings Call",
-          "summary": "Elon Musk thanked Micron during Tesla&#39;s earnings call, highlighting AI memory as a growing bottleneck as it ramps up Optimus and AI chips.",
-          "publisher": "Benzinga",
-          "published_at": "2026-07-23 18:35"
+          "title": "Coinbase vs. SoFi: Two High-Growth Stocks, One Better Investment",
+          "summary": "Coinbase and SoFi both operate at the edge of fintech and crypto, but their Q1 2026 results tell two radically different stories about which kind of risk actually pays off for investors right now.",
+          "publisher": "Yahoo",
+          "published_at": "2026-07-24 21:30"
         }
       ],
       "sec_filings_6m": [
@@ -1037,9 +1049,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-07-23 06:16:09",
+          "filed_at": "2026-07-15 17:07:28",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000457/xslF345X06/wk-form4_1784801765.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000077/xslF345X06/wk-form4_1784149645.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -1048,9 +1060,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-07-22 06:17:07",
+          "filed_at": "2026-07-15 17:03:53",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000455/xslF345X06/wk-form4_1784715422.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000076/xslF345X06/wk-form4_1784149431.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -1059,9 +1071,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-07-21 06:44:32",
+          "filed_at": "2026-07-08 16:06:30",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000453/xslF345X06/wk-form4_1784630667.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000072/xslF345X06/wk-form4_1783541187.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -1092,125 +1104,143 @@
           }
         ]
       },
-      "screening_score": 90,
+      "screening_score": 97,
       "screening_details": {
-        "market_cap": 2155394760704,
-        "cap_score": 20,
-        "revenue_growth_pct": 36.0,
-        "growth_score": 25,
-        "operating_margin_pct": 60.344005,
-        "margin_score": 15,
-        "price_position_52w": 0.7515863689776733,
-        "price_score": 10,
-        "debt_to_equity": 15.174,
-        "debt_score": 20
+        "market_cap": 476834856960,
+        "cap_score": 15,
+        "roe_pct": 232.076,
+        "roe_score": 20,
+        "operating_margin_pct": 60.836,
+        "margin_score": 20,
+        "revenue_growth_pct": 15.8,
+        "earnings_growth_pct": 21.2,
+        "growth_score": 17,
+        "free_cashflow": 16148124672,
+        "cash_score": 15,
+        "price_position_52w": 0.5474681238615664,
+        "valuation_score": 10
       }
     }
   },
   "candidate_rankings": [
     {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "score": 96,
-      "dividend_yield_pct": 47.0,
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "score": 100,
+      "dividend_yield_pct": 33.0,
       "details": {
-        "market_cap": 5056375554048,
-        "cap_score": 20,
-        "revenue_growth_pct": 85.2,
-        "growth_score": 25,
-        "operating_margin_pct": 65.596,
-        "margin_score": 15,
-        "price_position_52w": 0.6166689664688837,
-        "price_score": 16,
-        "debt_to_equity": 6.555,
-        "debt_score": 20
+        "market_cap": 1510844137472,
+        "cap_score": 15,
+        "roe_pct": 32.930002,
+        "roe_score": 20,
+        "operating_margin_pct": 40.617,
+        "margin_score": 20,
+        "revenue_growth_pct": 33.1,
+        "earnings_growth_pct": 62.4,
+        "growth_score": 20,
+        "free_cashflow": 25558249472,
+        "cash_score": 15,
+        "price_position_52w": 0.27149534403420433,
+        "valuation_score": 10
       }
     },
     {
       "symbol": "AVGO",
       "name": "Broadcom Inc.",
-      "score": 96,
+      "score": 100,
       "dividend_yield_pct": 66.0,
       "details": {
-        "market_cap": 1867207540736,
-        "cap_score": 20,
-        "revenue_growth_pct": 47.9,
-        "growth_score": 25,
+        "market_cap": 1817015091200,
+        "cap_score": 15,
+        "roe_pct": 37.280998,
+        "roe_score": 20,
         "operating_margin_pct": 48.988,
-        "margin_score": 15,
-        "price_position_52w": 0.5195182529640565,
-        "price_score": 16,
-        "debt_to_equity": 74.018,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 47.9,
+        "earnings_growth_pct": 85.39999999999999,
+        "growth_score": 20,
+        "free_cashflow": 27212249088,
+        "cash_score": 15,
+        "price_position_52w": 0.4700782604620648,
+        "valuation_score": 10
       }
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft Corporation",
-      "score": 96,
-      "dividend_yield_pct": 93.0,
+      "score": 97,
+      "dividend_yield_pct": 95.0,
       "details": {
-        "market_cap": 2834542100480,
-        "cap_score": 20,
-        "revenue_growth_pct": 18.3,
-        "growth_score": 21,
+        "market_cap": 2835433652224,
+        "cap_score": 15,
+        "roe_pct": 34.013999,
+        "roe_score": 20,
         "operating_margin_pct": 46.326,
-        "margin_score": 15,
-        "price_position_52w": 0.15699393939393932,
-        "price_score": 20,
-        "debt_to_equity": 30.271,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 18.3,
+        "earnings_growth_pct": 23.400000000000002,
+        "growth_score": 17,
+        "free_cashflow": 37011251200,
+        "cash_score": 15,
+        "price_position_52w": 0.15757575757575754,
+        "valuation_score": 10
       }
     },
     {
       "symbol": "GOOGL",
       "name": "Alphabet Inc.",
-      "score": 92,
+      "score": 97,
       "dividend_yield_pct": 26.0,
       "details": {
-        "market_cap": 3876635279360,
-        "cap_score": 20,
-        "revenue_growth_pct": 24.2,
-        "growth_score": 21,
+        "market_cap": 3910399426560,
+        "cap_score": 15,
+        "roe_pct": 48.676,
+        "roe_score": 20,
         "operating_margin_pct": 34.033,
-        "margin_score": 15,
-        "price_position_52w": 0.5882059875900176,
-        "price_score": 16,
-        "debt_to_equity": 17.605,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 24.2,
+        "earnings_growth_pct": 294.09999999999997,
+        "growth_score": 20,
+        "free_cashflow": 25521500160,
+        "cash_score": 15,
+        "price_position_52w": 0.5974908283889669,
+        "valuation_score": 7
       }
     },
     {
-      "symbol": "TSM",
-      "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "score": 90,
-      "dividend_yield_pct": 90.0,
+      "symbol": "MA",
+      "name": "Mastercard Incorporated",
+      "score": 97,
+      "dividend_yield_pct": 66.0,
       "details": {
-        "market_cap": 2155394760704,
-        "cap_score": 20,
-        "revenue_growth_pct": 36.0,
-        "growth_score": 25,
-        "operating_margin_pct": 60.344005,
-        "margin_score": 15,
-        "price_position_52w": 0.7515863689776733,
-        "price_score": 10,
-        "debt_to_equity": 15.174,
-        "debt_score": 20
+        "market_cap": 476834856960,
+        "cap_score": 15,
+        "roe_pct": 232.076,
+        "roe_score": 20,
+        "operating_margin_pct": 60.836,
+        "margin_score": 20,
+        "revenue_growth_pct": 15.8,
+        "earnings_growth_pct": 21.2,
+        "growth_score": 17,
+        "free_cashflow": 16148124672,
+        "cash_score": 15,
+        "price_position_52w": 0.5474681238615664,
+        "valuation_score": 10
       }
     }
   ],
   "screening_meta": {
-    "mode": "theme",
-    "title": "모멘텀/테마 후보",
-    "seed_pool_size": 113,
+    "mode": "quality",
+    "title": "장기 퀄리티 후보",
+    "seed_pool_size": 61,
     "ai_selected_count": 20,
     "scored_count": 20,
     "top5": [
-      "NVDA",
+      "META",
       "AVGO",
       "MSFT",
       "GOOGL",
-      "TSM"
+      "MA"
     ],
     "max_screening_candidates": 20
   },
