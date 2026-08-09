@@ -1,59 +1,1247 @@
 {
-  "date": "2026-08-09 07:14",
+  "date": "2026-08-10 07:16",
   "report_profile": {
-    "type": "weekly_summary",
-    "title": "주간 요약",
-    "description": "이번 주 브리핑과 후보를 요약하고 다음 주 체크포인트를 정리합니다."
+    "type": "dividend",
+    "title": "고배당/현금흐름 후보",
+    "description": "배당률, 배당 지속성, 재무 안정성을 기준으로 현금흐름형 후보를 선별합니다."
   },
-  "market_data": {},
-  "candidate_rankings": [],
-  "weekly_sources": [
+  "market_data": {
+    "ASML": {
+      "symbol": "ASML",
+      "name": "ASML Holding N.V.",
+      "display_name": "ASML Holding N.V.",
+      "data_limited": false,
+      "price": 1741.11,
+      "high_24h": 1761.31,
+      "low_24h": 1720.11,
+      "high_1m": 1856.33,
+      "low_1m": 1530.64,
+      "fiftyTwoWeekHigh": 1999.96,
+      "fiftyTwoWeekLow": 716.2,
+      "dividendYield": 52.0,
+      "dividendRate": 9.08,
+      "exDividendDate": "1785196800",
+      "charts": {
+        "24h": "charts/ASML_24h.png",
+        "1m": "charts/ASML_1m.png",
+        "1y": "charts/ASML_1y.png"
+      },
+      "news": [
+        {
+          "title": "Is ASML Holding (NasdaqGS:ASML) Trading At A Premium Or Fair Value?",
+          "summary": "ASML Holding stock has delivered strong returns over recent years, yet the current valuation screens as expensive on standard checks, which raises questions about how much of the story is already reflected in the share price. Over the past 3 years ASML Holding has returned 168.7%, which puts recent weakness into context and shows how much the stock has already rewarded long term holders. Expectations around ASML Holding's ability to sustain profitable growth in semiconductor equipment can...",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-10 02:09"
+        },
+        {
+          "title": "ASML Holding (ENXTAM:ASML) Draws Fresh Attention After $400 Million Bet On Lithography Rival",
+          "summary": "ASML Holding (ENXTAM:ASML) faces a new challenger as chipmaking startup Source Foundry secures substantial funding to develop lithography equipment for advanced semiconductors. The well financed entrant is targeting bottlenecks in AI chip production, directly addressing a core area of ASML's current business focus. Investors are weighing how fresh capital and technical ambitions at Source Foundry could influence competition in high end lithography tools over the longer term. For a fuller...",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-09 03:10"
+        },
+        {
+          "title": "Nucor, ASML Lead Five Stocks Near Buy Points Without This Big Risk",
+          "summary": "Steelmaker Nucor and chip-gear giant ASML are among five stocks near buy points with earnings in the rearview mirror.",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-08 21:00"
+        },
+        {
+          "title": "Situational Awareness Reportedly Bet $400 Million on a $5 Billion Stealth Chip Startup— Weeks After the 'Most Catastrophic Hedge Fund Blowup' of the Year",
+          "summary": "Source Foundry, a chipmaking startup reportedly valued at $5 billion, has secured fresh investment from hedge fund Situational Awareness as it seeks to reinvent semiconductor manufacturing. Situational Awareness Bets Big on Chip Startup Situational Awareness has invested $500 million in...",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-08 18:14"
+        },
+        {
+          "title": "Situational Awareness invested $500 million in chip startup Source Foundry",
+          "summary": "Investing.com -- Situational Awareness invested a total of $500 million in semiconductor manufacturing startup Source Foundry, Bloomberg reported, citing people familiar with the matter.",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-08 14:23"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-07-15 06:05:47",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026048235/pressreleasefinancialresul.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-06-05 08:33:45",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026041057/formsd.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-04-23 08:47:08",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026026703/form6-kagmdisclosureofagmr.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 7,
+        "shown_count": 3,
+        "excluded_count": 7,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 7
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      }
+    },
+    "OXLC": {
+      "symbol": "OXLC",
+      "name": "Oxford Lane Capital Corp.",
+      "display_name": "Oxford Lane Capital Corp.",
+      "data_limited": false,
+      "price": 9.19,
+      "high_24h": 9.25,
+      "low_24h": 9.15,
+      "high_1m": 9.34,
+      "low_1m": 8.35,
+      "fiftyTwoWeekHigh": 19.05,
+      "fiftyTwoWeekLow": 8.01,
+      "dividendYield": 2609.0,
+      "dividendRate": 2.4,
+      "exDividendDate": "1786924800",
+      "charts": {
+        "24h": "charts/OXLC_24h.png",
+        "1m": "charts/OXLC_1m.png",
+        "1y": "charts/OXLC_1y.png"
+      },
+      "news": [
+        {
+          "title": "2 High-Yields Trading At Historic Lows",
+          "summary": "",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-09 19:15"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-07-28 16:09:33",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1495222/000121390026082258/ea0299442-01_n23c2.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-07-06 16:04:28",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1495222/000121390026075476/xslN-PX_X01/primary_doc.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-06-08 17:21:04",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1495222/000089418926017674/xslFormN-CEN_X05/primary_doc.xml",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      }
+    },
+    "QCOM": {
+      "symbol": "QCOM",
+      "name": "QUALCOMM Incorporated",
+      "display_name": "QUALCOMM Incorporated",
+      "data_limited": false,
+      "price": 167.87,
+      "high_24h": 167.95,
+      "low_24h": 162.3,
+      "high_1m": 196.09,
+      "low_1m": 142.89,
+      "fiftyTwoWeekHigh": 259.92,
+      "fiftyTwoWeekLow": 121.99,
+      "dividendYield": 219.0,
+      "dividendRate": 3.68,
+      "exDividendDate": "1788393600",
+      "charts": {
+        "24h": "charts/QCOM_24h.png",
+        "1m": "charts/QCOM_1m.png",
+        "1y": "charts/QCOM_1y.png"
+      },
+      "news": [
+        {
+          "title": "Micron (MU) Secures Strategic Auto Deals and AI Momentum to Offset Cyclical Pressures",
+          "summary": "Micron Technology (NASDAQ:MU) has experienced strong AI-driven demand through 2026, helping offset its historical exposure to cyclical market downturns. Earlier, on July 16, Micron completed Strategic Customer Agreements with a group of automotive Tier 1 suppliers, a smaller but telling sign that its customer relationships are stretching longer and becoming more predictable across more than […]",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-09 19:17"
+        },
+        {
+          "title": "Top 50 High-Quality Dividend Growth Stocks For August 2026",
+          "summary": "I track a curated universe of 50 high-quality dividend growth stocks to identify timely, attractive entry points for long-term total return. Check out the list here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-09 11:50"
+        },
+        {
+          "title": "Qualcomm (QCOM) Q3 2026 Earnings Call Transcript",
+          "summary": "Qualcomm pivots to data center and automotive amid handset contraction.",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-08 08:58"
+        },
+        {
+          "title": "The Toughest Questions AMD Faced On Its Latest Call",
+          "summary": "Advanced Micro Devices just posted huge growth forecasts, but on its earnings call, analysts zeroed in on whether the company can actually build it all without the success eating its own margins.",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-08 02:58"
+        },
+        {
+          "title": "How To Earn 11% On NVDA Stock And Set A 30% Safety Net",
+          "summary": "Get paid a healthy income now for a chance to own the AI leader at a price well below today's, an income you keep whether the stock soars or sinks.",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-08 02:44"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-07 10:47:54",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000529/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-03 17:03:13",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000090/xslF345X06/edgardoc.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-07-31 16:20:22",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926089234/tm2621612d2_8k.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      }
+    },
+    "AMZN": {
+      "symbol": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "display_name": "Amazon.com, Inc.",
+      "data_limited": false,
+      "price": 274.44,
+      "high_24h": 278.31,
+      "low_24h": 272.75,
+      "high_1m": 287.2,
+      "low_1m": 226.16,
+      "fiftyTwoWeekHigh": 287.2,
+      "fiftyTwoWeekLow": 196.0,
+      "dividendYield": 0,
+      "dividendRate": 0,
+      "exDividendDate": "N/A",
+      "charts": {
+        "24h": "charts/AMZN_24h.png",
+        "1m": "charts/AMZN_1m.png",
+        "1y": "charts/AMZN_1y.png"
+      },
+      "news": [
+        {
+          "title": "UPS Completed Its Amazon Volume Pullback. Is the Turnaround Finally Working?",
+          "summary": "United Parcel Service, Inc. (NYSE:UPS) shares surged in premarket trading on July 28 after the package-delivery company reported a second-quarter beat and raised its 2026 outlook. Revenue reached $22.83 billion, above the $21.81 billion consensus estimate, while adjusted earnings of $1.76 per share exceeded the $1.66 estimate. UPS now expects full-year revenue of approximately $91.2 […]",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-10 05:59"
+        },
+        {
+          "title": "BofA, JPMorgan, Oppenheimer Name Their 3 Favorite AI Stocks, One Has a $255 Target",
+          "summary": "BofA, JPMorgan & Oppenheimer name their top 3 AI stocks. See the $255 Palantir target, $365 Amazon call and $400 Lam Research price target.",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-10 05:53"
+        },
+        {
+          "title": "Electrovaya (TSX:ELVA) Stock Sees Fair Value Lift As Amazon And Jamestown Progress Draw Focus",
+          "summary": "Electrovaya’s fair value estimate has shifted from CA$12.55 to CA$13.99, pointing to an updated price target framework that investors are now parsing more closely. Recent analyst work links this change to fresh attention on the Amazon commercial agreement and progress at the Jamestown, New York facility, which are feeding into revised assumptions around growth and capital deployment. Read on to see how these moving pieces are shaping the current analyst narrative and what to watch as it...",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-10 05:10"
+        },
+        {
+          "title": "Amazon's $86 2-in-1 laptop and tablet has fully-integrated AI features",
+          "summary": "You can't go anywhere today without hearing people talk about artificial intelligence. AI is seeping into every aspect of our daily lives, for better or worse. No matter what you think about this sea change, there's no denying its existence. It's being incorporated into everything from smartwatches ...",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-10 04:15"
+        },
+        {
+          "title": "Forget VFIAX: Vanguard Sells You the Same S&P 500 Fund Without the $3,000 Toll, or the $75 Fee Fidelity Charges to Buy It",
+          "summary": "VFIAX is one of the most popular ways Americans own the S&P 500, but two hidden costs quietly make it the wrong choice for millions of investors, and Vanguard already sells the fix.",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-10 01:04"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-06 16:44:31",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926092080/xslN-PX_X01/primary_doc.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-06 16:35:35",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926092071/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-06 16:26:18",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926092052/infotable.xml",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      }
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "display_name": "Microsoft Corporation",
+      "data_limited": false,
+      "price": 499.89,
+      "high_24h": 505.18,
+      "low_24h": 498.73,
+      "high_1m": 505.18,
+      "low_1m": 373.35,
+      "fiftyTwoWeekHigh": 553.72,
+      "fiftyTwoWeekLow": 349.2,
+      "dividendYield": 73.0,
+      "dividendRate": 3.64,
+      "exDividendDate": "1787184000",
+      "charts": {
+        "24h": "charts/MSFT_24h.png",
+        "1m": "charts/MSFT_1m.png",
+        "1y": "charts/MSFT_1y.png"
+      },
+      "news": [
+        {
+          "title": "Amazon's $86 2-in-1 laptop and tablet has fully-integrated AI features",
+          "summary": "You can't go anywhere today without hearing people talk about artificial intelligence. AI is seeping into every aspect of our daily lives, for better or worse. No matter what you think about this sea change, there's no denying its existence. It's being incorporated into everything from smartwatches ...",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-10 04:15"
+        },
+        {
+          "title": "Sundar Pichai's Alphabet Has Grown Google Cloud Revenue 82% Year Over Year. Here's Why That Growth Rate Justifies the Company's Capex Bet.",
+          "summary": "Google Cloud grew revenue 82% during the second quarter, with nearly 90% of the Fortune 100 using the platform.",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-10 04:14"
+        },
+        {
+          "title": "Forget VFIAX: Vanguard Sells You the Same S&P 500 Fund Without the $3,000 Toll, or the $75 Fee Fidelity Charges to Buy It",
+          "summary": "VFIAX is one of the most popular ways Americans own the S&P 500, but two hidden costs quietly make it the wrong choice for millions of investors, and Vanguard already sells the fix.",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-10 01:04"
+        },
+        {
+          "title": "Microsoft Sits 12% Below Its High After the Largest One-Day Market Value Gain on Record. Here's What History Suggests Comes Next.",
+          "summary": "Six days like it since February 2022. Their aftermaths don't agree.",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-09 23:43"
+        },
+        {
+          "title": "'Very little to like': Wall Street assesses surprise July jobs report as stocks jump",
+          "summary": "The latest monthly jobs report could take the pressure off the Fed to hike rates.",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-09 20:35"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-06 18:01:48",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000143/xslF345X06/form4.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-05 18:08:55",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000141/xslF345X06/form4.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-07-29 16:08:01",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      }
+    },
+    "ARCC": {
+      "symbol": "ARCC",
+      "name": "Ares Capital Corporation",
+      "display_name": "Ares Capital Corporation",
+      "data_limited": false,
+      "price": 20.0,
+      "high_24h": 20.03,
+      "low_24h": 19.56,
+      "high_1m": 20.03,
+      "low_1m": 18.25,
+      "fiftyTwoWeekHigh": 22.76,
+      "fiftyTwoWeekLow": 17.4,
+      "dividendYield": 960.0,
+      "dividendRate": 1.92,
+      "exDividendDate": "1789430400",
+      "charts": {
+        "24h": "charts/ARCC_24h.png",
+        "1m": "charts/ARCC_1m.png",
+        "1y": "charts/ARCC_1y.png"
+      },
+      "news": [
+        {
+          "title": "Stop Buying Junk: These 2 Quality Income Picks Pay 8% And 10%",
+          "summary": "ADX delivers an 8% annualized distribution from an actively managed large-cap equity portfolio. ARCC provides a stable 10% yield from private credit. see more here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-09 16:30"
+        },
+        {
+          "title": "BDC Weekly Review: Private BDC Q2 Numbers Are Strong",
+          "summary": "Track late-July BDC stock moves and Q2 earnings themes.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-09 07:50"
+        },
+        {
+          "title": "Ares Capital: Q2 Performance Bounces Back, But Some Stress Remains",
+          "summary": "Ares Capital Q2 NAV return was muted by credit markdowns. With a 10.2% yield, near-full dividend coverage and solid portfolio quality, see if itâs worth buying now.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-07 12:58"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-07-28 20:51:40",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026050307/arcc-20260630.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-07-28 20:33:42",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026050303/arccq2-2026exhibit991.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-07-22 17:23:34",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926085912/tm2620889d1_8k.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 72,
+      "screening_details": {
+        "dividend_yield_pct": 960.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 14367637504,
+        "cap_score": 20,
+        "debt_to_equity": 114.117,
+        "debt_score": 12
+      }
+    },
+    "MAIN": {
+      "symbol": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "display_name": "Main Street Capital Corporation",
+      "data_limited": false,
+      "price": 58.93,
+      "high_24h": 59.48,
+      "low_24h": 56.31,
+      "high_1m": 59.48,
+      "low_1m": 50.72,
+      "fiftyTwoWeekHigh": 67.77,
+      "fiftyTwoWeekLow": 48.95,
+      "dividendYield": 540.0,
+      "dividendRate": 3.18,
+      "exDividendDate": "1788825600",
+      "charts": {
+        "24h": "charts/MAIN_24h.png",
+        "1m": "charts/MAIN_1m.png",
+        "1y": "charts/MAIN_1y.png"
+      },
+      "news": [
+        {
+          "title": "Dividend Champion, Contender, And Challenger Highlights: Week Of August 9",
+          "summary": "Weekly dividend activity roundup for Dividend Champions, Contenders & Challengersâsee dividend changes, upcoming ex-dividend dates and pay dates here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-08 02:54"
+        },
+        {
+          "title": "Main Street Capital Corporation (MAIN) Q2 2026 Earnings Call Transcript",
+          "summary": "Main Street Capital Corporation (MAIN) Q2 2026 Earnings Call August 7, 2026 10:00 AM EDTCompany ParticipantsDwayne Hyzak - CEO, Senior MD & Member of...",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-08 02:14"
+        },
+        {
+          "title": "Main Street Capital Corporation 2026 Q2 - Results - Earnings Call Presentation",
+          "summary": "2026-08-07. The following slide deck was published by Main Street Capital Corporation in conjunction with their 2026 Q2 earnings call.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-07 22:04"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-07 12:26:06",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644026000096/q22026mainiplpfwp.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-07 10:58:29",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644026000094/main-20260630.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-06 16:29:49",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644026000090/main-q22026xearningsreleas.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 72,
+      "screening_details": {
+        "dividend_yield_pct": 540.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 5480821248,
+        "cap_score": 20,
+        "debt_to_equity": 80.02,
+        "debt_score": 12
+      }
+    },
+    "BXSL": {
+      "symbol": "BXSL",
+      "name": "Blackstone Secured Lending Fund",
+      "display_name": "Blackstone Secured Lending Fund",
+      "data_limited": false,
+      "price": 24.53,
+      "high_24h": 24.59,
+      "low_24h": 23.57,
+      "high_1m": 24.59,
+      "low_1m": 22.71,
+      "fiftyTwoWeekHigh": 30.69,
+      "fiftyTwoWeekLow": 22.47,
+      "dividendYield": 1255.0,
+      "dividendRate": 3.08,
+      "exDividendDate": "1790726400",
+      "charts": {
+        "24h": "charts/BXSL_24h.png",
+        "1m": "charts/BXSL_1m.png",
+        "1y": "charts/BXSL_1y.png"
+      },
+      "news": [
+        {
+          "title": "Blackstone Secured Lending: Discount To NAV And A Dip In Non-Accruals",
+          "summary": "Blackstone Secured Lending Fund (BXSL) update: NAV down 5 straight quarters, yield 9.4%, dividend 12.55% (97% covered). Read more macro analysis here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-09 19:52"
+        },
+        {
+          "title": "Blackstone Secured Lending: Discount Likely To Widen After Q2 Earnings (Rating Downgrade)",
+          "summary": "Blackstone Secured Lending Fund is rated a sell due to persistent NAV declines and weak portfolio performance. Click here to read more about BXSL.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-08 14:05"
+        },
+        {
+          "title": "Blackstone Secured Lending: Get Ready For A Dividend Reset",
+          "summary": "BXSL balance sheet quality improved, but NAV fell and dividend coverage remains weak. Read more about my hesitations with buying into this stock right now.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-07 20:08"
+        },
+        {
+          "title": "Blackstone Secured Lending Fund. 2026 Q2 - Results - Earnings Call Presentation",
+          "summary": "2026-08-07. The following slide deck was published by Blackstone Secured Lending Fund.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-07 17:01"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-06 06:43:32",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026085889/ea0300654-8k_blackstone.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-06 06:13:39",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1736035/000173603526000016/bxsl-20260630.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-07-24 16:31:18",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026081414/ea029902801_8k-blackstone.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 72,
+      "screening_details": {
+        "dividend_yield_pct": 1255.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 5717085696,
+        "cap_score": 20,
+        "debt_to_equity": 126.897,
+        "debt_score": 12
+      }
+    },
+    "O": {
+      "symbol": "O",
+      "name": "Realty Income Corporation",
+      "display_name": "Realty Income Corporation",
+      "data_limited": false,
+      "price": 62.51,
+      "high_24h": 62.91,
+      "low_24h": 62.16,
+      "high_1m": 66.87,
+      "low_1m": 62.13,
+      "fiftyTwoWeekHigh": 67.94,
+      "fiftyTwoWeekLow": 55.86,
+      "dividendYield": 520.0,
+      "dividendRate": 3.25,
+      "exDividendDate": "1785456000",
+      "charts": {
+        "24h": "charts/O_24h.png",
+        "1m": "charts/O_1m.png",
+        "1y": "charts/O_1y.png"
+      },
+      "news": [
+        {
+          "title": "You Can Do Better Than Nike. Buy This High-Yield Dividend Stock Instead.",
+          "summary": "Nike has been a major disappointment this year.",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-10 00:55"
+        },
+        {
+          "title": "Here's How Many Shares of Realty Income (O) Stock You'd Need for $1,000 in Monthly Dividends",
+          "summary": "This stock should be especially attractive to some for its monthly dividend. (It recently yielded 5.12%, too.)",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-09 20:25"
+        },
+        {
+          "title": "Return Of The Bad News Bulls",
+          "summary": "Markets hit new highs as softer jobs data and falling oil ease Fed rate pressure. Click for an updated market outlook.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-09 18:00"
+        },
+        {
+          "title": "Is Realty Income (O) Below Fair Value Following Earnings And Its Equity Offering?",
+          "summary": "Realty Income (O) just reported its second quarter 2026 results, giving investors fresh numbers on rental income, earnings and dividend capacity as the REIT also moves ahead with a new equity offering. See our latest analysis for Realty Income. The stock has had a soft patch in recent weeks, with a 7 day share price return of 2.13% and a 30 day share price return of 1.26%. This compares with a year to date share price return of 9.07% and a 1 year total shareholder return of 14.79%. This...",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-09 14:11"
+        },
+        {
+          "title": "This $575,000 Portfolio Pays More Cash Every Month Than $1 Million in the S&P 500",
+          "summary": "A smaller portfolio built around the right income assets can throw off more cash every year than a million dollars sitting in the S&P 500, but the tradeoffs between each yield tier will determine whether that income grows or quietly erodes.",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-09 12:08"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-05 17:51:34",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/726728/000072672826000048/o-20260630.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-05 16:07:57",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/726728/000072672826000044/o-991q22026.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-07-13 16:10:54",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/726728/000110465926083103/tm2619513d3_8k.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 72,
+      "screening_details": {
+        "dividend_yield_pct": 520.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 59147083776,
+        "cap_score": 20,
+        "debt_to_equity": 74.722,
+        "debt_score": 12
+      }
+    },
+    "STAG": {
+      "symbol": "STAG",
+      "name": "STAG Industrial, Inc.",
+      "display_name": "STAG Industrial, Inc.",
+      "data_limited": false,
+      "price": 37.31,
+      "high_24h": 37.32,
+      "low_24h": 36.61,
+      "high_1m": 42.61,
+      "low_1m": 36.61,
+      "fiftyTwoWeekHigh": 42.61,
+      "fiftyTwoWeekLow": 34.18,
+      "dividendYield": 416.0,
+      "dividendRate": 1.55,
+      "exDividendDate": "1790726400",
+      "charts": {
+        "24h": "charts/STAG_24h.png",
+        "1m": "charts/STAG_1m.png",
+        "1y": "charts/STAG_1y.png"
+      },
+      "news": [
+        {
+          "title": "This $575,000 Portfolio Pays More Cash Every Month Than $1 Million in the S&P 500",
+          "summary": "A smaller portfolio built around the right income assets can throw off more cash every year than a million dollars sitting in the S&P 500, but the tradeoffs between each yield tier will determine whether that income grows or quietly erodes.",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-09 12:08"
+        },
+        {
+          "title": "STAG Industrial: Recent Sell-Off Made It A Buy",
+          "summary": "STAG Industrial, Inc. is upgraded to a Buy after a 12.3% sell-off, improving its risk/reward profile and yield to ~4.2%. Read more on STAG stock here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-08 00:41"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-07-28 16:08:49",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1479094/000147909426000026/stag-20260630.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-07-28 16:07:48",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1479094/000147909426000025/q22026earningsrelease.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-07-22 16:15:20",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1479094/000110465926085810/tm2620892d1_8k.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 72,
+      "screening_details": {
+        "dividend_yield_pct": 416.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 7340737536,
+        "cap_score": 20,
+        "debt_to_equity": 93.78,
+        "debt_score": 12
+      }
+    }
+  },
+  "candidate_rankings": [
     {
-      "date": "2026-08-08",
-      "file": "briefings/2026-08-08.md",
-      "content": "섹션 1: 보유 종목 상세 분석 (Holdings)\n\nASML Holding N.V. (ASML)\n\n    주가분석\n        현재가: $1741.11 (24H : $1720.11 - $1761.31)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_24h.png\n        최근1달(1M): $1530.64 - $1856.33\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_1m.png\n        최근1년(1Y): $710.45 ~ $1999.96\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            AI 반도체 장비 투자 종목으로 대만 반도체 대신 ASML을 매수할 것을 추천하는 분석이 나옴. (Yahoo, 2026-08-08 01:50, 긍정)\n            반도체 장비 관련 기업 온토 이노베이션이 호실적을 발표하며 AI 수요 증가에 대한 긍정적 전망. (SeekingAlpha, 2026-08-07 20:58, 중립)\n            중국 AI 칩 제조업체들이 자국 기술 사용 정책에 힘입어 실적 호조가 예상된다는 소식. (Yahoo, 2026-08-07 12:32, 중립)\n        주요공시(최근6달):\n            기타 SEC 공시(, noise): 재무 결과 보도 자료를 제출함. (SEC/FMP, 2026-07-15 06:05:47, 중립)\n            기타 SEC 공시(, noise): Form SD를 제출함. (SEC/FMP, 2026-06-05 08:33:45, 중립)\n            기타 SEC 공시(, noise): 연례 주주총회 관련 공시를 제출함. (SEC/FMP, 2026-04-23 08:47:08, 중립)\n            중요 공시는 아니지만 최근 기타 SEC 공시 7건 확인. UNKNOWN 유형의 저중요도 공시 7건 제외.\n\n    투자 등급\n        종합매력도: ★★★★★ (근거: 반도체 산업의 핵심 장비 공급자로서 높은 기술 경쟁력)\n        배당성향도: ★★★★☆ (근거: 꾸준히 지급되는 배당)\n        가격적정성: ★★★☆☆ (근거: 52주 최고가에 근접한 수준)\n        자본성장력: ★★★★☆ (근거: 반도체 산업의 장기 성장 수혜)\n        산업모멘텀: ★★★★★ (근거: AI 및 고성능 반도체 수요에 따른 강력한 산업 모멘텀)\n\n    분석: ASML은 AI 반도체 산업의 필수 장비 공급자로 장기적인 성장 동력을 보유하고 있습니다. 다만, 52주 최고가에 근접한 현 주가는 가격 적정성에 대한 추가 분석을 요구합니다.\n\nOxford Lane Capital Corp. (OXLC)\n\n    주가분석\n        현재가: $9.19 (24H : $9.15 - $9.25)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_24h.png\n        최근1달(1M): $8.35 - $9.34\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_1m.png\n        최근1년(1Y): $8.01 ~ $19.05\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            Oxford Lane의 2031년 만기 우선주가 높은 월별 수입, 강력한 보호 및 개선된 보안을 제공하며 매력적인 투자처로 분석됨. (SeekingAlpha, 2026-08-06 08:32, 긍정)\n        주요공시(최근6달):\n            기타 SEC 공시(, noise): Form N-23C-2를 제출함. (SEC/FMP, 2026-07-28 16:09:33, 중립)\n            기타 SEC 공시(, noise): Form N-PX를 제출함. (SEC/FMP, 2026-07-06 16:04:28, 중립)\n            기타 SEC 공시(, noise): Form N-CEN을 제출함. (SEC/FMP, 2026-06-08 17:21:04, 중립)\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. UNKNOWN 유형의 저중요도 공시 20건 제외.\n\n    투자 등급\n        종합매력도: ★★★☆☆ (근거: 고배당 매력이 있으나 CLO 투자 특성상 금리 변동에 취약)\n        배당성향도: ★★★★★ (근거: 매우 높은 배당수익률 제공)\n        가격적정성: ★★★★★ (근거: 52주 최저가에 가까운 가격)\n        자본성장력: ★☆☆☆☆ (근거: 자본 성장보다는 소득 분배에 중점)\n        산업모멘텀: ★★★☆☆ (근거: 금리 환경 변화에 따라 민감하게 반응)\n\n    분석: Oxford Lane Capital은 높은 배당 수익률을 제공하는 CLO 투자 전문 BDC입니다. 현재 주가는 52주 최저가에 가까워 가격적정성은 높으나, CLO 시장 변동성 및 금리 환경 변화에 대한 주의가 필요합니다.\n\nQUALCOMM Incorporated (QCOM)\n\n    주가분석\n        현재가: $167.87 (24H : $162.3 - $167.95)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_24h.png\n        최근1달(1M): $142.89 - $196.09\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_1m.png\n        최근1년(1Y): $121.99 ~ $259.92\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            경쟁사 AMD의 실적 발표에서 투자자들이 성장을 위한 생산 능력 확보 여부에 집중했다는 소식. (Yahoo, 2026-08-08 02:58, 중립)\n            엔비디아 주식을 통해 11% 수익을 얻고 30% 안전망을 확보하는 방법을 제시하는 기사. (Yahoo, 2026-08-08 02:44, 중립)\n            마이크론이 고객과의 전략적 계약을 통해 향후 1천억 달러 규모의 최소 매출을 확보했다는 소식. (Yahoo, 2026-08-07 21:47, 중립)\n        주요공시(최근6달):\n            기타 SEC 공시(, noise): Schedule 13G를 제출함. (SEC/FMP, 2026-08-07 10:47:54, 중립)\n            기타 SEC 공시(, noise): Form 4를 제출함. (SEC/FMP, 2026-08-03 17:03:13, 중립)\n            기타 SEC 공시(, noise): Form 8-K를 제출함. (SEC/FMP, 2026-07-31 16:20:22, 중립)\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. UNKNOWN 유형의 저중요도 공시 20건 제외.\n\n    투자 등급\n        종합매력도: ★★★★☆ (근거: 모바일 AP 시장의 강자로서 온디바이스 AI 시대의 수혜 기대)\n        배당성향도: ★★★★☆ (근거: 꾸준하고 안정적인 배당 지급)\n        가격적정성: ★★★★☆ (근거: 52주 최고가 대비 매력적인 가격대)\n        자본성장력: ★★★★☆ (근거: 모바일 시장 성장 둔화 우려가 있으나 AI 신사업 확장 가능성)\n        산업모멘텀: ★★★★☆ (근거: 온디바이스 AI 확산에 따른 긍정적 산업 모멘텀)\n\n    분석: 퀄컴은 모바일 AP 시장의 선두주자이며 온디바이스 AI 트렌드의 핵심 수혜주로 주목받고 있습니다. 현재 주가는 52주 최고가 대비 낮은 수준으로 가격 매력이 있습니다.\n\nAmazon.com, Inc. (AMZN)\n\n    주가분석\n        현재가: $274.44 (24H : $272.75 - $278.31)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_24h.png\n        최근1달(1M): $226.16 - $287.2\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_1m.png\n        최근1년(1Y): $196.0 ~ $287.2\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            아마존과 셀시우스 중 어느 소비재 주식이 2026년에 더 나은 투자처인지 비교하는 분석이 나옴. (Yahoo, 2026-08-08 06:05, 중립)\n            아마존이 새로운 데이터센터를 위해 대규모 사설 가스 발전소 건설을 지원하며 환경적 우려가 제기됨. (Yahoo, 2026-08-08 06:02, 부정)\n            OpenAI가 아마존 알렉사와 경쟁할 300달러 이상 가격의 AI 스피커를 개발 중이라는 보도가 나옴. (Yahoo, 2026-08-08 05:20, 부정)\n        주요공시(최근6달):\n            기타 SEC 공시(, noise): Form N-PX를 제출함. (SEC/FMP, 2026-08-06 16:44:31, 중립)\n            기타 SEC 공시(, noise): Schedule 13G를 제출함. (SEC/FMP, 2026-08-06 16:35:35, 중립)\n            기타 SEC 공시(, noise): 기타 정보 테이블을 제출함. (SEC/FMP, 2026-08-06 16:26:18, 중립)\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. UNKNOWN 유형의 저중요도 공시 20건 제외.\n\n    투자 등급\n        종합매력도: ★★★★★ (근거: 이커머스 및 클라우드 시장 지배적 위치, AI 기술 접목)\n        배당성향도: ★☆☆☆☆ (근거: 배당 미지급)\n        가격적정성: ★★★☆☆ (근거: 52주 최고가에 근접한 수준)\n        자본성장력: ★★★★★ (근거: AWS를 통한 높은 성장 잠재력 및 신사업 확장)\n        산업모멘텀: ★★★★★ (근거: AI 및 클라우드 시장의 강력한 성장 모멘텀)\n\n    분석: 아마존은 클라우드 및 이커머스 시장을 선도하며, AI 기술을 통해 새로운 성장 동력을 확보하고 있습니다. 최근 AI 스피커 시장 경쟁 심화 및 환경 이슈는 단기적 리스크 요인이 될 수 있습니다.\n\nMicrosoft Corporation (MSFT)\n\n    주가분석\n        현재가: $499.89 (24H : $498.73 - $505.18)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_24h.png\n        최근1달(1M): $373.35 - $505.18\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1m.png\n        최근1년(1Y): $349.2 ~ $553.72\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            C3.ai와 Applied Digital 중 어느 AI 주식이 2026년에 더 나은 투자처인지 비교 분석이 나옴. (Yahoo, 2026-08-08 06:07, 중립)\n            AI 테마의 성장이 아직 갈 길이 멀다며, 마이크로소프트와 같은 기술 대기업의 AI 자본 지출이 중요하다고 언급됨. (Yahoo, 2026-08-08 05:49, 긍정)\n            엔비디아 GPU를 넘어 AI 및 퀀텀 컴퓨팅 분야에서 2026년을 이끌어갈 다음 승자가 마이크로소프트와 같은 기업에서 나올 수 있음을 시사. (Yahoo, 2026-08-08 04:00, 긍정)\n            최근 4분기 실적 발표 후 짐 크레이머가 마이크로소프트의 재무 성과에 깊은 인상을 받았다고 언급함. (Yahoo, 2026-08-08 03:38, 긍정)\n        주요공시(최근6달):\n            기타 SEC 공시(, noise): Form 4를 제출함. (SEC/FMP, 2026-08-06 18:01:48, 중립)\n            기타 SEC 공시(, noise): Form 4를 제출함. (SEC/FMP, 2026-08-05 18:08:55, 중립)\n            기타 SEC 공시(, noise): 10-K 연간 보고서를 제출함. (SEC/FMP, 2026-07-29 16:08:01, 중립)\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. UNKNOWN 유형의 저중요도 공시 20건 제외.\n\n    투자 등급\n        종합매력도: ★★★★★ (근거: 클라우드 컴퓨팅 및 AI 분야에서 압도적인 시장 지배력)\n        배당성향도: ★★★★☆ (근거: 꾸준하고 안정적인 배당 성장)\n        가격적정성: ★★★☆☆ (근거: 52주 최고가에 근접한 수준)\n        자본성장력: ★★★★★ (근거: 애저 클라우드와 AI 솔루션을 통한 강력한 자본 성장)\n        산업모멘텀: ★★★★★ (근거: AI 산업 혁신을 주도하는 강력한 시장 모멘텀)\n\n    분석: 마이크로소프트는 클라우드 및 AI 분야의 선두주자로서, 강력한 재무 성과와 지속적인 성장 잠재력을 보여주고 있습니다. AI 관련 투자 테마의 핵심 수혜주로 긍정적입니다.\n\n섹션 2: 장기 퀄리티 후보 (Discovery)\n\nMicrosoft Corporation (MSFT)\n\n    주가분석\n        현재가: $499.89 (24H : $498.73 - $505.18)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_24h.png\n        최근1달(1M): $373.35 - $505.18\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1m.png\n        최근1년(1Y): $349.2 ~ $553.72\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1y.png\n\n    장기투자 적합성\n        클라우드 컴퓨팅과 AI를 통한 사업 모델 혁신으로 장기적인 성장 동력을 확보하고 있습니다.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            C3.ai와 Applied Digital 중 어느 AI 주식이 2026년에 더 나은 투자처인지 비교 분석이 나옴. (Yahoo, 2026-08-08 06:07, 중립)\n            AI 테마의 성장이 아직 갈 길이 멀다며, 마이크로소프트와 같은 기술 대기업의 AI 자본 지출이 중요하다고 언급됨. (Yahoo, 2026-08-08 05:49, 긍정)\n            엔비디아 GPU를 넘어 AI 및 퀀텀 컴퓨팅 분야에서 2026년을 이끌어갈 다음 승자가 마이크로소프트와 같은 기업에서 나올 수 있음을 시사. (Yahoo, 2026-08-08 04:00, 긍정)\n            최근 4분기 실적 발표 후 짐 크레이머가 마이크로소프트의 재무 성과에 깊은 인상을 받았다고 언급함. (Yahoo, 2026-08-08 03:38, 긍정)\n        주요공시(최근6달):\n            기타 SEC 공시(, noise): Form 4를 제출함. (SEC/FMP, 2026-08-06 18:01:48, 중립)\n            기타 SEC 공시(, noise): Form 4를 제출함. (SEC/FMP, 2026-08-05 18:08:55, 중립)\n            기타 SEC 공시(, noise): 10-K 연간 보고서를 제출함. (SEC/FMP, 2026-07-29 16:08:01, 중립)\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. UNKNOWN 유형의 저중요도 공시 20건 제외.\n\n    투자 등급\n        종합매력도: ★★★★★ (근거: 클라우드 및 AI 분야에서 압도적인 시장 지배력과 강력한 재무 성과)\n        배당성향도: ★★★★☆ (근거: 꾸준하고 안정적인 배당 성장)\n        가격적정성: ★★★☆☆ (근거: 52주 최고가에 근접한 수준으로 다소 높은 밸류에이션)\n        자본성장력: ★★★★★ (근거: 애저 클라우드와 AI 솔루션을 통한 강력한 자본 성장)\n        산업모멘텀: ★★★★★ (근거: AI 산업 혁신을 주도하는 강력한 시장 모멘텀)\n\n    분석: 마이크로소프트는 클라우드 컴퓨팅 및 AI 분야의 독보적인 선두주자로서, 견고한 수익성과 지속적인 혁신을 통해 장기적인 가치 창출이 기대됩니다. 높은 시장 점유율과 강력한 현금 흐름은 안정적인 투자 매력을 더합니다.\n\nApple Inc. (AAPL)\n\n    주가분석\n        현재가: $313.3 (24H : $310.74 - $314.81)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AAPL_24h.png\n        최근1달(1M): $300.0 - $344.57\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AAPL_1m.png\n        최근1년(1Y): $219.25 ~ $344.57\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AAPL_1y.png\n\n    장기투자 적합성\n        강력한 브랜드 충성도와 생태계를 기반으로 AI 및 신규 서비스 확장을 통해 장기적인 성장 잠재력을 보유하고 있습니다.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            애플과 OpenAI가 기기 프로젝트를 둘러싼 법적 분쟁을 심화시키고 있으며, OpenAI는 애플의 주장을 근거 없다고 반박함. (Yahoo, 2026-08-08 05:39, 부정)\n            애플의 최근 실적 발표 후 주가가 10% 하락했지만, 이는 회사의 전체 스토리를 대변하지 않는다는 분석이 나옴. (Yahoo, 2026-08-08 05:38, 중립)\n            OpenAI가 아마존 알렉사와 구글 홈에 도전할 300달러 이상의 AI 스피커를 개발 중이라는 소식. (Yahoo, 2026-08-08 05:20, 부정)\n        주요공시(최근6달):\n            기타 SEC 공시(, noise): 10-K 연간 보고서를 제출함. (SEC/FMP, 2026-07-31 06:01:02, 중립)\n            기타 SEC 공시(, noise): Form 8-K를 제출함. (SEC/FMP, 2026-07-30 16:30:28, 중립)\n            기타 SEC 공시(, noise): Form 4를 제출함. (SEC/FMP, 2026-06-17 18:40:43, 중립)\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. UNKNOWN 유형의 저중요도 공시 20건 제외.\n\n    투자 등급\n        종합매력도: ★★★★★ (근거: 강력한 브랜드 충성도, 생태계 강점, 서비스 부문 성장)\n        배당성향도: ★★★☆☆ (근거: 꾸준한 배당 지급)\n        가격적정성: ★★★☆☆ (근거: 52주 최고가에 근접한 수준으로 다소 높은 밸류에이션)\n        자본성장력: ★★★★★ (근거: 제품 및 서비스 혁신을 통한 지속적인 성장)\n        산업모멘텀: ★★★★★ (근거: AI 및 서비스 부문 확장을 통한 강력한 산업 모멘텀)\n\n    분석: 애플은 견고한 생태계와 높은 브랜드 충성도를 바탕으로 AI 및 서비스 분야에서 지속적인 성장이 기대됩니다. 다만, OpenAI와의 법적 분쟁 및 경쟁 심화는 주시해야 할 리스크입니다.\n\nAlphabet Inc. (GOOGL)\n\n    주가분석\n        현재가: $354.25 (24H : $353.78 - $358.9)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/GOOGL_24h.png\n        최근1달(1M): $314.9 - $384.48\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/GOOGL_1m.png\n        최근1년(1Y): $196.6 ~ $408.61\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/GOOGL_1y.png\n\n    장기투자 적합성\n        AI 기술 리더십과 클라우드 사업 성장을 통해 장기적인 경쟁 우위를 유지할 수 있습니다.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            구글 클라우드가 대만에 구글 시큐리티 오퍼레이션을 출시하며 AI 기반 보안 플랫폼을 통해 새로운 성장 단계를 시사. (Yahoo, 2026-08-08 05:59, 긍정)\n            AI 테마의 성장이 아직 갈 길이 멀다며, 알파벳과 같은 기술 대기업의 AI 자본 지출이 중요하다고 언급됨. (Yahoo, 2026-08-08 05:49, 긍정)\n            OpenAI가 아마존 알렉사와 구글 홈에 직접 경쟁할 300달러 이상의 AI 스피커를 개발 중이라는 소식. (Yahoo, 2026-08-08 05:20, 부정)\n        주요공시(최근6달):\n            기타 "
+      "symbol": "ARCC",
+      "name": "Ares Capital Corporation",
+      "score": 72,
+      "dividend_yield_pct": 960.0,
+      "details": {
+        "dividend_yield_pct": 960.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 14367637504,
+        "cap_score": 20,
+        "debt_to_equity": 114.117,
+        "debt_score": 12
+      }
     },
     {
-      "date": "2026-08-07",
-      "file": "briefings/2026-08-07.md",
-      "content": "섹션 1: 보유 종목 상세 분석\n\nASML (ASML Holding N.V.)\n\n    주가분석\n        현재가: $1703.1 (24H : $1672.11 - $1735.0)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_24h.png\n        최근1달(1M): $1530.64 - $1856.33\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_1m.png\n        최근1년(1Y): $706.62 ~ $1999.96\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            PancakeSwap, BNB Chain에 10개 신규 토큰화 주식(bStocks) 확장. (Yahoo, 2026-08-07 03:12, 중립)\n            오늘 주식 시장: 다우 지수 400포인트 하락했지만, 칩 회사는 급등하며 긍정적인 신호. (Yahoo, 2026-08-07 02:50, 긍정)\n            테슬라의 168억 달러 칩 투자가 AI 컴퓨팅 역량 확대로 여러 새로운 승자를 창출할 수 있음. (Yahoo, 2026-08-07 02:32, 긍정)\n            ASML Holding 주식을 지난 10년간 보유했다면 시장을 크게 상회하는 수익률을 기록했을 것. (Benzinga, 2026-08-06 19:31, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 7건 확인.\n            기타 SEC 공시(noise): 재무 결과 보도자료. (SEC/FMP, 2026-07-15 06:05:47, 중립)\n            기타 SEC 공시(noise): Form SD 제출. (SEC/FMP, 2026-06-05 08:33:45, 중립)\n            기타 SEC 공시(noise): AGM 공시. (SEC/FMP, 2026-04-23 08:47:08, 중립)\n            저중요도 Form UNKNOWN 7건 제외.\n\n    투자 등급\n        종합매력도: ★★★★☆ (반도체 산업의 핵심 장비 공급자로서 높은 시장 지위와 지속적인 혁신 능력 보유)\n        배당성향도: ★★★★☆ (견조한 배당률과 높은 배당수익률 제공)\n        가격적정성: ★★★☆☆ (현재 가격은 52주 고점 대비 하락했으나 여전히 높은 수준)\n        자본성장력: ★★★★☆ (지난 10년간 시장을 크게 상회하는 수익률 기록)\n        산업모멘텀: ★★★★★ (AI 및 칩 산업 성장에 따른 강력한 수혜 예상)\n\n    분석: ASML은 반도체 산업의 핵심 장비 공급자로서 강력한 성장 모멘텀을 유지하고 있습니다. 최근 주가는 변동성을 보이지만, 장기적인 관점에서 AI 및 칩 수요 증가의 최대 수혜주로 평가됩니다. 높은 배당 매력도 긍정적입니다.\n\nOXLC (Oxford Lane Capital Corp.)\n\n    주가분석\n        현재가: $9.15 (24H : $9.1 - $9.2)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_24h.png\n        최근1달(1M): $8.35 - $9.34\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_1m.png\n        최근1년(1Y): $8.01 ~ $19.05\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            OXLCM: Oxford Lane의 2031년 만기 우선주는 높은 월별 소득과 강력한 보호를 제공. (SeekingAlpha, 2026-08-06 08:32, 긍정)\n            Durable income alternatives: 퇴직을 위해 배당 성장을 지속적으로 제공할 수 있는 두 가지 종목. (SeekingAlpha, 2026-08-04 18:15, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n            기타 SEC 공시(noise): N-23C-2 양식 제출. (SEC/FMP, 2026-07-28 16:09:33, 중립)\n            기타 SEC 공시(noise): N-PX 양식 제출. (SEC/FMP, 2026-07-06 16:04:28, 중립)\n            기타 SEC 공시(noise): N-CEN 양식 제출. (SEC/FMP, 2026-06-08 17:21:04, 중립)\n            저중요도 Form UNKNOWN 20건 제외.\n\n    투자 등급\n        종합매력도: ★★★☆☆ (높은 배당수익률과 안정적인 월별 소득을 제공하는 매력적인 BDC)\n        배당성향도: ★★★★★ (매우 높은 배당수익률과 월별 배당 지급)\n        가격적정성: ★★★☆☆ (52주 최고가 대비 크게 하락했으나, 현재 가격에서 반등 모색)\n        자본성장력: ★☆☆☆☆ (배당에 중점을 두는 사업 모델로 자본 성장은 제한적일 수 있음)\n        산업모멘텀: ★★☆☆☆ (BDC 산업은 안정적이나, 특별한 성장 모멘텀은 부족)\n\n    분석: Oxford Lane Capital Corp.는 높은 배당수익률과 월별 배당 지급으로 소득을 중시하는 투자자에게 매력적입니다. 주가는 52주 고점 대비 상당한 하락을 겪었으나 최근 1개월간 안정세를 보였습니다. 자본 성장은 제한적일 수 있습니다.\n\nQCOM (QUALCOMM Incorporated)\n\n    주가분석\n        현재가: $160.43 (24H : $155.22 - $162.55)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_24h.png\n        최근1달(1M): $142.89 - $196.09\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_1m.png\n        최근1년(1Y): $121.99 ~ $259.92\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            Qualcomm (QCOM) 주식 공정가치 하향 조정: AI 야망을 상쇄하는 마진 압박 우려. (Yahoo, 2026-08-07 08:17, 부정)\n            높은 모멘텀의 칩 주식이 속도 저하에 직면, 투자자들은 조정 여부 결정 필요. (Yahoo, 2026-08-07 05:35, 부정)\n            Qualcomm의 가장 큰 매출원인 핸드셋 칩 사업이 양측에서 축소되고 있음. (Yahoo, 2026-08-07 03:09, 부정)\n            Arm Holdings 주가 예측: 월가 애널리스트들은 AI 컴퓨트 거인의 향후 주가에 대해 의견이 분분. (Yahoo, 2026-08-07 03:00, 중립)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n            기타 SEC 공시(noise): 내부자 거래 보고서. (SEC/FMP, 2026-08-03 17:03:13, 중립)\n            기타 SEC 공시(noise): 8-K 양식 제출. (SEC/FMP, 2026-07-31 16:20:22, 중립)\n            기타 SEC 공시(noise): 424B7 양식 제출. (SEC/FMP, 2026-07-31 16:17:23, 중립)\n            저중요도 Form UNKNOWN 20건 제외.\n\n    투자 등급\n        종합매력도: ★★☆☆☆ (AI 분야의 잠재력에도 불구하고 주요 사업부의 마진 압박과 매출 감소 우려 존재)\n        배당성향도: ★★★★☆ (꾸준하고 높은 배당률 제공)\n        가격적정성: ★★☆☆☆ (최근 공정가치 하향 조정과 주가 하락 압력)\n        자본성장력: ★★☆☆☆ (주요 매출원의 축소는 미래 성장 동력에 대한 우려를 제기)\n        산업모멘텀: ★★★★☆ (AI 및 칩 산업의 전반적인 성장은 긍정적이나, Qualcomm 자체의 경쟁력 우려)\n\n    분석: Qualcomm은 AI 분야에서의 잠재력에도 불구하고, 핸드셋 칩 사업의 매출 감소와 마진 압박으로 공정가치가 하향 조정되는 등 부정적인 이슈에 직면해 있습니다. 현재는 주의 깊은 접근이 필요해 보입니다.\n\nAMZN (Amazon.com, Inc.)\n\n    주가분석\n        현재가: $272.2 (24H : $271.08 - $275.48)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_24h.png\n        최근1달(1M): $226.16 - $287.2\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_1m.png\n        최근1년(1Y): $196.0 ~ $287.2\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            베이조스, 실적 발표 전 40억 달러 규모 아마존 주식 매각 계획 발표. (Yahoo, 2026-08-07 07:46, 중립)\n            Baillie Gifford의 Q2 2026 13F 포트폴리오 업데이트: AMZN 주식 일부 매도. (SeekingAlpha, 2026-08-07 05:54, 중립)\n            마이크로소프트, 주요 AI 투자에 대한 성과 보이기 시작. (Yahoo, 2026-08-07 04:37, 중립)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n            기타 SEC 공시(noise): N-PX 양식 제출. (SEC/FMP, 2026-08-06 16:44:31, 중립)\n            기타 SEC 공시(noise): Schedule 13G 양식 제출. (SEC/FMP, 2026-08-06 16:35:35, 중립)\n            기타 SEC 공시(noise): 정보 테이블 제출. (SEC/FMP, 2026-08-06 16:26:18, 중립)\n            저중요도 Form UNKNOWN 20건 제외.\n\n    투자 등급\n        종합매력도: ★★★★☆ (전자상거래와 클라우드 서비스(AWS)의 강력한 시장 지배력)\n        배당성향도: ★☆☆☆☆ (배당금 지급 없음)\n        가격적정성: ★★★☆☆ (현재 가격은 52주 고점에 근접하며 상승 여력은 제한적일 수 있음)\n        자본성장력: ★★★★★ (전자상거래 및 클라우드 컴퓨팅 시장의 지속적인 성장에 따른 높은 자본 성장 잠재력)\n        산업모멘텀: ★★★★☆ (AI 및 디지털 전환 가속화로 클라우드 서비스 수요 증가)\n\n    분석: Amazon은 전자상거래 및 클라우드 컴퓨팅 분야에서 확고한 시장 리더십을 보유하고 있으며, AI 및 디지털 전환 트렌드에 힘입어 지속적인 성장이 기대됩니다. 다만, 배당이 없고 주가는 52주 고점에 근접해 있어 가격적정성에 대한 고려가 필요합니다.\n\nMSFT (Microsoft Corporation)\n\n    주가분석\n        현재가: $499.86 (24H : $488.52 - $501.55)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_24h.png\n        최근1달(1M): $373.35 - $501.55\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1m.png\n        최근1년(1Y): $349.2 ~ $553.72\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            오늘 주식 시장: 다우는 하락했지만 칩 회사는 급등, 마이크로소프트는 매수 존을 돌파. (Yahoo, 2026-08-07 05:58, 긍정)\n            Microsoft (MSFT)의 기록적인 랠리: 강력한 클라우드 성장 전망과 현금 흐름으로 Alphabet과의 경쟁 재조명. (Yahoo, 2026-08-07 05:56, 긍정)\n            Baillie Gifford의 Q2 2026 13F 포트폴리오 업데이트: 주요 포트폴리오 활동 보고. (SeekingAlpha, 2026-08-07 05:54, 중립)\n            Microsoft vs. Automatic Data Processing: 두 회사의 매출 성장 및 안정성 비교 분석. (Yahoo, 2026-08-07 05:31, 중립)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n            기타 SEC 공시(noise): Form 4 제출. (SEC/FMP, 2026-08-06 18:01:48, 중립)\n            기타 SEC 공시(noise): Form 4 제출. (SEC/FMP, 2026-08-05 18:08:55, 중립)\n            기타 SEC 공시(noise): 6월 30일자 보고서. (SEC/FMP, 2026-07-29 16:08:01, 중립)\n            저중요도 Form UNKNOWN 20건 제외.\n\n    투자 등급\n        종합매력도: ★★★★★ (클라우드(Azure), AI 및 기업 소프트웨어 전반의 강력한 성장과 시장 지배력)\n        배당성향도: ★★★★☆ (꾸준하고 안정적인 배당 지급)\n        가격적정성: ★★★★☆ (기록적인 랠리에도 불구하고 AI 성장에 대한 기대감으로 추가 상승 여력 존재)\n        자본성장력: ★★★★★ (클라우드 및 AI 부문의 급성장으로 높은 자본 성장 기대)\n        산업모멘텀: ★★★★★ (AI 시장 선도 및 디지털 전환 가속화의 최대 수혜주)\n\n    분석: Microsoft는 클라우드 컴퓨팅(Azure)과 AI 분야에서 독보적인 위치를 차지하며 기록적인 성장을 이어가고 있습니다. AI 전략의 성공적인 payoff와 강력한 현금 흐름은 향후 자본 성장에 대한 기대를 높입니다.\n\n섹션 2: 모멘텀/테마 후보\n\nLRCX (Lam Research Corporation)\n\n    주가분석\n        현재가: $305.34 (24H : $293.65 - $314.16)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/LRCX_24h.png\n        최근1달(1M): $250.5 - $369.95\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/LRCX_1m.png\n        최근1년(1Y): $94.11 ~ $438.5\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/LRCX_1y.png\n\n    테마/모멘텀\n        반도체 제조 장비 분야의 선두 주자로서 AI 칩 생산 확대에 따른 직접적인 수혜가 기대됩니다.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            테슬라의 168억 달러 칩 투자는 AI 컴퓨팅 용량 확대로 새로운 승자를 창출할 수 있음. (Yahoo, 2026-08-07 02:32, 긍정)\n            Accenture와 Lam Research: Lam Research는 꾸준한 매출 성장을 기록. (Yahoo, 2026-08-06 22:15, 긍정)\n            AI 하드웨어에 대한 막대한 진실: AI 칩 제조의 핵심 공급망에 투자 기회. (Yahoo, 2026-08-06 13:19, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n            기타 SEC 공시(noise): 내부자 거래 보고서. (SEC/FMP, 2026-08-06 11:39:00, 중립)\n            기타 SEC 공시(noise): Q4 2026 실적 관련 자료. (SEC/FMP, 2026-07-29 16:07:10, 중립)\n            기타 SEC 공시(noise): 내부자 거래 보고서. (SEC/FMP, 2026-07-14 12:56:14, 중립)\n            저중요도 Form UNKNOWN 20건 제외.\n\n    투자 등급\n        종합매력도: ★★★★★ (AI 반도체 장비 수요 증가에 따른 강력한 성장 잠재력과 높은 스크리닝 점수)\n        배당성향도: ★★★★☆ (견조한 배당률과 배당수익률 제공)\n        가격적정성: ★★★★★ (스크리닝 점수 상 가격 적정성 높게 평가됨)\n        자본성장력: ★★★★★ (뛰어난 매출 성장률로 높은 자본 성장 기대)\n        산업모멘텀: ★★★★★ (AI 반도체 제조 핵심 장비 수요 증가로 산업 모멘텀 매우 강함)\n\n    분석: Lam Research는 AI 반도체 생산에 필수적인 장비를 공급하는 선두 기업으로, 강력한 매출 성장과 높은 재무 안정성을 바탕으로 AI 산업 성장의 핵심 수혜주로 부상하고 있습니다. 장기적인 관점에서 매력적인 투자 기회를 제공합니다.\n\nNVDA (NVIDIA Corporation)\n\n    주가분석\n        현재가: $218.99 (24H : $217.27 - $223.63)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/NVDA_24h.png\n        최근1달(1M): $190.01 - $223.63\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/NVDA_1m.png\n        최근1년(1Y): $164.07 ~ $236.54\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/NVDA_1y.png\n\n    테마/모멘텀\n        AI 데이터 센터 인프라 구축의 핵심 파트너이자 AI 칩 시장의 절대적 강자로서 독보적인 모멘텀을 보유하고 있습니다.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            Brookfield, NAVER 및 NVIDIA와 파트너십을 통해 세계 최대 AI 데이터 센터 인프라 플랫폼 구축. (Yahoo, 2026-08-07 08:16, 긍정)\n            Occidental 주가 상승: 주주들에게 더 큰 배당금이 지급될 예정. (Yahoo, 2026-08-07 08:48, 중립)\n            NVIDIA 주식에 대한 실제 투자 가치: 매출 배수가 실제 마진에 대한 기대를 반영. (Yahoo, 2026-08-07 01:08, 중립)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n            기타 SEC 공시(noise): Schedule 13G 양식 제출. (SEC/FMP, 2026-07-20 17:00:07, 중립)\n            기타 SEC 공시(noise): 내부자 거래 보고서. (SEC/FMP, 2026-07-15 17:03:12, 중립)\n            기타 SEC 공시(noise): 내부자 거래 보고서. (SEC/FMP, 2026-07-06 17:01:46, 중립)\n            저중요도 Form UNKNOWN 20건 제외.\n\n    투자 등급\n        종합매력도: ★★★★★ (AI 데이터 센터 및 칩 시장의 압도적인 리더십과 매우 높은 성장률)\n        배당성향도: ★★★★☆ (높은 배당률 제공)\n        가격적정성: ★★★☆☆ (현재 가격은 52주 고점 근처로 적정성 판단에 신중해야 함)\n        자본성장력: ★★★★★ (매우 높은 매출 성장률과 AI 시장 확장으로 강력한 자본 성장 기대)\n        산업모멘텀: ★★★★★ (AI 시장의 독보적인 선두 주자로서 산업 모멘텀 매우 강함)\n\n    분석: NVIDIA는 AI 칩 시장의 절대적 강자이자 AI 데이터 센터 인프라 구축의 핵심 파트너로서 독보적인 성장 모멘텀을 이어가고 있습니다. 가격적정성에 대한 신중한 접근이 필요하지만, AI 시대의 최대 수혜주로서 강력한 투자 매력을 보유합니다.\n\nMU (Micron Technology, Inc.)\n\n    주가분석\n        현재가: $880.65 (24H : $827.0 - $913.33)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MU_24h.png\n        최근1달(1M): $737.88 - $1035.5\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MU_1m.png\n        최근1년(1Y): $110.79 ~ $1255.0\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MU_1y.png\n\n    테마/모멘텀\n        고대역폭 메모리(HBM) 기술의 핵심 공급자로서 AI 가속기 수요 증가의 직접적인 수혜를 입고 있습니다.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            Micron 주가 급등: 메모리 칩 제조업체의 밝은 미래 전망이 주가 모멘텀을 이끌고 있음. (Yah"
+      "symbol": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "score": 72,
+      "dividend_yield_pct": 540.0,
+      "details": {
+        "dividend_yield_pct": 540.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 5480821248,
+        "cap_score": 20,
+        "debt_to_equity": 80.02,
+        "debt_score": 12
+      }
     },
     {
-      "date": "2026-08-06",
-      "file": "briefings/2026-08-06.md",
-      "content": "섹션 1: 보유 종목 상세 분석\n\nASML Holding N.V. (ASML)\n\n    주가분석\n        현재가: $1677.69 (24H : $1671.75 - $1729.06)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_24h.png\n        최근1달(1M): $1530.64 - $1866.19\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_1m.png\n        최근1년(1Y): $685.44 ~ $1999.96\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            Will ASML Split Its Stock This Year?: 주가 분할 가능성이 논의되고 있음. (Yahoo, 2026-08-06 04:37, 중립)\n            The Ultimate Bull Case for NVIDIA Is Here: Their Powerful B200 Systems Are Sold Out: 엔비디아의 B200 시스템 매진 소식은 AI 칩 산업의 강한 수요를 시사하며, ASML에 긍정적 간접 영향. (Yahoo, 2026-08-06 00:00, 긍정)\n            Could ASML Holding N.V. (ASML) Be the Most Durable Winner From the AI Chip Boom?: AI 칩 붐의 가장 견고한 수혜주가 될 수 있다는 분석. (Yahoo, 2026-08-05 22:33, 긍정)\n            Why ASML Stock Lost 18% in July: 7월 AI 부문 역풍과 주요 뉴스 영향으로 주가 18% 하락. (Yahoo, 2026-08-05 09:50, 부정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 7건 확인. Form 4/S-8 등 저중요도 공시 7건이 제외되었습니다.\n            기타 SEC 공시(UNKNOWN, noise): 2026년 2분기 재무 결과 보도 자료 관련. (SEC/FMP, 2026-07-15 06:05:47, 중립)\n\n    투자 등급\n        종합매력도: ★★★★☆ (AI 칩 산업의 핵심 장비 공급사로서 장기 성장 잠재력이 높으나 최근 단기 조정)\n        배당성향도: ★★☆☆☆ (연간 배당률 $9.08, 현재가 기준 약 0.54%로 배당 매력은 낮음)\n        가격적정성: ★★★☆☆ (최근 1달 고점 대비 하락했으나 52주 최고가 근처, 7월 18% 하락은 주의 필요)\n        자본성장력: ★★★★☆ (AI 칩 수요 증가에 따른 핵심 장비 공급사로서의 성장 기대감)\n        산업모멘텀: ★★★★★ (AI 칩 붐의 최대 수혜주로 지속적인 산업 성장 모멘텀)\n\n    분석: ASML은 AI 칩 생산에 필수적인 장비를 공급하는 핵심 기업으로, 장기적인 성장 잠재력이 매우 높습니다. 최근 7월 주가 하락은 단기적인 조정으로 보이며, AI 산업의 지속적인 성장에 힘입어 견고한 입지를 유지할 것으로 예상됩니다. 높은 주가로 인한 주식 분할 가능성도 언급되고 있습니다.\n\nOxford Lane Capital Corp. (OXLC)\n\n    주가분석\n        현재가: $9.11 (24H : $9.05 - $9.23)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_24h.png\n        최근1달(1M): $8.35 - $9.34\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_1m.png\n        최근1년(1Y): $8.01 ~ $19.05\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            2 Dividend Snowballs I'm Rolling Into Retirement: 은퇴 자금으로 고려할 만한 내구성 있는 배당 성장주로 평가됨. (SeekingAlpha, 2026-08-04 18:15, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시 20건이 제외되었습니다.\n            기타 SEC 공시(UNKNOWN, noise): N-23C-2 양식 관련 공시. (SEC/FMP, 2026-07-28 16:09:33, 중립)\n\n    투자 등급\n        종합매력도: ★★★☆☆ (매우 높은 배당수익률은 매력적이나 52주 최고가 대비 큰 폭의 주가 하락은 주의 필요)\n        배당성향도: ★★★★★ (연간 배당률 $2.40, 현재가 기준 약 26.34%의 매우 높은 배당수익률로 현금흐름 투자에 매우 적합)\n        가격적정성: ★★★☆☆ (1년 고점 대비 크게 하락하여 저평가 가능성도 있으나 변동성에 주의)\n        자본성장력: ★★☆☆☆ (높은 배당 성향으로 인한 자본 재투자가 제한적일 수 있음)\n        산업모멘텀: ★★★☆☆ (안정적인 배당 성장주로서의 관심은 있으나 특별한 산업 모멘텀은 부재)\n\n    분석: Oxford Lane Capital Corp.는 현금 흐름을 중시하는 투자자에게 매우 높은 배당수익률을 제공하여 매력적입니다. 52주 최고가 대비 상당한 하락을 보였으므로 주가 변동성에 유의해야 하지만, 은퇴 자금으로 거론되는 등 안정적인 배당주로서의 역할은 기대됩니다.\n\nQUALCOMM Incorporated (QCOM)\n\n    주가분석\n        현재가: $157.53 (24H : $157.12 - $162.80)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_24h.png\n        최근1달(1M): $142.89 - $196.09\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_1m.png\n        최근1년(1Y): $121.99 ~ $259.92\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            Scam.ai Launches Halo, Real-Time On-Device Deepfake Detection for Video Calls: 퀄컴과 협력하여 온디바이스 딥페이크 감지 모델 'Halo' 출시. (Yahoo, 2026-08-06 05:09, 긍정)\n            QRVO Rises 11.6% in the Past Month: Can the Rally Continue?: 스마트폰 시장 및 딜 불확실성 속에서 견고한 마진과 수익으로 11.6% 상승하며 반도체 산업에 긍정적 신호. (Yahoo, 2026-08-06 01:44, 긍정)\n            Shares of solar-related stocks are trading lower after President Trump posted on social media that he is considering a \"massive increase of Tariffs on Chinese products coming into the United States of America\" and that there may be other countermeasures.: 미중 무역 관세 관련 불확실성으로 일부 주식 하락. (Benzinga, 2026-08-05 23:28, 부정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시 20건이 제외되었습니다.\n            기타 SEC 공시(UNKNOWN, noise): Form 345X06 관련 공시. (SEC/FMP, 2026-08-03 17:03:13, 중립)\n\n    투자 등급\n        종합매력도: ★★★★☆ (모바일 및 AI 온디바이스 시장의 리더로 성장 잠재력 양호, 무역 갈등 영향은 주시 필요)\n        배당성향도: ★★★☆☆ (연간 배당률 $3.68, 현재가 기준 약 2.34%로 안정적이나 주 성장 동력은 아님)\n        가격적정성: ★★★☆☆ (1년 고점 대비 큰 폭 하락, 최근 1달 고점 대비도 조정받아 재평가 여지 있음)\n        자본성장력: ★★★★☆ (딥페이크 감지 기술 협력 등 AI 온디바이스 분야에서 지속적인 기술 혁신과 성장 기대)\n        산업모멘텀: ★★★★☆ (스마트폰 시장 회복 및 AI 온디바이스 확산에 따른 반도체 산업 모멘텀 수혜)\n\n    분석: 퀄컴은 모바일 AP 시장에서의 지배력을 바탕으로 AI 온디바이스 솔루션 등 신기술 개발에 적극 투자하며 성장 동력을 확보하고 있습니다. 최근 미중 무역 갈등 소식은 단기적인 불확실성을 주지만, 장기적으로는 AI 관련 협력 및 스마트폰 시장의 점진적 회복이 주가에 긍정적으로 작용할 것으로 보입니다.\n\nAmazon.com, Inc. (AMZN)\n\n    주가분석\n        현재가: $272.60 (24H : $270.74 - $282.79)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_24h.png\n        최근1달(1M): $226.16 - $287.20\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_1m.png\n        최근1년(1Y): $196.00 ~ $287.20\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            The Toughest Questions AMZN Faced On Its Latest Call: 클라우드 사업 성장에 비해 데이터 센터 투자 비용에 대한 분석가들의 우려. (Yahoo, 2026-08-06 06:11, 중립)\n            Why this CIO sees the S&P 500 climbing above $8,000 by year-end: S&P 500 상승 전망 속에서 주요 시장 지수 견인 동력으로 언급. (Yahoo, 2026-08-06 05:37, 긍정)\n            Here's Why Oracle's Stock Continues to Lag its Peers Like Amazon, Microsoft, and Alphabet: 오라클이 아마존, 마이크로소프트 등 경쟁사 대비 뒤처지는 이유 분석. (Yahoo, 2026-08-06 05:21, 긍정)\n            Amazon CEO Andy Jassy Says AWS Would Be 24th on the Fortune 500 List. Here's What That Means for the Stock: AWS의 급격한 성장과 아마존 주식에 미치는 영향. (Yahoo, 2026-08-06 05:20, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시 20건이 제외되었습니다.\n            기타 SEC 공시(UNKNOWN, noise): Form 345X06 관련 공시. (SEC/FMP, 2026-08-05 16:42:44, 중립)\n\n    투자 등급\n        종합매력도: ★★★★☆ (클라우드 컴퓨팅(AWS)의 강력한 성장세가 주가 상승의 주요 동력, 전자상거래도 꾸준)\n        배당성향도: ★☆☆☆☆ (배당 지급 이력이 없어 현금흐름형 투자에는 부적합)\n        가격적정성: ★★★☆☆ (52주 최고가 근접, 클라우드 투자 비용 관련 우려 상존)\n        자본성장력: ★★★★★ (AWS의 폭발적인 성장과 데이터 센터 투자로 장기적인 자본 성장 기대)\n        산업모멘텀: ★★★★★ (클라우드 및 전자상거래 시장의 지속적인 확장, AI 기술 도입으로 인한 추가 성장 기회)\n\n    분석: 아마존은 클라우드 컴퓨팅 부문(AWS)의 강력한 성장세를 바탕으로 시장의 기대를 받고 있습니다. 대규모 데이터 센터 투자 비용에 대한 우려가 있지만, 이는 장기적인 성장 기반을 다지는 과정으로 해석됩니다. 배당은 없지만, AWS를 통한 자본 성장 잠재력은 매우 높습니다.\n\nMicrosoft Corporation (MSFT)\n\n    주가분석\n        현재가: $487.46 (24H : $485.68 - $498.21)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_24h.png\n        최근1달(1M): $373.35 - $499.44\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1m.png\n        최근1년(1Y): $349.20 ~ $553.72\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            The Toughest Questions AMZN Faced On Its Latest Call: 클라우드 사업 성장에 비해 데이터 센터 투자 비용에 대한 분석가들의 우려 (마이크로소프트와 경쟁 구도). (Yahoo, 2026-08-06 06:11, 중립)\n            Why this CIO sees the S&P 500 climbing above $8,000 by year-end: S&P 500 상승 전망 속에서 주요 시장 지수 견인 동력으로 언급. (Yahoo, 2026-08-06 05:37, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시 20건이 제외되었습니다.\n            기타 SEC 공시(UNKNOWN, noise): Form 4 관련 공시. (SEC/FMP, 2026-08-05 18:08:55, 중립)\n\n    투자 등급\n        종합매력도: ★★★★☆ (클라우드, AI, 소프트웨어 전반의 강력한 리더십으로 안정적인 성장 기대)\n        배당성향도: ★★☆☆☆ (연간 배당률 $3.64, 현재가 기준 약 0.75%로 꾸준하나 배당 매력은 낮음)\n        가격적정성: ★★★☆☆ (52주 고점 대비 하락했으나 여전히 높은 수준, 클라우드 투자 경쟁 심화는 변수)\n        자본성장력: ★★★★★ (클라우드(Azure), AI 기술 통합, 생산성 소프트웨어 시장에서 압도적인 지위)\n        산업모멘텀: ★★★★★ (AI 혁명과 디지털 전환의 선두 주자로 강력한 산업 모멘텀 지속)\n\n    분석: 마이크로소프트는 Azure를 중심으로 한 클라우드 사업과 AI 기술 통합을 통해 지속적인 성장 동력을 확보하고 있습니다. 견고한 소프트웨어 생태계와 안정적인 배당 정책도 긍정적입니다. 다만, 대형 기술 기업 간 클라우드 투자 경쟁 심화는 주시해야 할 요소입니다.\n\n섹션 2: 고배당/현금흐름 후보\n\nAres Capital Corporation (ARCC)\n\n    주가분석\n        현재가: $19.33 (24H : $19.21 - $19.64)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ARCC_24h.png\n        최근1달(1M): $18.25 - $19.72\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ARCC_1m.png\n        최근1년(1Y): $17.40 ~ $22.76\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ARCC_1y.png\n\n    배당정보\n        연간 배당률 $1.92, 현재가 기준 약 9.93%의 높은 배당수익률을 제공하며 꾸준한 순투자수익(NII) 성장을 보이고 있습니다. 배당 지속성은 높지 않지만, 높은 배당수익률로 현금흐름 투자에 적합합니다.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            Ares Capital: 104% Coverage, NII Growth, Stable Dividend For Now: 2분기 순투자수익(NII) 성장과 안정적인 배당을 보도. (SeekingAlpha, 2026-08-06 02:08, 긍정)\n            The 2 Most Misunderstood 10%+ Yielding Income Investments In The Market Today: 고수익 배당주로서 시장에 의해 저평가되었을 가능성 시사. (SeekingAlpha, 2026-08-05 18:20, 긍정)\n            BDCs Are Down 40%. Here's Why I'm Buying: BDC(사업개발회사) 섹터의 전반적인 하락 속에서 매수 기회로 평가됨. (SeekingAlpha, 2026-08-05 00:13, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시 20건이 제외되었습니다.\n            기타 SEC 공시(UNKNOWN, noise): 2026년 6월 30일자 보고서 관련. (SEC/FMP, 2026-07-28 20:51:40, 중립)\n\n    투자 등급\n        종합매력도: ★★★★☆ (높은 배당수익률과 NII 성장으로 매력적인 현금흐름형 투자처, BDC 섹터의 잠재적 반등 기대)\n        배당성향도: ★★★★☆ (연간 $1.92, 약 9.93%의 높은 배당수익률을 제공하나 배당의 지속성은 보통 수준)\n        가격적정성: ★★★★☆ (BDC 섹터의 전반적 하락으로 인해 저평가된 매수 기회일 수 있음)\n        자본성장력: ★★★☆☆ (NII 성장과 안정적인 포트폴리오를 바탕으로 꾸준한 성장은 가능하나 폭발적이지는 않음)\n        산업모멘텀: ★★★★☆ (BDC 섹터의 저점 매수 기회와 안정적인 수익률 추구 수요에 따른 모멘텀)\n\n    분석: Ares Capital Corporation은 높은 배당수익률과 꾸준한 순투자수익(NII) 성장을 보여주는 BDC입니다. 최근 BDC 섹터의 전반적인 하락은 저평가된 매수 기회를 제공할 수 있으며, 안정적인 현금 흐름을 추구하는 투자자에게 매력적인 종목입니다. 부채비율은 다소 높으나, NII 커버리지가 양호하여 배당 삭감 리스크는 현재로서는 제한적입니다.\n\nMain Street Capital Corporation (MAIN)\n\n    주가분석\n        현재가: $56.16 (24H : $55.85 - $57.38)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MAIN_24h.png\n        최근1달(1M): $50.96 - $57.24\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MAIN_1m.png\n        최근1년(1Y): $48.95 ~ $67.77\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MAIN_1y.png\n\n    배당정보\n        연간 배당률 $4.38, 현재가 기준 약 7.80%의 높은 배당수익률을 제공하며, 은퇴 자금으로 고려할 만한 매력적인 현금 흐름을 창출합니다. 배당 지속성은 높지 않지만, 꾸준한 배당 지급은 기대됩니다.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            Two 8% Yielding Retirement Holdings Just Got Cheaper: 은퇴 자금으로 보유할 만한 8%대 고배당주로, 최근 가격이 더 저렴해졌다고 언급. (SeekingAlpha, 2026-08-05 18:50, 긍정)\n            The 2 Most Misunderstood 10%+ Yielding Income Investments In The Market Today: 고수익 배당주로서 시장에 의해 저평가되었을 가능성 시사. (SeekingAlpha, 2026-08-05 18:20, 긍정)\n            BDCs Are Down 40%. Here's Why I'm Buying: BDC(사업개발회사) 섹터의 전반적인 하락 속에서 매수 기회로 평가됨. (SeekingAlpha, 2026-08-05 00:13, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시 20건이 제외되었습니다.\n            기타 SEC 공시(UNKNOWN, noise): 2026년 8월 4일자 보고서 관련 공시. (SEC/FMP, 2026-08-04 09:26:33, 중립)\n\n    투자 등급\n        종합매력도: ★★★★☆ (높은 배당수익률과 은퇴 자금용으로 추천될 만큼 안정적인 현금흐름, BDC 섹터의 잠재적 반등 기대)\n        배당성향도: ★★★★☆ (연간 $4.38, 약 7.80%의 높은 배당수익률을 제공하나 배당의 지속성은 보통 수준)\n        가격적정성: ★★★★☆ (최근 주가가 저렴해졌다는 평가와 BDC 섹터 전반의 하락으로 저평가 가능성)\n        자본성장력: ★★★☆☆ (꾸준한 배당 지급과 자산 관리를 통해 안정적인 성장은 가능하나 높은 성장 기대는 제한적)\n        산업모멘텀: ★★★★☆ (BDC 섹터의 저점 매수 기회와 안정적인 수익률 추구 수요에 따른 모멘텀)\n\n    분석: Main Street Capital Corporation은 높은 배당수익률과 안정적인 재무 상태를 바탕으로 은퇴 자금 투자처로 언급되는 BDC입니다. BDC 섹터의 전반적인 하"
+      "symbol": "BXSL",
+      "name": "Blackstone Secured Lending Fund",
+      "score": 72,
+      "dividend_yield_pct": 1255.0,
+      "details": {
+        "dividend_yield_pct": 1255.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 5717085696,
+        "cap_score": 20,
+        "debt_to_equity": 126.897,
+        "debt_score": 12
+      }
     },
     {
-      "date": "2026-08-05",
-      "file": "briefings/2026-08-05.md",
-      "content": "섹션 1: 보유 종목 상세 분석\n\nASML (ASML Holding N.V.)\n\n    주가분석\n        현재가: $1710.87 (24H : $1686.01 - $1717.5)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_24h.png\n        최근1달(1M): $1530.64 - $1866.19\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_1m.png\n        최근1년(1Y): $684.24 ~ $1999.96\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            ASML, 중간 배당 17% 인상 및 2026년 가이던스 유지하며 현금 창출 능력에 자신감을 보였습니다. (Yahoo, 2026-08-04, 긍정)\n            Lam Research의 주가 급락 소식은 반도체 산업 전반에 대한 잠재적 우려를 시사합니다. (Yahoo, 2026-08-05, 중립)\n            중국의 국내 DUV 칩 제조 도구 생산 시작 보도로 인해 반도체 주식이 하락했습니다. (Yahoo, 2026-08-04, 부정)\n        주요공시(최근6달):\n            기타 SEC 공시(UNKNOWN, noise): 금융 실적 관련 보도자료. (SEC/FMP, 2026-07-15, 중립)\n            중요 공시는 아니지만 최근 기타 SEC 공시 7건 확인. Form 4/S-8 등 저중요도 공시가 다수 제외됨.\n\n    투자 등급\n        종합매력도: ★★★☆☆ (세계 최고의 반도체 장비 기업으로 장기 성장 잠재력은 높으나, 최근 중국발 경쟁 우려가 단기 변동성을 높이고 있습니다.)\n        배당성향도: ★★★★☆ (배당 수익률 56.0%, 배당 성장 정책으로 주주 환원에 긍정적인 모습을 보입니다.)\n        가격적정성: ★★★☆☆ (52주 고점 대비 약 14% 하락한 수준이나, 여전히 높은 밸류에이션에 대한 부담이 존재합니다.)\n        자본성장력: ★★★★☆ (반도체 산업의 핵심 기술력을 바탕으로 강력한 시장 지배력을 유지하고 있습니다.)\n        산업모멘텀: ★★★☆☆ (AI 및 첨단 반도체 수요로 장기적인 성장 동력은 유효하나, 중국발 경쟁 심화 우려가 단기적인 압박 요인입니다.)\n\n    분석: ASML은 세계적인 반도체 장비 기업으로, 첨단 기술력과 강력한 시장 지배력을 바탕으로 장기적인 성장 잠재력을 보유하고 있습니다. 최근 중간 배당을 인상하고 2026년 가이던스를 유지하며 경영진의 자신감을 보여주었으나, 중국의 DUV 칩 제조 도구 생산 소식 등 지정학적 리스크와 경쟁 심화 우려는 단기적인 주가 변동성을 야기할 수 있습니다. AI 관련 수요 증가는 긍정적이나, 밸류에이션 부담과 외부 환경 변화에 대한 지속적인 모니터링이 필요합니다.\n\nOXLC (Oxford Lane Capital Corp.)\n\n    주가분석\n        현재가: $9.2 (24H : $9.15 - $9.34)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_24h.png\n        최근1달(1M): $8.35 - $9.34\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_1m.png\n        최근1년(1Y): $8.01 ~ $19.05\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            Durable income alternatives에 OXLC가 언급되며, 퇴직 대비 배당 성장주로서의 매력을 시사했습니다. (SeekingAlpha, 2026-08-04, 긍정)\n        주요공시(최근6달):\n            기타 SEC 공시(UNKNOWN, noise): N-23C-2 양식 제출. (SEC/FMP, 2026-07-28, 중립)\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시가 다수 제외됨.\n\n    투자 등급\n        종합매력도: ★★★★☆ (높은 배당 수익률을 제공하며 안정적인 현금 흐름을 추구하는 투자자에게 매력적입니다.)\n        배당성향도: ★★★★★ (매우 높은 2595.0%의 배당 수익률을 기록하며, 주요 투자 포인트로 작용합니다.)\n        가격적정성: ★★★★☆ (52주 최저점과 비교적 가까운 위치에 있어 가격적인 매력도가 높습니다.)\n        자본성장력: ★★☆☆☆ (높은 배당 성향으로 인해 자본 성장보다는 배당 수익에 중점을 두는 경향이 있습니다.)\n        산업모멘텀: ★★★☆☆ (CLO 시장의 변동성에 따라 영향을 받지만, 안정적인 고배당 매력은 유지됩니다.)\n\n    분석: Oxford Lane Capital Corp.는 CLO(담보부대출채무) 투자를 통해 높은 배당 수익을 제공하는 데 중점을 둔 BDC(사업개발회사)입니다. 현재 주가는 52주 최저점에 근접하여 가격적인 매력이 있으며, 2595.0%라는 매우 높은 배당 수익률은 인컴 투자자에게 강력한 매력 포인트입니다. 다만, CLO 시장의 특성상 금리 변동성 및 신용 리스크에 노출될 수 있어 리스크 관리가 중요하며, 자본 성장보다는 배당 수익에 초점을 맞춘 종목임을 인지해야 합니다.\n\nQCOM (QUALCOMM Incorporated)\n\n    주가분석\n        현재가: $162.59 (24H : $155.31 - $163.48)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_24h.png\n        최근1달(1M): $142.89 - $196.09\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_1m.png\n        최근1년(1Y): $121.99 ~ $259.92\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            핸드셋 시장 약세, 마진 압박 및 경쟁 심화로 Qualcomm의 2026년 및 2027년 실적 추정치가 하향 조정될 수 있습니다. (Yahoo, 2026-08-04, 부정)\n            Cerebras Systems의 IPO 데뷔 후 주가가 상승했습니다. (Benzinga, 2026-08-05, 중립)\n            화요일 반도체 주식들이 S&P 500을 사상 최고치로 이끌었으나, 개별 종목의 실적 우려가 공존합니다. (Yahoo, 2026-08-05, 중립)\n        주요공시(최근6달):\n            기타 SEC 공시(UNKNOWN, noise): 내부자 거래 보고서 제출. (SEC/FMP, 2026-08-03, 중립)\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시가 다수 제외됨.\n\n    투자 등급\n        종합매력도: ★★★☆☆ (핸드셋 시장의 어려움과 경쟁 심화가 부담이나, 자동차 및 IoT 부문 성장이 잠재력입니다.)\n        배당성향도: ★★★☆☆ (249.0%의 배당 수익률을 제공하며, 안정적인 배당주로서의 매력이 있습니다.)\n        가격적정성: ★★★☆☆ (52주 고점 대비 상당한 하락이 있었으나, 실적 추정치 하향 조정은 밸류에이션 재평가 필요성을 시사합니다.)\n        자본성장력: ★★★☆☆ (핸드셋 시장의 둔화와 경쟁 심화가 자본 성장에 압력을 가하지만, 다각화 노력이 진행 중입니다.)\n        산업모멘텀: ★★★☆☆ (AI 칩 산업의 성장 속에서 Qualcomm의 자동차 및 IoT 부문은 긍정적이나, 주력 시장의 약세가 발목을 잡을 수 있습니다.)\n\n    분석: QUALCOMM은 5G, 모바일 프로세서 시장의 선두 주자이나, 최근 핸드셋 시장의 약세와 경쟁 심화로 인해 실적 추정치가 하향 조정되고 있습니다. 이는 단기적으로 주가에 부정적인 영향을 미칠 수 있습니다. 하지만, 자동차 및 IoT(사물 인터넷) 부문에서의 성장은 새로운 성장 동력을 제공하고 있으며, 장기적으로 사업 다각화를 통해 잠재력을 확보할 수 있을 것으로 보입니다. 투자 결정 시 주력 사업의 회복 여부와 신규 사업 성과를 면밀히 지켜볼 필요가 있습니다.\n\nAMZN (Amazon.com, Inc.)\n\n    주가분석\n        현재가: $277.43 (24H : $275.82 - $281.07)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_24h.png\n        최근1달(1M): $226.16 - $287.2\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_1m.png\n        최근1년(1Y): $196.0 ~ $281.07\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            아마존의 클라우드 사업이 역사적인 성장세를 보이지만, 새로운 데이터 센터에 막대한 지출 계획이 분석가들의 주요 관심사입니다. (Yahoo, 2026-08-05, 중립)\n            제프 베조스가 아마존 프라임 비디오를 AI 쇼케이스로 추진하며 AI 지출을 정당화하려 합니다. (Yahoo, 2026-08-05, 긍정)\n            Dow와 S&P 500이 기록적인 고점을 찍었으며, 대형 기술주들의 강세가 지속되고 있습니다. (Yahoo, 2026-08-05, 중립)\n        주요공시(최근6달):\n            기타 SEC 공시(UNKNOWN, noise): S-4 등록 명세서 제출. (SEC/FMP, 2026-07-31, 중립)\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시가 다수 제외됨.\n\n    투자 등급\n        종합매력도: ★★★★☆ (전자상거래, 클라우드, AI 등 다각화된 사업 모델로 강력한 시장 지위를 유지하고 있습니다.)\n        배당성향도: ★☆☆☆☆ (배당을 지급하지 않아 배당 투자 매력은 없습니다.)\n        가격적정성: ★★★☆☆ (52주 최고점에 근접해 있어 단기적인 가격 상승 여력은 제한적일 수 있습니다.)\n        자본성장력: ★★★★★ (클라우드 컴퓨팅 및 AI 투자 확대로 장기적인 성장 동력이 매우 강력합니다.)\n        산업모멘텀: ★★★★★ (AI, 클라우드 컴퓨팅 등 핵심 성장 산업에서 선두 주자로 강한 모멘텀을 보유하고 있습니다.)\n\n    분석: Amazon은 전자상거래, 클라우드 서비스(AWS), AI 등 다각화된 사업 모델을 통해 강력한 시장 지위를 유지하고 있습니다. 특히 AWS의 성장과 AI에 대한 대규모 투자는 장기적인 관점에서 매우 긍정적인 성장 동력입니다. 현재 주가는 52주 최고점에 근접해 단기 상승 여력은 제한적일 수 있으나, 지속적인 기술 혁신과 시장 확대를 통해 자본 성장을 이끌어낼 것으로 기대됩니다. 배당은 없으므로 성장 투자 관점에서 접근해야 합니다.\n\nMSFT (Microsoft Corporation)\n\n    주가분석\n        현재가: $492.82 (24H : $483.96 - $499.44)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_24h.png\n        최근1달(1M): $373.35 - $499.44\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1m.png\n        최근1년(1Y): $349.2 ~ $553.72\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            마이크로소프트 CEO 사티아 나델라가 AMD 주주들에게 좋은 소식을 전하며, AMD와의 협력 강화를 시사했습니다. (Yahoo, 2026-08-05, 긍정)\n            아마존의 클라우드 사업 성장에 대한 분석가들의 관심이 데이터 센터 투자 계획에 집중되었으며, 이는 MSFT의 클라우드 경쟁 환경과도 관련이 있습니다. (Yahoo, 2026-08-05, 중립)\n            AI 데이터 센터 건설 경쟁으로 빅테크 기업들의 리스 부담이 1조 달러에 달하며, 이는 MSFT에도 영향을 미칩니다. (Yahoo, 2026-08-05, 중립)\n        주요공시(최근6달):\n            기타 SEC 공시(UNKNOWN, noise): 분기별 보고서(10-Q) 제출. (SEC/FMP, 2026-07-29, 중립)\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시가 다수 제외됨.\n\n    투자 등급\n        종합매력도: ★★★★★ (클라우드, AI, 소프트웨어 등 광범위한 분야에서 강력한 리더십과 지속적인 성장을 보여주고 있습니다.)\n        배당성향도: ★★★★★ (78.0%의 배당 수익률을 제공하며, 안정적인 배당 성향을 유지하고 있습니다.)\n        가격적정성: ★★☆☆☆ (52주 고점 대비 약 11% 하락한 수준이나, 여전히 높은 밸류에이션에 대한 부담이 존재합니다.)\n        자본성장력: ★★★★★ (클라우드 및 AI 부문의 강력한 성장을 바탕으로 우수한 자본 성장력을 지속하고 있습니다.)\n        산업모멘텀: ★★★★★ (AI 혁명의 선두 주자로서 강력한 산업 모멘텀을 보유하고 있으며, 지속적인 기술 혁신이 기대됩니다.)\n\n    분석: Microsoft는 클라우드 컴퓨팅(Azure), 소프트웨어, AI 등 핵심 성장 산업에서 독보적인 리더십을 발휘하며 지속적인 성장을 이어가고 있습니다. 특히 AI 분야의 강력한 투자는 장기적인 기업 가치 상승을 견인할 것으로 예상됩니다. 현재 주가는 52주 최고점 대비 소폭 하락한 상태로, 매력적인 매수 기회를 제공할 수 있습니다. 우수한 재무 안정성, 현금 흐름, 성장성을 바탕으로 장기 투자 관점에서 매우 긍정적인 종목으로 평가됩니다.\n\n섹션 2: 장기 퀄리티 후보\n\nMSFT (Microsoft Corporation)\n\n    주가분석\n        현재가: $492.82 (24H : $483.96 - $499.44)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_24h.png\n        최근1달(1M): $373.35 - $499.44\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1m.png\n        최근1년(1Y): $349.2 ~ $553.72\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1y.png\n\n    장기투자 적합성\n        Microsoft는 강력한 사업 품질, 견고한 재무 안정성, 그리고 AI 주도 성장을 바탕으로 3년 이상 장기 보유에 매우 적합합니다.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            마이크로소프트 CEO 사티아 나델라가 AMD 주주들에게 좋은 소식을 전하며, AMD와의 협력 강화를 시사했습니다. (Yahoo, 2026-08-05, 긍정)\n            아마존의 클라우드 사업 성장에 대한 분석가들의 관심이 데이터 센터 투자 계획에 집중되었으며, 이는 MSFT의 클라우드 경쟁 환경과도 관련이 있습니다. (Yahoo, 2026-08-05, 중립)\n            AI 데이터 센터 건설 경쟁으로 빅테크 기업들의 리스 부담이 1조 달러에 달하며, 이는 MSFT에도 영향을 미칩니다. (Yahoo, 2026-08-05, 중립)\n        주요공시(최근6달):\n            기타 SEC 공시(UNKNOWN, noise): 분기별 보고서(10-Q) 제출. (SEC/FMP, 2026-07-29, 중립)\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시가 다수 제외됨.\n\n    투자 등급\n        종합매력도: ★★★★★ (클라우드, AI, 소프트웨어 등 광범위한 분야에서 강력한 리더십과 지속적인 성장을 보여주고 있습니다.)\n        배당성향도: ★★★★★ (78.0%의 높은 배당 수익률을 제공하며, 안정적인 배당 성향을 유지합니다.)\n        가격적정성: ★★☆☆☆ (52주 고점 대비 높은 가격 위치에 있으며, 밸류에이션 부담이 있습니다.)\n        자본성장력: ★★★★★ (클라우드 및 AI 부문의 강력한 성장을 바탕으로 우수한 자본 성장력을 지속하고 있습니다.)\n        산업모멘텀: ★★★★★ (AI 혁명의 선두 주자로서 강력한 산업 모멘텀을 보유하고 있으며, 지속적인 기술 혁신이 기대됩니다.)\n\n    분석: Microsoft는 클라우드 컴퓨팅(Azure), AI, 소프트웨어 등 여러 핵심 산업에서 강력한 시장 리더십을 보유하고 있으며, 이는 지속적인 매출 및 이익 성장을 뒷받침합니다. 높은 ROE와 영업이익률, 견고한 현금 흐름은 사업 품질과 재무 안정성을 높게 평가하게 합니다. AI에 대한 전략적 투자는 장기적인 성장 동력으로 작용하며, 밸류에이션은 다소 높지만 혁신 능력과 시장 지배력을 고려할 때 장기적인 경쟁력과 수익성은 매우 우수합니다.\n\nNVDA (NVIDIA Corporation)\n\n    주가분석\n        현재가: $211.84 (24H : $209.05 - $213.06)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/NVDA_24h.png\n        최근1달(1M): $190.01 - $214.39\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/NVDA_1m.png\n        최근1년(1Y): $164.07 ~ $236.54\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/NVDA_1y.png\n\n    장기투자 적합성\n        NVIDIA는 AI 칩 시장의 독점적 지위와 압도적인 성장세를 바탕으로 3년 이상 장기 보유에 매우 매력적인 기업입니다.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            Nvidia의 2분기 실적 발표(8월 26일)를 앞두고 과거 데이터를 통한 매수 시점 분석 기사가 나왔습니다. (Yahoo, 2026-08-05, 중립)\n            최근 주요한 산업 관련 뉴스보다는 일반적인 기업 실적 요약 뉴스가 다수입니다. (Yahoo, 2026-08-05, 중립)\n        주요공시(최근6달):\n            기타 SEC 공시(UNKNOWN, noise): Schedule 13G 제출. (SEC/FMP, 2026-07-20, 중립)\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시가 다수 제외됨.\n\n    투자 등급\n        종합매력도: ★★★★★ (AI 칩 시장의 독보적인 선두 주자로서 압도적인 성장성과 사업 품질을 보유하고 있습니다.)\n        배당성향도: ★★★★☆ (50.0%의 배당 수익률을 제공하며, 성장주임에도 불구하고 양호한 배당 성향을 보입니다.)\n        가격적정성: ★★☆☆☆ (52주 고점 대비 높은 가격 위치에 있어, 밸류에이션에 대한 주의가 필요합니다.)\n        자본성장력: ★★★★★ (85.2%의 매출 성장률과 214.5%의 이익 성장률로 매우 강력한 자본 성장력을 보입니다.)\n        산업모멘텀: ★★★★★ (AI 혁명의 핵심 수혜주로서 시장을 주도하고 있으며, 강력한 산업 모멘텀을 보유합니다.)\n\n    분석: NVIDIA는 인공지능 시대를 이끄는 핵심 기술인 GPU 시장에서 독점적인 지위를 확보하고 있으며, 이는 경이적인 매출 및 이익 성장으로 이어지고 있습니다. 높은 ROE와 영업이익률, 풍부한 현금 흐름은 사업의 질적 우수성을 보여줍니다. 현재 밸류에이션 부담이 존재하지만, AI 시장의 폭발적인 성장을 고려할 때 장기적인 관점에서 강력한 경쟁력과 수익성을 유지할 것으로 예상됩니다.\n\nAAPL (Apple Inc.)\n\n    주가분석\n        현재가: $309.39 (24H : $302.45 - $310.42)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AAPL_24h.png\n        최근1달(1M): $300.0 - $344.57\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AAPL_1m.png\n        최근1년(1Y): $202.16 ~ $344.57\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AAPL_1y.png\n\n    장기투자 적합성\n        Apple은 강력한 브랜드 충성도, 생태계 확장, 서비스 부문 성장 및 AI 통합 노력을 통해 장기적인 성장이 기대됩니다.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            OpenAI가 Apple 직원들의 문자 메시지를 공개하며 영업 비밀 소송에서 반격했습니다. (Yahoo, 2026-08-05, 부정)\n            Apple이 인도에서 연"
+      "symbol": "O",
+      "name": "Realty Income Corporation",
+      "score": 72,
+      "dividend_yield_pct": 520.0,
+      "details": {
+        "dividend_yield_pct": 520.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 59147083776,
+        "cap_score": 20,
+        "debt_to_equity": 74.722,
+        "debt_score": 12
+      }
     },
     {
-      "date": "2026-08-04",
-      "file": "briefings/2026-08-04.md",
-      "content": "섹션 1: 보유 종목 상세 분석 (Holdings)\n\nASML (ASML Holding N.V.)\n\n    주가분석\n        현재가: $1642.51 (24H : $1582.0 - $1655.19)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_24h.png\n        최근1달(1M): $1530.64 - $1866.19\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_1m.png\n        최근1년(1Y): $684.24 ~ $1999.96\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            중국 경쟁 심화 우려로 반도체 주식 하락. (Yahoo, 2026-08-03 22:39, 부정)\n            ASML의 EUV 독점과 AI 칩 수요는 강하지만, 높은 밸류에이션에 주의 필요. (SeekingAlpha, 2026-08-03 21:19, 중립)\n            ASML, 현재 자사주 매입 프로그램에 따른 거래 보고. (Yahoo, 2026-08-03 21:00, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 7건 확인.\n\n    투자 등급\n        종합매력도: ★★★☆☆ (반도체 산업의 핵심 기업이나 중국 경쟁 우려 및 높은 밸류에이션이 리스크)\n        배당성향도: ★★☆☆☆ (연간 배당률 $9.08로 낮은 배당 수익률)\n        가격적정성: ★★★☆☆ (52주 고점 대비 약 18% 하락, 최근 1달간 하락세로 매력도 증가 가능)\n        자본성장력: ★★★★☆ (AI 칩 수요 증가에 따른 장기 성장 잠재력 보유)\n        산업모멘텀: ★★★★☆ (반도체 산업의 필수 장비 공급자로 AI 시대의 수혜주)\n\n    분석: ASML은 반도체 산업의 핵심 기업으로 AI 칩 수요 증가에 따른 장기 성장 동력을 보유하고 있습니다. 그러나 최근 중국의 경쟁 심화 우려와 높은 밸류에이션은 단기적인 투자 리스크로 작용할 수 있습니다. 적극적인 자사주 매입은 긍정적인 신호입니다.\n\nOXLC (Oxford Lane Capital Corp.)\n\n    주가분석\n        현재가: $9.26 (24H : $9.09 - $9.32)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_24h.png\n        최근1달(1M): $8.35 - $9.32\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_1m.png\n        최근1년(1Y): $8.01 ~ $19.05\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            최근 3일간 주요한 뉴스 없음\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n\n    투자 등급\n        종합매력도: ★★★☆☆ (높은 배당 수익률이 매력적이나, NAV 및 순투자소득 감소 추세가 우려)\n        배당성향도: ★★★★★ (연간 배당률 $2.40로 매우 높은 배당 수익률 제공)\n        가격적정성: ★★★★☆ (52주 최저점과 근접한 현재가로 가격 메리트 존재)\n        자본성장력: ★★☆☆☆ (NAV 및 핵심 순투자 소득 감소로 성장 동력 약화 우려)\n        산업모멘텀: ★★☆☆☆ (CLO(대출채권담보부증권) 시장의 금리 스프레드 압축으로 인한 수익성 저하 가능성)\n\n    분석: Oxford Lane Capital은 매우 높은 배당 수익률을 제공하여 인컴 투자자에게 매력적입니다. 그러나 최근 NAV와 핵심 순투자소득이 감소하고 있어 장기적인 성장성과 안정성에 대한 면밀한 관찰이 필요합니다.\n\nQCOM (QUALCOMM Incorporated)\n\n    주가분석\n        현재가: $151.57 (24H : $142.89 - $151.68)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_24h.png\n        최근1달(1M): $142.89 - $196.09\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_1m.png\n        최근1년(1Y): $121.99 ~ $259.92\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            AI 인프라 성장에 유리한 위치에 있는 아스테라 랩스 및 글로벌파운드리. (Yahoo, 2026-08-04 00:25, 중립)\n            중국 경쟁 심화 우려 속 반도체 주식 손실 만회. (Yahoo, 2026-08-03 22:39, 중립)\n            월스트리트의 가장 정확한 애널리스트가 지난달 주목한 5가지 주식 중 하나. (Benzinga, 2026-08-03 14:45, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n\n    투자 등급\n        종합매력도: ★★★★☆ (AI 및 반도체 산업 성장의 수혜주로, 시장 우려에도 견조한 흐름)\n        배당성향도: ★★★★☆ (연간 배당률 $3.68로 양호한 배당 수익률)\n        가격적정성: ★★★☆☆ (52주 고점 대비 약 40% 하락, 가격 메리트 존재하나 회복 모멘텀 필요)\n        자본성장력: ★★★★☆ (AI 붐에 힘입어 장기적인 성장 잠재력 보유)\n        산업모멘텀: ★★★★★ (AI 인프라 및 반도체 산업의 지속적인 성장에서 직접적인 수혜 기대)\n\n    분석: 퀄컴은 AI 및 반도체 시장의 주요 플레이어로, AI 붐에 힘입어 장기적인 성장 동력을 확보하고 있습니다. 최근 중국 경쟁 우려로 인한 시장 하락에도 불구하고 애널리스트들의 긍정적인 평가가 이어지고 있습니다.\n\nAMZN (Amazon.com, Inc.)\n\n    주가분석\n        현재가: $284.02 (24H : $278.22 - $287.16)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_24h.png\n        최근1달(1M): $226.16 - $287.16\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_1m.png\n        최근1년(1Y): $196.0 - $287.16\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            하이퍼스케일러 기업들이 AI 시장의 명확한 승자로 부상 중. (Yahoo, 2026-08-04 06:11, 긍정)\n            아마존 주가 급등하며 다우지수 사상 최고치 기록. (Yahoo, 2026-08-04 06:01, 긍정)\n            매그니피센트 7 주식을 보유한 ETF들, 2026년 실적 분석. (Yahoo, 2026-08-04 05:58, 중립)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n\n    투자 등급\n        종합매력도: ★★★★★ (AI, 클라우드, 전자상거래 전반의 강력한 성장 동력과 시장 지배력)\n        배당성향도: ★☆☆☆☆ (배당을 지급하지 않음)\n        가격적정성: ★★★☆☆ (52주 신고가 근접으로 주가 상승 모멘텀 강하나, 고평가 우려 존재)\n        자본성장력: ★★★★★ (클라우드(AWS) 및 AI 투자 확대로 높은 성장 잠재력 보유)\n        산업모멘텀: ★★★★★ (AI 및 기술 섹터 전반의 강력한 모멘텀의 핵심 수혜주)\n\n    분석: 아마존은 전자상거래, 클라우드 컴퓨팅(AWS), AI 분야에서 압도적인 시장 지배력을 가지고 있습니다. AI 투자 확대로 미래 성장 동력이 견고하며, 최근 주가 상승이 이를 반영하고 있습니다.\n\nMSFT (Microsoft Corporation)\n\n    주가분석\n        현재가: $487.6 (24H : $475.17 - $491.64)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_24h.png\n        최근1달(1M): $373.35 - $491.64\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1m.png\n        최근1년(1Y): $349.2 - $553.72\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            하이퍼스케일러 기업들이 AI 시장의 명확한 승자로 부상 중. (Yahoo, 2026-08-04 06:11, 긍정)\n            18개월 내 마이크로소프트가 애플보다 더 가치 있을 것으로 예측. (Yahoo, 2026-08-04 05:50, 긍정)\n            마이크로소프트 주가, 지난주 실적 발표 후 매수 영역으로 돌파. (Yahoo, 2026-08-04 05:44, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n\n    투자 등급\n        종합매력도: ★★★★★ (클라우드 및 AI 분야의 강력한 성장과 시장 지배력)\n        배당성향도: ★★☆☆☆ (연간 배당률 $3.64로 낮은 배당 수익률)\n        가격적정성: ★★★☆☆ (52주 고점 근접으로 가격 부담 존재하나, 성장 동력 감안 시 적정)\n        자본성장력: ★★★★★ (AI 통합 및 클라우드 서비스 확대로 인한 지속적인 성장)\n        산업모멘텀: ★★★★★ (AI 산업의 핵심 주도 기업으로 강력한 시장 모멘텀 보유)\n\n    분석: 마이크로소프트는 클라우드 컴퓨팅과 AI 기술 통합을 통해 강력한 성장세를 유지하고 있습니다. 최근 긍정적인 실적 발표와 애널리스트 평가가 이어지며, 장기적인 관점에서 매력적인 투자처입니다.\n\n섹션 2: 모멘텀/테마 후보 (Discovery)\n\nNVDA (NVIDIA Corporation)\n\n    주가분석\n        현재가: $206.69 (24H : $196.85 - $208.74)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/NVDA_24h.png\n        최근1달(1M): $190.01 - $214.39\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/NVDA_1m.png\n        최근1년(1Y): $164.07 ~ $236.54\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/NVDA_1y.png\n\n    테마/모멘텀\n        AI 칩 시장의 압도적인 선두주자로, 기술주 랠리와 AI 인프라 구축의 핵심 수혜주.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            기술주 랠리를 이끌며 AI 수요에 대한 기대감 증폭. (Yahoo, 2026-08-04 06:30, 긍정)\n            하이퍼스케일러 기업들이 AI 시장의 명확한 승자로 부상 중. (Yahoo, 2026-08-04 06:11, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n\n    투자 등급\n        종합매력도: ★★★★★ (AI 시장 선도력, 강력한 성장성 및 재무 안정성)\n        배당성향도: ★★☆☆☆ (연간 배당률 $1.00, 낮은 배당 수익률)\n        가격적정성: ★★★★☆ (52주 고점 대비 약 13% 하락, 추가 상승 여력 기대)\n        자본성장력: ★★★★★ (85.2%의 높은 매출 성장률과 AI 시장 확장으로 강력한 성장 잠재력)\n        산업모멘텀: ★★★★★ (AI 시대의 핵심 기술 제공자로 독보적인 산업 모멘텀 보유)\n\n    분석: 엔비디아는 AI 칩 시장의 압도적인 선두주자로, 최근 기술주 랠리를 주도하며 강력한 모멘텀을 보여주고 있습니다. 높은 매출 성장률과 견고한 재무 상태는 AI 인프라 확장의 최대 수혜주로서의 입지를 더욱 공고히 합니다.\n\nLRCX (Lam Research Corporation)\n\n    주가분석\n        현재가: $294.53 (24H : $276.84 - $295.93)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/LRCX_24h.png\n        최근1달(1M): $250.5 - $369.95\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/LRCX_1m.png\n        최근1년(1Y): $94.11 ~ $438.5\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/LRCX_1y.png\n\n    테마/모멘텀\n        반도체 장비 산업의 주요 플레이어로 AI 칩 생산 확대를 위한 필수 장비 수요 증가 수혜.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            S&P 500 주식 중 주목할 만한 성장세를 보이는 기업. (Yahoo, 2026-08-04 04:41, 긍정)\n            8월 3일 기준, Zacks Rank #1 (Strong Buy) 모멘텀 주식으로 선정. (Yahoo, 2026-08-03 23:00, 긍정)\n            중국 경쟁 심화 우려로 반도체 주식 하락. (Yahoo, 2026-08-03 22:39, 부정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n\n    투자 등급\n        종합매력도: ★★★★★ (견조한 재무 상태와 매출 성장률, 반도체 장비 수요 증가 수혜)\n        배당성향도: ★★☆☆☆ (연간 배당률 $1.04, 낮은 배당 수익률)\n        가격적정성: ★★★★☆ (52주 고점 대비 약 33% 하락, 가격 조정 후 매력 증가)\n        자본성장력: ★★★★★ (30.0%의 매출 성장률과 AI 칩 생산 확대에 따른 지속 성장)\n        산업모멘텀: ★★★★★ (AI 반도체 생산 설비 투자 증가의 직접적인 수혜주)\n\n    분석: 램리서치는 반도체 장비 산업의 핵심 기업으로 AI 칩 생산량 증가에 따른 수혜가 기대됩니다. '강력 매수' 모멘텀 주식으로 선정되었으며, 견고한 재무 상태와 성장 잠재력을 보유하고 있습니다.\n\nTSM (Taiwan Semiconductor Manufacturing Company Limited)\n\n    주가분석\n        현재가: $406.12 (24H : $398.2 - $407.44)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/TSM_24h.png\n        최근1달(1M): $372.72 - $460.03\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/TSM_1m.png\n        최근1년(1Y): $223.7 ~ $479.0\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/TSM_1y.png\n\n    테마/모멘텀\n        글로벌 파운드리 시장의 선두주자로, AI 칩 생산의 핵심적인 역할을 수행하며 강력한 시장 수요 수혜.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            엔비디아/TSMC와의 협력을 통해 HBM 분야에서 선두를 달리는 SK 하이닉스. (SeekingAlpha, 2026-08-03 22:39, 긍정)\n            7월 고용보고서, 스페이스X 실적, AI 반도체 지출 등 이번 주 월스트리트 주요 이슈. (SeekingAlpha, 2026-08-02 16:19, 중립)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n\n    투자 등급\n        종합매력도: ★★★★★ (파운드리 시장의 압도적 지배력, AI 칩 수요 증가의 최대 수혜)\n        배당성향도: ★★☆☆☆ (연간 배당률 $3.79, 낮은 배당 수익률)\n        가격적정성: ★★★☆☆ (52주 고점 대비 약 15% 하락, AI 성장세 고려 시 매력적)\n        자본성장력: ★★★★★ (36.0%의 매출 성장률과 AI 반도체 수요로 인한 지속적인 성장)\n        산업모멘텀: ★★★★★ (첨단 AI 칩 생산의 핵심 기업으로서 강력한 산업 모멘텀 보유)\n\n    분석: TSMC는 전 세계 AI 칩 생산의 중추적인 역할을 담당하는 파운드리 산업의 독보적인 선두주자입니다. 엔비디아와 같은 주요 고객과의 협력을 통해 AI 시대의 성장을 주도하며, 견고한 매출 성장과 높은 재무 안정성을 자랑합니다.\n\nAVGO (Broadcom Inc.)\n\n    주가분석\n        현재가: $392.37 (24H : $374.61 - $392.61)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AVGO_24h.png\n        최근1달(1M): $357.8 - $407.52\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AVGO_1m.png\n        최근1년(1Y): $281.87 ~ $495.0\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AVGO_1y.png\n\n    테마/모멘텀\n        데이터 센터 및 AI 인프라 구축의 핵심 반도체 솔루션 제공자로, AI 수요 증가에 따른 성장 기대.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            유럽 연합 반독점 소송 패소 후 브로드컴 주식 하락. (Yahoo, 2026-08-04 03:24, 부정)\n            하이퍼스케일러 자본 지출 1.2조 달러 돌파 예상, 9개 반도체 주식 수혜. (Benzinga, 2026-08-04 00:31, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n\n    투자 등급\n        종합매력도: ★★★★★ (AI 인프라 성장의 주요 수혜주, 재무 안정성과 성장 잠재력 우수)\n        배당성향도: ★★☆☆☆ (연간 배당률 $2.60, 낮은 배당 수익률)\n        가격적정성: ★★★★☆ (52주 고점 대비 약 20% 하락, 현재 가격은 매력적인 진입 기회)\n        자본성장력: ★★★★★ (47.9%의 매출 성장률과 데이터 센터 및 AI 수요 증가로 강력한 성장)\n        산업모멘텀: ★★★★★ (AI 인프라 확장의 핵심 기술 제공자로 높은 산업 모멘텀 보유)\n\n    분석: 브로드컴은 AI 인프라 구축의 핵심 기업으로, 데이터 센터 및 전력 장비 수요 증가의 주요 수혜자입니다. 비록 최근 EU 반독점 소송 패소 소식이 있었지만, 이는 장기적인 AI 성장 모멘텀을 상쇄하지 못할 것으로 보입니다.\n\nMU (Micron Technology, Inc.)\n\n    주가분석\n        현재가: $829.04 (24H : $770.15 - $836.62)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MU_24h.png\n        최근1달(1M): $737.88 - $1035.5\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MU_1m.png\n        최근1년(1Y): $105.46 ~ $1255.0\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MU_1y.png\n\n    테마/모멘텀\n        AI 시대를 위한 고성능 메모리 칩 공급의 핵심 기업으로, 데이터 센터 및 AI 기기 수요 증가 수혜.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            중국 메모리 칩 경쟁 심화에도 불구하고 마이크론 주가 반등. (Yahoo, 2026-08-04 05:12, 긍정)\n            모든 마이크론 투자자들이 지금 이해해야 할 한 가지: 일일 주가 변동과 장기 잠재력의 분리. (Yahoo, 2026-08-04 04:05, 중립)\n            중국 경쟁사 DRAM 확장 계획으로 마이크론 주가 하락. (Yahoo, 2026-08-04 03:43, 부정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인.\n\n    투자 등급\n    "
-    },
-    {
-      "date": "2026-08-03",
-      "file": "briefings/2026-08-03.md",
-      "content": "섹션 1: 보유 종목 상세 분석 (Holdings)\n\nASML Holding N.V. (ASML)\n\n    주가분석\n        현재가: $1631.19 (24H : $1624.71 - $1692.15)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_24h.png\n        최근1달(1M): $1530.64 - $1940.49\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_1m.png\n        최근1년(1Y): $684.24 ~ $1999.96\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/ASML_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            ASML과 TSMC가 AI 투자 붐에서 중요한 역할을 하는지 비교 분석되었습니다. (Yahoo, 2026-08-03, 긍정)\n            억만장자 투자자 스티븐 맨델의 8월 상위 5개 종목에 ASML이 포함되어 주목받고 있습니다. (Yahoo, 2026-08-02, 긍정)\n            모든 AI 관련 주식이 동일한 거래가 아니라는 경고 속에서도 ASML의 AI 역할은 긍정적으로 평가됩니다. (Yahoo, 2026-08-01, 중립)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 7건 확인. Form 4/S-8 등 저중요도 공시 7건이 제외되었습니다.\n            기타 SEC 공시(, noise): 내용 없음. (SEC/FMP, 2026-07-15, 중립)\n\n    투자 등급\n        종합매력도: ★★★★★ (반도체 및 AI 산업의 강력한 모멘텀과 높은 성장 잠재력, 양호한 배당 성향과 적정 가격대가 매력적입니다.)\n        배당성향도: ★★★★☆ (연 5.6%의 높은 배당 수익률을 제공하며, Strong Buy 추천 뉴스에서 긍정적입니다.)\n        가격적정성: ★★★★☆ (최근 1개월 고점 대비 하락했으나, 연중 범위 내에서 좋은 매수 기회를 제공할 수 있는 가격대입니다.)\n        자본성장력: ★★★★★ (AI 시장 확대로 인한 반도체 장비 수요 증가로 견고한 자본 성장이 기대됩니다.)\n        산업모멘텀: ★★★★★ (AI와 반도체 산업의 지속적인 성장은 ASML에 매우 긍정적인 산업 모멘텀을 제공합니다.)\n\n    분석: ASML은 AI 및 반도체 산업의 핵심 플레이어로, 강력한 성장 모멘텀과 높은 자본 성장력을 보입니다. 최근 Strong Buy 추천과 함께 현재 가격은 장기적인 관점에서 매력적인 진입점을 제공할 수 있습니다.\n\nOxford Lane Capital Corp. (OXLC)\n\n    주가분석\n        현재가: $9.15 (24H : $8.96 - $9.20)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_24h.png\n        최근1달(1M): $8.35 - $9.20\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_1m.png\n        최근1년(1Y): $8.01 ~ $19.05\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/OXLC_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            최근 3일간 주요한 뉴스 없음\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시 20건이 제외되었습니다.\n            기타 SEC 공시(, noise): 내용 없음. (SEC/FMP, 2026-07-28, 중립)\n\n    투자 등급\n        종합매력도: ★★★☆☆ (높은 배당 수익률에도 불구하고 BDC 산업의 도전과 투자 소득 감소 가능성이 복합적으로 작용하여 중립적인 매력을 보입니다.)\n        배당성향도: ★★★☆☆ (연 26.22%의 매우 높은 배당 수익률을 제공하지만, 투자 소득 감소 및 BDC 산업의 배당 재조정 위험이 존재합니다.)\n        가격적정성: ★★★☆☆ (최근 1개월 고점 수준이나, 52주 신고가 대비 상당한 하락을 보이며 불확실성이 존재합니다.)\n        자본성장력: ★★★☆☆ (NAV는 증가했으나 핵심 투자 소득이 감소하여 자본 성장에 대한 우려가 있습니다.)\n        산업모멘텀: ★★☆☆☆ (연준의 금리 인하로 BDC 배당 수익에 대한 재평가 필요성이 언급되는 등 산업 전반에 역풍이 불고 있습니다.)\n\n    분석: Oxford Lane Capital은 매우 높은 배당 수익률을 제공하지만, 최근 투자 소득 감소 및 BDC 산업의 전반적인 도전 과제에 직면해 있습니다. 배당 지속 가능성에 대한 면밀한 검토가 필요합니다.\n\nQUALCOMM Incorporated (QCOM)\n\n    주가분석\n        현재가: $147.61 (24H : $146.15 - $153.73)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_24h.png\n        최근1달(1M): $146.0 - $196.09\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_1m.png\n        최근1년(1Y): $121.99 ~ $259.92\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/QCOM_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            퀄컴이 6G 네트워크를 AI 네이티브 방식으로 구축하며 미래 모바일 통신 및 AI 인프라의 핵심 역할을 하고 있습니다. (Yahoo, 2026-08-03, 긍정)\n            퀄컴 주식 하락에도 불구하고 2.5%의 배당 수익률과 데이터 센터 사업 확장 야심으로 매수 기회가 될 수 있습니다. (Yahoo, 2026-08-02, 긍정)\n            핸드셋 매출 감소에 대한 우려에도 불구하고 퀄컴의 AI 및 연결 기기 생태계 확장은 긍정적으로 평가됩니다. (Yahoo, 2026-08-02, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시 20건이 제외되었습니다.\n            기타 SEC 공시(, noise): 내용 없음. (SEC/FMP, 2026-07-31, 중립)\n\n    투자 등급\n        종합매력도: ★★★★★ (6G 및 AI 분야의 선두 주자로서 혁신적인 기술력과 성장 잠재력이 뛰어나며, 현재 가격은 매력적인 진입점을 제공합니다.)\n        배당성향도: ★★★☆☆ (연 2.49%의 안정적인 배당 수익률을 제공하며, 뉴스에서도 긍정적으로 언급됩니다.)\n        가격적정성: ★★★★☆ (최근 1개월 저점 수준에 가까워 단기 하락 후 반등 가능성이 있으며, 52주 신고가 대비 매력적인 가격대입니다.)\n        자본성장력: ★★★★★ (6G 및 AI 네이티브 네트워크, 데이터 센터 확장 등 미래 성장 동력이 매우 강력합니다.)\n        산업모멘텀: ★★★★★ (AI, 6G 등 차세대 기술 분야에서 강력한 산업 모멘텀을 보유하고 있습니다.)\n\n    분석: 퀄컴은 6G 및 AI 기술 혁신을 주도하며 강력한 성장 동력을 확보하고 있습니다. 최근 주가 조정은 장기적인 관점에서 매력적인 매수 기회를 제공하며, AI 및 연결 기기 시장 확대의 수혜를 입을 것으로 예상됩니다.\n\nAmazon.com, Inc. (AMZN)\n\n    주가분석\n        현재가: $271.61 (24H : $262.15 - $273.23)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_24h.png\n        최근1달(1M): $226.16 - $273.23\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_1m.png\n        최근1년(1Y): $196.0 ~ $278.56\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/AMZN_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            스페이스X가 신규 나스닥-100 지수에 편입되며 \"매그니피센트 7\"과의 경쟁 구도 속에서 아마존의 입지가 조명되었습니다. (Yahoo, 2026-08-03, 중립)\n            빅테크 기업들의 2조 달러 AI 시장 재편 속에서 아마존이 시장 가치를 크게 늘렸습니다. (Yahoo, 2026-08-03, 긍정)\n            아마존 CEO는 AWS가 1조 달러 규모의 비즈니스가 될 수 있다고 언급하며 클라우드 사업의 엄청난 성장 잠재력을 강조했습니다. (Yahoo, 2026-08-03, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시 20건이 제외되었습니다.\n            기타 SEC 공시(, noise): 내용 없음. (SEC/FMP, 2026-07-31, 중립)\n\n    투자 등급\n        종합매력도: ★★★★☆ (배당은 없지만, 클라우드 및 AI 부문의 강력한 성장 동력과 시장 지배력을 바탕으로 높은 자본 성장력을 기대할 수 있습니다.)\n        배당성향도: ★☆☆☆☆ (배당금을 지급하지 않아 배당성향도는 낮습니다.)\n        가격적정성: ★★★★★ (최근 1개월 및 52주 신고가에 근접하며, 실적 발표 후 주가가 급등하는 등 강력한 상승 모멘텀을 보여줍니다.)\n        자본성장력: ★★★★★ (AWS의 1조 달러 사업 성장 잠재력과 AI 투자 성과가 가시화되며 강력한 자본 성장이 기대됩니다.)\n        산업모멘텀: ★★★★★ (빅테크 및 AI, 클라우드 컴퓨팅 산업의 선두 주자로서 매우 강력한 산업 모멘텀을 보유하고 있습니다.)\n\n    분석: 아마존은 AWS의 막대한 성장 잠재력과 AI 투자의 성과가 가시화되며 강력한 자본 성장을 보여주고 있습니다. 비록 배당은 없지만, 클라우드 및 AI 산업의 선두 주자로서 장기적인 투자 매력이 높습니다.\n\nMicrosoft Corporation (MSFT)\n\n    주가분석\n        현재가: $464.92 (24H : $449.55 - $466.84)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_24h.png\n        최근1달(1M): $373.35 - $466.84\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1m.png\n        최근1년(1Y): $349.2 ~ $553.72\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MSFT_1y.png\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            스페이스X가 신규 나스닥-100 지수에 편입되며 \"매그니피센트 7\"과의 경쟁 구도 속에서 마이크로소프트의 입지가 조명되었습니다. (Yahoo, 2026-08-03, 중립)\n            빅테크 기업들의 2조 달러 AI 시장 재편 속에서 마이크로소프트가 시장 가치를 6천억 달러 이상 늘렸습니다. (Yahoo, 2026-08-03, 긍정)\n            클라우드 매출이 급증하는 가운데 마이크로소프트 주식 매수 시점인지에 대한 논의가 활발합니다. (Yahoo, 2026-08-03, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시 20건이 제외되었습니다.\n            기타 SEC 공시(, noise): 내용 없음. (SEC/FMP, 2026-07-29, 중립)\n\n    투자 등급\n        종합매력도: ★★★★★ (클라우드 및 AI 부문의 압도적인 성장력과 시장 지배력을 바탕으로 높은 자본 성장력과 강력한 산업 모멘텀을 갖추고 있습니다. 양호한 배당도 매력적입니다.)\n        배당성향도: ★★★★☆ (연 7.8%의 높은 배당 수익률을 제공하며, 클라우드 매출 증가와 함께 안정적인 배당 지급이 예상됩니다.)\n        가격적정성: ★★★★★ (최근 1개월 신고가에 근접하며, 클라우드 매출 급증으로 인한 주가 상승 모멘텀이 강합니다.)\n        자본성장력: ★★★★★ (애저(Azure) 클라우드 매출 급증과 AI 투자 성과에 힘입어 매우 강력한 자본 성장이 기대됩니다.)\n        산업모멘텀: ★★★★★ (빅테크 및 AI, 클라우드 컴퓨팅 산업의 절대적인 선두 주자로서 매우 강력한 산업 모멘텀을 보유하고 있습니다.)\n\n    분석: 마이크로소프트는 클라우드와 AI 사업의 폭발적인 성장으로 막대한 시장 가치를 창출하고 있습니다. 특히 애저의 강력한 실적과 AI 주도 전략은 투자자들에게 높은 성장과 안정적인 배당을 동시에 제공할 것으로 기대됩니다.\n\n섹션 2: 고배당/현금흐름 후보 (Discovery)\n\nRealty Income Corporation (O)\n\n    주가분석\n        현재가: $63.88 (24H : $63.24 - $64.07)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/O_24h.png\n        최근1달(1M): $61.54 - $66.87\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/O_1m.png\n        최근1년(1Y): $55.86 ~ $67.94\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/O_1y.png\n\n    배당정보\n        Realty Income은 135번째 배당금 인상을 발표하며 신뢰할 수 있는 월별 배당금을 지속적으로 제공하는 대표적인 리츠 종목입니다. 높은 배당 수익률과 안정적인 현금 흐름을 바탕으로 장기적인 현금흐름 투자에 적합합니다.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            Realty Income이 135번째 배당금 인상을 발표했으며, 8월 5일 실적 발표를 앞두고 매수 시점인지에 대한 논의가 활발합니다. (Yahoo, 2026-08-02, 긍정)\n            장기 수익률 상승이 리츠 주가에 부담을 주었지만, Realty Income의 강력한 실적은 이러한 우려를 상쇄할 수 있습니다. (SeekingAlpha, 2026-08-02, 중립)\n            2026년 말 이전에 매수할 가치가 있는 2개의 고수익 배당주 중 하나로 Realty Income이 언급되었습니다. (Yahoo, 2026-08-01, 긍정)\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시 20건이 제외되었습니다.\n            기타 SEC 공시(, noise): 내용 없음. (SEC/FMP, 2026-07-13, 중립)\n\n    투자 등급\n        종합매력도: ★★★★★ (135회 연속 배당 증액으로 검증된 배당 지속성과 안정적인 자본 성장, 그리고 REIT 산업의 긍정적 모멘텀이 결합되어 매우 높은 투자 매력을 보입니다.)\n        배당성향도: ★★★★★ (연 5.09%의 안정적이고 지속적인 월별 배당금 지급으로 현금 흐름 투자에 매우 적합합니다.)\n        가격적정성: ★★★★☆ (최근 1개월 및 52주 신고가에 근접하며, 견조한 실적과 배당 증가 소식이 주가를 지지하고 있습니다.)\n        자본성장력: ★★★★★ (기록적인 인수 활동과 강력한 AFFO 성장을 통해 지속적인 자본 성장이 기대됩니다.)\n        산업모멘텀: ★★★★☆ (산업용 부동산 시장의 펀더멘털 안정화 등 리츠 산업 전반에 긍정적인 신호가 나타나고 있습니다.)\n\n    분석: Realty Income은 월별 배당의 대명사로, 135회에 걸친 배당 증액 기록이 배당 지속성을 확실히 보여줍니다. 최근 견조한 실적과 인수 활동을 통해 자본 성장도 기대되며, 안정적인 현금 흐름을 추구하는 투자자에게 매우 매력적인 선택입니다.\n\nSTAG Industrial, Inc. (STAG)\n\n    주가분석\n        현재가: $38.27 (24H : $38.07 - $38.59)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/STAG_24h.png\n        최근1달(1M): $37.91 - $42.61\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/STAG_1m.png\n        최근1년(1Y): $34.18 ~ $42.61\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/STAG_1y.png\n\n    배당정보\n        STAG Industrial은 산업용 부동산 시장의 안정화와 함께 월별 배당금을 지급하며 견조한 현금 흐름을 제공합니다. 부동산 포트폴리오 확장 및 부채 만기 연장 노력은 배당 지속 가능성을 높여줍니다.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            최근 3일간 주요한 뉴스 없음\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시 20건이 제외되었습니다.\n            기타 SEC 공시(, noise): 내용 없음. (SEC/FMP, 2026-07-28, 중립)\n\n    투자 등급\n        종합매력도: ★★★★★ (산업용 부동산의 견고한 펀더멘털과 활발한 포트폴리오 확장, 그리고 안정적인 월배당 지급 능력으로 높은 종합 매력을 가집니다.)\n        배당성향도: ★★★★☆ (연 4.05%의 매력적인 배당 수익률을 제공하며, 견조한 리스 활동과 포트폴리오 확장으로 배당 지속 가능성이 높습니다.)\n        가격적정성: ★★★☆☆ (최근 1개월 저점 수준이며, 52주 신고가 대비 약간 하락했으나 시장 가치에 근접한 수준입니다.)\n        자본성장력: ★★★★★ (새로운 자산 인수 및 빌트-투-수트 프로젝트를 통해 산업용 부동산 포트폴리오를 확장하며 강력한 자본 성장이 기대됩니다.)\n        산업모멘텀: ★★★★☆ (전자상거래, 제조, 데이터센터 관련 수요로 산업용 부동산 펀더멘털이 안정화되며 긍정적인 산업 모멘텀을 보입니다.)\n\n    분석: STAG Industrial은 산업용 부동산 시장의 긍정적 흐름을 바탕으로 포트폴리오를 적극적으로 확장하고 있습니다. 견조한 임대 활동과 재무 구조 개선 노력은 안정적인 월별 배당 지급과 자본 성장을 뒷받침하며, 현금 흐름 투자에 매력적인 대안입니다.\n\nMain Street Capital Corporation (MAIN)\n\n    주가분석\n        현재가: $54.45 (24H : $54.01 - $55.13)\n            [24H] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MAIN_24h.png\n        최근1달(1M): $50.96 - $56.39\n            [1M] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MAIN_1m.png\n        최근1년(1Y): $48.95 ~ $67.77\n            [1Y] https://raw.githubusercontent.com/cherryroseytb/daily-stock-briefing/main/charts/MAIN_1y.png\n\n    배당정보\n        Main Street Capital은 다른 BDC들이 어려움을 겪는 와중에도 배당금을 인상하는 등 탁월한 운영 능력을 보여주고 있습니다. 매력적인 배당 수익률과 견고한 재무 상태를 바탕으로 안정적인 현금 흐름을 창출합니다.\n\n    뉴스/공시\n        주요뉴스(최근3일):\n            최근 3일간 주요한 뉴스 없음\n        주요공시(최근6달):\n            중요 공시는 아니지만 최근 기타 SEC 공시 20건 확인. Form 4/S-8 등 저중요도 공시 20건이 제외되었습니다.\n            기타 SEC 공시(, noise): 내용 없음. (SEC/FMP, 2026-07-16, 중립)\n\n    투자 등급\n        종합매력도: ★★★★☆ (높은 배당 수익률과 함께 어려운 시장 상황에서도 배당을 늘리는 능력을 갖춘 모범적인 BDC로 평가됩니다. 재무 안정성도 양호합니다.)\n        배당성향도: ★★★★☆ (연 8.05%의 높은 배당 수익률을 제공하며, 금리 인상에 따른 NII 증가로 배당금을 인상하는 등 배당 지속 가능성이 긍정적입니다.)\n        가격적정성: ★★★★☆ (최근 1개월 고점 수준에 가까우며, 매력적인 가격에 자본을 조달하는 능력은 긍정적입니다.)\n        자본성장력: ★★★★☆ (금리 인상 수혜로 순투자소득(NII)이 증가하고 있으며, 매력적인 가격으로 자본을 조달하여 자본 성장을 이끌고 있습니다.)\n        산업모멘텀: ★★☆☆☆ (BDC 산업 전반은 금리 인하 우려로 인해 배당 재조정 가능성이 언급되는 등 중립 이하의 모멘텀을 보입니다.)\n\n    분석: Main Street Capital은 어려운 BDC 시장 환경 속에서도 배당을 인상하고 매력적인 조건으로 자본을 조달하는 등 뛰어난 경영 능력을 보여줍니다. 높은 배당과 견고한 재무 상태는 현금 흐름 투자자에게 매력적인 선택지입니다.\n\nAres Capital Corporation (ARCC)\n\n    주가분석\n       "
-    },
-    {
-      "date": "2026-08-02",
-      "file": "briefings/2026-08-02.md",
-      "content": "섹션 1: 보유 종목 주간 변화\n\nASML Holding N.V.는 주 초반 중국의 DUV 장비 생산 소식과 AI 칩 재고 우려로 주가 하락 및 조정 압력을 받았으나, 주 중반 이후 중국발 위협 완화, 독점적 기술력 재확인, 대규모 생산 확장 계획 발표에 힘입어 강력한 반등세를 보였습니다. 주 후반에는 강력 매수 등급을 받으며 실적 전망에 대한 낙관론이 커졌으나, 52주 최고점 부근의 주가 수준은 가격적 부담으로 작용했습니다. 배당 등급은 높게 평가되었으나, 일부 배당수익률 데이터는 비정상적으로 높게 표시되어 해석에 주의가 필요했습니다.\n\nOxford Lane Capital Corp.는 이번 주 내내 매우 높은 배당수익률이 핵심 매력으로 강조되었습니다. 주가는 52주 최저점 부근에 위치하여 가격적인 매력도가 높았으나, 변동성이 큰 CLO(콜래터럴론 의무) 시장에 투자하는 특성상 내재된 리스크와 제한적인 자본 성장력은 주의를 요했습니다. 최근 분기 실적은 주당순이익(EPS)은 예상치를 상회했지만 매출은 미달하여 혼조세를 보였습니다.\n\nQUALCOMM Incorporated는 주 초반 삼성과의 파트너십 확장 및 AI 거래를 통한 성장 기대감과 함께 최근 주가 하락이 매수 기회로 평가되었습니다. 그러나 주 중반 부진한 분기 실적 발표와 약한 4분기 가이던스로 주가가 5% 이상 급락하며 스마트폰 칩 매출 감소라는 부정적인 소식에 직면했습니다. 주 후반에는 데이터 센터, 자동차, IoT 등 신성장 동력을 통한 반등 기대감이 다시 부각되었고, 현재 주가는 52주 최저점 수준에 근접하여 가격 매력도가 높은 상태입니다. 배당 등급은 높았으나, 제시된 배당수익률 데이터의 지속 가능성에 대한 추가 검토가 필요했습니다.\n\nAmazon.com, Inc.는 주 초반 AI 투자 비용 증가와 '매그니피센트 7' 기업들의 AI 지출에 대한 시장의 우려로 주가에 부담을 느꼈습니다. 그러나 주 중반 예상치를 뛰어넘는 강력한 2분기 실적 발표와 AWS(아마존 웹 서비스) 클라우드 사업의 성장 가속화 및 AI 투자 성과에 대한 긍정적인 평가가 이어지며 주가가 급등했습니다. 월스트리트 애널리스트들은 목표가를 상향 조정하는 등 시장의 신뢰를 회복했으나, 현재 주가는 52주 고점에 근접하여 밸류에이션 부담이 존재합니다. 아마존은 배당을 지급하지 않습니다.\n\nMicrosoft Corporation은 이번 주 내내 클라우드 컴퓨팅(Azure)과 AI 분야에서의 압도적인 리더십을 바탕으로 강력한 성장 모멘텀을 유지했습니다. 예상치를 상회하는 분기별 매출과 Azure 클라우드 매출 증가, 대규모 AI 투자 계획 발표는 주가 상승을 견인하며 사상 최고치를 기록했습니다. AI 시장의 거품 가능성에 대한 언급도 있었지만, 견고한 재무 상태와 시장 지배력은 장기적인 투자 매력을 더욱 높였습니다. 배당 등급은 높게 평가되었으나, 일부 배당수익률 데이터는 비정상적으로 높게 표시되어 해석에 주의가 필요했습니다.\n\n섹션 2: 이번 주 발굴 후보 요약\n\n장기 퀄리티 후보:\n    NVIDIA Corporation은 AI 반도체 시장의 독보적인 선두 주자로서 탁월한 기술력, 압도적인 시장 점유율, 폭발적인 매출 및 이익 성장을 기반으로 높은 투자 매력을 보여주었습니다.\n    Broadcom Inc.는 반도체 및 인프라 소프트웨어 분야에서 확고한 경쟁력을 갖추고 있으며, 삼성과의 대규모 AI 칩 계약 체결 등 AI 인프라 확장 트렌드의 직접적인 수혜주로 강력한 성장이 기대됩니다.\n    Meta Platforms, Inc.는 강력한 소셜 미디어 플랫폼과 함께 AI 및 메타버스 분야에 대한 적극적인 투자를 통해 미래 성장 동력을 확보하고 있으며, 현재 52주 최저점에 근접한 주가 위치는 매력적인 진입 기회를 제공합니다.\n    Apple Inc.는 강력한 브랜드 가치와 서비스 부문의 지속적인 성장을 통해 견고한 사업 품질을 유지하고 있으나, AI 데이터 센터 부품 공급망 문제가 단기적인 실적 부담 요인으로 작용했습니다.\n\n모멘텀/테마 후보:\n    Lam Research Corporation은 AI 투자 증가에 따른 반도체 장비 수요 급증의 직접적인 수혜주로, 강력한 AI 관련 매출 전망을 발표하며 시장의 기대를 높였습니다.\n    Micron Technology는 AI 시대 필수 요소인 고성능 메모리 반도체(HBM) 수요 증가의 직접적인 수혜주로서 강력한 매출 성장률과 긍정적인 실적을 기록하며 AI 테마에서 중요한 역할을 하고 있습니다.\n    ARM Holdings는 AI 데이터 센터의 맞춤형 CPU 및 GPU 채택 증가에 따라 설계 아키텍처 분야에서 핵심 역할을 수행하며 AI 시대의 구조적 수혜주로 강력한 모멘텀을 보유하고 있습니다.\n\n고배당/현금흐름 후보:\n    Ares Capital Corporation은 10%가 넘는 높은 배당수익률을 제공하는 BDC(사업 개발 회사)로, 최근 실적 부진으로 주가가 하락했으나, 이는 잠재적인 저점 매수 기회로 평가되었습니다.\n    Blackstone Secured Lending Fund는 13%를 넘는 매우 높은 배당수익률과 비교적 낮은 가격 수준을 바탕으로 매력적인 현금흐름형 투자 기회를 제공했습니다.\n    STAG Industrial, Inc.는 월별 배당을 지급하는 산업용 리츠로, 견고한 FFO(영업활동으로 인한 현금흐름) 증가와 활발한 임대 활동을 통해 안정적인 현금흐름을 창출했습니다.\n    Main Street Capital Corporation은 사모 신용 시장의 성장과 함께 높은 배당수익률을 월별로 지급하여 현금흐름 투자자에게 매력적이었으나, 밸류에이션에 대한 신중한 접근이 요구되었습니다.\n\n섹션 3: 다음 주 체크포인트\n\n가격 구간 관찰:\n    AI 및 반도체 섹터의 주요 종목인 ASML, QUALCOMM, Amazon, Microsoft는 이번 주 큰 변동성을 보였습니다. 다음 주에는 ASML과 QUALCOMM의 단기 조정 후 반등 가능성, 그리고 Amazon과 Microsoft의 급등 이후 밸류에이션 부담 및 고가 유지 여부를 면밀히 관찰해야 합니다.\n    고배당 종목인 Oxford Lane Capital Corporation, Ares Capital Corporation, Blackstone Secured Lending Fund 등은 52주 최저점 부근에 위치한 경우가 많으므로, 다음 주에도 가격 적정성 유지 여부와 잠재적인 반등 구간을 지속적으로 모니터링해야 합니다.\n\n뉴스 이벤트 및 공시 리스크:\n    AI 및 반도체 산업 전반의 기술 개발 동향과 투자 심리 변화는 모든 주요 기술 기업들의 주가에 지속적으로 영향을 미칠 것입니다. 특히 AI 인프라 투자 관련 새로운 뉴스, 반도체 공급망 안정성, 그리고 주요 기업들의 향후 가이던스 발표에 주목해야 합니다.\n    대형 기술 기업들의 AI 관련 자본 지출 효율성 및 수익화 여부에 대한 시장의 평가가 다음 주 주가 흐름에 중요한 요소가 될 수 있습니다.\n    Oxford Lane Capital Corporation, Ares Capital Corporation 등 BDC 및 리츠 종목들은 경영진 관련 소식, 자산 건전성, 순자산 가치(NAV) 변화, 금리 변동성 등 개별 기업 및 매크로 환경 변화에 민감하게 반응할 수 있으므로 관련 뉴스를 주의 깊게 살펴야 합니다.\n\n배당 이슈:\n    높은 배당 수익률을 제공하는 BDC 종목들(Ares Capital Corporation, Blackstone Secured Lending Fund, Oxford Lane Capital Corporation, Main Street Capital Corporation)의 배당 지속 가능성에 대한 시장 평가 및 뉴스, 그리고 향후 배당 일정 공지 여부가 중요한 체크포인트입니다. 특히 최근 실적 부진이나 경영진 변화가 있었던 종목들의 배당 정책 변화 가능성을 면밀히 주시해야 합니다.\n    월 배당을 지급하는 리츠(STAG Industrial, Inc. 등)의 경우 꾸준한 배당 지급 이력과 안정성이 강점이지만, 금리 인상 가능성 및 부동산 시장 동향이 배당 정책에 영향을 미칠 수 있으므로 함께 고려해야 합니다.\n\n---\n\nAPI 사용량 리포트\n\n    주식 가격 데이터: 0회 (yfinance)\n    뉴스 데이터: 0회 (Finnhub / Yahoo Finance / Naver)\n    SEC 공시 데이터: 0회 (FMP)\n    국내 공시 데이터: 0회 (OpenDART)\n\n    요청 제한/캐시\n        스크리닝 후보 상한: 20개\n        뉴스 캐시: 12시간\n        SEC 공시 캐시: 72시간\n\n    Gemini AI 분석\n        모델: Gemini 2.5 Flash\n        세션 토큰: 49,161\n        분당 한도 대비: 19.66%\n"
+      "symbol": "STAG",
+      "name": "STAG Industrial, Inc.",
+      "score": 72,
+      "dividend_yield_pct": 416.0,
+      "details": {
+        "dividend_yield_pct": 416.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 7340737536,
+        "cap_score": 20,
+        "debt_to_equity": 93.78,
+        "debt_score": 12
+      }
     }
   ],
   "screening_meta": {
-    "mode": "weekly_summary",
-    "source_count": 7,
-    "top5": []
+    "mode": "dividend",
+    "title": "고배당/현금흐름 후보",
+    "seed_pool_size": 54,
+    "ai_selected_count": 20,
+    "scored_count": 19,
+    "top5": [
+      "ARCC",
+      "MAIN",
+      "BXSL",
+      "O",
+      "STAG"
+    ],
+    "max_screening_candidates": 20
   },
   "api_stats": {
-    "yfinance": 0,
-    "news": 0,
-    "fmp": 0,
-    "charts": 0,
+    "yfinance": 30,
+    "news": 10,
+    "fmp": 10,
+    "charts": 30,
     "limits": {
       "max_screening_candidates": 20,
       "news_per_ticker": 5,
