@@ -1,6 +1,6 @@
 {
-  "version": 16,
-  "updated_at": "2026-08-10 05:30 KST",
+  "version": 17,
+  "updated_at": "2026-08-17 05:19 KST",
   "refresh_policy": {
     "dividend": "monthly",
     "theme": "weekly",
@@ -63,19 +63,23 @@
     "ABR"
   ],
   "theme": {
-    "AI Semiconductors & Hardware": [
+    "AI Chip Innovators": [
       "NVDA",
       "AVGO",
       "AMD",
       "TSM",
-      "ASML",
       "ARM",
-      "MU",
       "QCOM",
       "MRVL",
+      "MU"
+    ],
+    "Semiconductor Equipment & Materials": [
+      "ASML",
       "AMAT",
       "LRCX",
-      "TXN"
+      "KLAC",
+      "TER",
+      "MKS"
     ],
     "Enterprise AI & Cloud Software": [
       "MSFT",
@@ -100,7 +104,7 @@
       "SNOW",
       "PLTR"
     ],
-    "Grid Modernization & Energy Transition I": [
+    "Grid Modernization & Energy Transition": [
       "PWR",
       "ETN",
       "GEV",
