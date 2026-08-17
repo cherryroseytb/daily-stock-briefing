@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-17 07:07",
+  "date": "2026-08-18 07:10",
   "report_profile": {
-    "type": "dividend",
-    "title": "고배당/현금흐름 후보",
-    "description": "배당률, 배당 지속성, 재무 안정성을 기준으로 현금흐름형 후보를 선별합니다."
+    "type": "theme",
+    "title": "모멘텀/테마 후보",
+    "description": "최근 뉴스와 시장 모멘텀이 붙은 주요 테마 안에서 후보를 선별합니다."
   },
   "market_data": {
     "ASML": {
@@ -11,10 +11,10 @@
       "name": "ASML Holding N.V.",
       "display_name": "ASML Holding N.V.",
       "data_limited": false,
-      "price": 1844.0,
-      "high_24h": 1853.31,
-      "low_24h": 1820.41,
-      "high_1m": 1873.69,
+      "price": 1882.6,
+      "high_24h": 1896.31,
+      "low_24h": 1860.12,
+      "high_1m": 1896.31,
       "low_1m": 1530.64,
       "fiftyTwoWeekHigh": 1999.96,
       "fiftyTwoWeekLow": 716.2,
@@ -28,16 +28,16 @@
       },
       "news": [
         {
-          "title": "Semiconductor Equipment Rally Tests Its Breadth as High-Growth Names Surge Ahead of ASML, Lam Earnings",
-          "summary": "Semiconductor equipment stocks split: mega-cap leaders consolidate ahead of earnings while high-growth names surge. Will the rally broaden?",
-          "publisher": "ChartMill",
-          "published_at": "2026-08-14 21:07"
+          "title": "Dan Loeb Exits Nvidia, Meta And Broadcom — Bets Big On Warner Bros. Discovery",
+          "summary": "The investor exited Meta, Nvidia, Broadcom, KLA and Lam Research while adding major positions in Warner Bros. Discovery, Riot Platforms and Block.",
+          "publisher": "Benzinga",
+          "published_at": "2026-08-17 21:41"
         },
         {
-          "title": "Applied Materials slips as investors seek faster growth after stellar run",
-          "summary": "Applied Materials shares fell about 5% in premarket trading on Friday, as the ‌chip equipment maker's upbeat outlook failed to ‌soothe investors worried about the threat from intensifying competition.  The muted reaction ​illustrates the high bar chip stocks have to clear and suggests that investors have little tolerance for any hint that a company may be falling behind peers.  After a ‌sharp rally that ⁠has more than doubled Applied's shares this year, investors want clearer signals that the ⁠company's growth is outpacing rivals in the wafer-fab-equipment market.",
-          "publisher": "Yahoo",
-          "published_at": "2026-08-14 17:58"
+          "title": "Memory Is The Best AI Story, Equipment Is The Better Trade",
+          "summary": "AI Stack Model: 14 AI trade segments ranked by macro, estimate revisions, and valuation.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-17 20:19"
         }
       ],
       "sec_filings_6m": [
@@ -108,9 +108,9 @@
       "name": "Oxford Lane Capital Corp.",
       "display_name": "Oxford Lane Capital Corp.",
       "data_limited": false,
-      "price": 9.61,
-      "high_24h": 9.84,
-      "low_24h": 9.57,
+      "price": 9.4,
+      "high_24h": 9.53,
+      "low_24h": 9.31,
       "high_1m": 9.84,
       "low_1m": 8.35,
       "fiftyTwoWeekHigh": 19.05,
@@ -223,10 +223,10 @@
       "name": "QUALCOMM Incorporated",
       "display_name": "QUALCOMM Incorporated",
       "data_limited": false,
-      "price": 165.85,
-      "high_24h": 166.96,
-      "low_24h": 163.18,
-      "high_1m": 180.71,
+      "price": 162.18,
+      "high_24h": 166.25,
+      "low_24h": 161.45,
+      "high_1m": 178.65,
       "low_1m": 142.89,
       "fiftyTwoWeekHigh": 259.92,
       "fiftyTwoWeekLow": 121.99,
@@ -240,10 +240,16 @@
       },
       "news": [
         {
-          "title": "Viking Global Investors Reports Share Stake Of 1.5 Mln Shares In Qualcomm Inc",
-          "summary": "- Sec Filing",
+          "title": "7 Information Technology Stocks With Whale Alerts In Today’s Session",
+          "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will",
           "publisher": "Benzinga",
-          "published_at": "2026-08-15 01:27"
+          "published_at": "2026-08-17 22:35"
+        },
+        {
+          "title": "Viking Global Bets Big On SpaceX While Ditching CoreWeave, Alphabet in Q2",
+          "summary": "Viking Global Investors&#39; second-quarter 13F shows new stakes in SPCX, MS, QCOM, CVS and exits in CRWV and GOOGL.",
+          "publisher": "Benzinga",
+          "published_at": "2026-08-17 18:04"
         }
       ],
       "sec_filings_6m": [
@@ -314,9 +320,9 @@
       "name": "Amazon.com, Inc.",
       "display_name": "Amazon.com, Inc.",
       "data_limited": false,
-      "price": 262.66,
-      "high_24h": 265.81,
-      "low_24h": 262.42,
+      "price": 261.33,
+      "high_24h": 265.75,
+      "low_24h": 258.34,
       "high_1m": 287.2,
       "low_1m": 226.16,
       "fiftyTwoWeekHigh": 287.2,
@@ -331,34 +337,34 @@
       },
       "news": [
         {
-          "title": "Projected Robotaxi (Autonomous Ride-Hailing) Growth By Company And Why I Rate Waymo A Buy",
-          "summary": "",
+          "title": "These S&P500 stocks are the most active in today's session",
+          "summary": "Looking for the most active stocks in the S&P500 index on Monday? Dive into today's session and discover the stocks that are dominating the trading activity and setting the pace for the market.",
+          "publisher": "ChartMill",
+          "published_at": "2026-08-18 03:05"
+        },
+        {
+          "title": "S&P 500: The Bull Market That Won't Die",
+          "summary": "The U.S. equity market's persistent strength is underpinned by structural forces beyond traditional fundamentals. Read more on SP500 stock here.",
           "publisher": "SeekingAlpha",
-          "published_at": "2026-08-16 18:13"
+          "published_at": "2026-08-18 02:00"
         },
         {
-          "title": "Dell Stock Rally Pauses, But Supermicro, Lenovo Earnings Point to Upside",
-          "summary": "Dell stock rally has paused in the past two days, but the recent Supermicro and Lenovo earnings show it has more upside",
+          "title": "Nvidia Is the Best S&P 500 Stock of the Past 10, 15, 20 Years — but 4 Stocks Beat It Over the Past 5 Years",
+          "summary": "Nvidia stock is the top stock gainer over the last 10, 15 and 20 years. Here&#39;s who beats the stock in five-year gains.",
           "publisher": "Benzinga",
-          "published_at": "2026-08-16 02:10"
+          "published_at": "2026-08-18 00:53"
         },
         {
-          "title": "These Three Metrics Explain Why S&P 500 Index Has Hit Record High",
-          "summary": "The S&amp;P 500 Index has jumped to a record high, and some crucial metrics show that it has more upside to go in the near term",
+          "title": "Ray Dalio Ups Bet on SPY and IVV: Time to Buy the S&P 500?",
+          "summary": "Ray Dalio boosted his SPY and IVV stakes by $6.2 billion. Here&#39;s what the move means for S&amp;P 500 valuations, technicals and the SPY vs. IVV debate.",
           "publisher": "Benzinga",
-          "published_at": "2026-08-15 21:51"
+          "published_at": "2026-08-18 00:27"
         },
         {
-          "title": "Alibaba, Walmart To Headline Earnings Next Week, FOMC Minutes Of Meeting In Focus",
-          "summary": "Preview next weekâs market movers: FOMC minutes, key economic data, earnings from WMT, HD & BABA, plus IPOs and dividends. See more details here.",
+          "title": "Q2 2026 U.S. Retail Preview: Broadline Retail Drives Growth",
+          "summary": "The U.S. consumer remains resilient enough to support earnings growth, but that resilience is increasingly concentrated.",
           "publisher": "SeekingAlpha",
-          "published_at": "2026-08-15 20:00"
-        },
-        {
-          "title": "EXCLUSIVE: Ross Gerber Says SPCX Valuation Reflects the ‘Elon Premium,’ But Remains Skeptical of Musk’s Timelines: ‘I Don’t Trust…’",
-          "summary": "Investor Ross Gerber, in conversation with Benzinga, lays down his thoughts on Elon Musk-led SpaceX following its IPO and volatility.",
-          "publisher": "Benzinga",
-          "published_at": "2026-08-15 19:31"
+          "published_at": "2026-08-18 00:11"
         }
       ],
       "sec_filings_6m": [
@@ -429,9 +435,9 @@
       "name": "Microsoft Corporation",
       "display_name": "Microsoft Corporation",
       "data_limited": false,
-      "price": 495.42,
-      "high_24h": 500.01,
-      "low_24h": 493.92,
+      "price": 480.54,
+      "high_24h": 492.66,
+      "low_24h": 478.41,
       "high_1m": 513.73,
       "low_1m": 377.39,
       "fiftyTwoWeekHigh": 553.72,
@@ -446,37 +452,48 @@
       },
       "news": [
         {
-          "title": "Alibaba, Walmart To Headline Earnings Next Week, FOMC Minutes Of Meeting In Focus",
-          "summary": "Preview next weekâs market movers: FOMC minutes, key economic data, earnings from WMT, HD & BABA, plus IPOs and dividends. See more details here.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-15 20:00"
+          "title": "Discover which dow jones stocks are making waves on Monday.",
+          "summary": "Let's have a look at the top dow jones gainers and losers one hour before the close of the markets of today's session.",
+          "publisher": "ChartMill",
+          "published_at": "2026-08-18 04:10"
         },
         {
-          "title": "Consumer Tech (Aug 10-14): Trump Faces Federal Lawsuits, Apple & Alibaba To Create AI Model For China & More",
-          "summary": "AI spending continues reshaping technology as Nvidia, AMD, Cisco, Intel and semiconductor companies announce new investments, partnerships and infrastructure initiatives.",
+          "title": "S&P 500: The Bull Market That Won't Die",
+          "summary": "The U.S. equity market's persistent strength is underpinned by structural forces beyond traditional fundamentals. Read more on SP500 stock here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-18 02:00"
+        },
+        {
+          "title": "Uncover the latest developments among dow jones stocks in today's session.",
+          "summary": "Let's have a look at the top dow jones gainers and losers in the middle of the day of today's session.",
+          "publisher": "ChartMill",
+          "published_at": "2026-08-18 01:40"
+        },
+        {
+          "title": "Infleqtion: The Execution Phase (Rating Downgrade)",
+          "summary": "Infleqtion, Inc. Q2: 116% YoY revenue growth, raised guidance, $582M cash. Click for this INFQ earnings update and see why I have downgraded the stock.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-18 00:59"
+        },
+        {
+          "title": "QUICK SPARK: OpenAI, Anthropic and SpaceX Fuel Harbor’s New AI ETF Strategy Beyond Big Tech",
+          "summary": "Harbor’s AI ETFs target the ecosystems powering OpenAI, Anthropic and SpaceX, expanding AI exposure beyond Nvidia and other tech stocks.",
           "publisher": "Benzinga",
-          "published_at": "2026-08-15 18:51"
-        },
-        {
-          "title": "How To Invest $100,000 In A Retiree's SWAN Income Portfolio",
-          "summary": "A SWAN income portfolio aims for consistent income, growth, and lower volatility through diversification and strategic planning. Read how to build one here.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-15 17:10"
-        },
-        {
-          "title": "Microsoft: Buy For The Value, Enjoy A Dividend Snack",
-          "summary": "Microsoft stock remains a âBuyâ given its strong earnings, Azure cloud growth, and a dividend streak. Here's what investors need to know.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-15 17:00"
-        },
-        {
-          "title": "Microsoft: AI CapEx Is A Good Problem To Buy",
-          "summary": "",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-15 13:55"
+          "published_at": "2026-08-18 00:52"
         }
       ],
       "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-08-17 18:04:57",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000145/xslF345X06/form4.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
         {
           "form_type": "",
           "form_label": "기타 SEC 공시",
@@ -498,17 +515,6 @@
           "source": "SEC/FMP",
           "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000141/xslF345X06/form4.xml",
           "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-07-29 16:08:01",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
-          "fallback_reason": "importance_filter_empty"
         }
       ],
       "sec_filings_filter": {
@@ -537,40 +543,71 @@
             "reason": "unrecognized_form"
           }
         ]
+      },
+      "screening_score": 92,
+      "screening_details": {
+        "market_cap": 3566861025280,
+        "cap_score": 20,
+        "revenue_growth_pct": 17.7,
+        "growth_score": 21,
+        "operating_margin_pct": 45.111000000000004,
+        "margin_score": 15,
+        "price_position_52w": 0.6412575787209075,
+        "price_score": 16,
+        "debt_to_equity": 29.118,
+        "debt_score": 20
       }
     },
-    "ARCC": {
-      "symbol": "ARCC",
-      "name": "Ares Capital Corporation",
-      "display_name": "Ares Capital Corporation",
+    "AVGO": {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc.",
+      "display_name": "Broadcom Inc.",
       "data_limited": false,
-      "price": 19.86,
-      "high_24h": 20.15,
-      "low_24h": 19.86,
-      "high_1m": 20.23,
-      "low_1m": 18.45,
-      "fiftyTwoWeekHigh": 22.62,
-      "fiftyTwoWeekLow": 17.4,
-      "dividendYield": 966.0,
-      "dividendRate": 1.92,
-      "exDividendDate": "1789430400",
+      "price": 392.45,
+      "high_24h": 399.36,
+      "low_24h": 391.33,
+      "high_1m": 432.73,
+      "low_1m": 369.51,
+      "fiftyTwoWeekHigh": 495.0,
+      "fiftyTwoWeekLow": 281.87,
+      "dividendYield": 66.0,
+      "dividendRate": 2.6,
+      "exDividendDate": "1782086400",
       "charts": {
-        "24h": "charts/ARCC_24h.png",
-        "1m": "charts/ARCC_1m.png",
-        "1y": "charts/ARCC_1y.png"
+        "24h": "charts/AVGO_24h.png",
+        "1m": "charts/AVGO_1m.png",
+        "1y": "charts/AVGO_1y.png"
       },
       "news": [
         {
-          "title": "2 BDCs To Sell Before The Dividend Cuts Land",
-          "summary": "",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-16 18:15"
+          "title": "Nvidia Is the Best S&P 500 Stock of the Past 10, 15, 20 Years — but 4 Stocks Beat It Over the Past 5 Years",
+          "summary": "Nvidia stock is the top stock gainer over the last 10, 15 and 20 years. Here&#39;s who beats the stock in five-year gains.",
+          "publisher": "Benzinga",
+          "published_at": "2026-08-18 00:53"
         },
         {
-          "title": "My Near-Perfect $1 Million Retirement Portfolio",
-          "summary": "Seven-bucket retirement portfolio blueprint with specific picks for reliable income, attractive yield, and sustainable dividend growthâlearn the strategy...",
+          "title": "Ray Dalio Ups Bet on SPY and IVV: Time to Buy the S&P 500?",
+          "summary": "Ray Dalio boosted his SPY and IVV stakes by $6.2 billion. Here&#39;s what the move means for S&amp;P 500 valuations, technicals and the SPY vs. IVV debate.",
+          "publisher": "Benzinga",
+          "published_at": "2026-08-18 00:27"
+        },
+        {
+          "title": "Broadcom Is Set To Rewrite The AI Narrative",
+          "summary": "Broadcom (AVGO) buy thesis: Q2 surge, AI silicon pipeline, hyperscaler deals & compelling valuation. Click to ready my analysis",
           "publisher": "SeekingAlpha",
-          "published_at": "2026-08-14 16:05"
+          "published_at": "2026-08-17 22:21"
+        },
+        {
+          "title": "Dan Loeb Exits Nvidia, Meta And Broadcom — Bets Big On Warner Bros. Discovery",
+          "summary": "The investor exited Meta, Nvidia, Broadcom, KLA and Lam Research while adding major positions in Warner Bros. Discovery, Riot Platforms and Block.",
+          "publisher": "Benzinga",
+          "published_at": "2026-08-17 21:41"
+        },
+        {
+          "title": "Here’s How Much You Would Have Made Owning Broadcom Stock In The Last 15 Years",
+          "summary": "Broadcom (NASDAQ:AVGO) has outperformed the market over the past 15 years by 25.19% on an annualized basis producing an average annual return of 38.66%. Currently, Broadcom has a market capitalization of $1.87 trillion.",
+          "publisher": "Benzinga",
+          "published_at": "2026-08-17 20:45"
         }
       ],
       "sec_filings_6m": [
@@ -580,9 +617,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-14 16:37:20",
+          "filed_at": "2026-07-14 20:27:57",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026057167/arcc-20260813.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1218358/000173016826000072/xslF345X06/wk-form4_1784075275.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -591,9 +628,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-07-28 20:51:40",
+          "filed_at": "2026-07-14 20:23:44",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026050307/arcc-20260630.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1627720/000173016826000070/xslF345X06/wk-form4_1784075021.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -602,9 +639,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-07-28 20:33:42",
+          "filed_at": "2026-07-10 18:43:49",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026050303/arccq2-2026exhibit991.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1218358/000173016826000068/xslF345X06/wk-form4_1783723427.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -635,62 +672,70 @@
           }
         ]
       },
-      "screening_score": 72,
+      "screening_score": 96,
       "screening_details": {
-        "dividend_yield_pct": 966.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 14267114496,
+        "market_cap": 1867017224192,
         "cap_score": 20,
-        "debt_to_equity": 114.117,
-        "debt_score": 12
+        "revenue_growth_pct": 47.9,
+        "growth_score": 25,
+        "operating_margin_pct": 48.988,
+        "margin_score": 15,
+        "price_position_52w": 0.5187444282832074,
+        "price_score": 16,
+        "debt_to_equity": 74.018,
+        "debt_score": 20
       }
     },
-    "MAIN": {
-      "symbol": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "display_name": "Main Street Capital Corporation",
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "display_name": "NVIDIA Corporation",
       "data_limited": false,
-      "price": 58.8,
-      "high_24h": 59.32,
-      "low_24h": 58.63,
-      "high_1m": 59.61,
-      "low_1m": 52.51,
-      "fiftyTwoWeekHigh": 67.34,
-      "fiftyTwoWeekLow": 48.95,
-      "dividendYield": 541.0,
-      "dividendRate": 3.18,
-      "exDividendDate": "1788825600",
+      "price": 225.05,
+      "high_24h": 227.92,
+      "low_24h": 224.86,
+      "high_1m": 227.92,
+      "low_1m": 190.01,
+      "fiftyTwoWeekHigh": 236.54,
+      "fiftyTwoWeekLow": 164.07,
+      "dividendYield": 44.0,
+      "dividendRate": 1.0,
+      "exDividendDate": "1780531200",
       "charts": {
-        "24h": "charts/MAIN_24h.png",
-        "1m": "charts/MAIN_1m.png",
-        "1y": "charts/MAIN_1y.png"
+        "24h": "charts/NVDA_24h.png",
+        "1m": "charts/NVDA_1m.png",
+        "1y": "charts/NVDA_1y.png"
       },
       "news": [
         {
-          "title": "Dividend Announcements: August 1-7, 2026",
-          "summary": "Weekly dividend stock updates: 21 hikes, 1 cut, 1 special. See top picks BR, CSL & RMDâquality, safety and undervaluation.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-16 18:37"
+          "title": "Discover which dow jones stocks are making waves on Monday.",
+          "summary": "Let's have a look at the top dow jones gainers and losers one hour before the close of the markets of today's session.",
+          "publisher": "ChartMill",
+          "published_at": "2026-08-18 04:10"
         },
         {
-          "title": "Main Street Capital: I'm Waiting For Another Opportunity (Rating Downgrade)",
-          "summary": "MAIN stock update: strong Q2 results, resilient NII and dividend coverage, but a rich 1.73x P/BV caps upside.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-15 19:51"
+          "title": "These S&P500 stocks are the most active in today's session",
+          "summary": "Looking for the most active stocks in the S&P500 index on Monday? Dive into today's session and discover the stocks that are dominating the trading activity and setting the pace for the market.",
+          "publisher": "ChartMill",
+          "published_at": "2026-08-18 03:05"
         },
         {
-          "title": "The One Chart Investors Can't Ignore As America's Debt Approaches $50 Trillion",
-          "summary": "",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-15 16:05"
+          "title": "Which stocks are most active on Monday?",
+          "summary": "Monday's session is buzzing with activity. Check out the stocks that are attracting the most attention and driving market activity!",
+          "publisher": "ChartMill",
+          "published_at": "2026-08-18 03:00"
         },
         {
-          "title": "My Near-Perfect $1 Million Retirement Portfolio",
-          "summary": "Seven-bucket retirement portfolio blueprint with specific picks for reliable income, attractive yield, and sustainable dividend growthâlearn the strategy...",
+          "title": "Three Bubbles, One Liquidity Problem: The Market Is Running Out Of Room",
+          "summary": "U.S. deficits, record leverage and the AI capex boom may collideâraising yields and tightening funding.",
           "publisher": "SeekingAlpha",
-          "published_at": "2026-08-14 16:05"
+          "published_at": "2026-08-18 02:31"
+        },
+        {
+          "title": "S&P 500: The Bull Market That Won't Die",
+          "summary": "The U.S. equity market's persistent strength is underpinned by structural forces beyond traditional fundamentals. Read more on SP500 stock here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-18 02:00"
         }
       ],
       "sec_filings_6m": [
@@ -700,9 +745,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-14 16:30:30",
+          "filed_at": "2026-08-17 08:41:33",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1182313/000118231326000010/xslF345X06/form4-08142026_040819.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -711,9 +756,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-14 16:30:24",
+          "filed_at": "2026-08-14 16:19:53",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1396440/000152562826000008/xslF345X06/form4-08142026_040817.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000065/information_table.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -722,9 +767,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-14 16:30:19",
+          "filed_at": "2026-08-12 17:13:10",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1007549/000100754926000008/xslF345X06/form4-08142026_040815.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000131026426000008/xslF345X06/wk-form4_1786569187.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -755,44 +800,70 @@
           }
         ]
       },
-      "screening_score": 72,
+      "screening_score": 90,
       "screening_details": {
-        "dividend_yield_pct": 541.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 5498297856,
+        "market_cap": 5449966944256,
         "cap_score": 20,
-        "debt_to_equity": 80.345,
-        "debt_score": 12
+        "revenue_growth_pct": 85.2,
+        "growth_score": 25,
+        "operating_margin_pct": 65.596,
+        "margin_score": 15,
+        "price_position_52w": 0.8408996826272941,
+        "price_score": 10,
+        "debt_to_equity": 6.555,
+        "debt_score": 20
       }
     },
-    "BXSL": {
-      "symbol": "BXSL",
-      "name": "Blackstone Secured Lending Fund",
-      "display_name": "Blackstone Secured Lending Fund",
+    "TSM": {
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "display_name": "Taiwan Semiconductor Manufacturing Company Limited",
       "data_limited": false,
-      "price": 24.68,
-      "high_24h": 25.07,
-      "low_24h": 24.68,
-      "high_1m": 25.07,
-      "low_1m": 22.71,
-      "fiftyTwoWeekHigh": 30.36,
-      "fiftyTwoWeekLow": 22.47,
-      "dividendYield": 1248.0,
-      "dividendRate": 3.08,
-      "exDividendDate": "1790726400",
+      "price": 430.94,
+      "high_24h": 435.71,
+      "low_24h": 426.8,
+      "high_1m": 436.04,
+      "low_1m": 372.72,
+      "fiftyTwoWeekHigh": 479.0,
+      "fiftyTwoWeekLow": 223.7,
+      "dividendYield": 102.0,
+      "dividendRate": 4.34,
+      "exDividendDate": "1789516800",
       "charts": {
-        "24h": "charts/BXSL_24h.png",
-        "1m": "charts/BXSL_1m.png",
-        "1y": "charts/BXSL_1y.png"
+        "24h": "charts/TSM_24h.png",
+        "1m": "charts/TSM_1m.png",
+        "1y": "charts/TSM_1y.png"
       },
       "news": [
         {
-          "title": "2 BDCs To Sell Before The Dividend Cuts Land",
-          "summary": "",
+          "title": "ASE Technology Surging As AI Demand Grows By LEAPs And Bounds",
+          "summary": "ASE Technology Holding Co., Ltd. Q2 beats on AI/data center demand; LEAP growth and heavy capex pressure FCF/margins. Click for this ASX update.",
           "publisher": "SeekingAlpha",
-          "published_at": "2026-08-16 18:15"
+          "published_at": "2026-08-17 22:07"
+        },
+        {
+          "title": "Dan Loeb Exits Nvidia, Meta And Broadcom — Bets Big On Warner Bros. Discovery",
+          "summary": "The investor exited Meta, Nvidia, Broadcom, KLA and Lam Research while adding major positions in Warner Bros. Discovery, Riot Platforms and Block.",
+          "publisher": "Benzinga",
+          "published_at": "2026-08-17 21:41"
+        },
+        {
+          "title": "Nvidia: One Number In Q2 Decides Where This Stock Goes",
+          "summary": "Nvidia Corporation stays a Strong Buy as AI demand turns into signed backlogs, supporting $91B revenue and stable marginsâclick to see what to watch for with NVDA.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-17 20:59"
+        },
+        {
+          "title": "$1000 Invested In Taiwan Semiconductor 20 Years Ago Would Be Worth This Much Today",
+          "summary": "Taiwan Semiconductor (NYSE:TSM) has outperformed the market over the past 20 years by 11.96% on an annualized basis producing an average annual return of 21.32%. Currently, Taiwan Semiconductor has a market",
+          "publisher": "Benzinga",
+          "published_at": "2026-08-17 19:30"
+        },
+        {
+          "title": "TSMC: A Bargain For The AI Skeleton",
+          "summary": "TSMC posts record Q2 results as margins hit 67.7% and guidance stays strong.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-08-17 19:12"
         }
       ],
       "sec_filings_6m": [
@@ -802,9 +873,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-12 16:17:03",
+          "filed_at": "2026-08-14 06:02:33",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026088376/ea0301710-8k_blackstone.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000541/a2026q2consolidatedreport-.htm",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -813,9 +884,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-06 06:43:32",
+          "filed_at": "2026-08-11 08:25:45",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026085889/ea0300654-8k_blackstone.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000539/sonysemiconductorsolutions.htm",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -824,9 +895,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-06 06:13:39",
+          "filed_at": "2026-08-11 07:45:48",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1736035/000173603526000016/bxsl-20260630.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000536/tsm-boardx20260811.htm",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -857,68 +928,70 @@
           }
         ]
       },
-      "screening_score": 72,
+      "screening_score": 90,
       "screening_details": {
-        "dividend_yield_pct": 1248.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 5749701120,
+        "market_cap": 2235214594048,
         "cap_score": 20,
-        "debt_to_equity": 126.897,
-        "debt_score": 12
+        "revenue_growth_pct": 36.0,
+        "growth_score": 25,
+        "operating_margin_pct": 60.344005,
+        "margin_score": 15,
+        "price_position_52w": 0.8118683901292598,
+        "price_score": 10,
+        "debt_to_equity": 16.504,
+        "debt_score": 20
       }
     },
-    "O": {
-      "symbol": "O",
-      "name": "Realty Income Corporation",
-      "display_name": "Realty Income Corporation",
+    "MU": {
+      "symbol": "MU",
+      "name": "MU",
+      "display_name": "MU",
       "data_limited": false,
-      "price": 62.74,
-      "high_24h": 63.28,
-      "low_24h": 62.69,
-      "high_1m": 66.87,
-      "low_1m": 61.27,
-      "fiftyTwoWeekHigh": 67.94,
-      "fiftyTwoWeekLow": 55.86,
-      "dividendYield": 518.0,
-      "dividendRate": 3.25,
-      "exDividendDate": "1785456000",
+      "price": 1011.62,
+      "high_24h": 1036.13,
+      "low_24h": 995.26,
+      "high_1m": 1036.13,
+      "low_1m": 737.88,
+      "fiftyTwoWeekHigh": 1255.0,
+      "fiftyTwoWeekLow": 113.46,
+      "dividendYield": 5.0,
+      "dividendRate": 0.53,
+      "exDividendDate": "1783296000",
       "charts": {
-        "24h": "charts/O_24h.png",
-        "1m": "charts/O_1m.png",
-        "1y": "charts/O_1y.png"
+        "24h": "charts/MU_24h.png",
+        "1m": "charts/MU_1m.png",
+        "1y": "charts/MU_1y.png"
       },
       "news": [
         {
-          "title": "I Am Sharing My 2 Trusted REITs For Reliable Retirement Income",
-          "summary": "",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-16 19:15"
+          "title": "These S&P500 stocks are the most active in today's session",
+          "summary": "Looking for the most active stocks in the S&P500 index on Monday? Dive into today's session and discover the stocks that are dominating the trading activity and setting the pace for the market.",
+          "publisher": "ChartMill",
+          "published_at": "2026-08-18 03:05"
         },
         {
-          "title": "Inflation Scare Takes A Breather",
-          "summary": "Stock market update: S&P 500 and Nasdaq hit new highs as CPI/PPI cool Fed fears; oil jumps and REITs stay active with M&A.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-16 18:00"
+          "title": "These S&P500 stocks are moving in today's session",
+          "summary": "Curious about the top performers within the S&P500 index in the middle of the day on Monday? Dive into the list of today's session's top gainers and losers for a comprehensive overview.",
+          "publisher": "ChartMill",
+          "published_at": "2026-08-18 01:35"
         },
         {
-          "title": "The One Chart Investors Can't Ignore As America's Debt Approaches $50 Trillion",
-          "summary": "",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-15 16:05"
+          "title": "Nvidia Is the Best S&P 500 Stock of the Past 10, 15, 20 Years — but 4 Stocks Beat It Over the Past 5 Years",
+          "summary": "Nvidia stock is the top stock gainer over the last 10, 15 and 20 years. Here&#39;s who beats the stock in five-year gains.",
+          "publisher": "Benzinga",
+          "published_at": "2026-08-18 00:53"
         },
         {
-          "title": "Agree Realty: 4% Yield, Monthly Dividends, Double-Digit Upside Potential Make It A Buy",
-          "summary": "",
+          "title": "Lockheed Martin + Sandisk: Balance And Diversification, Growth And Income",
+          "summary": "Steve CressÂ shares why balance and diversification is key right now.",
           "publisher": "SeekingAlpha",
-          "published_at": "2026-08-14 16:45"
+          "published_at": "2026-08-18 00:20"
         },
         {
-          "title": "My Near-Perfect $1 Million Retirement Portfolio",
-          "summary": "Seven-bucket retirement portfolio blueprint with specific picks for reliable income, attractive yield, and sustainable dividend growthâlearn the strategy...",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-14 16:05"
+          "title": "Micron Crosses $1,000: Here's How to Amplify the Trade with ETFs",
+          "summary": "Micron stock tops $1,000 after a 260%+ 2026 surge. See how 2X leveraged ETFs MUU and MULL are amplifying the AI memory boom.",
+          "publisher": "Benzinga",
+          "published_at": "2026-08-17 22:07"
         }
       ],
       "sec_filings_6m": [
@@ -928,9 +1001,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-14 16:35:01",
+          "filed_at": "2026-07-28 19:20:06",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/726728/000110465926097260/tm2622133d3_8k.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -939,9 +1012,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-12 06:02:30",
+          "filed_at": "2026-07-28 19:19:14",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/726728/000110465926094314/tm2622133d2_8k.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000013/xslF345X06/primarydocument.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -950,9 +1023,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-11 16:40:21",
+          "filed_at": "2026-07-27 19:30:17",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/726728/000110465926094098/tm2622133d1_8k.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000165214926000005/xslF345X06/primarydocument.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -983,247 +1056,133 @@
           }
         ]
       },
-      "screening_score": 72,
+      "screening_score": 90,
       "screening_details": {
-        "dividend_yield_pct": 518.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 59364712448,
+        "market_cap": 1142663544832,
         "cap_score": 20,
-        "debt_to_equity": 74.722,
-        "debt_score": 12
-      }
-    },
-    "STAG": {
-      "symbol": "STAG",
-      "name": "STAG Industrial, Inc.",
-      "display_name": "STAG Industrial, Inc.",
-      "data_limited": false,
-      "price": 36.75,
-      "high_24h": 37.11,
-      "low_24h": 36.71,
-      "high_1m": 42.61,
-      "low_1m": 36.5,
-      "fiftyTwoWeekHigh": 42.61,
-      "fiftyTwoWeekLow": 34.33,
-      "dividendYield": 422.0,
-      "dividendRate": 1.55,
-      "exDividendDate": "1790726400",
-      "charts": {
-        "24h": "charts/STAG_24h.png",
-        "1m": "charts/STAG_1m.png",
-        "1y": "charts/STAG_1y.png"
-      },
-      "news": [
-        {
-          "title": "Why Stag Industrial (STAG) is a Top Dividend Stock for Your Portfolio",
-          "summary": "Dividends are one of the best benefits to being a shareholder, but finding a great dividend stock is no easy task. Does Stag (STAG) have what it takes? Let's find out.",
-          "publisher": "Zacks",
-          "published_at": "2026-08-14T15:45"
-        },
-        {
-          "title": "5 Monthly Dividend Stocks Retirees Can Count On in August",
-          "summary": "When grocery bills and utility payments arrive monthly but your dividends do not, the timing gap quietly erodes retirement income. These five stocks close that gap while navigating rising interest costs, REIT transitions, and a Fed that could move again before year end.",
-          "publisher": "24/7 Wall St.",
-          "published_at": "2026-08-13T11:00"
-        },
-        {
-          "title": "This $575,000 Portfolio Pays More Cash Every Month Than $1 Million in the S&P 500",
-          "summary": "A smaller portfolio built around the right income assets can throw off more cash every year than a million dollars sitting in the S&P 500, but the tradeoffs between each yield tier will determine whether that income grows or quietly erodes.",
-          "publisher": "24/7 Wall St.",
-          "published_at": "2026-08-09T03:08"
-        },
-        {
-          "title": "Stag Industrial Q2 Earnings Call Highlights",
-          "summary": "Stag Industrial (NYSE:STAG) said industrial real estate fundamentals continued to stabilize during the second quarter of 2026, citing stronger absorption, a reduced development pipeline and demand from e-commerce, manufacturing and data center-related users. Chief Executive Officer Bill Crooker sai",
-          "publisher": "MarketBeat",
-          "published_at": "2026-07-30T12:03"
-        },
-        {
-          "title": "Does STAG Industrial (STAG) Pairing Dividend Support With New Deals Reveal Its Real Capital Priorities?",
-          "summary": "STAG Industrial, Inc. reported its second-quarter 2026 results, with revenue rising to US$224.37 million and net income to US$52.92 million, and its board authorized a third-quarter cash dividend of US$0.3875 per share payable on October 15, 2026. Alongside the earnings release, STAG expanded its industrial footprint with seven building acquisitions, launched a build-to-suit project in Dallas, and refinanced term loans to extend debt maturities to 2032, underscoring active portfolio and...",
-          "publisher": "Simply Wall St.",
-          "published_at": "2026-07-30T07:08"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-07-28 16:08:49",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1479094/000147909426000026/stag-20260630.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-07-28 16:07:48",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1479094/000147909426000025/q22026earningsrelease.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-07-22 16:15:20",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1479094/000110465926085810/tm2620892d1_8k.htm",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 72,
-      "screening_details": {
-        "dividend_yield_pct": 422.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 7232496640,
-        "cap_score": 20,
-        "debt_to_equity": 93.78,
-        "debt_score": 12
+        "revenue_growth_pct": 345.7,
+        "growth_score": 25,
+        "operating_margin_pct": 80.370003,
+        "margin_score": 15,
+        "price_position_52w": 0.7869106645408833,
+        "price_score": 10,
+        "debt_to_equity": 6.33,
+        "debt_score": 20
       }
     }
   },
   "candidate_rankings": [
     {
-      "symbol": "ARCC",
-      "name": "Ares Capital Corporation",
-      "score": 72,
-      "dividend_yield_pct": 966.0,
+      "symbol": "AVGO",
+      "name": "Broadcom Inc.",
+      "score": 96,
+      "dividend_yield_pct": 66.0,
       "details": {
-        "dividend_yield_pct": 966.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 14267114496,
+        "market_cap": 1867017224192,
         "cap_score": 20,
-        "debt_to_equity": 114.117,
-        "debt_score": 12
+        "revenue_growth_pct": 47.9,
+        "growth_score": 25,
+        "operating_margin_pct": 48.988,
+        "margin_score": 15,
+        "price_position_52w": 0.5187444282832074,
+        "price_score": 16,
+        "debt_to_equity": 74.018,
+        "debt_score": 20
       }
     },
     {
-      "symbol": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "score": 72,
-      "dividend_yield_pct": 541.0,
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "score": 92,
+      "dividend_yield_pct": 73.0,
       "details": {
-        "dividend_yield_pct": 541.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 5498297856,
+        "market_cap": 3566861025280,
         "cap_score": 20,
-        "debt_to_equity": 80.345,
-        "debt_score": 12
+        "revenue_growth_pct": 17.7,
+        "growth_score": 21,
+        "operating_margin_pct": 45.111000000000004,
+        "margin_score": 15,
+        "price_position_52w": 0.6412575787209075,
+        "price_score": 16,
+        "debt_to_equity": 29.118,
+        "debt_score": 20
       }
     },
     {
-      "symbol": "BXSL",
-      "name": "Blackstone Secured Lending Fund",
-      "score": 72,
-      "dividend_yield_pct": 1248.0,
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "score": 90,
+      "dividend_yield_pct": 44.0,
       "details": {
-        "dividend_yield_pct": 1248.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 5749701120,
+        "market_cap": 5449966944256,
         "cap_score": 20,
-        "debt_to_equity": 126.897,
-        "debt_score": 12
+        "revenue_growth_pct": 85.2,
+        "growth_score": 25,
+        "operating_margin_pct": 65.596,
+        "margin_score": 15,
+        "price_position_52w": 0.8408996826272941,
+        "price_score": 10,
+        "debt_to_equity": 6.555,
+        "debt_score": 20
       }
     },
     {
-      "symbol": "O",
-      "name": "Realty Income Corporation",
-      "score": 72,
-      "dividend_yield_pct": 518.0,
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "score": 90,
+      "dividend_yield_pct": 102.0,
       "details": {
-        "dividend_yield_pct": 518.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 59364712448,
+        "market_cap": 2235214594048,
         "cap_score": 20,
-        "debt_to_equity": 74.722,
-        "debt_score": 12
+        "revenue_growth_pct": 36.0,
+        "growth_score": 25,
+        "operating_margin_pct": 60.344005,
+        "margin_score": 15,
+        "price_position_52w": 0.8118683901292598,
+        "price_score": 10,
+        "debt_to_equity": 16.504,
+        "debt_score": 20
       }
     },
     {
-      "symbol": "STAG",
-      "name": "STAG Industrial, Inc.",
-      "score": 72,
-      "dividend_yield_pct": 422.0,
+      "symbol": "MU",
+      "name": "Micron Technology, Inc.",
+      "score": 90,
+      "dividend_yield_pct": 5.0,
       "details": {
-        "dividend_yield_pct": 422.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 7232496640,
+        "market_cap": 1142663544832,
         "cap_score": 20,
-        "debt_to_equity": 93.78,
-        "debt_score": 12
+        "revenue_growth_pct": 345.7,
+        "growth_score": 25,
+        "operating_margin_pct": 80.370003,
+        "margin_score": 15,
+        "price_position_52w": 0.7869106645408833,
+        "price_score": 10,
+        "debt_to_equity": 6.33,
+        "debt_score": 20
       }
     }
   ],
   "screening_meta": {
-    "mode": "dividend",
-    "title": "고배당/현금흐름 후보",
-    "seed_pool_size": 54,
+    "mode": "theme",
+    "title": "모멘텀/테마 후보",
+    "seed_pool_size": 114,
     "ai_selected_count": 20,
-    "scored_count": 19,
+    "scored_count": 20,
     "top5": [
-      "ARCC",
-      "MAIN",
-      "BXSL",
-      "O",
-      "STAG"
+      "AVGO",
+      "MSFT",
+      "NVDA",
+      "TSM",
+      "MU"
     ],
     "max_screening_candidates": 20
   },
   "api_stats": {
-    "yfinance": 30,
-    "news": 10,
-    "fmp": 10,
-    "charts": 30,
+    "yfinance": 29,
+    "news": 9,
+    "fmp": 9,
+    "charts": 27,
     "limits": {
       "max_screening_candidates": 20,
       "news_per_ticker": 5,
