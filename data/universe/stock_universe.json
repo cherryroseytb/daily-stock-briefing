@@ -1,6 +1,6 @@
 {
-  "version": 17,
-  "updated_at": "2026-08-17 05:19 KST",
+  "version": 18,
+  "updated_at": "2026-08-24 05:20 KST",
   "refresh_policy": {
     "dividend": "monthly",
     "theme": "weekly",
@@ -63,25 +63,21 @@
     "ABR"
   ],
   "theme": {
-    "AI Chip Innovators": [
+    "AI & Core Semiconductors": [
       "NVDA",
       "AVGO",
       "AMD",
       "TSM",
       "ARM",
       "QCOM",
-      "MRVL",
-      "MU"
-    ],
-    "Semiconductor Equipment & Materials": [
       "ASML",
       "AMAT",
       "LRCX",
       "KLAC",
-      "TER",
-      "MKS"
+      "MU",
+      "MRVL"
     ],
-    "Enterprise AI & Cloud Software": [
+    "Enterprise Software & Cloud Growth": [
       "MSFT",
       "GOOGL",
       "ORCL",
@@ -90,10 +86,10 @@
       "CRM",
       "CDNS",
       "ANSS",
-      "HUBS",
-      "MDB"
+      "MDB",
+      "HUBS"
     ],
-    "Cybersecurity & Data Intelligence": [
+    "Cybersecurity & Data Resilience": [
       "CRWD",
       "PANW",
       "ZS",
@@ -101,10 +97,18 @@
       "OKTA",
       "CYBR",
       "NET",
-      "SNOW",
       "PLTR"
     ],
-    "Grid Modernization & Energy Transition": [
+    "Weight Loss & Metabolic Health": [
+      "LLY",
+      "NVO",
+      "AMGN",
+      "VKTX",
+      "DXCM",
+      "REGN",
+      "ABBV"
+    ],
+    "Energy Transition & Grid Modernization": [
       "PWR",
       "ETN",
       "GEV",
@@ -116,22 +120,14 @@
       "ENPH",
       "ITRI"
     ],
-    "Nuclear Energy & Uranium": [
+    "Nuclear Power & Uranium": [
       "CCJ",
       "CEG",
       "BWXT",
       "UEC",
       "NXE",
-      "LEU"
-    ],
-    "Weight Loss & Metabolic Health": [
-      "LLY",
-      "NVO",
-      "AMGN",
-      "VKTX",
-      "DXCM",
-      "ABBV",
-      "REGN"
+      "LEU",
+      "UUUU"
     ],
     "Industrial Automation & Robotics": [
       "ROK",
@@ -143,11 +139,9 @@
       "ITW",
       "AOS",
       "CGNX",
-      "PTC",
-      "FTV",
-      "ADSK"
+      "PTC"
     ],
-    "Defense & Aerospace": [
+    "Aerospace & Defense": [
       "LMT",
       "RTX",
       "NOC",
@@ -159,20 +153,21 @@
       "TDY",
       "TXT"
     ],
-    "Traditional Energy & Midstream": [
+    "Oil & Gas Production & Midstream": [
       "XOM",
       "CVX",
       "COP",
       "OXY",
+      "DVN",
+      "EOG",
+      "SLB",
       "EPD",
       "ET",
       "MPLX",
       "WMB",
-      "KMI",
-      "DVN",
-      "SLB"
+      "KMI"
     ],
-    "Infrastructure & Critical Materials": [
+    "Heavy Infrastructure & Basic Materials": [
       "CAT",
       "UNP",
       "CSX",
@@ -182,11 +177,10 @@
       "NUE",
       "VALE",
       "RIO",
-      "BHP",
       "FCX",
       "X"
     ],
-    "Digital Infrastructure & Data Centers": [
+    "Digital Infrastructure REITs": [
       "EQIX",
       "DLR",
       "IRM",
@@ -194,14 +188,14 @@
       "AMT",
       "SBAC"
     ],
-    "Agri-Tech & Food Security": [
+    "Agri-Business & Food Security": [
       "DE",
       "AGCO",
       "CNHI",
       "MOS",
       "NTR",
-      "BG",
-      "ADM"
+      "ADM",
+      "BG"
     ]
   },
   "quality": [
