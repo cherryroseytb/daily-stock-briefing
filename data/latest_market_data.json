@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-01 09:50",
+  "date": "2026-09-02 08:37",
   "report_profile": {
-    "type": "theme",
-    "title": "모멘텀/테마 후보",
-    "description": "최근 뉴스와 시장 모멘텀이 붙은 주요 테마 안에서 후보를 선별합니다."
+    "type": "quality",
+    "title": "장기 퀄리티 후보",
+    "description": "3년 이상 보유 관점에서 사업 품질, 재무 안정성, 성장성을 기준으로 선별합니다."
   },
   "market_data": {
     "ASML": {
@@ -11,9 +11,9 @@
       "name": "ASML Holding N.V.",
       "display_name": "ASML Holding N.V.",
       "data_limited": false,
-      "price": 1696.03,
-      "high_24h": 1716.9,
-      "low_24h": 1679.33,
+      "price": 1665.86,
+      "high_24h": 1683.74,
+      "low_24h": 1651.21,
       "high_1m": 1896.35,
       "low_1m": 1582.0,
       "fiftyTwoWeekHigh": 1999.96,
@@ -27,6 +27,24 @@
         "1y": "charts/ASML_1y.png"
       },
       "news": [
+        {
+          "title": "How ASML Can Hit $1 Trillion Value and Why the China Threat Is Overblown",
+          "summary": "ASML stock has dropped since reports emerged an unnamed Chinese company was mass producing lithography machines. That's a buying opportunity, according to UBS.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-01 23:59"
+        },
+        {
+          "title": "Does ASML's Dominant Position in EUV Signal Further Upside?",
+          "summary": "ASML's EUV dominance, rising AI chip demand and High-NA systems position it to capitalize on the semiconductor investment cycle.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-01 02:05"
+        },
+        {
+          "title": "ASML reports transactions under its current share buyback program",
+          "summary": "ASML reports transactions under its current share buyback program VELDHOVEN, the Netherlands – ASML Holding N.V. (ASML) reports the following transactions, conducted under ASML's current share buyback program. DateTotal repurchased sharesWeighted average priceTotal repurchased value24-Aug-2652,161€1,497.82€78,127,67425-Aug-2651,824€1,507.49€78,123,96526-Aug-2652,250€1,496.01€78,166,34027-Aug-2646,000€1,502.34€69,107,80128-Aug-2652,000€1,487.03€77,325,420 ASML’s current share buyback program was",
+          "publisher": "Yahoo",
+          "published_at": "2026-08-31 22:00"
+        },
         {
           "title": "ASML (NASDAQ:ASML) Embodies Quality Investing with Strong Returns and Cash Generation",
           "summary": "Discover why ASML stands out in quality investing: exceptional ROIC, strong cash flow, and low debt, despite a premium valuation.",
@@ -102,9 +120,9 @@
       "name": "Oxford Lane Capital Corp.",
       "display_name": "Oxford Lane Capital Corp.",
       "data_limited": false,
-      "price": 9.71,
-      "high_24h": 9.87,
-      "low_24h": 9.58,
+      "price": 9.61,
+      "high_24h": 9.7,
+      "low_24h": 9.56,
       "high_1m": 9.87,
       "low_1m": 8.86,
       "fiftyTwoWeekHigh": 18.6,
@@ -217,10 +235,10 @@
       "name": "QUALCOMM Incorporated",
       "display_name": "QUALCOMM Incorporated",
       "data_limited": false,
-      "price": 170.48,
-      "high_24h": 171.29,
-      "low_24h": 164.79,
-      "high_1m": 171.29,
+      "price": 166.63,
+      "high_24h": 167.29,
+      "low_24h": 162.21,
+      "high_1m": 171.38,
       "low_1m": 142.89,
       "fiftyTwoWeekHigh": 259.92,
       "fiftyTwoWeekLow": 121.99,
@@ -234,34 +252,34 @@
       },
       "news": [
         {
-          "title": "These S&P500 stocks are moving in today's session",
-          "summary": "Wondering what's happening in today's session for the S&P500 index? Stay informed with the top movers within the S&P500 index on Monday.",
-          "publisher": "ChartMill",
-          "published_at": "2026-09-01 04:05"
+          "title": "Can Qualcomm's Tie-Up With HUMAIN for AI PC Lift Its Shares?",
+          "summary": "QCOM expands its AI PC presence with HUMAIN's Horizon Ultra, powered by the Snapdragon X2 Elite platform.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 01:45"
         },
         {
-          "title": "Uncover the latest developments among S&P500 stocks in today's session.",
-          "summary": "Curious about the top performers within the S&P500 index in the middle of the day on Monday? Dive into the list of today's session's top gainers and losers for a comprehensive overview.",
+          "title": "What's going on in today's session: S&P500 gap up and gap down stocks",
+          "summary": "Curious about the market action on Tuesday? Dive into the US markets to explore the gap up and gap down stocks in the S&P500 index during today's session.",
           "publisher": "ChartMill",
-          "published_at": "2026-09-01 01:35"
+          "published_at": "2026-09-01 23:35"
         },
         {
-          "title": "Nomura Value Fund Q2 2026 Portfolio Activity",
-          "summary": "After outperforming its benchmark in 1Q2026, the Nomura Value Fund Institutional Class shares lost considerable ground to the Russell 1000Â® Value Index in 2Q2026. Read more here.",
+          "title": "Anthropic Announces Claude Fable 5.1 And Mythos 5.1",
+          "summary": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+          "publisher": "Benzinga",
+          "published_at": "2026-09-01 23:13"
+        },
+        {
+          "title": "4 Reasons Why SCHD May Be In A Trouble (Rating Downgrade)",
+          "summary": "",
           "publisher": "SeekingAlpha",
-          "published_at": "2026-08-31 23:11"
+          "published_at": "2026-09-01 18:30"
         },
         {
-          "title": "Qualcomm Outperforms Broader Market Slump: Analysts Eye Data Center Growth Ahead of Q4",
-          "summary": "Qualcomm stock jumps over 2% as Wall Street analysts weigh rising data center custom chip revenues against near-term smartphone margin pressures.",
-          "publisher": "Benzinga",
-          "published_at": "2026-08-31 22:18"
-        },
-        {
-          "title": "Qualcomm, Humain Launch Horizon Ultra AI PC",
-          "summary": "https://www.qualcomm.com/news/releases/2026/08/qualcomm-and-humain-unveil-horizon-ultra-ai-pc-at-leap-2026--bri",
-          "publisher": "Benzinga",
-          "published_at": "2026-08-31 20:42"
+          "title": "Qualcomm rival MediaTek jumps 10% after $3.5 billion Nvidia AI chip deal",
+          "summary": "The two companies will work on integrating Nvidia technology with MediaTek's custom AI chip business as well as other areas such as PCs and cars.",
+          "publisher": "CNBC",
+          "published_at": "2026-09-01 13:00"
         }
       ],
       "sec_filings_6m": [
@@ -332,11 +350,11 @@
       "name": "Amazon.com, Inc.",
       "display_name": "Amazon.com, Inc.",
       "data_limited": false,
-      "price": 259.93,
-      "high_24h": 264.26,
-      "low_24h": 257.15,
+      "price": 254.92,
+      "high_24h": 255.82,
+      "low_24h": 251.93,
       "high_1m": 287.2,
-      "low_1m": 255.02,
+      "low_1m": 251.93,
       "fiftyTwoWeekHigh": 287.2,
       "fiftyTwoWeekLow": 196.0,
       "dividendYield": 0,
@@ -349,34 +367,34 @@
       },
       "news": [
         {
-          "title": "Top dow jones movers in Monday's session",
-          "summary": "Get insights into the dow jones index performance on Monday. Explore the top gainers and losers within the dow jones index in today's session.",
+          "title": "Stay informed with the top movers within the dow jones index on Tuesday.",
+          "summary": "Get insights into the dow jones index performance on Tuesday. Explore the top gainers and losers within the dow jones index in today's session.",
           "publisher": "ChartMill",
-          "published_at": "2026-09-01 04:10"
+          "published_at": "2026-09-02 04:10"
         },
         {
-          "title": "Stay informed about the most active stocks in the S&P500 index on Monday's session.",
-          "summary": "Curious about the most active S&P500 stocks in today's session? Join us as we explore the US markets on Monday and uncover the stocks that are leading the way in terms of trading volume and market attention.",
-          "publisher": "ChartMill",
-          "published_at": "2026-09-01 03:05"
+          "title": "People Forget Amazon’s $600 Billion E-Commerce Business Is Bigger Than Microsoft",
+          "summary": "Amazon's e-commerce empire quietly rivals some of the world's largest corporations, yet investors keep treating it as the boring half of the business. Understanding what each division is actually worth changes everything about how you see the stock.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 04:04"
         },
         {
-          "title": "These dow jones stocks are moving in today's session",
-          "summary": "Curious about the top performers within the dow jones index in the middle of the day on Monday? Dive into the list of today's session's top gainers and losers for a comprehensive overview.",
-          "publisher": "ChartMill",
-          "published_at": "2026-09-01 01:40"
+          "title": "What Is a Small Modular Reactor, and Why Is Big Tech Signing Multi-Decade Deals for Them?",
+          "summary": "SMRs could make it much easier to deploy nuclear power plants.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 03:50"
         },
         {
-          "title": "Marvell: Market's Myopia On Alphabet Deal's Potential Is Baffling",
-          "summary": "Marvell Technology, Inc. post-earnings: Google partnership, AI/data center upside, and a valuation reset to 40x. Click for this MRVL earnings update.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-09-01 00:58"
+          "title": "Sector Update: Tech Stocks Fall Tuesday Afternoon",
+          "summary": "Tech stocks were lower Tuesday afternoon, with the State Street Technology Select Sector SPDR ETF (X",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 03:46"
         },
         {
-          "title": "Nvidia: Analyzing Its Datacenter Customers In A Changing Environment",
-          "summary": "Nvidia Corporation remains a Buy as hyperscaler and NeoCloud demand drives robust growth and profitability. Read more on NVDA stock here.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-09-01 00:48"
+          "title": "Amazon Doesn't Pay a Dividend and Constantly Dilutes Shareholders. Here's Why I'd Still Buy and Hold It Forever.",
+          "summary": "Amazon is a long-term, dividend-free growth investment whose powerful Prime ecosystem, expanding logistics network, and strategic investments create a massively competitive moat.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 03:43"
         }
       ],
       "sec_filings_6m": [
@@ -447,9 +465,9 @@
       "name": "Microsoft Corporation",
       "display_name": "Microsoft Corporation",
       "data_limited": false,
-      "price": 507.32,
-      "high_24h": 512.19,
-      "low_24h": 506.4,
+      "price": 501.15,
+      "high_24h": 505.97,
+      "low_24h": 496.78,
       "high_1m": 517.78,
       "low_1m": 474.11,
       "fiftyTwoWeekHigh": 553.72,
@@ -464,34 +482,34 @@
       },
       "news": [
         {
-          "title": "Take-Two Interactive Software: The Street Is Missing The Big Picture",
-          "summary": "Take-Two Interactive Software, Inc. may dip in the near term as GTA 6 preorders lag and valuation looks stretchedâyet long-term upside remains. Click for this TTWO stock update.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-09-01 02:04"
+          "title": "Dow Jones Software Giant Microsoft, AI Leader Palantir Eye Latest Entries",
+          "summary": "Dow Jones software giant Microsoft, along with Palantir stock, Shopify and ServiceNow, are in or near buy zones.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 04:18"
         },
         {
-          "title": "Apple Alleges Defendant In Trade Secret Case Against OpenAI Accessed Power Converter Circuit Schematic While At OpenAI; Alleges Defendant In Trade Secret Case Against OpenAI Trained AI Agent Using Proprietary Apple Information; Apple Says New Evidence Came To Light From MacBook Computer OpenAI Provided To Apple On August 21 As Part Of Legal Proceedings; Apple Is Asking U.S. Federal Court To Expedite Discovery Proceeding In Trade Secret Case Against OpenAI",
-          "summary": "- Reuters Citing Legal Filing",
-          "publisher": "Benzinga",
-          "published_at": "2026-09-01 01:14"
+          "title": "People Forget Amazon’s $600 Billion E-Commerce Business Is Bigger Than Microsoft",
+          "summary": "Amazon's e-commerce empire quietly rivals some of the world's largest corporations, yet investors keep treating it as the boring half of the business. Understanding what each division is actually worth changes everything about how you see the stock.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 04:04"
         },
         {
-          "title": "Nvidia: Analyzing Its Datacenter Customers In A Changing Environment",
-          "summary": "Nvidia Corporation remains a Buy as hyperscaler and NeoCloud demand drives robust growth and profitability. Read more on NVDA stock here.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-09-01 00:48"
+          "title": "Broadcom Boosts VMware AI Push to Challenge Nutanix & Microsoft",
+          "summary": "AVGO's VMware AI push gains traction with VCF 9.1, while NTNX and MSFT intensify competition across enterprise AI and hybrid cloud.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 03:59"
         },
         {
-          "title": "IREN: $19M Of Ebitda Against $30B Of CapEx",
-          "summary": "IREN Limited is downgraded to Strong Sell due to unsustainable economics and mounting financial risks. Click here to read this IREN stock update.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-09-01 00:46"
+          "title": "Registered Agents Inc Is Getting Into the Registry Game",
+          "summary": "Astronym™ is gearing up to be the independent software solution for domain registries worldwideSHERIDAN, Wyo., Sept. 01, 2026 (GLOBE NEWSWIRE) -- The domain registry world is about to get another player. Registered Agents Inc (RAI) is launching its own all-new registry infrastructure, built entirely from scratch, designed to give gTLD operators and ccTLDs more choice for the technology behind their domains.Astronym Registry™ is poised to be the independent alternative for TLD operators, registra",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 03:51"
         },
         {
-          "title": "Amazon Web Services, Microsoft Collaborate On Multicloud Networking",
-          "summary": "https://aws.amazon.com/interconnect/multicloud/",
-          "publisher": "Benzinga",
-          "published_at": "2026-08-31 23:56"
+          "title": "Microsoft Stock Drops as $41 Billion Capex Meets 4.8% Yields",
+          "summary": "Shares fell to $502.59 as rising bond yields raised the return bar for Microsoft's massive AI infrastructure investments.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 03:44"
         }
       ],
       "sec_filings_6m": [
@@ -501,9 +519,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-17 18:04:57",
+          "filed_at": "2026-09-01 18:09:06",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000145/xslF345X06/form4.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000159/xslF345X06/form4.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -512,9 +530,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-06 18:01:48",
+          "filed_at": "2026-09-01 18:08:46",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000143/xslF345X06/form4.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000158/xslF345X06/form4.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -523,9 +541,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-05 18:08:55",
+          "filed_at": "2026-09-01 18:08:27",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000141/xslF345X06/form4.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000157/xslF345X06/form4.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -555,6 +573,22 @@
             "reason": "unrecognized_form"
           }
         ]
+      },
+      "screening_score": 97,
+      "screening_details": {
+        "market_cap": 3720346861568,
+        "cap_score": 15,
+        "roe_pct": 34.039003,
+        "roe_score": 20,
+        "operating_margin_pct": 45.111000000000004,
+        "margin_score": 20,
+        "revenue_growth_pct": 17.7,
+        "earnings_growth_pct": 31.7,
+        "growth_score": 20,
+        "free_cashflow": 16545500160,
+        "cash_score": 15,
+        "price_position_52w": 0.7423234891453157,
+        "valuation_score": 7
       }
     },
     "AVGO": {
@@ -562,14 +596,14 @@
       "name": "Broadcom Inc.",
       "display_name": "Broadcom Inc.",
       "data_limited": false,
-      "price": 370.76,
-      "high_24h": 372.75,
-      "low_24h": 366.3,
+      "price": 369.65,
+      "high_24h": 371.4,
+      "low_24h": 362.0,
       "high_1m": 432.73,
       "low_1m": 350.06,
       "fiftyTwoWeekHigh": 495.0,
       "fiftyTwoWeekLow": 287.17,
-      "dividendYield": 71.0,
+      "dividendYield": 70.0,
       "dividendRate": 2.6,
       "exDividendDate": "1782086400",
       "charts": {
@@ -579,34 +613,34 @@
       },
       "news": [
         {
-          "title": "Broadcom Could Swing $139 Billion In Value After Earnings",
-          "summary": "Earnings season brings heightened volatility. See the five stocks with the biggest implied moves, including Broadcom, Snowflake, Dell and Palo Alto Networks.",
-          "publisher": "Benzinga",
-          "published_at": "2026-09-01 04:00"
-        },
-        {
-          "title": "Marvell: Market's Myopia On Alphabet Deal's Potential Is Baffling",
-          "summary": "Marvell Technology, Inc. post-earnings: Google partnership, AI/data center upside, and a valuation reset to 40x. Click for this MRVL earnings update.",
+          "title": "Nvidia: Betting Against AI's Landlord Is A Widow-Maker Trade",
+          "summary": "Nvidia Corporation is rated Strong Buy due to NeoCloud revenue-sharing, Hugging Face integration, and mega-deals. Click for this NVDA update.",
           "publisher": "SeekingAlpha",
-          "published_at": "2026-09-01 00:58"
+          "published_at": "2026-09-02 04:06"
         },
         {
-          "title": "Nvidia: Analyzing Its Datacenter Customers In A Changing Environment",
-          "summary": "Nvidia Corporation remains a Buy as hyperscaler and NeoCloud demand drives robust growth and profitability. Read more on NVDA stock here.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-09-01 00:48"
+          "title": "Broadcom Boosts VMware AI Push to Challenge Nutanix & Microsoft",
+          "summary": "AVGO's VMware AI push gains traction with VCF 9.1, while NTNX and MSFT intensify competition across enterprise AI and hybrid cloud.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 03:59"
         },
         {
-          "title": "AI Power Demand Doubles By 2027: Here's Ways To Position",
-          "summary": "AI data center power demand is reshaping utilities into growth plays. Read the full analysis here.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-31 22:45"
+          "title": "Broadcom (AVGO) Launches Private AI Cloud Tools, Is It Still Below Fair Value?",
+          "summary": "Broadcom (AVGO) has launched VMware Private AI Cloud, VMware AI Factory and the AgentMinder governance stack, giving enterprises tools to run AI models and autonomous agents close to their own data inside private clouds. Broadcom shares have been through a choppy few months, with the 90 day share price return down 22.72% and the 30 day share price return down 4.87%. At the same time, a 1 year total shareholder return of 25.09% and a very large 5 year total shareholder return suggest that...",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 02:16"
         },
         {
-          "title": "10 Information Technology Stocks Whale Activity In Today’s Session",
-          "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
-          "publisher": "Benzinga",
-          "published_at": "2026-08-31 22:35"
+          "title": "Morgan Stanley delivers bold pre-earnings verdict on Broadcom",
+          "summary": "Morgan Stanley sees massive AI growth ahead for the chip giant",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 01:12"
+        },
+        {
+          "title": "Broadcom Set to Report Q3 Earnings: Buy, Sell or Hold the Stock?",
+          "summary": "AVGO Q3 earnings are likely to benefit from surging AI chip demand and software growth, but margin pressure and a stretched valuation raise caution.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 01:02"
         }
       ],
       "sec_filings_6m": [
@@ -671,58 +705,73 @@
           }
         ]
       },
-      "screening_score": 96,
+      "screening_score": 100,
       "screening_details": {
-        "market_cap": 1761922252800,
-        "cap_score": 20,
-        "revenue_growth_pct": 47.9,
-        "growth_score": 25,
+        "market_cap": 1758782291968,
+        "cap_score": 15,
+        "roe_pct": 37.280998,
+        "roe_score": 20,
         "operating_margin_pct": 48.988,
-        "margin_score": 15,
-        "price_position_52w": 0.4001828417456573,
-        "price_score": 16,
-        "debt_to_equity": 74.018,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 47.9,
+        "earnings_growth_pct": 85.39999999999999,
+        "growth_score": 20,
+        "free_cashflow": 27212249088,
+        "cash_score": 15,
+        "price_position_52w": 0.3970071693210797,
+        "valuation_score": 10
       }
     },
-    "LRCX": {
-      "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "display_name": "Lam Research Corporation",
+    "GOOGL": {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "display_name": "Alphabet Inc.",
       "data_limited": false,
-      "price": 301.7,
-      "high_24h": 303.25,
-      "low_24h": 298.78,
-      "high_1m": 345.28,
-      "low_1m": 276.84,
-      "fiftyTwoWeekHigh": 438.5,
-      "fiftyTwoWeekLow": 94.11,
-      "dividendYield": 44.0,
-      "dividendRate": 1.32,
-      "exDividendDate": "1790121600",
+      "price": 335.01,
+      "high_24h": 337.2,
+      "low_24h": 333.06,
+      "high_1m": 384.48,
+      "low_1m": 333.06,
+      "fiftyTwoWeekHigh": 408.61,
+      "fiftyTwoWeekLow": 206.2,
+      "dividendYield": 25.0,
+      "dividendRate": 0.88,
+      "exDividendDate": "1788480000",
       "charts": {
-        "24h": "charts/LRCX_24h.png",
-        "1m": "charts/LRCX_1m.png",
-        "1y": "charts/LRCX_1y.png"
+        "24h": "charts/GOOGL_24h.png",
+        "1m": "charts/GOOGL_1m.png",
+        "1y": "charts/GOOGL_1y.png"
       },
       "news": [
         {
-          "title": "Lam Research: Chinese Exposure Is Falling, But So Might The Share Price",
-          "summary": "Lam Research Corporation is rated Sell due to mounting industry headwinds and deteriorating cash conversion. Read more on LRCX stock here.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-31 20:43"
+          "title": "Stay informed with the top movers within the dow jones index on Tuesday.",
+          "summary": "Get insights into the dow jones index performance on Tuesday. Explore the top gainers and losers within the dow jones index in today's session.",
+          "publisher": "ChartMill",
+          "published_at": "2026-09-02 04:10"
         },
         {
-          "title": "MU and SNDK are ‘Just Unbelievable’ Bargains as Mizuho Reiterates Bullish Stance on Memory Stocks",
-          "summary": "Analyst Nicholas Mugalli calls $MU and$SNDK &#39;unbelievable bargains&#39; as Mizuho and BofA reiterate bullish outlooks on memory stocks.",
+          "title": "EXCLUSIVE: DeepSeek Was Just the Start. New ETF Targets China’s AI Tigers in a 'Convergence Trade'",
+          "summary": "New ETF TGRZ targets China’s AI Tigers, including Z.ai. Kevin Carter, founder of EMXETF sees a potential valuation convergence trade beyond DeepSeek.",
           "publisher": "Benzinga",
-          "published_at": "2026-08-31 17:36"
+          "published_at": "2026-09-02 00:16"
         },
         {
-          "title": "Dividend Announcements: August 22-28, 2026",
-          "summary": "This week, nine stocks announced dividend increases, including three stocks I own. Check out the dividend announcements of the past week.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-08-31 06:37"
+          "title": "Anthropic Announces Claude Fable 5.1 And Mythos 5.1",
+          "summary": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+          "publisher": "Benzinga",
+          "published_at": "2026-09-01 23:13"
+        },
+        {
+          "title": "Google Is ‘Just the Beginning’: Rezolve AI Teases More Infrastructure Deals",
+          "summary": "Rezolve AI (RZLV) stock sank despite a 1,970% revenue jump to $130.8M in H1 2026. EPS missed estimates as rapid expansion costs rose.",
+          "publisher": "Benzinga",
+          "published_at": "2026-09-01 22:36"
+        },
+        {
+          "title": "Fervo Energy and Google Sign 396 MW PPA",
+          "summary": "Power purchase agreement marks world’s largest enhanced geothermal PPA to date and is expected to accelerate the delivery of 24/7, carbon-free power from the Cape Station GeoCluster in UtahHOUSTON, Sept. 01, 2026 (GLOBE NEWSWIRE) -- Fervo Energy (Nasdaq: FRVO), a global pioneer of next-generation geothermal energy, today announced a 396-megawatt (MW) power purchase agreement (PPA) with Google to enable the continued development of the Cape Station enhanced geothermal systems (EGS) GeoCluster, ex",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-01 22:00"
         }
       ],
       "sec_filings_6m": [
@@ -732,9 +781,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-27 17:20:05",
+          "filed_at": "2026-08-31 17:58:21",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000043/lrcx-20260824.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526377149/xslF345X06/ownership.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -743,9 +792,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-07 16:06:32",
+          "filed_at": "2026-08-28 16:08:08",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526374341/xslN-PX_X01/primary_doc.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -754,9 +803,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-07 13:24:30",
+          "filed_at": "2026-08-27 20:04:27",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000134360026000011/xslF345X06/wk-form4_1786123467.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1238734/000119312526371799/xslF345X06/ownership.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -787,46 +836,73 @@
           }
         ]
       },
-      "screening_score": 96,
+      "screening_score": 97,
       "screening_details": {
-        "market_cap": 377260736512,
-        "cap_score": 20,
-        "revenue_growth_pct": 30.0,
-        "growth_score": 25,
-        "operating_margin_pct": 37.390997999999996,
-        "margin_score": 15,
-        "price_position_52w": 0.6021661488428817,
-        "price_score": 16,
-        "debt_to_equity": 33.049,
-        "debt_score": 20
+        "market_cap": 4097272709120,
+        "cap_score": 15,
+        "roe_pct": 48.676,
+        "roe_score": 20,
+        "operating_margin_pct": 34.033,
+        "margin_score": 20,
+        "revenue_growth_pct": 24.2,
+        "earnings_growth_pct": 294.0,
+        "growth_score": 20,
+        "free_cashflow": 22665000960,
+        "cash_score": 15,
+        "price_position_52w": 0.6364310063732028,
+        "valuation_score": 7
       }
     },
-    "AMAT": {
-      "symbol": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "display_name": "Applied Materials, Inc.",
+    "META": {
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "display_name": "Meta Platforms, Inc.",
       "data_limited": false,
-      "price": 458.29,
-      "high_24h": 465.9,
-      "low_24h": 453.91,
-      "high_1m": 563.16,
-      "low_1m": 453.91,
-      "fiftyTwoWeekHigh": 739.67,
-      "fiftyTwoWeekLow": 154.47,
-      "dividendYield": 46.0,
-      "dividendRate": 2.12,
-      "exDividendDate": "1787184000",
+      "price": 578.53,
+      "high_24h": 584.9,
+      "low_24h": 556.47,
+      "high_1m": 612.43,
+      "low_1m": 537.27,
+      "fiftyTwoWeekHigh": 790.8,
+      "fiftyTwoWeekLow": 520.26,
+      "dividendYield": 36.0,
+      "dividendRate": 2.1,
+      "exDividendDate": "1781481600",
       "charts": {
-        "24h": "charts/AMAT_24h.png",
-        "1m": "charts/AMAT_1m.png",
-        "1y": "charts/AMAT_1y.png"
+        "24h": "charts/META_24h.png",
+        "1m": "charts/META_1m.png",
+        "1y": "charts/META_1y.png"
       },
       "news": [
         {
-          "title": "MU and SNDK are ‘Just Unbelievable’ Bargains as Mizuho Reiterates Bullish Stance on Memory Stocks",
-          "summary": "Analyst Nicholas Mugalli calls $MU and$SNDK &#39;unbelievable bargains&#39; as Mizuho and BofA reiterate bullish outlooks on memory stocks.",
-          "publisher": "Benzinga",
-          "published_at": "2026-08-31 17:36"
+          "title": "Oklo Sinks 5% as PJM Pulls Its Meta-Backed Ohio Project, NuScale Power Barely Budges",
+          "summary": "PJM yanked a Meta-backed nuclear campus from its grid queue, hitting Oklo with a company-specific blow on top of a sector already reeling from surging Treasury yields. How those two pressures compound tells investors something important about every pre-revenue reactor developer right now.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 03:57"
+        },
+        {
+          "title": "Jensen Huang Has Become World’s 8th Richest Person",
+          "summary": "Jensen Huang turned a modest chip startup into the backbone of the global AI arms race, and his personal fortune now rivals the biggest names in tech. But three mounting challenges could test whether Nvidia's reign at the top is as unshakeable as it appears.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 03:44"
+        },
+        {
+          "title": "The Market May Be Underestimating This Stock",
+          "summary": "Alphabet's cloud business just posted growth numbers that look more like a startup than a mega-cap, yet the stock still trades at a forward multiple that suggests the market hasn't noticed. Here's what the bears are missing.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 03:30"
+        },
+        {
+          "title": "Higher Treasury Yields Signal a Permanent—and Dangerous—Shift in the Bond Market",
+          "summary": "The ballooning federal debt, massive AI borrowing by Big Tech, and inflation are the reasons that economists and financial experts point to.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 02:59"
+        },
+        {
+          "title": "Big Tech Is Incapable of Solving Its Own Problem, Says Mukunda",
+          "summary": "Bill Gates, the billionaire co-founder of Microsoft Corp., published a 6,000-word essay on Aug. 26 saying that he would slow the development of artificial intelligence if he could. He elaborated in an interview with the New York Times, saying \"in private, people who understand how good this stuff is, and how much better it's getting, they're very worried\" but few are raising the issues in public. The public is already convinced the tech industry can't be trusted with its own creations. Some legal news last week explains why. A bipartisan coalition of 51 attorneys general announced a proposed settlement with Meta Platforms Inc. that obligates the social media company that runs Facebook and Instagram to put tight restrictions on how children use its platforms. Gautam Mukunda, Lecturer at the Yale School of Management and Bloomberg Opinion contributor, joins Bloomberg Intelligence to discuss.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 02:52"
         }
       ],
       "sec_filings_6m": [
@@ -836,9 +912,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-31 17:52:02",
+          "filed_at": "2026-08-20 18:37:07",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026059643/xslF345X06/wk-form4_1788213119.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326012729/xslF345X06/ownership.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -847,9 +923,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-31 17:48:35",
+          "filed_at": "2026-08-20 18:33:20",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026059640/xslF345X06/wk-form3_1788212912.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326012727/xslF345X06/ownership.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -858,9 +934,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-27 17:01:59",
+          "filed_at": "2026-08-20 18:29:43",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026059277/xslF345X06/wk-form4_1787864517.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326012726/xslF345X06/ownership.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -891,18 +967,21 @@
           }
         ]
       },
-      "screening_score": 92,
+      "screening_score": 97,
       "screening_details": {
-        "market_cap": 363777130496,
-        "cap_score": 20,
-        "revenue_growth_pct": 24.8,
-        "growth_score": 21,
-        "operating_margin_pct": 33.736,
-        "margin_score": 15,
-        "price_position_52w": 0.5193438140806562,
-        "price_score": 16,
-        "debt_to_equity": 28.666,
-        "debt_score": 20
+        "market_cap": 1473834123264,
+        "cap_score": 15,
+        "roe_pct": 29.848000000000003,
+        "roe_score": 17,
+        "operating_margin_pct": 34.827000000000005,
+        "margin_score": 20,
+        "revenue_growth_pct": 28.000000000000004,
+        "earnings_growth_pct": -13.4,
+        "growth_score": 20,
+        "free_cashflow": 21553625088,
+        "cash_score": 15,
+        "price_position_52w": 0.2154210098321874,
+        "valuation_score": 10
       }
     },
     "NVDA": {
@@ -910,14 +989,14 @@
       "name": "NVIDIA Corporation",
       "display_name": "NVIDIA Corporation",
       "data_limited": false,
-      "price": 220.88,
-      "high_24h": 221.3,
-      "low_24h": 216.21,
+      "price": 217.54,
+      "high_24h": 220.41,
+      "low_24h": 215.1,
       "high_1m": 230.47,
       "low_1m": 196.85,
       "fiftyTwoWeekHigh": 236.54,
       "fiftyTwoWeekLow": 164.07,
-      "dividendYield": 46.0,
+      "dividendYield": 45.0,
       "dividendRate": 1.0,
       "exDividendDate": "1788998400",
       "charts": {
@@ -927,34 +1006,34 @@
       },
       "news": [
         {
-          "title": "Nvidia: AI Boom Times Still Ahead",
-          "summary": "NVIDIA (NVDA) surges on 70â100% AI-driven revenue growth, big earnings beats, and cheap ~11x FY29 EPS. Read here for a detailed analysis.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-09-01 05:00"
+          "title": "Got $10,000 to Invest This September? These Energy Stocks Could Turn It Into Over $600 in Annual Income.",
+          "summary": "Energy Transfer and MPLX are reliable income-generating pipeline plays.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 04:50"
         },
         {
-          "title": "Top dow jones movers in Monday's session",
-          "summary": "Get insights into the dow jones index performance on Monday. Explore the top gainers and losers within the dow jones index in today's session.",
-          "publisher": "ChartMill",
-          "published_at": "2026-09-01 04:10"
+          "title": "I'm Planning to Downsize in Retirement. You May Want to Do the Same.",
+          "summary": "In my book, there's lots to be gained by moving to a smaller space.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 04:46"
         },
         {
-          "title": "Stay informed about the most active stocks in the S&P500 index on Monday's session.",
-          "summary": "Curious about the most active S&P500 stocks in today's session? Join us as we explore the US markets on Monday and uncover the stocks that are leading the way in terms of trading volume and market attention.",
-          "publisher": "ChartMill",
-          "published_at": "2026-09-01 03:05"
+          "title": "Why Interactive Brokers Stock Tumbled on Tuesday",
+          "summary": "A dose of uncertainty from Wall Street weighed on the shares.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 04:43"
         },
         {
-          "title": "These stocks are the most active in today's session",
-          "summary": "Monday's session is buzzing with activity. Check out the stocks that are attracting the most attention and driving market activity!",
-          "publisher": "ChartMill",
-          "published_at": "2026-09-01 03:00"
+          "title": "Stock Market Today: Nasdaq, Dow Slide As Oil Prices Spike; Shell, Exxon Get A Boost (Live Coverage)",
+          "summary": "Stock Market Today: The Dow Jones index sinks Tuesday as oil prices jump around 5% on news of new U.S. military attacks on Iran.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 04:36"
         },
         {
-          "title": "Nvidia: This Fortress Can Withstand The Sentiment Storm",
-          "summary": "Nvidiaâs full-stack AI platform, rising revenue per gigawatt, and enterprise breadth reinforce its position as core infrastructure for accelerated computing. Click for an NVDA stock update.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-09-01 02:45"
+          "title": "Nvidia Sells the Brains of the AI Boom. Something Else Is Selling the Muscle -- and It's Not on Wall Street's Radar.",
+          "summary": "AI data center owners are looking to cut operating costs. One way is to drop a century-old electricity convention and replace it with something surprising.",
+          "publisher": "Yahoo",
+          "published_at": "2026-09-02 04:35"
         }
       ],
       "sec_filings_6m": [
@@ -1019,128 +1098,21 @@
           }
         ]
       },
-      "screening_score": 90,
+      "screening_score": 97,
       "screening_details": {
-        "market_cap": 5331174293504,
-        "cap_score": 20,
-        "revenue_growth_pct": 105.89999999999999,
-        "growth_score": 25,
+        "market_cap": 5250523594752,
+        "cap_score": 15,
+        "roe_pct": 117.211,
+        "roe_score": 20,
         "operating_margin_pct": 66.236997,
-        "margin_score": 15,
-        "price_position_52w": 0.7825307023595972,
-        "price_score": 10,
-        "debt_to_equity": 16.971,
-        "debt_score": 20
-      }
-    },
-    "TSM": {
-      "symbol": "TSM",
-      "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "display_name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "data_limited": false,
-      "price": 415.1,
-      "high_24h": 423.8,
-      "low_24h": 414.6,
-      "high_1m": 436.04,
-      "low_1m": 398.2,
-      "fiftyTwoWeekHigh": 479.0,
-      "fiftyTwoWeekLow": 225.63,
-      "dividendYield": 104.0,
-      "dividendRate": 4.34,
-      "exDividendDate": "1789516800",
-      "charts": {
-        "24h": "charts/TSM_24h.png",
-        "1m": "charts/TSM_1m.png",
-        "1y": "charts/TSM_1y.png"
-      },
-      "news": [
-        {
-          "title": "AMD: Still Eating Intel's Lunch",
-          "summary": "Advanced Micro Devices, Inc. stock is cooling after a huge run. Click for why AMD's data center CPU dominance & upcoming EPYC Venice could drive the next leg higher.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-09-01 00:19"
-        },
-        {
-          "title": "Billionaire Investor Raises TSMC Stake 67% as Profit Soars 77%, Revenue Climbs 36%",
-          "summary": "Daniel Loeb increased his TSMC stake from 275,000 to 460,000 shares as AI demand drives strong revenue growth and record capital spending.",
-          "publisher": "Benzinga",
-          "published_at": "2026-08-31 23:58"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-08-25 06:17:27",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000545/tsm-monthend6kx20260825.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-08-20 07:41:41",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000543/xslF345X06/wk-form4_1787226096.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-08-14 06:02:33",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000541/a2026q2consolidatedreport-.htm",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 90,
-      "screening_details": {
-        "market_cap": 2154046423040,
-        "cap_score": 20,
-        "revenue_growth_pct": 36.0,
-        "growth_score": 25,
-        "operating_margin_pct": 60.344005,
-        "margin_score": 15,
-        "price_position_52w": 0.7486679559537435,
-        "price_score": 10,
-        "debt_to_equity": 16.504,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 105.89999999999999,
+        "earnings_growth_pct": 127.8,
+        "growth_score": 20,
+        "free_cashflow": 41809874944,
+        "cash_score": 15,
+        "price_position_52w": 0.73644266593073,
+        "valuation_score": 7
       }
     }
   },
@@ -1148,114 +1120,129 @@
     {
       "symbol": "AVGO",
       "name": "Broadcom Inc.",
-      "score": 96,
+      "score": 100,
+      "dividend_yield_pct": 70.0,
+      "details": {
+        "market_cap": 1758782291968,
+        "cap_score": 15,
+        "roe_pct": 37.280998,
+        "roe_score": 20,
+        "operating_margin_pct": 48.988,
+        "margin_score": 20,
+        "revenue_growth_pct": 47.9,
+        "earnings_growth_pct": 85.39999999999999,
+        "growth_score": 20,
+        "free_cashflow": 27212249088,
+        "cash_score": 15,
+        "price_position_52w": 0.3970071693210797,
+        "valuation_score": 10
+      }
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "score": 97,
       "dividend_yield_pct": 71.0,
       "details": {
-        "market_cap": 1761922252800,
-        "cap_score": 20,
-        "revenue_growth_pct": 47.9,
-        "growth_score": 25,
-        "operating_margin_pct": 48.988,
-        "margin_score": 15,
-        "price_position_52w": 0.4001828417456573,
-        "price_score": 16,
-        "debt_to_equity": 74.018,
-        "debt_score": 20
+        "market_cap": 3720346861568,
+        "cap_score": 15,
+        "roe_pct": 34.039003,
+        "roe_score": 20,
+        "operating_margin_pct": 45.111000000000004,
+        "margin_score": 20,
+        "revenue_growth_pct": 17.7,
+        "earnings_growth_pct": 31.7,
+        "growth_score": 20,
+        "free_cashflow": 16545500160,
+        "cash_score": 15,
+        "price_position_52w": 0.7423234891453157,
+        "valuation_score": 7
       }
     },
     {
-      "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "score": 96,
-      "dividend_yield_pct": 44.0,
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "score": 97,
+      "dividend_yield_pct": 25.0,
       "details": {
-        "market_cap": 377260736512,
-        "cap_score": 20,
-        "revenue_growth_pct": 30.0,
-        "growth_score": 25,
-        "operating_margin_pct": 37.390997999999996,
-        "margin_score": 15,
-        "price_position_52w": 0.6021661488428817,
-        "price_score": 16,
-        "debt_to_equity": 33.049,
-        "debt_score": 20
+        "market_cap": 4097272709120,
+        "cap_score": 15,
+        "roe_pct": 48.676,
+        "roe_score": 20,
+        "operating_margin_pct": 34.033,
+        "margin_score": 20,
+        "revenue_growth_pct": 24.2,
+        "earnings_growth_pct": 294.0,
+        "growth_score": 20,
+        "free_cashflow": 22665000960,
+        "cash_score": 15,
+        "price_position_52w": 0.6364310063732028,
+        "valuation_score": 7
       }
     },
     {
-      "symbol": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "score": 92,
-      "dividend_yield_pct": 46.0,
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "score": 97,
+      "dividend_yield_pct": 36.0,
       "details": {
-        "market_cap": 363777130496,
-        "cap_score": 20,
-        "revenue_growth_pct": 24.8,
-        "growth_score": 21,
-        "operating_margin_pct": 33.736,
-        "margin_score": 15,
-        "price_position_52w": 0.5193438140806562,
-        "price_score": 16,
-        "debt_to_equity": 28.666,
-        "debt_score": 20
+        "market_cap": 1473834123264,
+        "cap_score": 15,
+        "roe_pct": 29.848000000000003,
+        "roe_score": 17,
+        "operating_margin_pct": 34.827000000000005,
+        "margin_score": 20,
+        "revenue_growth_pct": 28.000000000000004,
+        "earnings_growth_pct": -13.4,
+        "growth_score": 20,
+        "free_cashflow": 21553625088,
+        "cash_score": 15,
+        "price_position_52w": 0.2154210098321874,
+        "valuation_score": 10
       }
     },
     {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
-      "score": 90,
-      "dividend_yield_pct": 46.0,
+      "score": 97,
+      "dividend_yield_pct": 45.0,
       "details": {
-        "market_cap": 5331174293504,
-        "cap_score": 20,
-        "revenue_growth_pct": 105.89999999999999,
-        "growth_score": 25,
+        "market_cap": 5250523594752,
+        "cap_score": 15,
+        "roe_pct": 117.211,
+        "roe_score": 20,
         "operating_margin_pct": 66.236997,
-        "margin_score": 15,
-        "price_position_52w": 0.7825307023595972,
-        "price_score": 10,
-        "debt_to_equity": 16.971,
-        "debt_score": 20
-      }
-    },
-    {
-      "symbol": "TSM",
-      "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "score": 90,
-      "dividend_yield_pct": 104.0,
-      "details": {
-        "market_cap": 2154046423040,
-        "cap_score": 20,
-        "revenue_growth_pct": 36.0,
-        "growth_score": 25,
-        "operating_margin_pct": 60.344005,
-        "margin_score": 15,
-        "price_position_52w": 0.7486679559537435,
-        "price_score": 10,
-        "debt_to_equity": 16.504,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 105.89999999999999,
+        "earnings_growth_pct": 127.8,
+        "growth_score": 20,
+        "free_cashflow": 41809874944,
+        "cash_score": 15,
+        "price_position_52w": 0.73644266593073,
+        "valuation_score": 7
       }
     }
   ],
   "screening_meta": {
-    "mode": "theme",
-    "title": "모멘텀/테마 후보",
-    "seed_pool_size": 125,
+    "mode": "quality",
+    "title": "장기 퀄리티 후보",
+    "seed_pool_size": 61,
     "ai_selected_count": 20,
     "scored_count": 20,
     "top5": [
       "AVGO",
-      "LRCX",
-      "AMAT",
-      "NVDA",
-      "TSM"
+      "MSFT",
+      "GOOGL",
+      "META",
+      "NVDA"
     ],
     "max_screening_candidates": 20
   },
   "api_stats": {
-    "yfinance": 30,
-    "news": 10,
-    "fmp": 10,
-    "charts": 30,
+    "yfinance": 29,
+    "news": 9,
+    "fmp": 9,
+    "charts": 27,
     "limits": {
       "max_screening_candidates": 20,
       "news_per_ticker": 5,
