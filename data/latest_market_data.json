@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-05 09:16",
+  "date": "2026-10-06 10:57",
   "report_profile": {
-    "type": "dividend",
-    "title": "고배당/현금흐름 후보",
-    "description": "배당률, 배당 지속성, 재무 안정성을 기준으로 현금흐름형 후보를 선별합니다."
+    "type": "theme",
+    "title": "모멘텀/테마 후보",
+    "description": "최근 뉴스와 시장 모멘텀이 붙은 주요 테마 안에서 후보를 선별합니다."
   },
   "market_data": {
     "ASML": {
@@ -11,9 +11,9 @@
       "name": "ASML Holding N.V.",
       "display_name": "ASML Holding N.V.",
       "data_limited": false,
-      "price": 1868.24,
-      "high_24h": 1873.5,
-      "low_24h": 1842.45,
+      "price": 1860.68,
+      "high_24h": 1869.67,
+      "low_24h": 1841.8,
       "high_1m": 1873.5,
       "low_1m": 1572.84,
       "fiftyTwoWeekHigh": 1999.96,
@@ -28,28 +28,34 @@
       },
       "news": [
         {
-          "title": "ASML Holding vs. Qualcomm: What Revenue Trends Tell Investors About These Semiconductor Industry Giants",
-          "summary": "ASML's momentum has flipped the script — it now outpaces Qualcomm in recent quarters after trailing for years, raising questions about whether this inversion will stick.",
+          "title": "Goldman Sachs Top European Stock Picks Have a Hidden Perk for Income Investors",
+          "summary": "Goldman Sachs handpicks European stocks with the highest conviction for outperformance, and four of October's top selections carry a benefit most growth-focused investors overlook entirely.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-04 07:52"
+          "published_at": "2026-10-05 21:45"
         },
         {
-          "title": "ASML vs. Taiwan Semiconductor Manufacturing Company: What Revenue Trends Tell Investors About These Companies Tied to Artificial Intelligence",
-          "summary": "TSMC has consistently outpaced ASML in absolute revenue across eight quarters, but ASML's recent acceleration hints at a shifting competitive dynamic.",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-04 01:34"
-        },
-        {
-          "title": "The AI Chip Revolution Wouldn’t Be Possible Without This Company",
-          "summary": "Every major AI chip runs through one company's fabs, and its stock still trades cheaper than the customers that depend on it. Here is why analysts keep raising their targets despite a geopolitical sword hanging over the business.",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-04 00:30"
-        },
-        {
-          "title": "Connection Announces Partnership With Microsoft, Qualcomm, And OEM Partners To Launch Copilot+ PCs, A New Generation Of Windows-Based Devices For AI Workloads",
+          "title": "GAM: This Fund May Be A Better Bet Than The S&P 500 Index",
           "summary": "",
-          "publisher": "Benzinga",
-          "published_at": "2026-10-02 22:06"
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-10-05 19:15"
+        },
+        {
+          "title": "ASML Has No Real Competitor in Advanced Chipmaking Equipment. Here's What $1,000 Invested Today Could Be Worth by 2030.",
+          "summary": "The tech giant has a fantastic moat.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-05 18:22"
+        },
+        {
+          "title": "Can Europe’s industrial legacy give it an AI advantage?",
+          "summary": "Siemens is betting big on industrial AI—and Europe's manufacturers have the data that could give it an edge.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-05 16:00"
+        },
+        {
+          "title": "Qualcomm Licenses Patents on Huawei’s LogicFolding Chip Tech",
+          "summary": "Qualcomm Inc. has agreed to license patents underpinning Huawei Technologies Co.’s novel LogicFolding chipmaking technique, a win for the Chinese company and its push to advance in overseas AI markets.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-05 15:00"
         }
       ],
       "sec_filings_6m": [
@@ -120,12 +126,12 @@
       "name": "Oxford Lane Capital Corp.",
       "display_name": "Oxford Lane Capital Corp.",
       "data_limited": false,
-      "price": 8.93,
-      "high_24h": 9.03,
-      "low_24h": 8.85,
-      "high_1m": 9.63,
+      "price": 8.94,
+      "high_24h": 9.06,
+      "low_24h": 8.86,
+      "high_1m": 9.57,
       "low_1m": 8.73,
-      "fiftyTwoWeekHigh": 17.11,
+      "fiftyTwoWeekHigh": 16.94,
       "fiftyTwoWeekLow": 8.01,
       "dividendYield": 2694.0,
       "dividendRate": 2.4,
@@ -135,14 +141,7 @@
         "1m": "charts/OXLC_1m.png",
         "1y": "charts/OXLC_1y.png"
       },
-      "news": [
-        {
-          "title": "The 5.3% Treasury Yield Is Bait, Not A Gift",
-          "summary": "The ârisk-freeâ trade may be riskier than you think. Click here to read the full analysis and alternative investment ideas.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-10-02 18:15"
-        }
-      ],
+      "news": [],
       "sec_filings_6m": [
         {
           "form_type": "",
@@ -211,11 +210,11 @@
       "name": "QUALCOMM Incorporated",
       "display_name": "QUALCOMM Incorporated",
       "data_limited": false,
-      "price": 184.91,
-      "high_24h": 188.95,
-      "low_24h": 183.36,
+      "price": 180.84,
+      "high_24h": 185.48,
+      "low_24h": 180.31,
       "high_1m": 205.85,
-      "low_1m": 164.88,
+      "low_1m": 170.51,
       "fiftyTwoWeekHigh": 259.92,
       "fiftyTwoWeekLow": 121.99,
       "dividendYield": 199.0,
@@ -228,34 +227,34 @@
       },
       "news": [
         {
-          "title": "3 Semiconductor Stocks With Fortress Balance Sheets and Proven Dividend Raises",
-          "summary": "Most chipmakers struggle to sustain dividends through brutal industry downturns, but three semiconductor companies have quietly built the cash flow machines and balance sheet discipline to keep raising payouts no matter where the cycle goes.",
+          "title": "Nasdaq 100 Hits Record Highs As Investors Shrug Off Pressure From Soaring Yields — NVDA, SPCX, CRML, TSLA, QCOM In Focus",
+          "summary": "The ISM report showed that the Purchasing Managers' Index for services came in at 54.9% in September, roughly in line with expectations.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-04 21:45"
+          "published_at": "2026-10-06 07:09"
         },
         {
-          "title": "Here’s the Dividend ETF I’d Invest $100 a Month Into Starting in October",
-          "summary": "A recent pullback and a fresh dividend payout make October an unusual entry point for one overlooked ETF, but the real case for investing $100 a month here has nothing to do with timing the market.",
+          "title": "Qualcomm Can Grow Even as U.S. EV Sales Fall",
+          "summary": "U.S. electric vehicle sales are sliding, yet Qualcomm's automotive revenue keeps climbing at a pace that defies the headline numbers. The reason has less to do with EVs than with something most investors overlook entirely.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-04 20:30"
+          "published_at": "2026-10-06 05:45"
         },
         {
-          "title": "President Trump On Sunday, Announced Formation Of Super Intelligence Force To Coordinate Federal Government Super Intelligence Efforts, Led By Jay Clayton, Andrew Ferguson, Emil Michael, Scott Kupor",
-          "summary": "https://truthsocial.com/@realDonaldTrump/117382616783706638 ",
-          "publisher": "Benzinga",
-          "published_at": "2026-10-04 17:41"
+          "title": "China is 'fully' catching up on one part of the AI race, but the US has nothing to fear",
+          "summary": "Business Insider Today executive editor and anchor Dan DeFrancesco chats with Futurum chief market strategist Shay Boloor about China \"closing in\" on the US's progress with AI.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-06 04:00"
         },
         {
-          "title": "Micron Technology vs. Qualcomm: What Revenue Trends Tell Investors About These Tech Companies",
-          "summary": "Micron's revenue surged 432% over two years while Qualcomm's declined, widening a gap that raises questions about sector dynamics and competitive positioning.",
+          "title": "The Highest-Beta Name in Big Tech Just Ran. Here’s the Risk",
+          "summary": "Arm just posted a 187% year-to-date run on the back of real AI demand, but a beta of 3.89 turns every market hiccup into a violent swing, and the stock has already priced in a lot of good news. The question is whether the fundamentals can actually catch the valuation.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-04 14:40"
+          "published_at": "2026-10-06 02:30"
         },
         {
-          "title": "Can Agentic AI Power Qualcomm’s (QCOM) Next Growth Cycle?",
-          "summary": "For years, Qualcomm Incorporated (NASDAQ:QCOM) has maintained its position in the mobile chip market. Its investment thesis has largely depended on smartphone demand. However, the company believes the next growth phase lies in agentic AI. It is of the view that increasingly capable AI agents will operate directly on consumer devices. At Snapdragon Summit, the […]",
+          "title": "Taiwan Semiconductor Gains 2% to Record as Musk Confirms Early Terafab Talks; Broadcom Rises 2%, Qualcomm Pulls Back",
+          "summary": "Elon Musk confirmed talks between his ambitious Texas chip venture and the world's largest foundry, sending one semiconductor giant to a record high while splitting the broader chip sector in an unusual way.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-04 10:11"
+          "published_at": "2026-10-06 02:02"
         }
       ],
       "sec_filings_6m": [
@@ -326,10 +325,10 @@
       "name": "Amazon.com, Inc.",
       "display_name": "Amazon.com, Inc.",
       "data_limited": false,
-      "price": 251.53,
-      "high_24h": 253.56,
-      "low_24h": 250.02,
-      "high_1m": 261.12,
+      "price": 251.51,
+      "high_24h": 254.53,
+      "low_24h": 250.18,
+      "high_1m": 259.49,
       "low_1m": 244.3,
       "fiftyTwoWeekHigh": 287.2,
       "fiftyTwoWeekLow": 196.0,
@@ -343,37 +342,48 @@
       },
       "news": [
         {
-          "title": "Amazon vs. Alphabet: Which AI Cloud Stock Makes the Better Case After the Spending Bill?",
-          "summary": "Amazon’s cloud business earns almost twice as much operating profit as Google Cloud. Google Cloud is growing more than twice as fast. Choosing between the stocks requires deciding which advantage will survive the enormous bill for building the next generation of AI infrastructure. Amazon.com, Inc. (NASDAQ:AMZN) and Alphabet Inc. (NASDAQ:GOOGL) give shareholders much more than […]",
+          "title": "Amazon, LA Olympics Organizer Take Over 39-Acre Site Formerly Home To Forever 21",
+          "summary": "Amazon bought two buildings at the former Forever 21 HQ. LA28 leased the remaining building.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-05 08:24"
+          "published_at": "2026-10-06 06:42"
         },
         {
-          "title": "Is Cognizant’s AI-Led Delivery Shift Altering The Investment Case For Cognizant Technology Solutions (CTSH)?",
-          "summary": "Cognizant recently worked with ACI Worldwide to deploy the BASE24-eps payments platform on AWS in a non-production test, where it ran at more than double its target transaction load for 30 minutes and processed over 4.6 million transactions with no failures using managed services such as Amazon EC2 and Amazon RDS for PostgreSQL. In separate work with Cognition, Cognizant reported that using Devin, an AI software engineer, on Odyssey Logistics’ systems redevelopment materially cut time to...",
+          "title": "This \"Magnificent Seven\" Stock Could Be Overdue for a Big Rally",
+          "summary": "Amazon has tremendous growth opportunities in artificial intelligence that don't appear to be priced into its valuation.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-05 04:08"
+          "published_at": "2026-10-06 06:15"
         },
         {
-          "title": "Pay Me While I Wait: 3 Turnaround Stocks That Keep Paying Investors Through the Rebuild",
-          "summary": "Three struggling companies keep sending dividend checks while investors wait for their repairs to kick in, but only one of them has a yield that cash flow actually supports without a fight.",
+          "title": "Pinterest stock dips as company names Amazon veteran as CFO",
+          "summary": "Investing.com -- Pinterest Inc (NYSE:PINS) shares fell nearly 2% in after-hours trading Monday after the company announced the appointment of James Dibbo as Chief Financial Officer, effective October 26, 2026.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-05 01:15"
+          "published_at": "2026-10-06 05:54"
         },
         {
-          "title": "Amazon AWS CEO reveals surprising risk to AI stocks and U.S. economy",
-          "summary": "Local resistance is creating a new problem for Big Tech.",
+          "title": "Pinterest Appoints James Dibbo Chief Financial Officer",
+          "summary": "SAN FRANCISCO, October 05, 2026--Pinterest, Inc. (NYSE: PINS) today announced that James Dibbo has been appointed Chief Financial Officer, effective October 26, 2026. Dibbo will report to Bill Ready, Pinterest’s Chief Executive Officer, and will lead the company’s global finance organization, including finance, accounting, FP&A, investor relations, treasury, tax, business and corporate development, internal audit and workplace.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-05 01:03"
+          "published_at": "2026-10-06 05:15"
         },
         {
-          "title": "Jim Cramer Says He May Quit Amazon for the Rival That Jumped 24% in a Month",
-          "summary": "Jim Cramer shocked viewers by questioning his loyalty to Amazon on live television after watching a Meta AI demo, and the timing landed against a backdrop of sharply diverging stock moves that has Wall Street debating which company controls the future of online shopping.",
+          "title": "Could Nvidia reach a $6T market cap by the end of October?",
+          "summary": "As  Nvidia (NVDA) stock continues to reach record highs, Wedbush managing director of equity research and hardware, Matt Bryson, explains what's ahead for the company.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-05 00:58"
+          "published_at": "2026-10-06 04:41"
         }
       ],
       "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-10-05 16:08:16",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000026/xslF345X06/wk-form4_1791230893.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
         {
           "form_type": "",
           "form_label": "기타 SEC 공시",
@@ -394,17 +404,6 @@
           "filed_at": "2026-09-24 08:30:49",
           "source": "SEC/FMP",
           "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926110227/tm2625860d1_8a12b.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-09-14 16:45:41",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107526/tm2624614d5_8k.htm",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -441,10 +440,10 @@
       "name": "Microsoft Corporation",
       "display_name": "Microsoft Corporation",
       "data_limited": false,
-      "price": 517.86,
-      "high_24h": 522.5,
-      "low_24h": 513.66,
-      "high_1m": 522.85,
+      "price": 525.49,
+      "high_24h": 532.35,
+      "low_24h": 521.53,
+      "high_1m": 532.35,
       "low_1m": 486.0,
       "fiftyTwoWeekHigh": 553.72,
       "fiftyTwoWeekLow": 349.2,
@@ -458,34 +457,34 @@
       },
       "news": [
         {
-          "title": "Is Copilot Microsoft's Secret Weapon in the AI Arms Race?",
-          "summary": "Microsoft isn't always the first company that comes up when AI investments are discussed.",
+          "title": "Microsoft cutting off a best-seller with no extension on Oct. 13",
+          "summary": "If you don’t upgrade, you’re putting your computer and anyone else on your network at risk.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-05 03:20"
+          "published_at": "2026-10-06 08:12"
         },
         {
-          "title": "VFLO And CGDV: The Perfect Pairing For AI Growth",
-          "summary": "Compare VFLO vs CGDV ETFs: VFLO offers better value (15.8x P/E) and AI tailwinds, while CGDV adds mega-cap dividends.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-10-05 01:03"
+          "title": "Meta And Microsoft Reportedly Trim Anthropic Reliance as Internal AI Tools Take Center Stage",
+          "summary": "Meta Platforms and Microsoft are actively curbing internal employee use of Anthropic's Claude AI models to control rising costs.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-06 08:06"
         },
         {
-          "title": "Accenture vs. Microsoft: Which Technology Stock Is a Better Buy in 2026?",
-          "summary": "One company generates some of the highest profit margins in enterprise technology. The other offers steady consulting growth at a more accessible valuation. The financial gap between them is significant.",
+          "title": "What Anthropic and Microsoft are saying about 'AI consciousness'",
+          "summary": "Yahoo Finance Technology Editor Dan Howley discusses the debate about AI consciousness among various tech leaders.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-05 00:58"
+          "published_at": "2026-10-06 05:55"
         },
         {
-          "title": "AI Is Burning Through More Money Than Any Technology Boom in History — Now Comes the Hard Part",
-          "summary": "Alphabet just posted a quarter where it spent more building AI than its entire business brought in as cash, and it is not alone. The bill for the biggest infrastructure bet in corporate history is coming due, and someone has to pay it.",
+          "title": "Microsoft (MSFT) Exceeds Market Returns: Some Facts to Consider",
+          "summary": "Microsoft (MSFT) closed at $525.18 in the latest trading session, marking a +1.48% move from the prior day.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-05 00:53"
+          "published_at": "2026-10-06 05:45"
         },
         {
-          "title": "Did CIBC’s New Senior Notes and Strong Quarter Just Shift Canadian Imperial Bank of Commerce's (TSX:CM) Investment Narrative?",
-          "summary": "In late September 2026, Canadian Imperial Bank of Commerce completed and announced several fixed‑income offerings, including C$300 million in floating rate notes due 2030 and multiple callable fixed‑rate senior unsecured notes maturing between 2028 and 2036. These bond issues, coming shortly after a quarter in which revenue reached C$8.37 billion and adjusted net income rose to C$2.65 billion, highlight how CIBC is pairing strong earnings with diversified funding across maturities and...",
+          "title": "Update: Nasdaq Composite Reaches New High, 10-Year Yield Tops 5.3%",
+          "summary": "(Updates with market moves at the end of the day, and other changes, if any.) The Nasdaq Composit",
           "publisher": "Yahoo",
-          "published_at": "2026-10-05 00:09"
+          "published_at": "2026-10-06 05:32"
         }
       ],
       "sec_filings_6m": [
@@ -551,50 +550,56 @@
         ]
       }
     },
-    "ARCC": {
-      "symbol": "ARCC",
-      "name": "Ares Capital Corporation",
-      "display_name": "Ares Capital Corporation",
+    "AVGO": {
+      "symbol": "AVGO",
+      "name": "Broadcom Inc.",
+      "display_name": "Broadcom Inc.",
       "data_limited": false,
-      "price": 18.88,
-      "high_24h": 19.27,
-      "low_24h": 18.78,
-      "high_1m": 19.83,
-      "low_1m": 18.78,
-      "fiftyTwoWeekHigh": 21.14,
-      "fiftyTwoWeekLow": 17.4,
-      "dividendYield": 1018.0,
-      "dividendRate": 1.92,
-      "exDividendDate": "1789430400",
+      "price": 362.88,
+      "high_24h": 363.86,
+      "low_24h": 356.14,
+      "high_1m": 372.02,
+      "low_1m": 335.2,
+      "fiftyTwoWeekHigh": 495.0,
+      "fiftyTwoWeekLow": 289.96,
+      "dividendYield": 73.0,
+      "dividendRate": 2.6,
+      "exDividendDate": "1789948800",
       "charts": {
-        "24h": "charts/ARCC_24h.png",
-        "1m": "charts/ARCC_1m.png",
-        "1y": "charts/ARCC_1y.png"
+        "24h": "charts/AVGO_24h.png",
+        "1m": "charts/AVGO_1m.png",
+        "1y": "charts/AVGO_1y.png"
       },
       "news": [
         {
-          "title": "5 High-Yield Dividend Stocks to Buy for October Income with Cash Flow to Spare",
-          "summary": "From a pharma giant rebuilding after a blockbuster patent loss to a pipeline partnership targeting double-digit distribution raises through 2027, these five stocks span wildly different industries yet share one thing: cash flow that keeps covering the check.",
+          "title": "Wall Street tests lender appetite with $60 billion Broadcom-Anthropic deal - FT",
+          "summary": "Investing.com -- Wall Street’s major financial institutions have initiated the syndication of a record $60 billion debt package designed to back Anthropic’s lease of Google semiconductors, marking the largest chip-financing transaction to date as technology giants race to secure artificial intelligence computing infrastructure. Bank of America, Citigroup, and Morgan Stanley, having committed to fund the massive financing, have begun reaching out to peer institutions to offload portions of the de",
           "publisher": "Yahoo",
-          "published_at": "2026-10-04 01:45"
+          "published_at": "2026-10-06 06:47"
         },
         {
-          "title": "Investing $50,000 Each in These 4 Dividend Stocks Spins off $18,000 a Year in Passive Income",
-          "summary": "Four dividend stocks yield enough to replace a meaningful paycheck, but three of them carry risks that can quietly erase that income before the next quarterly statement arrives.",
+          "title": "China is 'fully' catching up on one part of the AI race, but the US has nothing to fear",
+          "summary": "Business Insider Today executive editor and anchor Dan DeFrancesco chats with Futurum chief market strategist Shay Boloor about China \"closing in\" on the US's progress with AI.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-03 20:30"
+          "published_at": "2026-10-06 04:00"
         },
         {
-          "title": "Is Ares Capital (ARCC) a Buy as Wall Street Analysts Look Optimistic?",
-          "summary": "The average brokerage recommendation (ABR) for Ares Capital (ARCC) is equivalent to a Buy. The overly optimistic recommendations of Wall Street analysts make the effectiveness of this highly sought-after metric questionable. So, is it worth buying the stock?",
+          "title": "Nvidia, Broadcom May Be Surprisingly Safe From a 32-GW Hole in the AI Boom, Morgan Stanley Says",
+          "summary": "A 32-gigawatt power shortfall could delay America’s AI data-center boom, but Nvidia Corp. (NASDAQ:NVDA) and Broadcom Inc. (NASDAQ:AVGO) may be surprisingly well protected, according to Morgan Stanley. Morgan Stanley estimates U.S. data-center developers face a 34% net power shortfall through...",
           "publisher": "Yahoo",
-          "published_at": "2026-10-02 21:30"
+          "published_at": "2026-10-06 03:51"
         },
         {
-          "title": "ARES CAPITAL CORPORATION SCHEDULES EARNINGS RELEASE FOR THE THIRD QUARTER ENDED SEPTEMBER 30, 2026",
-          "summary": "Ares Capital Corporation (\"Ares Capital\") (NASDAQ: ARCC) announced today that it will report earnings for the third quarter ended September 30, 2026 on Tuesday, October 27, 2026 prior to the opening of the Nasdaq Global Select Market. Ares Capital invites all interested persons to attend its webcast/conference call at 12:00 p.m. (Eastern Time) on the same day to discuss its third quarter ended September 30, 2026 financial results.",
+          "title": "Why It’s Time to Load Up on Broadcom Stock Before It Touches $523",
+          "summary": "With AI revenue expected to continue growing sharply and EPS potentially exceeding $30 by fiscal 2028, Broadcom’s current valuation leaves room for further multiple expansion.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-02 20:00"
+          "published_at": "2026-10-06 02:36"
+        },
+        {
+          "title": "The Highest-Beta Name in Big Tech Just Ran. Here’s the Risk",
+          "summary": "Arm just posted a 187% year-to-date run on the back of real AI demand, but a beta of 3.89 turns every market hiccup into a violent swing, and the stock has already priced in a lot of good news. The question is whether the fundamentals can actually catch the valuation.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-06 02:30"
         }
       ],
       "sec_filings_6m": [
@@ -604,9 +609,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-10-02 16:06:50",
+          "filed_at": "2026-09-25 16:15:18",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926113276/tm2626243d1_4017g.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1201633/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -615,9 +620,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-09-15 16:05:25",
+          "filed_at": "2026-09-21 00:15:12",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926107911/tm2625396d1_8k.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/999999999526003011/xslEFFECTX01/primary_doc.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -626,9 +631,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-09-10 16:30:42",
+          "filed_at": "2026-09-18 16:17:30",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926106734/arcc-20260908x424b2.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526395593/d154803d424b3.htm",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -659,68 +664,70 @@
           }
         ]
       },
-      "screening_score": 72,
+      "screening_score": 96,
       "screening_details": {
-        "dividend_yield_pct": 1018.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 13541911552,
+        "market_cap": 1730488696832,
         "cap_score": 20,
-        "debt_to_equity": 114.117,
-        "debt_score": 12
+        "revenue_growth_pct": 85.5,
+        "growth_score": 25,
+        "operating_margin_pct": 54.307,
+        "margin_score": 15,
+        "price_position_52w": 0.3538333983612954,
+        "price_score": 16,
+        "debt_to_equity": 59.604,
+        "debt_score": 20
       }
     },
-    "MAIN": {
-      "symbol": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "display_name": "Main Street Capital Corporation",
+    "AMAT": {
+      "symbol": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "display_name": "Applied Materials, Inc.",
       "data_limited": false,
-      "price": 55.15,
-      "high_24h": 55.87,
-      "low_24h": 54.55,
-      "high_1m": 58.17,
-      "low_1m": 54.37,
-      "fiftyTwoWeekHigh": 65.23,
-      "fiftyTwoWeekLow": 48.95,
-      "dividendYield": 577.0,
-      "dividendRate": 3.18,
-      "exDividendDate": "1791417600",
+      "price": 542.28,
+      "high_24h": 545.81,
+      "low_24h": 533.68,
+      "high_1m": 547.25,
+      "low_1m": 411.51,
+      "fiftyTwoWeekHigh": 739.67,
+      "fiftyTwoWeekLow": 203.4,
+      "dividendYield": 39.0,
+      "dividendRate": 2.12,
+      "exDividendDate": "1795046400",
       "charts": {
-        "24h": "charts/MAIN_24h.png",
-        "1m": "charts/MAIN_1m.png",
-        "1y": "charts/MAIN_1y.png"
+        "24h": "charts/AMAT_24h.png",
+        "1m": "charts/AMAT_1m.png",
+        "1y": "charts/AMAT_1y.png"
       },
       "news": [
         {
-          "title": "How Much Does a 63-Year-Old Need Invested to Collect $7,150 a Month for Life?",
-          "summary": "The yield you chase determines whether you need $858,000 or nearly three times that to generate the same monthly paycheck, and the wrong choice at 63 can cost you decades of purchasing power.",
+          "title": "A Tale of Two Markets: Mega-Caps Keep Climbing, But Rate Fears Hit Many Other Stocks",
+          "summary": "Nvidia and other AI stocks are supporting the S&P 500, while strategists also see opportunities in energy, transportation and materials.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-04 00:17"
+          "published_at": "2026-10-06 03:08"
         },
         {
-          "title": "How Much Does a 70-Year-Old Need Invested to Collect $12,900 a Month for Life?",
-          "summary": "Pulling $154,800 a year from a portfolio sounds ambitious, but a specific eight-holding mix targeting retirees at 70 attempts to do exactly that, and the tradeoffs buried inside each position reveal just how fragile that income stream can be.",
+          "title": "Semiconductor Stocks Rebound. The Case for Buying Micron and STMicroelectronics.",
+          "summary": "Micron Technology can benefit from rising flash memory prices, while STMicroelectronics looks set to take advantage of increasing orders. A technical look at the two stocks.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-03 22:08"
+          "published_at": "2026-10-06 02:38"
         },
         {
-          "title": "Main Street Capital Vs. MSC Income Fund: A Hold And A Buy",
-          "summary": "The article compares Main Street Capital and MSC Income Fund on their NAV growth, dividends, valuation, and credit risk. Click to read more on their ratings.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-10-03 16:20"
-        },
-        {
-          "title": "Dividend Champion, Contender, And Challenger Highlights: Week October 4",
-          "summary": "Track weekly dividend updates for Dividend Champions, Contenders & Challengersâsee dividend changes, upcoming ex-dividend and pay dates. Read it here.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-10-03 03:18"
-        },
-        {
-          "title": "Want $350 a Month in Passive Income? Invest $20,000 Into These 3 Monthly Dividend Stocks",
-          "summary": "Rent, utilities, insurance premiums and grocery bills arrive every month. Most dividend stocks pay four times a year, which forces an income investor to stretch each quarterly check across three months of expenses. Monthly payers close that gap by matching cash inflows to the calendar your bills already follow. A portfolio built entirely on monthly […]",
+          "title": "SKB and KCB Partners Acquire Trellis West Campus in Hillsboro",
+          "summary": "ScanlanKemperBard (SKB), a commercial real estate investor, developer and operator, and KCB Partners have acquired Trellis West, a four-building, 90%-leased, best-in-class research and development campus in Hillsboro, Oregon, for $30.9 million.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-03 00:59"
+          "published_at": "2026-10-06 02:14"
+        },
+        {
+          "title": "3 Chip Stocks Set for an Earnings Boost, and 3 to Avoid",
+          "summary": "Applied Materials and two more semiconductor sector stocks are good bets for earnings season, according to Goldman Sachs.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-05 23:12"
+        },
+        {
+          "title": "Management Guided Higher For KLA Stock; Does The Chart Agree?",
+          "summary": "KLA (KLAC) guided to higher revenue for its September 2026 quarter when it reported results on July 28, 2026. The stock is still 1.4% below its close before that release, while the S&P 500 has gained 3.4%. A higher forecast beside a lower share price is a reason to look at the chart before taking the guide at face value. So is KLA stock still in an uptrend.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-05 22:36"
         }
       ],
       "sec_filings_6m": [
@@ -730,9 +737,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-09-15 16:30:32",
+          "filed_at": "2026-10-05 17:59:34",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1396440/000166726026000010/xslF345X06/form4-09152026_040926.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026065097/xslF345X06/wk-form4_1791237572.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -741,9 +748,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-09-15 16:30:29",
+          "filed_at": "2026-10-05 17:58:16",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1396440/000141410826000013/xslF345X06/form4-09152026_040923.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026065093/xslF345X06/wk-form4_1791237494.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -752,9 +759,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-09-15 16:30:25",
+          "filed_at": "2026-09-10 17:03:47",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1236849/000123684926000012/xslF345X06/form4-09152026_040919.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026061408/xslF345X06/wk-form4_1789074224.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -785,163 +792,70 @@
           }
         ]
       },
-      "screening_score": 72,
+      "screening_score": 92,
       "screening_details": {
-        "dividend_yield_pct": 577.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 5153251328,
+        "market_cap": 430352039936,
         "cap_score": 20,
-        "debt_to_equity": 80.345,
-        "debt_score": 12
+        "revenue_growth_pct": 24.8,
+        "growth_score": 21,
+        "operating_margin_pct": 33.736,
+        "margin_score": 15,
+        "price_position_52w": 0.6319204878139744,
+        "price_score": 16,
+        "debt_to_equity": 28.666,
+        "debt_score": 20
       }
     },
-    "BXSL": {
-      "symbol": "BXSL",
-      "name": "Blackstone Secured Lending Fund",
-      "display_name": "Blackstone Secured Lending Fund",
+    "GOOGL": {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "display_name": "Alphabet Inc.",
       "data_limited": false,
-      "price": 23.61,
-      "high_24h": 24.06,
-      "low_24h": 23.51,
-      "high_1m": 24.72,
-      "low_1m": 23.44,
-      "fiftyTwoWeekHigh": 28.59,
-      "fiftyTwoWeekLow": 22.47,
-      "dividendYield": 1305.0,
-      "dividendRate": 3.08,
-      "exDividendDate": "1790726400",
+      "price": 346.62,
+      "high_24h": 348.09,
+      "low_24h": 342.41,
+      "high_1m": 364.17,
+      "low_1m": 327.74,
+      "fiftyTwoWeekHigh": 408.61,
+      "fiftyTwoWeekLow": 235.84,
+      "dividendYield": 26.0,
+      "dividendRate": 0.88,
+      "exDividendDate": "1788480000",
       "charts": {
-        "24h": "charts/BXSL_24h.png",
-        "1m": "charts/BXSL_1m.png",
-        "1y": "charts/BXSL_1y.png"
-      },
-      "news": [],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-09-30 17:00:10",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026105305/ea0306840-01_8k.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-08-12 16:17:03",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026088376/ea0301710-8k_blackstone.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-08-06 06:43:32",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026085889/ea0300654-8k_blackstone.htm",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 16,
-        "shown_count": 3,
-        "excluded_count": 16,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 16
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 72,
-      "screening_details": {
-        "dividend_yield_pct": 1305.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 5500423168,
-        "cap_score": 20,
-        "debt_to_equity": 126.897,
-        "debt_score": 12
-      }
-    },
-    "O": {
-      "symbol": "O",
-      "name": "Realty Income Corporation",
-      "display_name": "Realty Income Corporation",
-      "data_limited": false,
-      "price": 54.13,
-      "high_24h": 54.34,
-      "low_24h": 53.44,
-      "high_1m": 61.66,
-      "low_1m": 53.33,
-      "fiftyTwoWeekHigh": 67.94,
-      "fiftyTwoWeekLow": 53.33,
-      "dividendYield": 602.0,
-      "dividendRate": 3.26,
-      "exDividendDate": "1790726400",
-      "charts": {
-        "24h": "charts/O_24h.png",
-        "1m": "charts/O_1m.png",
-        "1y": "charts/O_1y.png"
+        "24h": "charts/GOOGL_24h.png",
+        "1m": "charts/GOOGL_1m.png",
+        "1y": "charts/GOOGL_1y.png"
       },
       "news": [
         {
-          "title": "If a Stock Market Crash Is Coming, History Says These Are the 3 Financial Stocks to Buy",
-          "summary": "Bond yields are rising fast; the market looks expensive. A bear could be on the way. Consider buying Berkshire Hathaway, Realty Income, and Progressive.",
+          "title": "Microsoft cutting off a best-seller with no extension on Oct. 13",
+          "summary": "If you don’t upgrade, you’re putting your computer and anyone else on your network at risk.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-05 07:35"
+          "published_at": "2026-10-06 08:12"
         },
         {
-          "title": "How to Build $4,850 a Month in Tax-Free Dividend Income Inside a Roth IRA",
-          "summary": "Most retirement investors chase yield without realizing the account holding those dividends matters as much as the dividends themselves. Six carefully chosen funds at a blended 9.1% yield can turn a Roth IRA into a tax-free income machine, but getting there requires a funding path most people overlook.",
+          "title": "Wall Street tests lender appetite with $60 billion Broadcom-Anthropic deal - FT",
+          "summary": "Investing.com -- Wall Street’s major financial institutions have initiated the syndication of a record $60 billion debt package designed to back Anthropic’s lease of Google semiconductors, marking the largest chip-financing transaction to date as technology giants race to secure artificial intelligence computing infrastructure. Bank of America, Citigroup, and Morgan Stanley, having committed to fund the massive financing, have begun reaching out to peer institutions to offload portions of the de",
           "publisher": "Yahoo",
-          "published_at": "2026-10-05 02:17"
+          "published_at": "2026-10-06 06:47"
         },
         {
-          "title": "REITs Hit A Rate Wall",
-          "summary": "Mixed US stocks as weak jobs data and cooler inflation ease Fed fears, but long rates surge. Click here to read more on the REIT market here.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-10-04 18:00"
+          "title": "Update: Nasdaq Composite Reaches New High, 10-Year Yield Tops 5.3%",
+          "summary": "(Updates with market moves at the end of the day, and other changes, if any.) The Nasdaq Composit",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-06 05:32"
         },
         {
-          "title": "Why I'm Building My Entire Retirement Around Dividend Stocks in 2026",
-          "summary": "Dividend growth stocks can put my retirement on a rock-solid foundation.",
+          "title": "The Simple Reason Meta and Google Will Win AI: Only “2% of US Households” Pay for It.",
+          "summary": "Key TakeawaysOnly about 2% of US households pay for AI. TBPN’s John Coogan gave that figure this month, and a16z’s Sarah Wang gave the same one from a recent survey.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-04 07:05"
+          "published_at": "2026-10-06 04:42"
         },
         {
-          "title": "How Much Does a 63-Year-Old Need Invested to Collect $7,150 a Month for Life?",
-          "summary": "The yield you chase determines whether you need $858,000 or nearly three times that to generate the same monthly paycheck, and the wrong choice at 63 can cost you decades of purchasing power.",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-04 00:17"
+          "title": "Monday's session: top gainers and losers in the dow jones index",
+          "summary": "Stay informed about the performance of the dow jones index one hour before the close of the markets on Monday. Uncover the top gainers and losers in today's session for valuable insights.",
+          "publisher": "ChartMill",
+          "published_at": "2026-10-06 04:10"
         }
       ],
       "sec_filings_6m": [
@@ -951,9 +865,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-09-10 17:41:31",
+          "filed_at": "2026-10-02 18:05:42",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/726728/000140305126000006/xslF345X06/wk-form4_1789076488.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526412669/xslF345X06/ownership.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -962,9 +876,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-25 16:00:30",
+          "filed_at": "2026-09-29 20:27:35",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/726728/000110465926100789/tm2623824d1_8k.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1238734/000119312526408019/xslF345X06/ownership.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -973,9 +887,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-08-14 16:35:01",
+          "filed_at": "2026-09-29 20:26:26",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/726728/000110465926097260/tm2622133d3_8k.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408016/xslF345X06/ownership.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -1006,39 +920,72 @@
           }
         ]
       },
-      "screening_score": 72,
+      "screening_score": 92,
       "screening_details": {
-        "dividend_yield_pct": 602.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 51218784256,
+        "market_cap": 4237305577472,
         "cap_score": 20,
-        "debt_to_equity": 74.722,
-        "debt_score": 12
+        "revenue_growth_pct": 24.2,
+        "growth_score": 21,
+        "operating_margin_pct": 34.033,
+        "margin_score": 15,
+        "price_position_52w": 0.6403310759969904,
+        "price_score": 16,
+        "debt_to_equity": 18.859,
+        "debt_score": 20
       }
     },
-    "STAG": {
-      "symbol": "STAG",
-      "name": "STAG Industrial, Inc.",
-      "display_name": "STAG Industrial, Inc.",
+    "LRCX": {
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "display_name": "Lam Research Corporation",
       "data_limited": false,
-      "price": 36.04,
-      "high_24h": 36.33,
-      "low_24h": 35.86,
-      "high_1m": 37.6,
-      "low_1m": 35.39,
-      "fiftyTwoWeekHigh": 42.61,
-      "fiftyTwoWeekLow": 35.39,
-      "dividendYield": 430.0,
-      "dividendRate": 1.55,
-      "exDividendDate": "1790726400",
+      "price": 345.8,
+      "high_24h": 351.36,
+      "low_24h": 341.7,
+      "high_1m": 352.56,
+      "low_1m": 265.09,
+      "fiftyTwoWeekHigh": 438.5,
+      "fiftyTwoWeekLow": 131.02,
+      "dividendYield": 38.0,
+      "dividendRate": 1.32,
+      "exDividendDate": "1790121600",
       "charts": {
-        "24h": "charts/STAG_24h.png",
-        "1m": "charts/STAG_1m.png",
-        "1y": "charts/STAG_1y.png"
+        "24h": "charts/LRCX_24h.png",
+        "1m": "charts/LRCX_1m.png",
+        "1y": "charts/LRCX_1y.png"
       },
-      "news": [],
+      "news": [
+        {
+          "title": "A Tale of Two Markets: Mega-Caps Keep Climbing, But Rate Fears Hit Many Other Stocks",
+          "summary": "Nvidia and other AI stocks are supporting the S&P 500, while strategists also see opportunities in energy, transportation and materials.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-06 03:08"
+        },
+        {
+          "title": "3 Stocks From AI & Energy to Buy Before Q3 Earnings Kick Off",
+          "summary": "LRCX, TSMC and MPC offer exposure to AI and energy as Q3 earnings estimates point to strong growth and potential catalysts.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-06 03:00"
+        },
+        {
+          "title": "Management Guided Higher For KLA Stock; Does The Chart Agree?",
+          "summary": "KLA (KLAC) guided to higher revenue for its September 2026 quarter when it reported results on July 28, 2026. The stock is still 1.4% below its close before that release, while the S&P 500 has gained 3.4%. A higher forecast beside a lower share price is a reason to look at the chart before taking the guide at face value. So is KLA stock still in an uptrend.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-05 22:36"
+        },
+        {
+          "title": "AI Drives Storage Demand: Will It Boost Lam Research's NAND Growth?",
+          "summary": "LRCX sees NAND upside as AI boosts storage demand, with its served market per wafer set to double from 128 to 500-plus layers.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-05 21:45"
+        },
+        {
+          "title": "LCRX Stock: Morgan Stanley Raises Price Target, Sees 50% Shipment Growth In 2026",
+          "summary": "According to TheFly, Morgan Stanley expects Lam Research’s leading logic-share gains to continue as it raises shipment-growth estimates and looks for a solid December quarter.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-05 20:30"
+        }
+      ],
       "sec_filings_6m": [
         {
           "form_type": "",
@@ -1046,9 +993,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-07-28 16:08:49",
+          "filed_at": "2026-09-24 16:19:21",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1479094/000147909426000026/stag-20260630.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/707549/000114036126037568/ef20082688_ars.pdf",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -1057,9 +1004,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-07-28 16:07:48",
+          "filed_at": "2026-09-24 16:13:35",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1479094/000147909426000025/q22026earningsrelease.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/707549/000114036126037565/ef20082050_defa14a.htm",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -1068,9 +1015,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-07-22 16:15:20",
+          "filed_at": "2026-09-24 16:05:34",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1479094/000110465926085810/tm2620892d1_8k.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000047/lrcx-20260924.htm",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -1101,113 +1048,253 @@
           }
         ]
       },
-      "screening_score": 72,
+      "screening_score": 90,
       "screening_details": {
-        "dividend_yield_pct": 430.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 7094734336,
+        "market_cap": 432742531072,
         "cap_score": 20,
-        "debt_to_equity": 93.78,
-        "debt_score": 12
+        "revenue_growth_pct": 30.0,
+        "growth_score": 25,
+        "operating_margin_pct": 37.390997999999996,
+        "margin_score": 15,
+        "price_position_52w": 0.6985169767139325,
+        "price_score": 10,
+        "debt_to_equity": 33.049,
+        "debt_score": 20
+      }
+    },
+    "MU": {
+      "symbol": "MU",
+      "name": "Micron Technology, Inc.",
+      "display_name": "Micron Technology, Inc.",
+      "data_limited": false,
+      "price": 1063.75,
+      "high_24h": 1074.88,
+      "low_24h": 1055.56,
+      "high_1m": 1108.72,
+      "low_1m": 902.6,
+      "fiftyTwoWeekHigh": 1255.0,
+      "fiftyTwoWeekLow": 179.61,
+      "dividendYield": 6.0,
+      "dividendRate": 0.6,
+      "exDividendDate": "1791936000",
+      "charts": {
+        "24h": "charts/MU_24h.png",
+        "1m": "charts/MU_1m.png",
+        "1y": "charts/MU_1y.png"
+      },
+      "news": [
+        {
+          "title": "Micron (MU): AI Memory Boom Could Outlast Your Expectations",
+          "summary": "AI workloads are driving demand for both high-bandwidth memory (HBM) and standard DRAM, and suppliers are struggling to keep up. The situation is complicated by the fact that HBM and conventional DRAM, which serve distinct roles, are competing for manufacturing capacity. The latest industry data suggest the supply constraint may persist into 2027. That strengthens […]",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-06 06:17"
+        },
+        {
+          "title": "Morgan Stanley revisits Micron stock price target amid stellar growth",
+          "summary": "Micron stock rides an AI memory boom, even as management warns that tight memory supply will last through 2028.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-06 04:13"
+        },
+        {
+          "title": "China is 'fully' catching up on one part of the AI race, but the US has nothing to fear",
+          "summary": "Business Insider Today executive editor and anchor Dan DeFrancesco chats with Futurum chief market strategist Shay Boloor about China \"closing in\" on the US's progress with AI.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-06 04:00"
+        },
+        {
+          "title": "Why It's So Frustrating Being A Micron Bull These Days",
+          "summary": "AI bubble warning: retail investors risk holding the bag. Click for more on MU stock.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-10-06 03:45"
+        },
+        {
+          "title": "Nvidia, Intel, Micron, XP Inc., PTC, Vaxcyte, Western Digital, and More Stocks That Explain Today’s Market",
+          "summary": "Intel falls as Elon Musk confirms Taiwan Semiconductor Manufacturing is in talks with Musk’s chip venture Terafab.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-06 03:31"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-10-02 18:49:06",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000205876926000005/xslF345X06/primarydocument.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-10-02 18:48:48",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000179875726000008/xslF345X06/primarydocument.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-10-02 18:46:38",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000121836326000004/xslF345X06/primarydocument.xml",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 90,
+      "screening_details": {
+        "market_cap": 1201629036544,
+        "cap_score": 20,
+        "revenue_growth_pct": 379.3,
+        "growth_score": 25,
+        "operating_margin_pct": 80.678004,
+        "margin_score": 15,
+        "price_position_52w": 0.8223528208370918,
+        "price_score": 10,
+        "debt_to_equity": 3.743,
+        "debt_score": 20
       }
     }
   },
   "candidate_rankings": [
     {
-      "symbol": "ARCC",
-      "name": "Ares Capital Corporation",
-      "score": 72,
-      "dividend_yield_pct": 1018.0,
+      "symbol": "AVGO",
+      "name": "Broadcom Inc.",
+      "score": 96,
+      "dividend_yield_pct": 73.0,
       "details": {
-        "dividend_yield_pct": 1018.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 13541911552,
+        "market_cap": 1730488696832,
         "cap_score": 20,
-        "debt_to_equity": 114.117,
-        "debt_score": 12
+        "revenue_growth_pct": 85.5,
+        "growth_score": 25,
+        "operating_margin_pct": 54.307,
+        "margin_score": 15,
+        "price_position_52w": 0.3538333983612954,
+        "price_score": 16,
+        "debt_to_equity": 59.604,
+        "debt_score": 20
       }
     },
     {
-      "symbol": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "score": 72,
-      "dividend_yield_pct": 577.0,
+      "symbol": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "score": 92,
+      "dividend_yield_pct": 39.0,
       "details": {
-        "dividend_yield_pct": 577.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 5153251328,
+        "market_cap": 430352039936,
         "cap_score": 20,
-        "debt_to_equity": 80.345,
-        "debt_score": 12
+        "revenue_growth_pct": 24.8,
+        "growth_score": 21,
+        "operating_margin_pct": 33.736,
+        "margin_score": 15,
+        "price_position_52w": 0.6319204878139744,
+        "price_score": 16,
+        "debt_to_equity": 28.666,
+        "debt_score": 20
       }
     },
     {
-      "symbol": "BXSL",
-      "name": "Blackstone Secured Lending Fund",
-      "score": 72,
-      "dividend_yield_pct": 1305.0,
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "score": 92,
+      "dividend_yield_pct": 26.0,
       "details": {
-        "dividend_yield_pct": 1305.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 5500423168,
+        "market_cap": 4237305577472,
         "cap_score": 20,
-        "debt_to_equity": 126.897,
-        "debt_score": 12
+        "revenue_growth_pct": 24.2,
+        "growth_score": 21,
+        "operating_margin_pct": 34.033,
+        "margin_score": 15,
+        "price_position_52w": 0.6403310759969904,
+        "price_score": 16,
+        "debt_to_equity": 18.859,
+        "debt_score": 20
       }
     },
     {
-      "symbol": "O",
-      "name": "Realty Income Corporation",
-      "score": 72,
-      "dividend_yield_pct": 602.0,
+      "symbol": "LRCX",
+      "name": "Lam Research Corporation",
+      "score": 90,
+      "dividend_yield_pct": 38.0,
       "details": {
-        "dividend_yield_pct": 602.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 51218784256,
+        "market_cap": 432742531072,
         "cap_score": 20,
-        "debt_to_equity": 74.722,
-        "debt_score": 12
+        "revenue_growth_pct": 30.0,
+        "growth_score": 25,
+        "operating_margin_pct": 37.390997999999996,
+        "margin_score": 15,
+        "price_position_52w": 0.6985169767139325,
+        "price_score": 10,
+        "debt_to_equity": 33.049,
+        "debt_score": 20
       }
     },
     {
-      "symbol": "STAG",
-      "name": "STAG Industrial, Inc.",
-      "score": 72,
-      "dividend_yield_pct": 430.0,
+      "symbol": "MU",
+      "name": "Micron Technology, Inc.",
+      "score": 90,
+      "dividend_yield_pct": 6.0,
       "details": {
-        "dividend_yield_pct": 430.0,
-        "dividend_score": 40,
-        "dividend_consistent": false,
-        "consistency_score": 0,
-        "market_cap": 7094734336,
+        "market_cap": 1201629036544,
         "cap_score": 20,
-        "debt_to_equity": 93.78,
-        "debt_score": 12
+        "revenue_growth_pct": 379.3,
+        "growth_score": 25,
+        "operating_margin_pct": 80.678004,
+        "margin_score": 15,
+        "price_position_52w": 0.8223528208370918,
+        "price_score": 10,
+        "debt_to_equity": 3.743,
+        "debt_score": 20
       }
     }
   ],
   "screening_meta": {
-    "mode": "dividend",
-    "title": "고배당/현금흐름 후보",
-    "seed_pool_size": 51,
+    "mode": "theme",
+    "title": "모멘텀/테마 후보",
+    "seed_pool_size": 125,
     "ai_selected_count": 20,
-    "scored_count": 19,
+    "scored_count": 20,
     "top5": [
-      "ARCC",
-      "MAIN",
-      "BXSL",
-      "O",
-      "STAG"
+      "AVGO",
+      "AMAT",
+      "GOOGL",
+      "LRCX",
+      "MU"
     ],
     "max_screening_candidates": 20
   },
