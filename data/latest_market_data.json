@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-20 09:46",
+  "date": "2026-10-21 09:12",
   "report_profile": {
-    "type": "theme",
-    "title": "모멘텀/테마 후보",
-    "description": "최근 뉴스와 시장 모멘텀이 붙은 주요 테마 안에서 후보를 선별합니다."
+    "type": "quality",
+    "title": "장기 퀄리티 후보",
+    "description": "3년 이상 보유 관점에서 사업 품질, 재무 안정성, 성장성을 기준으로 선별합니다."
   },
   "market_data": {
     "ASML": {
@@ -11,9 +11,9 @@
       "name": "ASML Holding N.V.",
       "display_name": "ASML Holding N.V.",
       "data_limited": false,
-      "price": 1647.42,
-      "high_24h": 1681.78,
-      "low_24h": 1646.02,
+      "price": 1630.84,
+      "high_24h": 1654.19,
+      "low_24h": 1613.54,
       "high_1m": 1873.5,
       "low_1m": 1594.03,
       "fiftyTwoWeekHigh": 1999.96,
@@ -28,34 +28,34 @@
       },
       "news": [
         {
-          "title": "Applied Materials vs. ASML: Which Can Carry a Bigger Research Bill?",
-          "summary": "Keeping a semiconductor-equipment franchise valuable for ten years requires repeated invention. Our 10 Best Semiconductor Stocks to Buy for the Next Decade includes Applied Materials and ASML because both supply demanding manufacturing processes. Their latest results show different amounts of profit available to support the next research cycle. Applied Materials, Inc. (NASDAQ:AMAT) reported $1.10 billion […]",
+          "title": "3 Artificial Intelligence (AI) Stocks That Look Like Great Buys Right Now",
+          "summary": "These stocks are leaders in tech, have been generating incredible growth, and have some promising long-term upside.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 03:56"
+          "published_at": "2026-10-21 04:05"
         },
         {
-          "title": "ASML vs. Lam Research: How Much Protection Does Service Revenue Really Provide?",
-          "summary": "ASML Holding N.V. (NASDAQ:ASML) reported about €3.3 billion of installed-base management sales in its September quarter. Lam Research Corporation (NASDAQ:LRCX) reported $2.47 billion of customer-support-related revenue and other in its June quarter. The labels describe different mixtures. ASML and Lam Research both feature in our 10 Best Semiconductor Stocks to Buy for the Next Decade. […]",
+          "title": "The Final Stretch: JPMorgan Says These 2 Stocks Are Among Its Top Picks for the Rest of 2026",
+          "summary": "Heading into the homestretch of 2026, there are some questions about the stock markets. This year, we’ve seen an energy shock, a shift toward a more hawkish monetary policy outlook, and the highest interest rates since 2002 – but the S&P 500 is up some 12% year-to-date. Corporate earnings are the main driver of those market gains. The Q3 earnings have started coming in, and the consensus is for another quarter of double-digit gain – as much as 29%, by some estimates. Hitting this mark will give",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 03:56"
+          "published_at": "2026-10-21 02:58"
         },
         {
-          "title": "Semiconductor Sell-Off: 5 Stocks to Buy on the Dip",
-          "summary": "These five stocks are worth buying during the current sell-off in the semiconductor space.",
+          "title": "ASML’s Dividend Is the Most Overlooked Part of the AI Chip Trade",
+          "summary": "ASML just posted a record quarter and watched its stock drop anyway, but the number most investors ignored tells a quieter story about how the company actually rewards shareholders.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 00:20"
+          "published_at": "2026-10-21 01:15"
         },
         {
-          "title": "Why Is ASML Holding (ENXTAM:ASML) Teaming Up On Next Generation FinFET 3D Chips?",
-          "summary": "ASML Holding (ENXTAM:ASML) and TSMC announced a collaboration on next-generation FinFET 3D transistor technologies for advanced chips. The partnership focuses on manufacturing capabilities aimed at enabling AI and 5G workloads on sub-7nm semiconductor nodes. ASML is expected to supply lithography expertise, while TSMC contributes process integration for future FinFET 3D transistor architectures. This new FinFET 3D transistor collaboration between ASML and TSMC matters, but investors should...",
+          "title": "3 Stocks Set to Benefit From Long-Term AI Tailwinds",
+          "summary": "The AI revolution continues to create opportunities, with Taiwan Semiconductor (TSM), BWX Technologies (BWXT), and ASML Holding (ASML) each positioned to continue benefiting.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 00:11"
+          "published_at": "2026-10-20 23:15"
         },
         {
-          "title": "ASML Holding N.V. (ASML) Q3 2026 Earnings Call Transcript",
-          "summary": "ASML Holding N.V. (ASML) Q3 2026 Earnings Call October 13, 2026 8:00 PM EDTCompany ParticipantsR.J.M.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-10-20 00:04"
+          "title": "AI Stock Sell-Off: Are Mag 7 Stocks Still Buys? ETFs in Focus",
+          "summary": "AI financing fears have rattled tech stocks, but strong chip demand offers hope. Are Mag 7 stocks still buys? Explore their FY27 earnings prospects, valuations and ETFs to watch.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-20 23:00"
         }
       ],
       "sec_filings_6m": [
@@ -95,12 +95,12 @@
       ],
       "sec_filings_filter": {
         "status": "fallback_unfiltered",
-        "raw_count": 5,
+        "raw_count": 4,
         "shown_count": 3,
-        "excluded_count": 5,
+        "excluded_count": 4,
         "hidden_count": 0,
         "excluded_forms": {
-          "UNKNOWN": 5
+          "UNKNOWN": 4
         },
         "excluded_examples": [
           {
@@ -119,6 +119,22 @@
             "reason": "unrecognized_form"
           }
         ]
+      },
+      "screening_score": 97,
+      "screening_details": {
+        "market_cap": 628554661888,
+        "cap_score": 15,
+        "roe_pct": 65.636003,
+        "roe_score": 20,
+        "operating_margin_pct": 44.356,
+        "margin_score": 20,
+        "revenue_growth_pct": 55.2,
+        "earnings_growth_pct": 135.9,
+        "growth_score": 20,
+        "free_cashflow": 10374124544,
+        "cash_score": 15,
+        "price_position_52w": 0.6497414243013712,
+        "valuation_score": 7
       }
     },
     "OXLC": {
@@ -126,14 +142,14 @@
       "name": "Oxford Lane Capital Corp.",
       "display_name": "Oxford Lane Capital Corp.",
       "data_limited": false,
-      "price": 7.54,
-      "high_24h": 7.87,
-      "low_24h": 7.53,
+      "price": 7.3,
+      "high_24h": 7.7,
+      "low_24h": 7.28,
       "high_1m": 8.92,
-      "low_1m": 7.53,
+      "low_1m": 7.28,
       "fiftyTwoWeekHigh": 15.87,
-      "fiftyTwoWeekLow": 7.53,
-      "dividendYield": 3032.0,
+      "fiftyTwoWeekLow": 7.28,
+      "dividendYield": 3185.0,
       "dividendRate": 2.4,
       "exDividendDate": "1794787200",
       "charts": {
@@ -217,14 +233,14 @@
       "name": "QUALCOMM Incorporated",
       "display_name": "QUALCOMM Incorporated",
       "data_limited": false,
-      "price": 173.51,
-      "high_24h": 178.0,
-      "low_24h": 172.37,
+      "price": 175.6,
+      "high_24h": 177.04,
+      "low_24h": 171.13,
       "high_1m": 205.85,
       "low_1m": 168.84,
       "fiftyTwoWeekHigh": 259.92,
       "fiftyTwoWeekLow": 121.99,
-      "dividendYield": 214.0,
+      "dividendYield": 212.0,
       "dividendRate": 3.68,
       "exDividendDate": "1788393600",
       "charts": {
@@ -234,37 +250,48 @@
       },
       "news": [
         {
-          "title": "These 3 Chip Giants Turn Massive Cash Flow Into Growing Dividends",
-          "summary": "Most income investors write off chipmakers the moment they see the yield, but a handful of semiconductor companies have been quietly compounding their payouts through recessions, factory buildouts, and market downturns in ways that reframe what a dividend stock can look like.",
+          "title": "Qualcomm (QCOM) Beats Stock Market Upswing: What Investors Need to Know",
+          "summary": "Qualcomm (QCOM) concluded the recent trading session at $176.31, signifying a +1.6% move from its prior day's close.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 04:15"
+          "published_at": "2026-10-21 05:45"
         },
         {
-          "title": "Rivian: Much More Than Just The R2 Story",
-          "summary": "",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-10-20 04:02"
+          "title": "Microsoft, Alphabet, Goldman Sachs Join Growing List of Companies Objecting to Tokenized Stocks",
+          "summary": "Sixteen companies have now objected to having their shares traded on the planned OKX-ICE tokenized stock venue, up from nine just four days earlier, according to an updated public notice.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-21 05:16"
         },
         {
-          "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
-          "summary": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
+          "title": "Qualcomm To Reportedly Conduct Global Layoffs In Performance-Driven Overhaul",
+          "summary": "Semiconductor giant Qualcomm is launching worldwide layoffs following annual reviews to cultivate a stricter performance culture, according to a Reuters report.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 03:37"
+          "published_at": "2026-10-21 03:07"
         },
         {
-          "title": "What Just Happened To Marvell Stock?",
-          "summary": "Shares of Marvell Technology (MRVL) fell 17.2% over the five trading days from October 9 to October 16, 2026. The broader market saw far less movement during that window, with the S&P 500 losing 1.9%. The stock first slipped the day after its October 6 Investor Day, an event where management actually raised its revenue outlook for fiscal 2028. So how hard was the week for Marvell, and what does its price still appear to assume.",
+          "title": "Qualcomm Cuts Global Workforce Following Performance Focused Employee Reviews",
+          "summary": "Key Stats for Qualcomm StockPrice change for Qualcomm stock in last 6 months: 26%$QCOM Stock Price as of Oct. 19: $17452-Week High: $260$QCOM Stock Price Target: $195What Happened?Qualcomm (QCOM:NASDAQ) will cut jobs around the world.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 03:06"
+          "published_at": "2026-10-21 00:07"
         },
         {
-          "title": "Tenstorrent raises $1.5 billion for AI compute",
-          "summary": "Tenstorrent, a Santa Clara, California-based inference chipmaker, on Monday announced that it's raised $1.5 billion at a $6.2 billion post-money valuation led by Trace Capital and Innovation X.",
+          "title": "The AI Trade Is Changing. These Stocks Could Be Next.",
+          "summary": "GPU stocks dominated the first wave of AI spending, but the money is quietly shifting toward a different set of chipmakers. Three names are positioned right in that path, and their 2027 price targets require a closer look.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-19 23:06"
+          "published_at": "2026-10-21 00:00"
         }
       ],
       "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-10-20 19:37:33",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000106/xslF345X06/edgardoc.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
         {
           "form_type": "",
           "form_label": "기타 SEC 공시",
@@ -285,17 +312,6 @@
           "filed_at": "2026-10-16 16:49:28",
           "source": "SEC/FMP",
           "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000104/xslF345X06/edgardoc.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-10-16 16:49:00",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000103/xslF345X06/edgardoc.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -332,10 +348,10 @@
       "name": "Amazon.com, Inc.",
       "display_name": "Amazon.com, Inc.",
       "data_limited": false,
-      "price": 262.41,
-      "high_24h": 263.71,
-      "low_24h": 255.24,
-      "high_1m": 263.7,
+      "price": 262.76,
+      "high_24h": 265.34,
+      "low_24h": 260.42,
+      "high_1m": 263.72,
       "low_1m": 244.73,
       "fiftyTwoWeekHigh": 287.2,
       "fiftyTwoWeekLow": 196.0,
@@ -349,34 +365,34 @@
       },
       "news": [
         {
-          "title": "3M Jumps On Expanded Amazon Data Center Deal; Earnings On Tap",
-          "summary": "3M stock jumped as the Dow giant announced an expanded Amazon data center products deal. 3M earnings are on tap.",
+          "title": "What Are Walmart Investors Betting On?",
+          "summary": "Walmart (WMT) stock trades at 42.8 times its reported net income over the last twelve months. That is a steep multiple for a retailer that grew sales by 6.2% during the same period. A buyer is paying for more than a single year of profit, however, and the valuation looks different against what Walmart is expected to earn over the next two fiscal years. So what growth in sales and profit does the consensus forecast expect, and how does that price look against it.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 08:39"
+          "published_at": "2026-10-21 06:40"
         },
         {
-          "title": "Elite Nuclear Stocks To Own In October 2026",
-          "summary": "Amazon’s decision to fund 12 small nuclear reactors at a former Indiana coal plant turns a long running debate about atomic power into a live commercial test. A major buyer is now committing to nuclear energy for data center level reliability. That kind of move puts fresh attention on businesses tied to uranium, fuel services and reactors. This article walks through three nuclear focused stocks from the screener worth a closer look. The three stocks highlighted here offer a compelling...",
+          "title": "Major gold holder backs NVIDIA challenger",
+          "summary": "The funding gives another boost to an up-and-coming AI chipmaker.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 08:20"
+          "published_at": "2026-10-21 06:28"
         },
         {
-          "title": "Nasdaq 100 Sees Best Day In Nearly A Month As AI Rout Cools — AMZN, BE, CRWV, AAPL, PLTR In Focus",
-          "summary": "The Philadelphia Semiconductor Index added about 1.6%.",
+          "title": "Stock Market Today, Oct. 20: Netflix Q3 Revenue Rises 12% on Pricing Power",
+          "summary": "On Oct. 20, 2026, the streaming giant reported engagement held steady despite price increases, signaling margin gains ahead.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 08:00"
+          "published_at": "2026-10-21 06:09"
         },
         {
-          "title": "Billionaire David Tepper’s Appaloosa Management Has 31% of its portfolio Invested in These 2 Artificial Intelligence (AI) Stocks",
-          "summary": "Tepper is betting big on AI, and his two largest holdings appear to be particularly attractive picks.",
+          "title": "Small caps pops as market rally broadens beyond Big Tech",
+          "summary": "Small-cap stocks are gaining momentum as signs of broader market participation emerge beyond megacap technology stocks. Yahoo Finance Data and Markets Editor Jared Blikre joins Brooke DiPalma on Market Domination to break down how the Russell 2000 (^RUT) and the equal-weighted S&P 500 ETF (RSP) are outperforming Big Tech, signaling a potential shift in market leadership.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 07:04"
+          "published_at": "2026-10-21 05:20"
         },
         {
-          "title": "Amazon vs. Home Depot: Which Consumer Stock Is a Better Buy in 2026?",
-          "summary": "Amazon's net margin surged to 10.8% while Home Depot's profitability declined, but debt loads tell a starkly different story.",
+          "title": "3M: 3 Key Takeaways for Long-Term Investors",
+          "summary": "Pricing discipline is holding margins steady even as raw material costs rise, a test of whether operational gains can sustain growth momentum.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 06:44"
+          "published_at": "2026-10-21 05:09"
         }
       ],
       "sec_filings_6m": [
@@ -447,14 +463,14 @@
       "name": "Microsoft Corporation",
       "display_name": "Microsoft Corporation",
       "data_limited": false,
-      "price": 533.61,
-      "high_24h": 535.57,
-      "low_24h": 528.74,
+      "price": 532.13,
+      "high_24h": 534.21,
+      "low_24h": 525.84,
       "high_1m": 551.15,
       "low_1m": 491.22,
       "fiftyTwoWeekHigh": 553.72,
       "fiftyTwoWeekLow": 349.2,
-      "dividendYield": 74.0,
+      "dividendYield": 73.0,
       "dividendRate": 3.92,
       "exDividendDate": "1795046400",
       "charts": {
@@ -464,34 +480,34 @@
       },
       "news": [
         {
-          "title": "Dividend Aristocrats or Quality Factor: Which ETF Fits Retirement?",
-          "summary": "Two ETFs built around durable businesses use completely different definitions of what makes a company worth owning, and for investors approaching retirement, that disagreement shapes every dollar they hold.",
+          "title": "Small caps pops as market rally broadens beyond Big Tech",
+          "summary": "Small-cap stocks are gaining momentum as signs of broader market participation emerge beyond megacap technology stocks. Yahoo Finance Data and Markets Editor Jared Blikre joins Brooke DiPalma on Market Domination to break down how the Russell 2000 (^RUT) and the equal-weighted S&P 500 ETF (RSP) are outperforming Big Tech, signaling a potential shift in market leadership.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 07:33"
+          "published_at": "2026-10-21 05:20"
         },
         {
-          "title": "Stock Market Today, Oct. 19: Amazon Surges on Morgan Stanley Top Pick and $350 Price Target",
-          "summary": "Today, Oct. 19, 2026, Morgan Stanley's upgrade reinforced Amazon Web Services and AI momentum ahead of October 29 earnings.",
+          "title": "Microsoft, Alphabet, Goldman Sachs Join Growing List of Companies Objecting to Tokenized Stocks",
+          "summary": "Sixteen companies have now objected to having their shares traded on the planned OKX-ICE tokenized stock venue, up from nine just four days earlier, according to an updated public notice.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 06:31"
+          "published_at": "2026-10-21 05:16"
         },
         {
-          "title": "What Are CrowdStrike Investors Betting On?",
-          "summary": "CrowdStrike (CRWD) stock trades at about 231 times its earnings over the twelve months to July 2026. That multiple relies on adjusted earnings, a metric that adds stock-based compensation, after-tax, back to normalized net income. Paying such a steep premium for one year of profit can look demanding. Yet the valuation shifts when measured against the profit analysts expect for fiscal 2027 and fiscal 2028. So what are you paying for when you buy CrowdStrike at that price.",
+          "title": "Microsoft (MSFT) Withdraws From UK AI Data Center Project",
+          "summary": "Microsoft (NasdaqGS:MSFT) has withdrawn as anchor tenant from Nscale's planned AI data center project in Loughton, Essex, citing power supply delays. The Loughton facility had been expected to support Azure AI compute needs in the UK before grid connection constraints stalled progress. Nscale now faces a search for new hyperscale tenants for the Essex site after Microsoft's decision to exit the arrangement. Microsoft exiting the Loughton AI data center project only tells part of the story on...",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 06:20"
+          "published_at": "2026-10-21 05:09"
         },
         {
-          "title": "Microsoft’s AI expansion just hit a physical limit",
-          "summary": "A U.K. setback shows electricity may be AI’s next bottleneck.",
+          "title": "Sector Update: Tech Stocks Mixed Late Afternoon",
+          "summary": "Tech stocks were mixed late Tuesday afternoon, with the State Street Technology Select Sector SPDR E",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 06:03"
+          "published_at": "2026-10-21 04:42"
         },
         {
-          "title": "This Nvidia-Backed Cloud Computing Firm Is Reportedly In Talks To Sign A $45B Compute Deal With Anthropic",
-          "summary": "Artificial intelligence leader Anthropic is reportedly negotiating a massive $45 billion infrastructure agreement with cloud developer Nscale.",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-20 05:29"
+          "title": "AI: A Global Financial Trap With No Easy Way Out",
+          "summary": "The AI boom is driving a global move linking US tech investment and Asian manufacturing surpluses. Read what investors should know about these developments.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-10-21 04:38"
         }
       ],
       "sec_filings_6m": [
@@ -562,14 +578,14 @@
       "name": "Broadcom Inc.",
       "display_name": "Broadcom Inc.",
       "data_limited": false,
-      "price": 334.6,
-      "high_24h": 340.2,
-      "low_24h": 333.82,
+      "price": 334.51,
+      "high_24h": 341.09,
+      "low_24h": 330.8,
       "high_1m": 380.84,
       "low_1m": 328.58,
       "fiftyTwoWeekHigh": 495.0,
       "fiftyTwoWeekLow": 289.96,
-      "dividendYield": 79.0,
+      "dividendYield": 78.0,
       "dividendRate": 2.6,
       "exDividendDate": "1789948800",
       "charts": {
@@ -579,34 +595,34 @@
       },
       "news": [
         {
-          "title": "Companies object to tokenized listings on OKX-ICE platform",
-          "summary": "Scott Melker discusses how companies like Broadcom (AVGO) and Verizon (VZ) are objecting to being traded on the tokenized OKX-ICE index. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto. Make sure to also check out Yahoo Finance's new crypto hub to find the latest crypto-related news.",
+          "title": "Did The Market Read Texas Instruments Stock Right?",
+          "summary": "Shares of Texas Instruments (TXN) rose 60.4% in the twelve months to October 19, 2026, against 16.8% for the S&P 500. The stock posted its largest one-day gain in that time on April 23, 2026. It climbed 19.4% the day after the chip maker reported first-quarter results and forecast second-quarter revenue above Wall Street estimates. So what changed inside Texas Instruments to earn that price.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 04:00"
+          "published_at": "2026-10-21 06:30"
         },
         {
-          "title": "Broadcom (AVGO) vs. Texas Instruments (TXN): Higher Income or Stronger Dividend Coverage?",
-          "summary": "Our 10 Best Semiconductor Stocks to Buy for the Next Decade ranks durable franchises using weighted sentiment, business resilience and valuation. Two names raise a separate income question: how much can shareholders collect without relying on an uninterrupted boom? Broadcom Inc. (NASDAQ:AVGO) has stronger recent dividend coverage. Texas Instruments Incorporated (NASDAQ:TXN) pays the higher yield. […]",
+          "title": "Microsoft, Alphabet, Goldman Sachs Join Growing List of Companies Objecting to Tokenized Stocks",
+          "summary": "Sixteen companies have now objected to having their shares traded on the planned OKX-ICE tokenized stock venue, up from nine just four days earlier, according to an updated public notice.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 03:57"
+          "published_at": "2026-10-21 05:16"
         },
         {
-          "title": "Broadcom vs. Applied Materials: Which Buybacks Are Actually Shrinking the Share Count?",
-          "summary": "Broadcom and Applied Materials both generate cash and repurchase shares, but shareholders ultimately own a fraction of a business. Our 10 Best Semiconductor Stocks to Buy for the Next Decade makes that distinction important: buyback spending is useful only in the context of issuance, the price paid and the cash needed to sustain growth. Broadcom […]",
+          "title": "3 Artificial Intelligence (AI) Stocks That Look Like Great Buys Right Now",
+          "summary": "These stocks are leaders in tech, have been generating incredible growth, and have some promising long-term upside.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 03:57"
+          "published_at": "2026-10-21 04:05"
         },
         {
-          "title": "Why Some of America’s Biggest Companies Are Objecting to Tokenized Shares",
-          "summary": "Nine companies, including Verizon, Broadcom and UnitedHealth, have objected to having their shares traded on the planned OKX-ICE tokenized stock venue.",
+          "title": "3 Great AI Stocks To Own In October 2026",
+          "summary": "Investment in artificial intelligence just became more than a tech story. As Anthropic and OpenAI sketch plans to share future AI wealth with the broader public, the focus shifts to which listed businesses could quietly benefit if that vision takes hold. This article looks at three stocks linked to the AI and ChatGPT boom that our screener currently views as underpriced, and explains why they may deserve a closer look. The stocks covered below are just a small sample, and the full screen...",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 03:46"
+          "published_at": "2026-10-21 02:09"
         },
         {
-          "title": "Morgan Stanley’s favorite AI stock is 92% exposed to the $1.6 trillion build-out it’s bullish on",
-          "summary": "The bank calls Nvidia the best risk/reward in AI. Its own report lays out what happens to suppliers when a capital cycle turns.",
+          "title": "Photonic Integrated Circuit (PIC) - Global Strategic Business Report: Capitalize on 19.7% CAGR to US$5.5 Billion by 2030 as Broadcom, Intel, Ciena, Infinera and Acacia Reshape the Market",
+          "summary": "Capitalize on rising demand for high-bandwidth, energy-efficient PICs across telecom, data centers, biosensing and lidar, with insights into tariffs, competition and revenue opportunities.Dublin, Oct. 20, 2026 (GLOBE NEWSWIRE) -- \"Photonic Integrated Circuit (PIC) - Global Strategic Business Report\" has been added to ResearchAndMarkets.com's offering. Global Photonic Integrated Circuit Market to Reach US$5.5 Billion by 2030, Driven by High-Speed Connectivity and Energy-Efficient Data Processing",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 03:30"
+          "published_at": "2026-10-21 00:47"
         }
       ],
       "sec_filings_6m": [
@@ -673,272 +689,19 @@
       },
       "screening_score": 100,
       "screening_details": {
-        "market_cap": 1597208788992,
-        "cap_score": 20,
-        "revenue_growth_pct": 85.5,
-        "growth_score": 25,
+        "market_cap": 1596158640128,
+        "cap_score": 15,
+        "roe_pct": 44.245000000000005,
+        "roe_score": 20,
         "operating_margin_pct": 54.307,
-        "margin_score": 15,
-        "price_position_52w": 0.21766484588372997,
-        "price_score": 20,
-        "debt_to_equity": 59.604,
-        "debt_score": 20
-      }
-    },
-    "LRCX": {
-      "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "display_name": "Lam Research Corporation",
-      "data_limited": false,
-      "price": 272.05,
-      "high_24h": 279.92,
-      "low_24h": 271.87,
-      "high_1m": 352.56,
-      "low_1m": 263.14,
-      "fiftyTwoWeekHigh": 438.5,
-      "fiftyTwoWeekLow": 135.5,
-      "dividendYield": 50.0,
-      "dividendRate": 1.32,
-      "exDividendDate": "1790121600",
-      "charts": {
-        "24h": "charts/LRCX_24h.png",
-        "1m": "charts/LRCX_1m.png",
-        "1y": "charts/LRCX_1y.png"
-      },
-      "news": [
-        {
-          "title": "Applied Materials, Lam Research, Marvell Technology, Micron, and Semtech Shares Skyrocket, What You Need To Know",
-          "summary": "A number of stocks jumped in the morning session after investors cautiously returned to beaten-down stocks following the previous week's technology retreat, helped by an analyst upgrade for Intel.",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-20 06:28"
-        },
-        {
-          "title": "Q2 Rundown: Lam Research (NASDAQ:LRCX) Vs Other Semiconductor Manufacturing Stocks",
-          "summary": "Earnings results often indicate what direction a company will take in the months ahead. With Q2 behind us, let’s have a look at Lam Research (NASDAQ:LRCX) and its peers.",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-20 05:00"
-        },
-        {
-          "title": "Micron vs. Lam Research: Does Buying the Tool Supplier Reduce Memory-Cycle Risk?",
-          "summary": "Micron Technology, Inc. (NASDAQ:MU) generated $89.68 billion of operating cash in its fiscal year ended September 3. Lam Research Corporation (NASDAQ:LRCX) generated $5.86 billion in its year ended June 28. The relevant question is what remains after investment when those collections weaken. Micron and Lam Research offer different ways to invest in memory demand within […]",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-20 03:57"
-        },
-        {
-          "title": "ASML vs. Lam Research: How Much Protection Does Service Revenue Really Provide?",
-          "summary": "ASML Holding N.V. (NASDAQ:ASML) reported about €3.3 billion of installed-base management sales in its September quarter. Lam Research Corporation (NASDAQ:LRCX) reported $2.47 billion of customer-support-related revenue and other in its June quarter. The labels describe different mixtures. ASML and Lam Research both feature in our 10 Best Semiconductor Stocks to Buy for the Next Decade. […]",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-20 03:56"
-        },
-        {
-          "title": "Are Companies Reducing AI Spending? Chip Orders Say Otherwise",
-          "summary": "Investors keep selling chip stocks. The iShares Semiconductor ETF fell 11.8% last week. It has now declined for nine straight days—its longest losing streak since 2006. The damage was worse among the companies that build chipmaking machines and memory. Applied...",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-20 00:30"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-09-24 16:19:21",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000114036126037568/ef20082688_ars.pdf",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-09-24 16:13:35",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000114036126037565/ef20082050_defa14a.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-09-24 16:05:34",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000047/lrcx-20260924.htm",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 96,
-      "screening_details": {
-        "market_cap": 340637745152,
-        "cap_score": 20,
-        "revenue_growth_pct": 30.0,
-        "growth_score": 25,
-        "operating_margin_pct": 37.390997999999996,
-        "margin_score": 15,
-        "price_position_52w": 0.45115511551155113,
-        "price_score": 16,
-        "debt_to_equity": 33.049,
-        "debt_score": 20
-      }
-    },
-    "AMAT": {
-      "symbol": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "display_name": "Applied Materials, Inc.",
-      "data_limited": false,
-      "price": 412.89,
-      "high_24h": 427.66,
-      "low_24h": 412.69,
-      "high_1m": 547.25,
-      "low_1m": 407.26,
-      "fiftyTwoWeekHigh": 739.67,
-      "fiftyTwoWeekLow": 203.4,
-      "dividendYield": 52.0,
-      "dividendRate": 2.12,
-      "exDividendDate": "1795046400",
-      "charts": {
-        "24h": "charts/AMAT_24h.png",
-        "1m": "charts/AMAT_1m.png",
-        "1y": "charts/AMAT_1y.png"
-      },
-      "news": [
-        {
-          "title": "How EPIC Center Launch Will Impact Applied Materials Stock",
-          "summary": "Applied Materials has opened its US$5b EPIC Center in Sunnyvale, a 600,000-square-foot semiconductor equipment and process R&D hub that brings chipmakers, suppliers and universities into a shared cleanroom complex designed to speed commercialization of AI focused manufacturing technologies. The EPIC Center’s co-location of materials researchers, equipment engineers and chip production teams could reshape how Applied Materials converts AI related demand into higher value tools, services and...",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-20 07:14"
-        },
-        {
-          "title": "Applied Materials, Lam Research, Marvell Technology, Micron, and Semtech Shares Skyrocket, What You Need To Know",
-          "summary": "A number of stocks jumped in the morning session after investors cautiously returned to beaten-down stocks following the previous week's technology retreat, helped by an analyst upgrade for Intel.",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-20 06:28"
-        },
-        {
-          "title": "Broadcom vs. Applied Materials: Which Buybacks Are Actually Shrinking the Share Count?",
-          "summary": "Broadcom and Applied Materials both generate cash and repurchase shares, but shareholders ultimately own a fraction of a business. Our 10 Best Semiconductor Stocks to Buy for the Next Decade makes that distinction important: buyback spending is useful only in the context of issuance, the price paid and the cash needed to sustain growth. Broadcom […]",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-20 03:57"
-        },
-        {
-          "title": "Applied Materials vs. ASML: Which Can Carry a Bigger Research Bill?",
-          "summary": "Keeping a semiconductor-equipment franchise valuable for ten years requires repeated invention. Our 10 Best Semiconductor Stocks to Buy for the Next Decade includes Applied Materials and ASML because both supply demanding manufacturing processes. Their latest results show different amounts of profit available to support the next research cycle. Applied Materials, Inc. (NASDAQ:AMAT) reported $1.10 billion […]",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-20 03:56"
-        },
-        {
-          "title": "Are Companies Reducing AI Spending? Chip Orders Say Otherwise",
-          "summary": "Investors keep selling chip stocks. The iShares Semiconductor ETF fell 11.8% last week. It has now declined for nine straight days—its longest losing streak since 2006. The damage was worse among the companies that build chipmaking machines and memory. Applied...",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-20 00:30"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-10-05 17:59:34",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026065097/xslF345X06/wk-form4_1791237572.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-10-05 17:58:16",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026065093/xslF345X06/wk-form4_1791237494.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-09-10 17:03:47",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026061408/xslF345X06/wk-form4_1789074224.xml",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 92,
-      "screening_details": {
-        "market_cap": 327843020800,
-        "cap_score": 20,
-        "revenue_growth_pct": 24.8,
-        "growth_score": 21,
-        "operating_margin_pct": 33.736,
-        "margin_score": 15,
-        "price_position_52w": 0.39105301433979156,
-        "price_score": 16,
-        "debt_to_equity": 28.666,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 85.5,
+        "earnings_growth_pct": 215.3,
+        "growth_score": 20,
+        "free_cashflow": 30596499456,
+        "cash_score": 15,
+        "price_position_52w": 0.21659188451033953,
+        "valuation_score": 10
       }
     },
     "GOOGL": {
@@ -946,9 +709,9 @@
       "name": "Alphabet Inc.",
       "display_name": "Alphabet Inc.",
       "data_limited": false,
-      "price": 344.2,
-      "high_24h": 346.58,
-      "low_24h": 341.85,
+      "price": 340.32,
+      "high_24h": 344.77,
+      "low_24h": 338.36,
       "high_1m": 364.17,
       "low_1m": 335.51,
       "fiftyTwoWeekHigh": 408.61,
@@ -963,34 +726,34 @@
       },
       "news": [
         {
-          "title": "Ex-Google CEO Eric Schmidt Reportedly Owns 1% Of Anthropic",
-          "summary": "Eric Schmidt's early bet on Anthropic positions him for a historic financial windfall as the company eyes a massive public market debut.",
+          "title": "Major gold holder backs NVIDIA challenger",
+          "summary": "The funding gives another boost to an up-and-coming AI chipmaker.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 08:28"
+          "published_at": "2026-10-21 06:28"
         },
         {
-          "title": "Alphabet Stock Slipped After Q2 Earnings. Here's What Investors Need to See in Q3.",
-          "summary": "Alphabet has a lot to prove in the market's \"show-me\" phase of AI spending.",
+          "title": "Stock Market Today: Dow Jumps On U.S.-Iran Hopes; This Warren Buffett Stock Offers Entry (Live Coverage)",
+          "summary": "Stock Market Today: The Dow Jones index and other indexes gain Tuesday on U.S.-Iran peace hopes. Biotech and software stocks show strength. A Warren Buffett stock clears an entry.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 07:43"
+          "published_at": "2026-10-21 05:48"
         },
         {
-          "title": "Eric Schmidt’s 1% Anthropic stake sets up massive windfall ahead of IPO -Bloomberg",
-          "summary": "Investing.com -- Former Google Chief Executive Officer Eric Schmidt is poised to reap one of the largest individual windfalls from Anthropic's (NASDAQ:ANTP) upcoming initial public offering, driven by an early bet placed during the artificial intelligence startup’s formative stages. According to Bloomberg reporting, Schmidt holds roughly 1% of the Claude chatbot maker following a tens-of-millions-of-dollars investment in its Series A fundraising round.",
+          "title": "Alphabet (GOOGL) Stock Declines While Market Improves: Some Information for Investors",
+          "summary": "Alphabet (GOOGL) reached $339.57 at the closing of the latest trading day, reflecting a -1.34% change compared to its last close.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 07:26"
+          "published_at": "2026-10-21 05:45"
         },
         {
-          "title": "GPIX Out-Yielded JEPI and Returned 17.37% to Its 9.33%. JEPI Is Still 9.5 Times Bigger",
-          "summary": "Two option-income ETFs sell calls against the same index, pay nearly identical yields, and yet one nearly doubled the other's total return over the past year. The way each fund is built explains why.",
+          "title": "Alphabet Inc. (GOOG) Stock Drops Despite Market Gains: Important Facts to Note",
+          "summary": "In the most recent trading session, Alphabet Inc. (GOOG) closed at $336.4, indicating a -1.11% shift from the previous trading day.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 07:03"
+          "published_at": "2026-10-21 05:45"
         },
         {
-          "title": "Update: Tech-Heavy Nasdaq Leads Wall Street's Relief Rally Ahead of Key Earnings",
-          "summary": "(Updates with market moves at the end of the day, and other changes, if any.) The Nasdaq Composit",
+          "title": "Meta vs. Alphabet: Meta Is Better Built for AGI",
+          "summary": "People open social apps to keep up with friends and enjoy content, which is not something they’ll hand off to AI agents. That gives Meta's ad revenue firmer protection than Alphabet's.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-20 05:42"
+          "published_at": "2026-10-21 05:43"
         }
       ],
       "sec_filings_6m": [
@@ -1055,70 +818,73 @@
           }
         ]
       },
-      "screening_score": 92,
+      "screening_score": 97,
       "screening_details": {
-        "market_cap": 4209298898944,
-        "cap_score": 20,
-        "revenue_growth_pct": 24.2,
-        "growth_score": 21,
+        "market_cap": 4161540980736,
+        "cap_score": 15,
+        "roe_pct": 48.676,
+        "roe_score": 20,
         "operating_margin_pct": 34.033,
-        "margin_score": 15,
-        "price_position_52w": 0.6082330049860148,
-        "price_score": 16,
-        "debt_to_equity": 18.859,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 24.2,
+        "earnings_growth_pct": 294.0,
+        "growth_score": 20,
+        "free_cashflow": 22665000960,
+        "cash_score": 15,
+        "price_position_52w": 0.5844886294539704,
+        "valuation_score": 7
       }
     },
-    "KLAC": {
-      "symbol": "KLAC",
-      "name": "KLA Corporation",
-      "display_name": "KLA Corporation",
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "display_name": "NVIDIA Corporation",
       "data_limited": false,
-      "price": 166.41,
-      "high_24h": 173.05,
-      "low_24h": 166.11,
-      "high_1m": 208.68,
-      "low_1m": 165.2,
-      "fiftyTwoWeekHigh": 307.37,
-      "fiftyTwoWeekLow": 107.196,
-      "dividendYield": 56.0,
-      "dividendRate": 0.92,
-      "exDividendDate": "1786924800",
+      "price": 216.48,
+      "high_24h": 218.46,
+      "low_24h": 212.77,
+      "high_1m": 243.37,
+      "low_1m": 212.85,
+      "fiftyTwoWeekHigh": 243.37,
+      "fiftyTwoWeekLow": 164.27,
+      "dividendYield": 46.0,
+      "dividendRate": 1.0,
+      "exDividendDate": "1788998400",
       "charts": {
-        "24h": "charts/KLAC_24h.png",
-        "1m": "charts/KLAC_1m.png",
-        "1y": "charts/KLAC_1y.png"
+        "24h": "charts/NVDA_24h.png",
+        "1m": "charts/NVDA_1m.png",
+        "1y": "charts/NVDA_1y.png"
       },
       "news": [
         {
-          "title": "Lam Research Imploded By 20% In The Last 3 Months: This Respected Wall Street Firm Says It’s About to Double",
-          "summary": "A brutal sector-wide selloff crushed Lam Research even as its fundamentals held firm, and now one respected Wall Street firm has staked out a price target that would make today's buyers very happy.",
+          "title": "SpaceX Crushes Q3 with Some Help From Musk",
+          "summary": "Musk’s other companies came to SpaceX’s rescue in latest earnings.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-19 21:45"
+          "published_at": "2026-10-21 06:32"
         },
         {
-          "title": "LRCX to Report Q1 Earnings: Should You Buy, Hold or Sell the Stock?",
-          "summary": "Lam Research gears up for Q1 earnings, with surging AI and memory chip demand, rising DRAM spending and advanced packaging technologies expected to fuel growth.",
+          "title": "Major gold holder backs NVIDIA challenger",
+          "summary": "The funding gives another boost to an up-and-coming AI chipmaker.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-19 21:23"
+          "published_at": "2026-10-21 06:28"
         },
         {
-          "title": "2 High-Flying Stocks with Exciting Potential and 1 We Find Risky",
-          "summary": "Expensive stocks often command premium valuations because the market thinks their business models are exceptional. However, the downside is that high expectations are already baked into their prices, leaving little room for error if they stumble even slightly.",
+          "title": "The U.S. Army Is Spending $2.2 Billion on Micro Nuclear Reactors. This Stock Could Benefit.",
+          "summary": "The U.S. Army's Janus Program is bringing opportunities to nuclear energy investors.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-19 21:08"
+          "published_at": "2026-10-21 06:25"
         },
         {
-          "title": "Applied Materials Cratered 20% Since July: Multiple Wall Street Firms Predict It’s Going to More Than Double From Here",
-          "summary": "Applied Materials just suffered one of its steepest drops in years, yet analysts keep raising their earnings estimates and some price targets sit nearly double the current share price. Here is what the disconnect reveals about where semiconductor equipment spending may be headed.",
+          "title": "Archer vs Joby: What's the Better eVTOL Stock to Buy Right Now?",
+          "summary": "These electric vertical take-off and landing stocks both have a lot of promise, but both are also down big this year.",
           "publisher": "Yahoo",
-          "published_at": "2026-10-19 20:15"
+          "published_at": "2026-10-21 06:10"
         },
         {
-          "title": "Chip Stocks Repeated a Lehman-Era Losing Streak: Is The Bottom Now In?",
-          "summary": "The SOX fell eight straight sessions for the first time since 2008. Cantor’s C.J. Muse says equipment is sold out as JPMorgan upgrades Intel.",
-          "publisher": "Benzinga",
-          "published_at": "2026-10-19 17:24"
+          "title": "2 Dividend Stocks Crushing the Market in 2026 (and Which Ones Can Keep Going)",
+          "summary": "These drugmakers are facing some near-term challenges, but is that enough to stop their recent momentum?",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-21 06:00"
         }
       ],
       "sec_filings_6m": [
@@ -1128,9 +894,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-09-22 16:27:12",
+          "filed_at": "2026-10-13 17:09:29",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526397978/d311668dars.pdf",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000215218826000007/xslF345X06/wk-form4a_1791925767.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -1139,9 +905,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-09-22 16:16:53",
+          "filed_at": "2026-10-09 17:04:09",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526397940/d108333ddefa14a.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000011/xslF345X06/wk-form4_1791579847.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -1150,9 +916,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-09-22 16:06:06",
+          "filed_at": "2026-09-23 16:56:28",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526397898/d83268ddef14a.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000014/xslF345X06/wk-form4_1790196985.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -1183,18 +949,152 @@
           }
         ]
       },
-      "screening_score": 91,
+      "screening_score": 97,
       "screening_details": {
-        "market_cap": 217153060864,
-        "cap_score": 20,
-        "revenue_growth_pct": 15.2,
-        "growth_score": 21,
-        "operating_margin_pct": 42.486000000000004,
-        "margin_score": 15,
-        "price_position_52w": 0.2957626864627774,
-        "price_score": 20,
-        "debt_to_equity": 96.88,
-        "debt_score": 15
+        "market_cap": 5227101028352,
+        "cap_score": 15,
+        "roe_pct": 117.211,
+        "roe_score": 20,
+        "operating_margin_pct": 66.236997,
+        "margin_score": 20,
+        "revenue_growth_pct": 105.89999999999999,
+        "earnings_growth_pct": 127.8,
+        "growth_score": 20,
+        "free_cashflow": 41809874944,
+        "cash_score": 15,
+        "price_position_52w": 0.6599241466498103,
+        "valuation_score": 7
+      }
+    },
+    "TSM": {
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "display_name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "data_limited": false,
+      "price": 425.3,
+      "high_24h": 428.21,
+      "low_24h": 416.12,
+      "high_1m": 487.47,
+      "low_1m": 407.13,
+      "fiftyTwoWeekHigh": 487.47,
+      "fiftyTwoWeekLow": 266.82,
+      "dividendYield": 90.0,
+      "dividendRate": 3.77,
+      "exDividendDate": "1796860800",
+      "charts": {
+        "24h": "charts/TSM_24h.png",
+        "1m": "charts/TSM_1m.png",
+        "1y": "charts/TSM_1y.png"
+      },
+      "news": [
+        {
+          "title": "Celestica: Broadcom Just Fired A $350 Billion Warning Shot",
+          "summary": "Celestica outlook stays strong as AI networking demand accelerates: 1.6T switching ramp, Broadcom ecosystem, and CPO roadmap ahead of Q3 and Investor...",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-10-20 22:27"
+        },
+        {
+          "title": "Chip stocks decline as AI-trade rebound fizzles",
+          "summary": "Semiconductor stocks were on pace to open lower on Tuesday.",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-20 22:04"
+        },
+        {
+          "title": "TSMC Stock: AI Demand Drives Strong Q3 Results",
+          "summary": "TSMC Q3: 41% revenue growth, AI demand surging, and 44% FY guidance raise.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-10-20 20:49"
+        },
+        {
+          "title": "Taiwan Semiconductor Manufacturing Halts Construction At Kaohsiung Plant Due To Accident At Construction Process Of Steel Structure Operation",
+          "summary": "https://www.ctee.com.tw/news/20261020702195-430502",
+          "publisher": "Benzinga",
+          "published_at": "2026-10-20 18:10"
+        },
+        {
+          "title": "Extreme Ultraviolet Lithography (EUVL) - Global Strategic Business Report: As Conventional Lithography Reaches its Limits, EUV heads for a $34.1bn Market",
+          "summary": "Latest Report values extreme ultraviolet lithography at $15.4bn in 2025, with light sources reaching $15.7bn by 2032 as AI, data centres and government chip investment drive demand — with ASML, TSMC, Samsung and Intel among the companies profiledDublin, Oct. 20, 2026 (GLOBE NEWSWIRE) -- \"Extreme Ultraviolet Lithography (EUVL) - Global Strategic Business Report\" has been added to ResearchAndMarkets.com's offering. EUV lithography has become central to leading-edge semiconductor fabrication, parti",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-20 17:36"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-10-15 06:40:56",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26presentatione.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-10-08 06:35:58",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000724/xslF345X06/wk-form4_1791455755.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-10-08 06:35:53",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000723/xslF345X06/wk-form4_1791455750.xml",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 97,
+      "screening_details": {
+        "market_cap": 2204666167296,
+        "cap_score": 15,
+        "roe_pct": 41.854998,
+        "roe_score": 20,
+        "operating_margin_pct": 58.655,
+        "margin_score": 20,
+        "revenue_growth_pct": 50.9,
+        "earnings_growth_pct": 68.7,
+        "growth_score": 20,
+        "free_cashflow": 1203071877120,
+        "cash_score": 15,
+        "price_position_52w": 0.717244504871969,
+        "valuation_score": 7
       }
     }
   },
@@ -1203,113 +1103,128 @@
       "symbol": "AVGO",
       "name": "Broadcom Inc.",
       "score": 100,
-      "dividend_yield_pct": 79.0,
+      "dividend_yield_pct": 78.0,
       "details": {
-        "market_cap": 1597208788992,
-        "cap_score": 20,
-        "revenue_growth_pct": 85.5,
-        "growth_score": 25,
+        "market_cap": 1596158640128,
+        "cap_score": 15,
+        "roe_pct": 44.245000000000005,
+        "roe_score": 20,
         "operating_margin_pct": 54.307,
-        "margin_score": 15,
-        "price_position_52w": 0.21766484588372997,
-        "price_score": 20,
-        "debt_to_equity": 59.604,
-        "debt_score": 20
-      }
-    },
-    {
-      "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "score": 96,
-      "dividend_yield_pct": 50.0,
-      "details": {
-        "market_cap": 340637745152,
-        "cap_score": 20,
-        "revenue_growth_pct": 30.0,
-        "growth_score": 25,
-        "operating_margin_pct": 37.390997999999996,
-        "margin_score": 15,
-        "price_position_52w": 0.45115511551155113,
-        "price_score": 16,
-        "debt_to_equity": 33.049,
-        "debt_score": 20
-      }
-    },
-    {
-      "symbol": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "score": 92,
-      "dividend_yield_pct": 52.0,
-      "details": {
-        "market_cap": 327843020800,
-        "cap_score": 20,
-        "revenue_growth_pct": 24.8,
-        "growth_score": 21,
-        "operating_margin_pct": 33.736,
-        "margin_score": 15,
-        "price_position_52w": 0.39105301433979156,
-        "price_score": 16,
-        "debt_to_equity": 28.666,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 85.5,
+        "earnings_growth_pct": 215.3,
+        "growth_score": 20,
+        "free_cashflow": 30596499456,
+        "cash_score": 15,
+        "price_position_52w": 0.21659188451033953,
+        "valuation_score": 10
       }
     },
     {
       "symbol": "GOOGL",
       "name": "Alphabet Inc.",
-      "score": 92,
+      "score": 97,
       "dividend_yield_pct": 26.0,
       "details": {
-        "market_cap": 4209298898944,
-        "cap_score": 20,
-        "revenue_growth_pct": 24.2,
-        "growth_score": 21,
+        "market_cap": 4161540980736,
+        "cap_score": 15,
+        "roe_pct": 48.676,
+        "roe_score": 20,
         "operating_margin_pct": 34.033,
-        "margin_score": 15,
-        "price_position_52w": 0.6082330049860148,
-        "price_score": 16,
-        "debt_to_equity": 18.859,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 24.2,
+        "earnings_growth_pct": 294.0,
+        "growth_score": 20,
+        "free_cashflow": 22665000960,
+        "cash_score": 15,
+        "price_position_52w": 0.5844886294539704,
+        "valuation_score": 7
       }
     },
     {
-      "symbol": "KLAC",
-      "name": "KLA Corporation",
-      "score": 91,
-      "dividend_yield_pct": 56.0,
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "score": 97,
+      "dividend_yield_pct": 46.0,
       "details": {
-        "market_cap": 217153060864,
-        "cap_score": 20,
-        "revenue_growth_pct": 15.2,
-        "growth_score": 21,
-        "operating_margin_pct": 42.486000000000004,
-        "margin_score": 15,
-        "price_position_52w": 0.2957626864627774,
-        "price_score": 20,
-        "debt_to_equity": 96.88,
-        "debt_score": 15
+        "market_cap": 5227101028352,
+        "cap_score": 15,
+        "roe_pct": 117.211,
+        "roe_score": 20,
+        "operating_margin_pct": 66.236997,
+        "margin_score": 20,
+        "revenue_growth_pct": 105.89999999999999,
+        "earnings_growth_pct": 127.8,
+        "growth_score": 20,
+        "free_cashflow": 41809874944,
+        "cash_score": 15,
+        "price_position_52w": 0.6599241466498103,
+        "valuation_score": 7
+      }
+    },
+    {
+      "symbol": "ASML",
+      "name": "ASML Holding N.V.",
+      "score": 97,
+      "dividend_yield_pct": 55.0,
+      "details": {
+        "market_cap": 628554661888,
+        "cap_score": 15,
+        "roe_pct": 65.636003,
+        "roe_score": 20,
+        "operating_margin_pct": 44.356,
+        "margin_score": 20,
+        "revenue_growth_pct": 55.2,
+        "earnings_growth_pct": 135.9,
+        "growth_score": 20,
+        "free_cashflow": 10374124544,
+        "cash_score": 15,
+        "price_position_52w": 0.6497414243013712,
+        "valuation_score": 7
+      }
+    },
+    {
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "score": 97,
+      "dividend_yield_pct": 90.0,
+      "details": {
+        "market_cap": 2204666167296,
+        "cap_score": 15,
+        "roe_pct": 41.854998,
+        "roe_score": 20,
+        "operating_margin_pct": 58.655,
+        "margin_score": 20,
+        "revenue_growth_pct": 50.9,
+        "earnings_growth_pct": 68.7,
+        "growth_score": 20,
+        "free_cashflow": 1203071877120,
+        "cash_score": 15,
+        "price_position_52w": 0.717244504871969,
+        "valuation_score": 7
       }
     }
   ],
   "screening_meta": {
-    "mode": "theme",
-    "title": "모멘텀/테마 후보",
-    "seed_pool_size": 125,
+    "mode": "quality",
+    "title": "장기 퀄리티 후보",
+    "seed_pool_size": 61,
     "ai_selected_count": 20,
     "scored_count": 20,
     "top5": [
       "AVGO",
-      "LRCX",
-      "AMAT",
       "GOOGL",
-      "KLAC"
+      "NVDA",
+      "ASML",
+      "TSM"
     ],
     "max_screening_candidates": 20
   },
   "api_stats": {
-    "yfinance": 30,
-    "news": 10,
-    "fmp": 10,
-    "charts": 30,
+    "yfinance": 29,
+    "news": 9,
+    "fmp": 9,
+    "charts": 27,
     "limits": {
       "max_screening_candidates": 20,
       "news_per_ticker": 5,
