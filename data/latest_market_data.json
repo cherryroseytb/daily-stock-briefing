@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-11 10:31",
+  "date": "2026-11-12 11:33",
   "report_profile": {
-    "type": "quality",
-    "title": "장기 퀄리티 후보",
-    "description": "3년 이상 보유 관점에서 사업 품질, 재무 안정성, 성장성을 기준으로 선별합니다."
+    "type": "dividend",
+    "title": "고배당/현금흐름 후보",
+    "description": "배당률, 배당 지속성, 재무 안정성을 기준으로 현금흐름형 후보를 선별합니다."
   },
   "market_data": {
     "ASML": {
@@ -11,9 +11,9 @@
       "name": "ASML Holding N.V.",
       "display_name": "ASML Holding N.V.",
       "data_limited": false,
-      "price": 1507.04,
-      "high_24h": 1545.71,
-      "low_24h": 1492.0,
+      "price": 1534.83,
+      "high_24h": 1563.46,
+      "low_24h": 1517.11,
       "high_1m": 1782.46,
       "low_1m": 1355.05,
       "fiftyTwoWeekHigh": 1999.96,
@@ -28,34 +28,34 @@
       },
       "news": [
         {
+          "title": "Semiconductor equipment stocks: fundamentals, fair value, and the top pick",
+          "summary": "Investing.com -- Wafer fab equipment (WFE) names are rallying today after a sharp slide. Applied Materials (AMAT) is $396.56 (+6.45%) and Lam Research (LRCX) is $237.68 (+6.87%). KLA (KLAC) is $161.68 (+5.68%) and ASML ADR (ASML) is $1,542.41 (+2.29%). All prices are as of Nov 11, 2026, 3:26 PM EST.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-12 06:00"
+        },
+        {
+          "title": "The AI Trade Deconstructed: AI Builders, AI Suppliers And AI Product Firms",
+          "summary": "",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-11 18:30"
+        },
+        {
+          "title": "Europe Is Selling More Into The U.S. AI Build-Out, But Losing Market Share",
+          "summary": "",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-11 11:25"
+        },
+        {
+          "title": "AI In 2027: 20 Questions For The Global Economy",
+          "summary": "The AI boom is reshaping growth, productivity, trade, jobs and markets. Read more here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-11 09:30"
+        },
+        {
           "title": "AI chip exports to China and oversight bills gain momentum in Congress",
           "summary": "The 8:30 hosts Julie Hyman, Pras Subramanian, and Jake Conley discuss several bipartisan bills moving through Congress to tighten oversight and export controls on advanced AI chips and chipmaking equipment going to China, including the AI Overwatch Act, the Chip Security Act, and the MATCH Act, all for inclusion in the National Defense Authorization Act.",
           "publisher": "Yahoo",
           "published_at": "2026-11-10 23:39"
-        },
-        {
-          "title": "Intel Can Catch Taiwan Semiconductor on Physics, Not Economics",
-          "summary": "Intel's 18A chips work, its Xeon business is booming, and TSMC is bleeding margin on 2nm. So why does the market still refuse to pay for Intel's roadmap? One missing signature may decide who pulls ahead.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-10 22:45"
-        },
-        {
-          "title": "ETFs Are Net Sellers of ASML (ASML) on Nov. 6",
-          "summary": "ETFs sold $82.9 million of ASML on Friday, with 8 buyers and 4 sellers.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-10 20:03"
-        },
-        {
-          "title": "10 Dividend Growth Stocks: November 2026",
-          "summary": "Analyst sees TPL as the only top-10 dividend growth pick for a new position; all 10 returned 12%+ over five years and trade at or below fair value. See more here.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-11-10 18:00"
-        },
-        {
-          "title": "The Zacks Analyst Blog Highlights ASML, Alibaba, Intuitive Surgical, Paul Mueller and Presurance",
-          "summary": "ASML, BABA, ISRG, MUEL and PRHI feature in Zacks reports, highlighting growth drivers, challenges and performance outlooks.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-10 15:28"
         }
       ],
       "sec_filings_6m": [
@@ -119,22 +119,6 @@
             "reason": "unrecognized_form"
           }
         ]
-      },
-      "screening_score": 100,
-      "screening_details": {
-        "market_cap": 581152079872,
-        "cap_score": 15,
-        "roe_pct": 65.636003,
-        "roe_score": 20,
-        "operating_margin_pct": 44.356,
-        "margin_score": 20,
-        "revenue_growth_pct": 55.2,
-        "earnings_growth_pct": 135.9,
-        "growth_score": 20,
-        "free_cashflow": 10374124544,
-        "cash_score": 15,
-        "price_position_52w": 0.5330360108174788,
-        "valuation_score": 10
       }
     },
     "OXLC": {
@@ -142,14 +126,14 @@
       "name": "Oxford Lane Capital Corp.",
       "display_name": "Oxford Lane Capital Corp.",
       "data_limited": false,
-      "price": 4.99,
-      "high_24h": 5.05,
-      "low_24h": 4.89,
+      "price": 5.08,
+      "high_24h": 5.16,
+      "low_24h": 4.96,
       "high_1m": 8.41,
       "low_1m": 4.62,
       "fiftyTwoWeekHigh": 15.39,
       "fiftyTwoWeekLow": 4.62,
-      "dividendYield": 2355.0,
+      "dividendYield": 2405.0,
       "dividendRate": 1.2,
       "exDividendDate": "1794787200",
       "charts": {
@@ -239,14 +223,14 @@
       "name": "QUALCOMM Incorporated",
       "display_name": "QUALCOMM Incorporated",
       "data_limited": false,
-      "price": 173.52,
-      "high_24h": 174.39,
-      "low_24h": 167.2,
+      "price": 176.55,
+      "high_24h": 182.17,
+      "low_24h": 172.94,
       "high_1m": 185.59,
       "low_1m": 148.25,
       "fiftyTwoWeekHigh": 259.92,
       "fiftyTwoWeekLow": 121.99,
-      "dividendYield": 215.0,
+      "dividendYield": 212.0,
       "dividendRate": 3.68,
       "exDividendDate": "1796256000",
       "charts": {
@@ -256,34 +240,34 @@
       },
       "news": [
         {
-          "title": "Prediction: This Underrated Semiconductor Stock Will Jump 187% in 3 Years",
-          "summary": "The growth in Qualcomm's non-handset business could supercharge the stock's performance following poor returns in 2026.",
+          "title": "Jim Cramer sends a strong signal on AT&T and SpaceX to investors",
+          "summary": "Jim Cramer sent a signal. Not everyone is hearing it the same way.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 06:14"
+          "published_at": "2026-11-12 07:33"
         },
         {
-          "title": "ParkerVision Reports Third Quarter 2026 Results",
-          "summary": "JACKSONVILLE, FL / ACCESS Newswire / November 10, 2026 / (OTCQB:PRKR) (\"ParkerVision\" or the \"Company\"), a developer and marketer of technologies and products for wireless applications, today announced results for the nine months ended September 30, 2026.2026 Summary and Recent Developments * On September 30, 2026, the appellate court ruled that it did not have proper jurisdiction over the issues on the expedited appeal filed by the Company in October 2025 in ParkerVision v.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-11 06:01"
+          "title": "S&P 500 After-Hours Movers: MNST, RDDT Among Gainers; VEEV, LLY Among Losers in Latest Session",
+          "summary": "S&P 500 after-hours movers from the latest U.S. session include MNST and RDDT among gainers, while VEEV and LLY posted sharp after-hours declines.",
+          "publisher": "ChartMill",
+          "published_at": "2026-11-12 07:06"
         },
         {
-          "title": "Google's SpaceX investment takes an unexpected turn",
-          "summary": "Google’s relationship with SpaceX has quietly grown into something investors are only starting to notice.",
+          "title": "Micron Stock Fell 30% in a Week. Bernstein Says It Could Nearly Double",
+          "summary": "Key TakeawaysMicron Technology (MU) stock fell 29. 7% between October 29 and November 5, closing at $656.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 05:13"
+          "published_at": "2026-11-12 04:24"
         },
         {
-          "title": "Texas Instruments Stock Surges 70% YTD: Is the Rally Set to Continue?",
-          "summary": "TXN surges 70% YTD. Strong earnings, rising AI data center demand and robust cash flow could fuel further gains despite a premium valuation.",
+          "title": "Here’s Why Barclays’ Tom O’Malley Kept a Sell on Qualcomm (QCOM)",
+          "summary": "We just published a list of the Analysts Just Slashed Their Price Targets on These 10 Stocks and Qualcomm (NASDAQ:QCOM) ranked 10th on this list. Wall Street had its worst day in 19 months last Thursday, with chip stocks leading the selloff. The Nasdaq Composite fell 5.52% to 24,315.00, its biggest one-day drop since the […]",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 03:53"
+          "published_at": "2026-11-12 03:02"
         },
         {
-          "title": "Exclusive: Qualcomm begins job cuts; India and California among regions impacted",
-          "summary": "Investing.com — Qualcomm has begun rolling out planned job cuts across its global operations, affecting employees in India and California, according to people familiar with the company’s plans.",
+          "title": "Qualcomm's AI data centre ambitions offer upside, but Bank of America remains cautious",
+          "summary": "Qualcomm Inc (NASDAQ:QCOM, XETRA:QCI), is positioning itself as a full-stack supplier to AI data centres, with ambitions to capture up to $50 billion of a rapidly expanding market. Bank of America (BoA) maintained its 'underperform' rating despite growing confidence in Qualcomm's emerging...",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 03:41"
+          "published_at": "2026-11-12 02:50"
         }
       ],
       "sec_filings_6m": [
@@ -354,9 +338,9 @@
       "name": "Amazon.com, Inc.",
       "display_name": "Amazon.com, Inc.",
       "data_limited": false,
-      "price": 270.9,
-      "high_24h": 272.88,
-      "low_24h": 266.14,
+      "price": 266.22,
+      "high_24h": 274.87,
+      "low_24h": 265.62,
       "high_1m": 275.34,
       "low_1m": 229.36,
       "fiftyTwoWeekHigh": 287.2,
@@ -371,34 +355,34 @@
       },
       "news": [
         {
-          "title": "What Could Lift Netflix Stock From Here?",
-          "summary": "For questions about this article or underlying research, email help@trefis.com.",
+          "title": "Trade Desk Stock Boosted by Wall Street Optimism Following Earnings Beat",
+          "summary": "At least 14 analysts who cover the stock raised their price targets after earnings.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 08:34"
+          "published_at": "2026-11-12 08:37"
         },
         {
-          "title": "Bullish’s New President Backs Issuer-First Model for Tokenized Stocks",
-          "summary": "Digital asset platform Bullish (NYSE: $BLSH) plans to build its tokenized stock business around the companies that ...",
+          "title": "Amazon (AMZN) Could Face Trial In Italy Over Unpaid Import VAT",
+          "summary": "Amazon.com (NasdaqGS:AMZN) faces a potential criminal trial in Italy over alleged unpaid import VAT and customs duties on non EU goods. Italian prosecutors are targeting Amazon's European unit and managers over marketplace sales of millions of products imported from outside the EU. The case centers on alleged failures to account for VAT and duties on third party cross border shipments handled through Amazon's European marketplace. The Italian investigation into alleged unpaid import VAT and...",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 08:33"
+          "published_at": "2026-11-12 07:10"
         },
         {
-          "title": "Why the Data Center Backlash Could Fall Flat: Increased Costs “a Trade That These Hyperscalers Are Still Going to Want to Make”",
-          "summary": "Key TakeawaysTexas governor-elect Gina Hinojosa plans to make newly permitted data centers pay taxes, avoid raising consumer power prices and use union labor. Gene Munster puts soft costs at about 15% of a data center’s bill, so a 30% jump in them raises the total only about 5%.",
+          "title": "Generac: 3 Key Takeaways for Long-Term Investors",
+          "summary": "Manufacturing is working to triple production with minimal capital spending, a structural advantage that reshapes return-on-investment expectations.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 06:38"
+          "published_at": "2026-11-12 07:05"
         },
         {
-          "title": "Want Extra Cash for the Holidays? 12 Companies Hiring Seasonal Workers",
-          "summary": "The impending holiday shopping rush means many of us are making gift lists and trying to set aside as much money as possible. For workers, it also means thousands of opportunities for permanent and seasonal positions. Seasonal jobs can lead to a full-time career, but they can also simply be a smarter way to cover… This was originally published on The Penny Hoarder, a personal finance website that empowers millions of readers nationwide to make smart decisions with their money through actionable",
+          "title": "Anthropic's Mythos claim may put Nvidia’s CUDA moat in a vulnerable spot",
+          "summary": "Yahoo Finance's Deirdre Bosa discusses an Anthropic (ANTH.PVT) claim that its Mythos model got Claude running on AMD (AMD) chips in about three days, raising questions about whether AI can erode the value of Nvidia's (NVDA) CUDA moat.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 06:30"
+          "published_at": "2026-11-12 06:43"
         },
         {
-          "title": "Amazon.com, Inc. (AMZN) Faces a $1.2 Trillion AI Spending Question: Will the Investment Pay Off?",
-          "summary": "Moon Capital Management an investment management company, recently released its Q3 2026 investor letter. A copy of the letter can be downloaded here. The letter reported that its equity portfolio gained approximately 4% during the first nine months of 2026, compared with an approximately 12% year-to-date return for the S&P 500. The firm noted that […]",
+          "title": "Meta Platforms Infrastructure Head Santosh Janardhan to Depart in Early 2027",
+          "summary": "Meta Platforms (META) confirmed Wednesday that Head of Infrastructure Santosh Janardhan will depart",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 06:22"
+          "published_at": "2026-11-12 06:07"
         }
       ],
       "sec_filings_6m": [
@@ -469,14 +453,14 @@
       "name": "Microsoft Corporation",
       "display_name": "Microsoft Corporation",
       "data_limited": false,
-      "price": 533.42,
-      "high_24h": 545.18,
-      "low_24h": 526.36,
+      "price": 521.21,
+      "high_24h": 534.76,
+      "low_24h": 518.45,
       "high_1m": 559.15,
       "low_1m": 504.96,
       "fiftyTwoWeekHigh": 559.15,
       "fiftyTwoWeekLow": 349.2,
-      "dividendYield": 72.0,
+      "dividendYield": 74.0,
       "dividendRate": 3.92,
       "exDividendDate": "1795046400",
       "charts": {
@@ -486,34 +470,34 @@
       },
       "news": [
         {
-          "title": "Dow Jones Futures: Stock Market Falls On Surging Treasury Yields, Nvidia Sell-Off; CoreWeave Rises Late",
-          "summary": "The stock market fell Tuesday as Fed rate-hike fears sent Treasury yields soaring while Nvidia kept falling. Indexes did come off lows though. CoreWeave rose late on results.",
+          "title": "Market Chatter: Microsoft Wants to Power Data Centers Without Subsidies or Higher Costs for Others",
+          "summary": "Microsoft (MSFT) aims to find ways to power its data centers without relying on government subsidies",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 08:54"
+          "published_at": "2026-11-12 09:08"
         },
         {
-          "title": "What Nebius Group Buyers Were Betting On",
-          "summary": "If you had simply held your nerve with Nebius Group through a year of eye catching headlines and sharp swings, the scorecard now looks very different. Holding Nebius Group from the start of the year would have returned 49.0%, including dividends. If that outcome rests on a $17.4b Microsoft contract, heavy capex plans, and rising regulatory costs, what exactly were early buyers weighing at the turn of 2026? On Simply Wall St, a Narrative is an investor's thesis written down: the reasoning,...",
+          "title": "Fusion's Next Race Is Over Superconducting Tape, Not Plasma",
+          "summary": "Proxima Fusion signed deals with Japan's Fujikura and Kyoto Fusioneering to build a European fusion supply chain, starting with superconducting tape.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 08:17"
+          "published_at": "2026-11-12 08:00"
         },
         {
-          "title": "CoreWeave Earnings Were Strong. Investors Remain Antsy as Stock Edges Up.",
-          "summary": "The AI cloud provider’s rapid expansion is paying off as the company handily beat analyst expectations.",
+          "title": "Stock Market Today, Nov. 11: IREN Rises as AI Cloud Peers Rally on CoreWeave Results",
+          "summary": "Trading volume ran well above its three-month average as the AI data center operator rode a sector rally, today, Nov. 11, 2026.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 08:03"
+          "published_at": "2026-11-12 07:25"
         },
         {
-          "title": "IREN Stock Falls Even as JPMorgan Goes Bullish",
-          "summary": "Shares in AI data center operator IREN Limited (IREN) fell about 4% to around $21 on Tuesday morning. This came even after four-star JPMorgan analyst Richard Choe assigned the stock a Buy rating. Choe is bullish on IREN’s fiscal Q1 2027 earnings, which showed AI cloud revenue surged 182% quarter-over-quarter to $200 million. JPMorgan Backs IREN AI Cloud Growth, Strong Pricing According to Choe, IREN’s delivery of the first phase of its four-part data center project with Microsoft (MSFT) helped t",
+          "title": "A day after Anthropic’s office push, Databricks jumps in with AI agents that never sleep",
+          "summary": "The $190 billion AI startup's new tool, which operates in the background and shadows the user's daily workday, comes on the heels of Anthropic's renewed push for corporate users.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 07:44"
+          "published_at": "2026-11-12 07:07"
         },
         {
-          "title": "How does this simple website make $23K/month",
-          "summary": "How does this simple website make $23K/month?",
+          "title": "Stocks Slide as AI Trade Roars Back | Closing Bell",
+          "summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Vonnie Quinn, Carol Massar and Tim Stenovec.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 07:32"
+          "published_at": "2026-11-12 07:04"
         }
       ],
       "sec_filings_6m": [
@@ -579,56 +563,56 @@
         ]
       }
     },
-    "META": {
-      "symbol": "META",
-      "name": "Meta Platforms, Inc.",
-      "display_name": "Meta Platforms, Inc.",
+    "NNN": {
+      "symbol": "NNN",
+      "name": "NNN REIT, Inc.",
+      "display_name": "NNN REIT, Inc.",
       "data_limited": false,
-      "price": 641.66,
-      "high_24h": 647.28,
-      "low_24h": 635.5,
-      "high_1m": 771.27,
-      "low_1m": 583.8,
-      "fiftyTwoWeekHigh": 779.82,
-      "fiftyTwoWeekLow": 520.26,
-      "dividendYield": 33.0,
-      "dividendRate": 2.1,
-      "exDividendDate": "1789948800",
+      "price": 41.4,
+      "high_24h": 41.55,
+      "low_24h": 41.05,
+      "high_1m": 42.39,
+      "low_1m": 39.47,
+      "fiftyTwoWeekHigh": 50.0,
+      "fiftyTwoWeekLow": 38.9,
+      "dividendYield": 594.0,
+      "dividendRate": 2.48,
+      "exDividendDate": "1793318400",
       "charts": {
-        "24h": "charts/META_24h.png",
-        "1m": "charts/META_1m.png",
-        "1y": "charts/META_1y.png"
+        "24h": "charts/NNN_24h.png",
+        "1m": "charts/NNN_1m.png",
+        "1y": "charts/NNN_1y.png"
       },
       "news": [
         {
-          "title": "HIMS Stock Faces Dual Blow From Expanded FTC Privacy Lawsuit After Selloff Driven By Q3 Subscriber Loss",
-          "summary": "The Federal Trade Commission on Tuesday filed an amended complaint in the U.S. District Court for the Northern District of California, adding Arizona, Florida, Nebraska, Ohio, and Wisconsin as co-plaintiffs.",
+          "title": "Tire Shops, Convenience Stores and Warehouses Pay Rent to These 3 REITs, and $120,000 Yields $6,889 a Year",
+          "summary": "The tire shop on your corner and the warehouse down the road probably don't own their buildings. Three publicly traded landlords do, and each one carries a risk that could cut the rent checks behind your dividends.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 08:10"
+          "published_at": "2026-11-12 06:11"
         },
         {
-          "title": "CoreWeave Earnings Were Strong. Investors Remain Antsy as Stock Edges Up.",
-          "summary": "The AI cloud provider’s rapid expansion is paying off as the company handily beat analyst expectations.",
+          "title": "Realty Income's Dividend Growth: Can Strong AFFO Sustain It?",
+          "summary": "O raises its monthly dividend for the 137th time since 1994, backed by solid AFFO growth, strong occupancy and a $10 billion investment target.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 08:03"
+          "published_at": "2026-11-12 02:39"
         },
         {
-          "title": "Stock Market Today, Nov. 10: Wall Street's Rally Hits a Roadblock as Hot Inflation Raises the Stakes for the Fed",
-          "summary": "Yesterday's rebound lost momentum as rising Treasury yields and renewed inflation concerns weighed on stocks",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-11 07:50"
+          "title": "W. P. Carey: 140% Coverage Buffer, Organic Growth, Solid 5% Yield",
+          "summary": "The bull case for W.P. Carey: at 12.3x 2026 AFFO, shares could gain 21% if growth and acquisitions lift the multiple to ~15x.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-11 15:51"
         },
         {
-          "title": "Halliburton Announces Dividend",
-          "summary": "HOUSTON, November 10, 2026--Halliburton Company (NYSE: HAL) announced today that its board of directors has declared a 2026 fourth quarter dividend of seventeen cents ($0.17) a share on the Company’s common stock payable on December 23, 2026, to shareholders of record at the close of business on December 2, 2026.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-11 07:15"
+          "title": "Truist Securities Maintains Hold on NNN REIT, Raises Price Target to $46",
+          "summary": "Truist Securities  analyst Linda Tsai   maintains NNN REIT (NYSE:NNN) with a Hold and raises the price target from $45 to $46.",
+          "publisher": "Benzinga",
+          "published_at": "2026-11-10 20:52"
         },
         {
-          "title": "Meta's Ember is a bet on cheaper models with competitors",
-          "summary": "Yahoo Finance's Deirdre Bosa and \"In the Loop\" host Ejaaz Ahamadeen discuss Meta's  (META) new Ember model, designed as a low-cost, quick option to compete with smaller models like ChatGPT's Luna and Claude's Haiku.",
+          "title": "How Investors Are Reacting To NNN REIT Stock As Earnings Hold Steady",
+          "summary": "NNN REIT reported third quarter 2026 results with revenue of US$249.68 million, net income of US$109.93 million, and diluted EPS from continuing operations of US$0.57, alongside higher year‑to‑date figures versus 2025. The REIT kept its full‑year outlook, reported 5.8% year‑over‑year AFFO per share growth to US$0.91, and marked its 37th consecutive annual dividend increase at US$0.62 per share with 99.2% portfolio occupancy. Next, the focus shifts to how NNN REIT's steady occupancy and...",
           "publisher": "Yahoo",
-          "published_at": "2026-11-11 06:55"
+          "published_at": "2026-11-10 00:09"
         }
       ],
       "sec_filings_6m": [
@@ -638,9 +622,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-11-06 18:36:37",
+          "filed_at": "2026-11-05 13:22:27",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017123/xslF345X06/ownership.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/315066/000031506626002802/xslSCHEDULE_13G_X02/primary_doc.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -649,9 +633,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-11-06 07:35:49",
+          "filed_at": "2026-11-04 08:33:32",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450754/d44678d424b5.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/751364/000119312526446273/nnn-20260930.htm",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -660,402 +644,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-11-05 16:58:46",
+          "filed_at": "2026-11-04 08:30:15",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 100,
-      "screening_details": {
-        "market_cap": 1639927119872,
-        "cap_score": 15,
-        "roe_pct": 32.263999999999996,
-        "roe_score": 20,
-        "operating_margin_pct": 35.414,
-        "margin_score": 20,
-        "revenue_growth_pct": 26.1,
-        "earnings_growth_pct": 264.8,
-        "growth_score": 20,
-        "free_cashflow": 16848499712,
-        "cash_score": 15,
-        "price_position_52w": 0.4666743720141777,
-        "valuation_score": 10
-      }
-    },
-    "NVDA": {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "display_name": "NVIDIA Corporation",
-      "data_limited": false,
-      "price": 168.79,
-      "high_24h": 178.67,
-      "low_24h": 165.89,
-      "high_1m": 228.86,
-      "low_1m": 170.24,
-      "fiftyTwoWeekHigh": 243.37,
-      "fiftyTwoWeekLow": 164.27,
-      "dividendYield": 56.0,
-      "dividendRate": 1.0,
-      "exDividendDate": "1788998400",
-      "charts": {
-        "24h": "charts/NVDA_24h.png",
-        "1m": "charts/NVDA_1m.png",
-        "1y": "charts/NVDA_1y.png"
-      },
-      "news": [
-        {
-          "title": "Dow Jones Futures: Stock Market Falls On Surging Treasury Yields, Nvidia Sell-Off; CoreWeave Rises Late",
-          "summary": "The stock market fell Tuesday as Fed rate-hike fears sent Treasury yields soaring while Nvidia kept falling. Indexes did come off lows though. CoreWeave rose late on results.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-11 08:54"
-        },
-        {
-          "title": "Why AAON Stock Popped Today",
-          "summary": "Effective heat control systems are an increasingly vital component of the AI boom.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-11 08:46"
-        },
-        {
-          "title": "2 Reasons AMD Can Still Outperform by 2030",
-          "summary": "After a pullback, AMD’s agentic AI CPU demand and multiyear GPU runway give it a path to beat the market through 2030.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-11 08:33"
-        },
-        {
-          "title": "Dell Sinks 12% in a Week on Texas Data Center Fears: “A Moratorium, a Ban”",
-          "summary": "Key TakeawaysDell fell 12% in the week to Nov. 9 as AI hardware stocks, Nvidia and Super Micro among them, sold off after the Nov.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-11 08:30"
-        },
-        {
-          "title": "Hyperscalers Are Projected to Spend $1.3 Trillion on Capex in 2027. Here's the 1 Industrial Stock That Gets Paid Before a Single AI Token Is Sold.",
-          "summary": "Eaton gets paid before AI generates a dime.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-11 08:25"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-06 16:12:02",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000013/xslF345X06/wk-form4_1793999520.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-10-13 17:09:29",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000215218826000007/xslF345X06/wk-form4a_1791925767.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-10-09 17:04:09",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000011/xslF345X06/wk-form4_1791579847.xml",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 100,
-      "screening_details": {
-        "market_cap": 4078186790912,
-        "cap_score": 15,
-        "roe_pct": 117.211,
-        "roe_score": 20,
-        "operating_margin_pct": 66.236997,
-        "margin_score": 20,
-        "revenue_growth_pct": 105.89999999999999,
-        "earnings_growth_pct": 127.8,
-        "growth_score": 20,
-        "free_cashflow": 41809874944,
-        "cash_score": 15,
-        "price_position_52w": 0.0584070796460174,
-        "valuation_score": 10
-      }
-    },
-    "AVGO": {
-      "symbol": "AVGO",
-      "name": "Broadcom Inc.",
-      "display_name": "Broadcom Inc.",
-      "data_limited": false,
-      "price": 331.98,
-      "high_24h": 334.67,
-      "low_24h": 316.69,
-      "high_1m": 360.69,
-      "low_1m": 289.77,
-      "fiftyTwoWeekHigh": 495.0,
-      "fiftyTwoWeekLow": 289.77,
-      "dividendYield": 81.0,
-      "dividendRate": 2.6,
-      "exDividendDate": "1789948800",
-      "charts": {
-        "24h": "charts/AVGO_24h.png",
-        "1m": "charts/AVGO_1m.png",
-        "1y": "charts/AVGO_1y.png"
-      },
-      "news": [
-        {
-          "title": "S&P 500 Top Gainers and Losers for Today's Session",
-          "summary": "S&P 500 market movers for today's session: Charter Communications led gainers at 9.68%, while Carvana led losers at 6.32%.",
-          "publisher": "ChartMill",
-          "published_at": "2026-11-11 05:06"
-        },
-        {
-          "title": "5 Best Tech Stocks That Pay Dividends",
-          "summary": "The idea that technology companies don’t pay dividends comes from the industry’s early years, when most businesses focused on growing as quickly as possible. During the dot-com boom of the late 1990s and early 2000s, tech companies typically reinvested their profits into expansion, new products, and gaining market share. Returning cash to shareholders was rarely […]",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-11 04:41"
-        },
-        {
-          "title": "Will Broadcom Inc. (AVGO) Beat Estimates Again in Its Next Earnings Report?",
-          "summary": "Broadcom Inc. (AVGO) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-11 04:39"
-        },
-        {
-          "title": "Should You Buy, Sell, or Hold Cerebras Systems Stock Before Q3 Earnings?",
-          "summary": "CBRS Q3 results are likely to reflect strong AI inference demand and growing cloud adoption, but margin pressure, persistent losses, and valuation risks remain.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-11 04:33"
-        },
-        {
-          "title": "Texas Instruments Stock Surges 70% YTD: Is the Rally Set to Continue?",
-          "summary": "TXN surges 70% YTD. Strong earnings, rising AI data center demand and robust cash flow could fuel further gains despite a premium valuation.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-11 03:53"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-10-27 16:23:36",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/d148323d8k.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-09-25 16:15:18",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1201633/000110465926110983/xslF345X06/tm2626134-1_4seq1.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-09-21 00:15:12",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1730168/999999999526003011/xslEFFECTX01/primary_doc.xml",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 100,
-      "screening_details": {
-        "market_cap": 1584749740032,
-        "cap_score": 15,
-        "roe_pct": 44.245000000000005,
-        "roe_score": 20,
-        "operating_margin_pct": 54.307,
-        "margin_score": 20,
-        "revenue_growth_pct": 85.5,
-        "earnings_growth_pct": 215.3,
-        "growth_score": 20,
-        "free_cashflow": 30596499456,
-        "cash_score": 15,
-        "price_position_52w": 0.20567168542610745,
-        "valuation_score": 10
-      }
-    },
-    "TSM": {
-      "symbol": "TSM",
-      "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "display_name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "data_limited": false,
-      "price": 396.51,
-      "high_24h": 400.21,
-      "low_24h": 387.2,
-      "high_1m": 454.4,
-      "low_1m": 351.19,
-      "fiftyTwoWeekHigh": 487.47,
-      "fiftyTwoWeekLow": 266.82,
-      "dividendYield": 97.0,
-      "dividendRate": 3.77,
-      "exDividendDate": "1796860800",
-      "charts": {
-        "24h": "charts/TSM_24h.png",
-        "1m": "charts/TSM_1m.png",
-        "1y": "charts/TSM_1y.png"
-      },
-      "news": [
-        {
-          "title": "Baron Global Durable Advantage ETF Q3 2026 Top Contributors And Detractors",
-          "summary": "Baron Global Durable Advantage ETF highlights top drivers like NVIDIA and Meta alongside detractors in Q3 2026. Read the full commentary for details.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-11-11 03:45"
-        },
-        {
-          "title": "The Most Important Market Shift Of The Decade Is Already Underway",
-          "summary": "A market rotation could drive outperformance over 3, 5, and 10 years as investors overlook AI's long-term beneficiaries. Discover more in this market outlook.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-11-11 00:16"
-        },
-        {
-          "title": "Down from highs: Why GlobalFoundries is an essential chip play",
-          "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-10 19:18"
-        },
-        {
-          "title": "10 Dividend Growth Stocks: November 2026",
-          "summary": "Analyst sees TPL as the only top-10 dividend growth pick for a new position; all 10 returned 12%+ over five years and trade at or below fair value. See more here.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-11-10 18:00"
-        },
-        {
-          "title": "Nvidia: TPUs, Trainiums, And Jalapenos Scare Me More Than China (Rating Downgrade)",
-          "summary": "Nvidia faces intensifying competitive threats from hyperscalers and AI labs developing their own silicon, eroding its moat. Read why NVDA stock is a hold.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-11-10 17:57"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-10 08:41:38",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000797/tsm-boardx202611xx.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-10 07:01:33",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000796/tsm-revenue20261110.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-10 06:41:42",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000794/xslF345X06/wk-form4_1794310898.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/751364/000075136426000002/nnn-ex99_1.htm",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -1088,149 +679,623 @@
       },
       "screening_score": 97,
       "screening_details": {
-        "market_cap": 2056333295616,
+        "dividend_yield_pct": 594.0,
+        "dividend_score": 40,
+        "dividend_consistent": true,
+        "consistency_score": 25,
+        "market_cap": 8029527552,
+        "cap_score": 20,
+        "debt_to_equity": 109.723,
+        "debt_score": 12
+      }
+    },
+    "EPD": {
+      "symbol": "EPD",
+      "name": "Enterprise Products Partners L.P.",
+      "display_name": "Enterprise Products Partners L.P.",
+      "data_limited": false,
+      "price": 37.18,
+      "high_24h": 37.41,
+      "low_24h": 37.04,
+      "high_1m": 38.67,
+      "low_1m": 34.91,
+      "fiftyTwoWeekHigh": 40.17,
+      "fiftyTwoWeekLow": 31.35,
+      "dividendYield": 603.0,
+      "dividendRate": 2.24,
+      "exDividendDate": "1793318400",
+      "charts": {
+        "24h": "charts/EPD_24h.png",
+        "1m": "charts/EPD_1m.png",
+        "1y": "charts/EPD_1y.png"
+      },
+      "news": [
+        {
+          "title": "Inflation Is Running Above 3%. These 3 Energy Dividend Stocks Can Keep Up.",
+          "summary": "Energy prices drive the inflation consumers feel, but the same commodity swings that protect income can also wipe out a dividend. Three payers sit at different points in the energy chain, and only one has never cut its payout.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-11 23:32"
+        },
+        {
+          "title": "Elite Dividend Growth Machines On Sale (Up To 7% Yields)",
+          "summary": "The bull case for two dividend funds: 4.4% and 7.4% yields, long-term distribution growth and exposure to AI and rising electricity demand. Read more here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-11 19:36"
+        },
+        {
+          "title": "Q3 2026 MLP/Midstream Dividends: Growth Extends Into 2027",
+          "summary": "On a year-over-year basis, 94.5% of the Alerian Midstream Energy Index, by weighting, has grown its dividends. Read more here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-11 17:15"
+        },
+        {
+          "title": "Enterprise Products Partners (EPD) Stock Looks Like A Bargain On Earnings",
+          "summary": "Enterprise Products Partners has delivered a powerful run over the past several years, which naturally pushes investors to ask whether the current price still lines up with what its earnings can support. With the units now around US$37.13 after a long stretch of gains and fresh news flow, the question is how much of the underlying profit story is already reflected in that quote. Over the past 5 years the stock has returned 128.1%, which puts real weight on getting the earnings based...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-11 11:17"
+        },
+        {
+          "title": "Why Kinder Morgan's Chairman Just Bought $15 Million in Stock",
+          "summary": "Richard Kinder bought $15 million in KMI shares after Kinder Morgan's backlog hit a record $14.4 billion, driven by natural gas deals tied to AI data centers and utilities.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-11 06:30"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-09 16:31:16",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1061219/000119312526453702/d20421d424b5.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-05 16:58:54",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1061219/000119312526450077/d132755dfwp.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-05 08:12:32",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1061219/000119312526448664/d20421d424b3.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 12,
+        "shown_count": 3,
+        "excluded_count": 12,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 12
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 97,
+      "screening_details": {
+        "dividend_yield_pct": 603.0,
+        "dividend_score": 40,
+        "dividend_consistent": true,
+        "consistency_score": 25,
+        "market_cap": 80139436032,
+        "cap_score": 20,
+        "debt_to_equity": 109.972,
+        "debt_score": 12
+      }
+    },
+    "ET": {
+      "symbol": "ET",
+      "name": "Energy Transfer LP",
+      "display_name": "Energy Transfer LP",
+      "data_limited": false,
+      "price": 19.47,
+      "high_24h": 19.65,
+      "low_24h": 19.32,
+      "high_1m": 20.69,
+      "low_1m": 18.79,
+      "fiftyTwoWeekHigh": 21.84,
+      "fiftyTwoWeekLow": 16.18,
+      "dividendYield": 705.0,
+      "dividendRate": 1.37,
+      "exDividendDate": "1793923200",
+      "charts": {
+        "24h": "charts/ET_24h.png",
+        "1m": "charts/ET_1m.png",
+        "1y": "charts/ET_1y.png"
+      },
+      "news": [
+        {
+          "title": "How Investors May Respond To Energy Transfer Stock 2.7b Bond Offering",
+          "summary": "Energy Transfer LP recently completed a US$2.7b multi tranche fixed income offering, issuing callable senior unsecured fixed rate notes maturing in 2032, 2037 and 2057 with coupons of 5.450%, 5.900% and 6.550% respectively. The bond sale, backed by a wide syndicate of co lead underwriters, adds long dated funding that can support Energy Transfer's large capital program as it balances project execution, leverage targets and fee based cash flows across its pipeline and export network. This...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-12 05:06"
+        },
+        {
+          "title": "Energy Transfer (ET) Prices New Bonds, Is The Upside Already Priced In?",
+          "summary": "Energy Transfer’s bond sale puts fixed income in focus Energy Transfer (TXSE:ET) has just priced a US$2.7b senior notes offering across three maturities, giving investors fresh data on how the market is valuing the partnership’s long term debt profile. Recent trading shows that Energy Transfer’s 1 day share price return of 1.78% has come after a 30 day share price return that slipped 4.80%. The 1 year total shareholder return of 25.72% and 5 year total shareholder return of 221.77% point to...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-12 04:11"
+        },
+        {
+          "title": "Buy 18 Ideal 'Safer' November Dividend Dogs Of 10-Year Tenured 81",
+          "summary": "Read the list of five low-priced, high-yield tenured dividend dogs stock picks as potential outperformers, with 53.49% net gain potential versus 36.69% for the top ten.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-12 03:27"
+        },
+        {
+          "title": "Is Energy Transfer (ET) Still Undervalued With $1.6B In New Projects?",
+          "summary": "Energy Transfer has delivered a very strong 221.8% total return over the past 5 years, yet recent share price softness raises a fresh question about whether today's valuation can still be explained by its earnings power. With the partnership committing to new projects and acquisitions, the issue for you is whether current earnings justify paying around US$19 for the stock. The 221.8% 5 year return puts real pressure on the current P/E and earnings based valuation to show that the move...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-12 02:17"
+        },
+        {
+          "title": "Elite Dividend Growth Machines On Sale (Up To 7% Yields)",
+          "summary": "The bull case for two dividend funds: 4.4% and 7.4% yields, long-term distribution growth and exposure to AI and rising electricity demand. Read more here.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-11 19:36"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-06 18:22:36",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1276187/000119312526452186/d185485d424b2.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-06 16:21:39",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1276187/000119312526451885/d192483d8k.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-05 17:23:18",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1276187/000119312526450192/d130122dfwp.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 97,
+      "screening_details": {
+        "dividend_yield_pct": 705.0,
+        "dividend_score": 40,
+        "dividend_consistent": true,
+        "consistency_score": 25,
+        "market_cap": 66990706688,
+        "cap_score": 20,
+        "debt_to_equity": 141.659,
+        "debt_score": 12
+      }
+    },
+    "HTGC": {
+      "symbol": "HTGC",
+      "name": "Hercules Capital, Inc.",
+      "display_name": "Hercules Capital, Inc.",
+      "data_limited": false,
+      "price": 16.05,
+      "high_24h": 16.12,
+      "low_24h": 15.98,
+      "high_1m": 16.44,
+      "low_1m": 15.5,
+      "fiftyTwoWeekHigh": 19.13,
+      "fiftyTwoWeekLow": 13.7,
+      "dividendYield": 1166.0,
+      "dividendRate": 1.88,
+      "exDividendDate": "1794268800",
+      "charts": {
+        "24h": "charts/HTGC_24h.png",
+        "1m": "charts/HTGC_1m.png",
+        "1y": "charts/HTGC_1y.png"
+      },
+      "news": [
+        {
+          "title": "2 Elite Income Machines: 9-11% Yields",
+          "summary": "High yields combined with quality enterprises can be a winning combination. Click for two good income picks that may fit the bill for your portfolio.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-11 22:00"
+        },
+        {
+          "title": "Did Higher Q4 Income Guidance Just Shift Hercules Capital (HTGC) Stock Narrative?",
+          "summary": "Hercules Capital reported third quarter 2026 results with revenue of US$140.12 million, net income of US$93.57 million, and basic EPS from continuing operations of US$0.50, and issued fourth quarter guidance that points to higher total investment income and net investment income due to anticipated prepayment activity. The mix of higher year to date revenue of US$430.77 million and net income of US$266.25 million, alongside a softer third quarter profit profile, focuses attention on how...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-11 18:13"
+        },
+        {
+          "title": "Hercules Capital (HTGC) Stock Still Looks Cheap After A 67% Gain",
+          "summary": "Hercules Capital has delivered a 67.3% share price gain over the past 5 years, which naturally raises the question of whether the current valuation is still grounded in the returns it earns on its capital. With more recent trading softer and fresh financial results in the mix, investors are asking how much of those capital returns are already reflected in the price. Over 5 years, Hercules Capital is up 67.3%. That puts real weight on whether the business is generating enough return on its...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-11 17:09"
+        },
+        {
+          "title": "Hercules Capital (HTGC) Lifted Guidance, Is The Stock Still Trading At A Discount?",
+          "summary": "Hercules Capital (HTGC) just paired fresh fourth quarter 2026 guidance with third quarter results, telling investors to expect higher total investment income and net investment income as prepayment activity picks up. Despite the fresh guidance, Hercules Capital’s recent share price has softened, with the stock down 2.4% on a 30 day share price return and 14.5% on a year to date share price basis. Total shareholder return over five years sits at 67.3%, which hints that long term momentum has...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-11 15:14"
+        },
+        {
+          "title": "Capital Southwest: A Market-Beating BDC, But I'm Still Not Chasing It",
+          "summary": "Capital Southwest has outperformed the S&P 500, driven by robust origination, equity leveraging, and resilient dividend coverage. Read what investors should know about the BDC.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-10 18:30"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-10-29 16:29:42",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1280784/000128078426000055/htgcq32026release.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-10-29 16:16:41",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1280784/000128078426000054/htgc-20260930.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-10-13 15:21:49",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1280784/000176877326000011/xslF345X06/primarydocument.xml",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 92,
+      "screening_details": {
+        "dividend_yield_pct": 1166.0,
+        "dividend_score": 40,
+        "dividend_consistent": true,
+        "consistency_score": 25,
+        "market_cap": 3042258176,
         "cap_score": 15,
-        "roe_pct": 41.854998,
-        "roe_score": 20,
-        "operating_margin_pct": 58.655,
-        "margin_score": 20,
-        "revenue_growth_pct": 50.9,
-        "earnings_growth_pct": 68.7,
-        "growth_score": 20,
-        "free_cashflow": 1203071877120,
-        "cash_score": 15,
-        "price_position_52w": 0.5876274643099932,
-        "valuation_score": 7
+        "debt_to_equity": 110.335,
+        "debt_score": 12
+      }
+    },
+    "ARCC": {
+      "symbol": "ARCC",
+      "name": "Ares Capital Corporation",
+      "display_name": "Ares Capital Corporation",
+      "data_limited": false,
+      "price": 19.47,
+      "high_24h": 19.5,
+      "low_24h": 19.35,
+      "high_1m": 19.7,
+      "low_1m": 18.31,
+      "fiftyTwoWeekHigh": 21.14,
+      "fiftyTwoWeekLow": 17.4,
+      "dividendYield": 988.0,
+      "dividendRate": 1.92,
+      "exDividendDate": "1797292800",
+      "charts": {
+        "24h": "charts/ARCC_24h.png",
+        "1m": "charts/ARCC_1m.png",
+        "1y": "charts/ARCC_1y.png"
+      },
+      "news": [
+        {
+          "title": "4 Ultra-High-Yield Dividend Stocks Paying Up to 16.6%. Are They Safe?",
+          "summary": "One of these four high-yield payouts has a CEO openly questioning whether it survives, while another sits on a cushion that keeps checks flowing. Which income engines deserve your money, and which are running on borrowed time?",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-12 01:17"
+        },
+        {
+          "title": "4 Huge 8% Yields the IRS Is Grabbing (Use a Roth IRA Loophole)",
+          "summary": "Four fat-yield stocks hand the IRS a slice of your income every single year, and the bite grows with your bracket. One account choice decides how much of that payout you keep, and the gap compounds into six figures.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-11 23:51"
+        },
+        {
+          "title": "11% Dividend Yield: What The Market Misses About My Biggest Position",
+          "summary": "Investors are overlooking dividend opportunities. Click here to read about one REIT investment, among others flying under the radar.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-11 23:01"
+        },
+        {
+          "title": "How Much Verizon Stock Does a 65-Year-Old Need to Collect $2,000 a Month in Dividends?",
+          "summary": "A $24,000 dividend paycheck sounds simple until you see what one telecom giant demands up front, how the checks actually arrive, and what a single board decision could do to your monthly budget.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-11 21:32"
+        },
+        {
+          "title": "5 High-Yield Dividend Stocks That Can Actually Afford Their Payouts",
+          "summary": "With Treasuries paying more than 5.2%, a dividend needs real cash behind it to justify the risk. We checked the coverage on five payers across insurance, energy, malls, snacks, and private credit, and one of them barely clears the bar.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-11 01:17"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-10-29 19:04:16",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026068348/xslF345X06/wk-form4_1793315053.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-10-29 17:59:42",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1278752/000110465926120293/tm2628408d2_425.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-10-27 21:40:05",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1278752/000110465926119290/tm2628408d1_425.htm",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 72,
+      "screening_details": {
+        "dividend_yield_pct": 988.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 14053912576,
+        "cap_score": 20,
+        "debt_to_equity": 108.447,
+        "debt_score": 12
       }
     }
   },
   "candidate_rankings": [
     {
-      "symbol": "META",
-      "name": "Meta Platforms, Inc.",
-      "score": 100,
-      "dividend_yield_pct": 33.0,
-      "details": {
-        "market_cap": 1639927119872,
-        "cap_score": 15,
-        "roe_pct": 32.263999999999996,
-        "roe_score": 20,
-        "operating_margin_pct": 35.414,
-        "margin_score": 20,
-        "revenue_growth_pct": 26.1,
-        "earnings_growth_pct": 264.8,
-        "growth_score": 20,
-        "free_cashflow": 16848499712,
-        "cash_score": 15,
-        "price_position_52w": 0.4666743720141777,
-        "valuation_score": 10
-      }
-    },
-    {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "score": 100,
-      "dividend_yield_pct": 56.0,
-      "details": {
-        "market_cap": 4078186790912,
-        "cap_score": 15,
-        "roe_pct": 117.211,
-        "roe_score": 20,
-        "operating_margin_pct": 66.236997,
-        "margin_score": 20,
-        "revenue_growth_pct": 105.89999999999999,
-        "earnings_growth_pct": 127.8,
-        "growth_score": 20,
-        "free_cashflow": 41809874944,
-        "cash_score": 15,
-        "price_position_52w": 0.0584070796460174,
-        "valuation_score": 10
-      }
-    },
-    {
-      "symbol": "AVGO",
-      "name": "Broadcom Inc.",
-      "score": 100,
-      "dividend_yield_pct": 81.0,
-      "details": {
-        "market_cap": 1584749740032,
-        "cap_score": 15,
-        "roe_pct": 44.245000000000005,
-        "roe_score": 20,
-        "operating_margin_pct": 54.307,
-        "margin_score": 20,
-        "revenue_growth_pct": 85.5,
-        "earnings_growth_pct": 215.3,
-        "growth_score": 20,
-        "free_cashflow": 30596499456,
-        "cash_score": 15,
-        "price_position_52w": 0.20567168542610745,
-        "valuation_score": 10
-      }
-    },
-    {
-      "symbol": "ASML",
-      "name": "ASML Holding N.V.",
-      "score": 100,
-      "dividend_yield_pct": 62.0,
-      "details": {
-        "market_cap": 581152079872,
-        "cap_score": 15,
-        "roe_pct": 65.636003,
-        "roe_score": 20,
-        "operating_margin_pct": 44.356,
-        "margin_score": 20,
-        "revenue_growth_pct": 55.2,
-        "earnings_growth_pct": 135.9,
-        "growth_score": 20,
-        "free_cashflow": 10374124544,
-        "cash_score": 15,
-        "price_position_52w": 0.5330360108174788,
-        "valuation_score": 10
-      }
-    },
-    {
-      "symbol": "TSM",
-      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "symbol": "NNN",
+      "name": "NNN REIT, Inc.",
       "score": 97,
-      "dividend_yield_pct": 97.0,
+      "dividend_yield_pct": 594.0,
       "details": {
-        "market_cap": 2056333295616,
+        "dividend_yield_pct": 594.0,
+        "dividend_score": 40,
+        "dividend_consistent": true,
+        "consistency_score": 25,
+        "market_cap": 8029527552,
+        "cap_score": 20,
+        "debt_to_equity": 109.723,
+        "debt_score": 12
+      }
+    },
+    {
+      "symbol": "EPD",
+      "name": "Enterprise Products Partners L.P.",
+      "score": 97,
+      "dividend_yield_pct": 603.0,
+      "details": {
+        "dividend_yield_pct": 603.0,
+        "dividend_score": 40,
+        "dividend_consistent": true,
+        "consistency_score": 25,
+        "market_cap": 80139436032,
+        "cap_score": 20,
+        "debt_to_equity": 109.972,
+        "debt_score": 12
+      }
+    },
+    {
+      "symbol": "ET",
+      "name": "Energy Transfer LP",
+      "score": 97,
+      "dividend_yield_pct": 705.0,
+      "details": {
+        "dividend_yield_pct": 705.0,
+        "dividend_score": 40,
+        "dividend_consistent": true,
+        "consistency_score": 25,
+        "market_cap": 66990706688,
+        "cap_score": 20,
+        "debt_to_equity": 141.659,
+        "debt_score": 12
+      }
+    },
+    {
+      "symbol": "HTGC",
+      "name": "Hercules Capital, Inc.",
+      "score": 92,
+      "dividend_yield_pct": 1166.0,
+      "details": {
+        "dividend_yield_pct": 1166.0,
+        "dividend_score": 40,
+        "dividend_consistent": true,
+        "consistency_score": 25,
+        "market_cap": 3042258176,
         "cap_score": 15,
-        "roe_pct": 41.854998,
-        "roe_score": 20,
-        "operating_margin_pct": 58.655,
-        "margin_score": 20,
-        "revenue_growth_pct": 50.9,
-        "earnings_growth_pct": 68.7,
-        "growth_score": 20,
-        "free_cashflow": 1203071877120,
-        "cash_score": 15,
-        "price_position_52w": 0.5876274643099932,
-        "valuation_score": 7
+        "debt_to_equity": 110.335,
+        "debt_score": 12
+      }
+    },
+    {
+      "symbol": "ARCC",
+      "name": "Ares Capital Corporation",
+      "score": 72,
+      "dividend_yield_pct": 988.0,
+      "details": {
+        "dividend_yield_pct": 988.0,
+        "dividend_score": 40,
+        "dividend_consistent": false,
+        "consistency_score": 0,
+        "market_cap": 14053912576,
+        "cap_score": 20,
+        "debt_to_equity": 108.447,
+        "debt_score": 12
       }
     }
   ],
   "screening_meta": {
-    "mode": "quality",
-    "title": "장기 퀄리티 후보",
-    "seed_pool_size": 61,
+    "mode": "dividend",
+    "title": "고배당/현금흐름 후보",
+    "seed_pool_size": 51,
     "ai_selected_count": 20,
-    "scored_count": 20,
+    "scored_count": 18,
     "top5": [
-      "META",
-      "NVDA",
-      "AVGO",
-      "ASML",
-      "TSM"
+      "NNN",
+      "EPD",
+      "ET",
+      "HTGC",
+      "ARCC"
     ],
     "max_screening_candidates": 20
   },
   "api_stats": {
-    "yfinance": 29,
-    "news": 9,
-    "fmp": 9,
-    "charts": 27,
+    "yfinance": 30,
+    "news": 10,
+    "fmp": 10,
+    "charts": 30,
     "limits": {
       "max_screening_candidates": 20,
       "news_per_ticker": 5,
