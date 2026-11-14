@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-13 11:11",
+  "date": "2026-11-14 10:52",
   "report_profile": {
-    "type": "theme",
-    "title": "모멘텀/테마 후보",
-    "description": "최근 뉴스와 시장 모멘텀이 붙은 주요 테마 안에서 후보를 선별합니다."
+    "type": "quality",
+    "title": "장기 퀄리티 후보",
+    "description": "3년 이상 보유 관점에서 사업 품질, 재무 안정성, 성장성을 기준으로 선별합니다."
   },
   "market_data": {
     "ASML": {
@@ -11,14 +11,14 @@
       "name": "ASML Holding N.V.",
       "display_name": "ASML Holding N.V.",
       "data_limited": false,
-      "price": 1497.12,
-      "high_24h": 1530.95,
-      "low_24h": 1487.85,
+      "price": 1494.8,
+      "high_24h": 1506.51,
+      "low_24h": 1462.41,
       "high_1m": 1732.21,
       "low_1m": 1355.05,
       "fiftyTwoWeekHigh": 1999.96,
       "fiftyTwoWeekLow": 946.11,
-      "dividendYield": 61.0,
+      "dividendYield": 62.0,
       "dividendRate": 9.31,
       "exDividendDate": "1793059200",
       "charts": {
@@ -28,34 +28,34 @@
       },
       "news": [
         {
-          "title": "5 Unrivaled Stocks to Buy for the Next Decade",
-          "summary": "Wall Street had its worst day since April 2025 last Thursday. The Nasdaq Composite fell 5.5%, the S&P 500 dropped 4.4%, and the Philadelphia Semiconductor Index plunged 12.2%. Two worries drove the selling. Investors doubt that heavy spending on artificial intelligence will pay off, and candidates who ran against data center expansion won races in […]",
+          "title": "ASML Holding (ENXTAM:ASML) Faces Sector Selling, Is The 25% Undervaluation Case Still Intact?",
+          "summary": "ETF flows and sector shock put ASML Holding in focus ASML Holding (ENXTAM:ASML) moved into the spotlight after Nvidia’s leadership shake-up and a brief swing to net ETF selling, giving investors fresh reasons to reassess the high-profile semiconductor equipment supplier. The latest swings in ASML Holding’s share price, with a 1-day move down of 2.76% and a 30-day share price return down 12.39% after a strong year to date gain of 35.74%, reflect investors reassessing AI chip exposure as...",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 07:33"
+          "published_at": "2026-11-14 07:21"
         },
         {
-          "title": "Applied Materials Sits 47% Below Its High. Here’s What the November 12 Report Has to Prove",
-          "summary": "Key TakeawaysApplied Materials reports fiscal fourth-quarter results on Nov. 12 with its stock 47% below its high, after a chip-equipment sell-off that also hit Lam Research and KLA.",
+          "title": "Xanadu Breakthroughs & Partnerships Advance Roadmap – Quarterly Update Report",
+          "summary": "Download the Complete Report Here Xanadu Quantum Technologies (XNDU) Optical-Loss Breakthroughs and Manufacturing Partnerships Advance Fault-Tolerance Roadmap. Valuation Remains Attractive. Key Takeaways: XNDU reduced optical-switch loss to 7 milli-dB from approximately 20 milli-dB, alongside 2x lower homodyne detector loss and greater than 3x fiber delay-line improvement. Silicon-nitride wafer runs doubled year to date, while GlobalFoundries, […] The post Xanadu Breakthroughs & Partnerships Adv",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 01:01"
+          "published_at": "2026-11-14 07:13"
         },
         {
-          "title": "Silicon Motion Vs. Qualcomm: Which Chipmaker Has More Potential?",
-          "summary": "SIMO outshines QCOM in stock performance, earnings estimates and valuation to be the better semiconductor investment.",
+          "title": "Applied Materials Is 47% Off Its High. Summit Insights Downgraded It, and It’s Not About Demand",
+          "summary": "Key TakeawaysSummit Insights cut Applied Materials to Hold on Nov. 13, a day after a record quarter, with the stock 47% below its June high.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-12 23:07"
+          "published_at": "2026-11-14 00:48"
         },
         {
-          "title": "Wall Street's Next Blockbuster Stock Split Could Come From This Chip Equipment Giant",
-          "summary": "ASML posted record sales in its latest quarter, and some customers are already eyeing orders for delivery in 2029.",
+          "title": "Nvidia stock slips as investors digest CEO exit, broader chip sector falls",
+          "summary": "Nvidia stock declined on Friday as the rest of the chip sector also fell.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-12 22:51"
+          "published_at": "2026-11-13 23:48"
         },
         {
-          "title": "Nvidia stock tumbles as CEO Jensen Huang steps down, dragging down other AI names",
-          "summary": "Chip giants Broadcom and AMD rose on the back of Nvidia's recent woes. Other AI trade-related names didn't fare as well.",
+          "title": "5 High P/E Stocks Under the 200-Day SMA",
+          "summary": "A high price-to-earnings ratio usually reflects substantial expectations for a company’s future earnings. But what happens when those expectations remain elevated even as the stock falls below its long-term trading average? That disconnect has become particularly relevant following the recent technology selloff, which has pressured several companies with strong growth prospects but demanding valuations. The […]",
           "publisher": "Yahoo",
-          "published_at": "2026-11-12 22:39"
+          "published_at": "2026-11-13 23:39"
         }
       ],
       "sec_filings_6m": [
@@ -120,18 +120,21 @@
           }
         ]
       },
-      "screening_score": 96,
+      "screening_score": 100,
       "screening_details": {
-        "market_cap": 577016561664,
-        "cap_score": 20,
-        "revenue_growth_pct": 55.2,
-        "growth_score": 25,
+        "market_cap": 576261193728,
+        "cap_score": 15,
+        "roe_pct": 65.636003,
+        "roe_score": 20,
         "operating_margin_pct": 38.551998,
-        "margin_score": 15,
-        "price_position_52w": 0.5228542961522038,
-        "price_score": 16,
-        "debt_to_equity": 8.897,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 55.2,
+        "earnings_growth_pct": 135.9,
+        "growth_score": 20,
+        "free_cashflow": 10374124544,
+        "cash_score": 15,
+        "price_position_52w": 0.520994448925369,
+        "valuation_score": 10
       }
     },
     "OXLC": {
@@ -139,14 +142,14 @@
       "name": "Oxford Lane Capital Corp.",
       "display_name": "Oxford Lane Capital Corp.",
       "data_limited": false,
-      "price": 5.04,
-      "high_24h": 5.16,
-      "low_24h": 4.93,
-      "high_1m": 8.37,
+      "price": 5.05,
+      "high_24h": 5.1,
+      "low_24h": 4.99,
+      "high_1m": 8.22,
       "low_1m": 4.62,
       "fiftyTwoWeekHigh": 15.39,
       "fiftyTwoWeekLow": 4.62,
-      "dividendYield": 2360.0,
+      "dividendYield": 2381.0,
       "dividendRate": 1.2,
       "exDividendDate": "1794787200",
       "charts": {
@@ -156,13 +159,48 @@
       },
       "news": [
         {
-          "title": "Weekly Closed-End Fund Roundup (November 1, 2026)",
-          "summary": "Closed-end fund prices rose 1.13% on average this week, with 21 of 26 sectors up; NAVs gained 0.23%, while MLPs led at 5.68%.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-11-10 23:57"
+          "title": "4 High-Yield Dividend Stocks With Ex-Dates Approaching. One Yields 43.6%",
+          "summary": "Four fat payouts hit their ex-dates soon, but each one hides a crack in the numbers that the headline yield never shows. Learn which test exposes the weak spot before you buy the next payment.",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-11-13T18:47"
+        },
+        {
+          "title": "Oxford Lane Capital Corp. Q2 2027 Earnings Call Summary",
+          "summary": "Moby summary of Oxford Lane Capital Corp.'s Q2 2027 earnings call",
+          "publisher": "Moby",
+          "published_at": "2026-11-06T13:30"
+        },
+        {
+          "title": "Oxford Lane Capital Corp (OXLC) (Q2 2027) Earnings Call Highlights: NAV Slides to $9. ...",
+          "summary": "Oxford Lane Capital Corp (OXLC) posted a lower NAV and weaker core income as CLO equity yields compressed, yet management is leaning into depressed prices with nearly $50 million in CLO equity trades.",
+          "publisher": "GuruFocus.com",
+          "published_at": "2026-11-06T09:16"
+        },
+        {
+          "title": "Oxford Lane Capital Q2 Earnings Call Highlights",
+          "summary": "Oxford Lane Capital (NASDAQ:OXLC) reported a decline in net asset value and investment income for its second fiscal quarter, as management pointed to pressure on collateralized loan obligation equity from tight loan spreads and weak market sentiment. Net asset value stood at $9.95 per share on Sept",
+          "publisher": "MarketBeat",
+          "published_at": "2026-11-05T22:14"
+        },
+        {
+          "title": "A 29.4% Yield and a History of Cuts: 3 Dividend Stocks Worth a Closer Look",
+          "summary": "Three dividend stocks are flashing yields that range from 3% to nearly 30%, and every single one has already cut its payout at least once. Knowing which warning signs to check before the next cut could be the difference between income and a painful loss.",
+          "publisher": "24/7 Wall St.",
+          "published_at": "2026-10-16T15:45"
         }
       ],
       "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-13 07:00:13",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1495222/000121390026119194/xslSCHEDULE_13G_X02/primary_doc.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
         {
           "form_type": "",
           "form_label": "기타 SEC 공시",
@@ -183,17 +221,6 @@
           "filed_at": "2026-11-04 16:03:03",
           "source": "SEC/FMP",
           "url": "https://www.sec.gov/Archives/edgar/data/1495222/000121390026115925/ea0310947-01_n23c2.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-10-23 17:15:21",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1495222/000121390026112182/ea0309508-01_posex.htm",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -230,9 +257,9 @@
       "name": "QUALCOMM Incorporated",
       "display_name": "QUALCOMM Incorporated",
       "data_limited": false,
-      "price": 177.16,
-      "high_24h": 183.4,
-      "low_24h": 175.0,
+      "price": 172.39,
+      "high_24h": 177.53,
+      "low_24h": 167.2,
       "high_1m": 185.59,
       "low_1m": 148.25,
       "fiftyTwoWeekHigh": 259.92,
@@ -247,37 +274,48 @@
       },
       "news": [
         {
-          "title": "Arm Is Up 77% Even As Profit Fell",
-          "summary": "If you had tuned in only for the legal headlines around Arm and Qualcomm, you might assume Arm’s shareholders were punished, not rewarded. Holding Arm from the start of the year would have returned 77.3%, including dividends. That gain came through a period that featured sector selloffs, supply concerns, and valuation debates. If you were deciding on 1 January 2026, what did the available information really say about taking that ride with Arm? Narratives are how investors here put a case on...",
+          "title": "ARM Stock Gains 4% Since Q2 Earnings: Is it a Buy or Hold Now?",
+          "summary": "Arm Holdings' 4% post-earnings stock gain reflects strong licensing demand and AI growth prospects, but weak cash flow and uneven royalties warrant a cautious Hold.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 06:11"
+          "published_at": "2026-11-14 02:41"
         },
         {
-          "title": "Qualcomm's $5 Billion Data Center Ramp Puts Execution in Focus Now",
-          "summary": "QCOM targets $5 billion in fiscal 2027 data center sales, but customer concentration, margin pressure and heavy investments put its execution to the test.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-13 02:47"
-        },
-        {
-          "title": "Is Intel Stock Paying You Enough For The Swings?",
+          "title": "What Is Going On With Intel Stock After Its Earnings Call?",
           "summary": "For questions about this article or underlying research, email help@trefis.com.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 02:32"
+          "published_at": "2026-11-14 01:53"
         },
         {
-          "title": "Is Qualcomm Stock Worth Buying as Diversification Meets Margin Risk?",
-          "summary": "QCOM's automotive and data center growth strengthens diversification, but falling earnings estimates, margin pressure and mixed valuation cloud its buy case.",
+          "title": "Qualcomm’s CEO Says Chipmakers Are in an “Extreme Shortage”",
+          "summary": "Qualcomm's chief executive says supply is tight, yet his own company claims to have all the chips it needs and investors shrugged. The real story sits in margins, unnamed suppliers, and one number that could expose what the talk really means.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 02:27"
+          "published_at": "2026-11-14 01:28"
         },
         {
-          "title": "Tom Lee Says Jensen Huang Exit Doesn’t Change His Bullish Tech Outlook: AVGO, AMD Stocks Lead Chip Rally",
-          "summary": "Lee pointed to the “carnage” in several high-profile hedge funds and forced liquidations as evidence that the market had reached an “internal bottom.”",
+          "title": "SpaceX Drops More Than 13% Over 30 Days: This Wall Street Pro Projects 260% Gains Within 12 Months",
+          "summary": "Washington politics and a chip selloff dragged SpaceX far below its peak while rival space stocks barely flinched. One bank still sees a Street-high target built on compute that does not exist yet. Is the fear justified or overdone?",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 02:22"
+          "published_at": "2026-11-14 00:45"
+        },
+        {
+          "title": "Qualcomm CEO Cristiano Amon on fueling the AI boom",
+          "summary": "Qualcomm CEO Cristiano Amon joins Deirdre Bosa and Brian Sozzi at Yahoo Finance's 2026 Invest conference.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-14 00:08"
         }
       ],
       "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-13 16:48:24",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926127163/tm2629667d1_8k.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
         {
           "form_type": "",
           "form_label": "기타 SEC 공시",
@@ -298,17 +336,6 @@
           "filed_at": "2026-11-10 09:01:54",
           "source": "SEC/FMP",
           "url": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000708/xslSCHEDULE_13G_X02/primary_doc.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-09 18:09:27",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000132/xslF345X06/edgardoc.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -345,9 +372,9 @@
       "name": "Amazon.com, Inc.",
       "display_name": "Amazon.com, Inc.",
       "data_limited": false,
-      "price": 267.46,
-      "high_24h": 273.6,
-      "low_24h": 267.2,
+      "price": 266.61,
+      "high_24h": 269.94,
+      "low_24h": 263.91,
       "high_1m": 275.34,
       "low_1m": 229.36,
       "fiftyTwoWeekHigh": 287.2,
@@ -362,34 +389,34 @@
       },
       "news": [
         {
-          "title": "LiveOne Inc (LVO) (Q2 2027) Earnings Call Highlights: Record EBITDA, Major B2B Partnerships and ...",
-          "summary": "LiveOne Inc (LVO) posted record first-half EBITDA of $7.8 million, up 619% year-over-year, while outlining plans for a massive B2B launch and over $100 million in revenue next year.",
+          "title": "FRMI Stock Clocks Best Day Ever After Report Names Amazon As Project Matador Customer",
+          "summary": "The Financial Times on Friday reported that people familiar with the matter identified the previously unnamed customer as Amazon, marking a reversal of earlier investment talks that collapsed last December.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 10:04"
+          "published_at": "2026-11-14 07:23"
         },
         {
-          "title": "PwC spots a major shift in retirement money",
-          "summary": "Different investments may depend on one big outcome.",
+          "title": "Nvidia's competitors pounce, and what GPU rental prices say about the AI race",
+          "summary": "Deirdre Bosa discusses hyperscalers stock rising in the wake of Nvidia's (NVDA) scandal, Tim Cook remaining loyal to Apple (AAPL) after Trump's post, and breaking down the AI trade. Deirdre Bosa then sits down with Silicon Data CEO Carmen Li to talk about turning AI computing into a commodity, 'Deirdre Bosa Live' airs every day at 4 p.m. Tune in daily to hear how the latest developments in AI and technology are reshaping companies, industries, and the global economy",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 09:00"
+          "published_at": "2026-11-14 07:15"
         },
         {
-          "title": "Cerebras Adds Microsoft Partnership to Diversify Beyond OpenAI",
-          "summary": "The artificial-intelligence chip maker bested expectations and its share price climbed in after-hours trading.",
+          "title": "With Nvidia Floundering, AI Bulls Need More Than Spending. Watch Revenue.",
+          "summary": "Capital spending shows what AI companies are building. Revenue per gigawatt offers clues to demand for that computing power.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 08:02"
+          "published_at": "2026-11-14 07:13"
         },
         {
-          "title": "e.l.f. Beauty vs. lululemon athletica: Which Consumer Goods Stock Is a Better Buy for 2027?",
-          "summary": "Two very different valuations and a growth-versus-margin trade-off could tip the scales for your portfolio. Here is how the numbers stack up.",
+          "title": "Owlet, Inc. Q3 2026 Earnings Call Summary",
+          "summary": "Moby summary of Owlet, Inc.'s Q3 2026 earnings call",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 07:53"
+          "published_at": "2026-11-14 07:10"
         },
         {
-          "title": "Cerebras Delivers Earnings Beat. Market Rewards the Stock.",
-          "summary": "The artificial-intelligence chip maker bested expectations and its share price climbed in after-hours trading.",
+          "title": "What Does Dominion Energy Offer That NiSource Does Not?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 07:25"
+          "published_at": "2026-11-14 06:51"
         }
       ],
       "sec_filings_6m": [
@@ -460,9 +487,9 @@
       "name": "Microsoft Corporation",
       "display_name": "Microsoft Corporation",
       "data_limited": false,
-      "price": 523.11,
-      "high_24h": 529.61,
-      "low_24h": 520.02,
+      "price": 524.31,
+      "high_24h": 526.42,
+      "low_24h": 513.82,
       "high_1m": 559.15,
       "low_1m": 504.96,
       "fiftyTwoWeekHigh": 559.15,
@@ -477,34 +504,34 @@
       },
       "news": [
         {
-          "title": "Microsoft Makes Bold Pledge on America's Power Bills",
-          "summary": "America's electricity concerns are reshaping Big Tech's spending priorities.",
+          "title": "DAS Technology Gives Retailers a Competitive Advantage During Microsoft Outage",
+          "summary": "SCOTTSDALE, Ariz., November 13, 2026--DAS Technology's platforms, including CDXP™, AI Engage, Power Text and Smart Quote, remained operational during the global Microsoft outage.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 08:04"
+          "published_at": "2026-11-14 08:07"
         },
         {
-          "title": "Bill Ackman says Microsoft's position is 'really, really strong' as Anthropic pushes into enterprise software",
-          "summary": "Bill Ackman makes the case for buying the dip on Microsoft.",
+          "title": "Nscale reports ballooning debt and need for more as IPO approaches",
+          "summary": "Neocloud startup Nscale reported ballooning debt and increased reliance on Nvidia for financing as the startup aims for an IPO amid swirling questions about the sustainability of the AI boom .",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 07:38"
+          "published_at": "2026-11-14 07:54"
         },
         {
-          "title": "Azure Grew 48%, Yet Griffin Securities Downgraded Microsoft (MSFT). Here’s the Catch",
-          "summary": "We just published a list of the 10 Unrivaled Stocks to Buy for the Next Decade and Microsoft (NASDAQ:MSFT) ranked 7th on this list. Wall Street had its worst day since April 2025 last Thursday. The Nasdaq Composite fell 5.5%, the S&P 500 dropped 4.4%, and the Philadelphia Semiconductor Index plunged 12.2%. Two worries drove […]",
+          "title": "Nvidia's competitors pounce, and what GPU rental prices say about the AI race",
+          "summary": "Deirdre Bosa discusses hyperscalers stock rising in the wake of Nvidia's (NVDA) scandal, Tim Cook remaining loyal to Apple (AAPL) after Trump's post, and breaking down the AI trade. Deirdre Bosa then sits down with Silicon Data CEO Carmen Li to talk about turning AI computing into a commodity, 'Deirdre Bosa Live' airs every day at 4 p.m. Tune in daily to hear how the latest developments in AI and technology are reshaping companies, industries, and the global economy",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 07:34"
+          "published_at": "2026-11-14 07:15"
         },
         {
-          "title": "Nvidia’s Bonds Hold Steady After Huang’s Exit. Now Watch the Interim CEO.",
-          "summary": "Credit spreads barely budged after Huang’s departure, but Nvidia’s leadership crisis and AI spending risks warrant caution.",
+          "title": "With Nvidia Floundering, AI Bulls Need More Than Spending. Watch Revenue.",
+          "summary": "Capital spending shows what AI companies are building. Revenue per gigawatt offers clues to demand for that computing power.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 07:26"
+          "published_at": "2026-11-14 07:13"
         },
         {
-          "title": "Musk: SpaceX Makes Compute “Actually Usable” in 2 Months, 3x Faster than Rivals",
-          "summary": "Key TakeawaysElon Musk says SpaceX gets a large compute cluster working reliably in about 2 months, against about 6 months he guesses it takes rivals. That speed is SpaceX’s best answer on how to fund its buildout, because a cluster that starts renting sooner pays for itself sooner.",
+          "title": "What Does Dominion Energy Offer That NiSource Does Not?",
+          "summary": "For questions about this article or underlying research, email help@trefis.com.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 07:20"
+          "published_at": "2026-11-14 06:51"
         }
       ],
       "sec_filings_6m": [
@@ -570,19 +597,150 @@
         ]
       }
     },
+    "META": {
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "display_name": "Meta Platforms, Inc.",
+      "data_limited": false,
+      "price": 641.99,
+      "high_24h": 643.91,
+      "low_24h": 624.83,
+      "high_1m": 761.5,
+      "low_1m": 583.8,
+      "fiftyTwoWeekHigh": 779.82,
+      "fiftyTwoWeekLow": 520.26,
+      "dividendYield": 34.0,
+      "dividendRate": 2.1,
+      "exDividendDate": "1789948800",
+      "charts": {
+        "24h": "charts/META_24h.png",
+        "1m": "charts/META_1m.png",
+        "1y": "charts/META_1y.png"
+      },
+      "news": [
+        {
+          "title": "When It Comes To Oreos, Santa's Not Messing Around",
+          "summary": "The Colin Jost-created spots mark the brand's first new holiday push in five years, featuring a Santa with a mean streak.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-14 07:16"
+        },
+        {
+          "title": "Caprock Enters into Investor Relations Agreement",
+          "summary": "Toronto, Ontario--(Newsfile Corp. - November 13, 2026) - Caprock Mining Corp. (CSE: CAPR) (\"Caprock\", or the \"Company\") is pleased to announce that it has entered into an investor relations agreement with Epstein Research (\"ER\") (the \"Agreement\") to increase investor engagement and awareness. ER's engagement is for an initial term of three months, commencing November 15, 2026 and ending February 15, 2027, and may be renewed or cancelled in accordance with the terms of the Agreement.Under the...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-14 06:30"
+        },
+        {
+          "title": "AMD Stock Looks Poised to Revisit Its All-Time Highs",
+          "summary": "Advanced Micro Devices’ (AMD) stock looks poised to revisit its all-time highs. The market has already bought into its growth story. Now, the next opportunity may lie in how much of that growth turns into profits. After a triple-digit gain in 2026, the stock has pulled back from its October record highs, but the fundamentals help explain much of that rally. In its third-quarter earnings report, released on November 3, the Santa Clara, California-based chipmaker reported that its Data Center reve",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-14 06:16"
+        },
+        {
+          "title": "Meta tests prediction-market app for employees, WSJ reports",
+          "summary": "Investing.com -- Meta Platforms is testing an internal prediction-market app called Takes, allowing employees to predict the outcomes of events using virtual points rather than real money, The Wall Street Journal reported Friday.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-14 05:30"
+        },
+        {
+          "title": "Anthropic’s Best Financial Metric Is Also Its Biggest Risk",
+          "summary": "Pricing power is one of its greatest strengths. Preserving it may be it’s toughest test.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-14 04:53"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-12 18:43:22",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017401/xslF345X06/ownership.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-12 18:40:07",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017398/xslF345X06/ownership.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-12 17:07:01",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000135445726001064/META_8A_Cert_1326801.pdf",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 100,
+      "screening_details": {
+        "market_cap": 1640694153216,
+        "cap_score": 15,
+        "roe_pct": 32.263999999999996,
+        "roe_score": 20,
+        "operating_margin_pct": 37.777,
+        "margin_score": 20,
+        "revenue_growth_pct": 26.1,
+        "earnings_growth_pct": 264.8,
+        "growth_score": 20,
+        "free_cashflow": 16848499712,
+        "cash_score": 15,
+        "price_position_52w": 0.46783017414085387,
+        "valuation_score": 10
+      }
+    },
     "NVDA": {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
       "display_name": "NVIDIA Corporation",
       "data_limited": false,
-      "price": 166.04,
-      "high_24h": 167.14,
-      "low_24h": 148.8,
-      "high_1m": 228.64,
-      "low_1m": 165.89,
+      "price": 162.82,
+      "high_24h": 170.0,
+      "low_24h": 158.39,
+      "high_1m": 226.0,
+      "low_1m": 148.8,
       "fiftyTwoWeekHigh": 243.37,
       "fiftyTwoWeekLow": 148.8,
-      "dividendYield": 58.0,
+      "dividendYield": 60.0,
       "dividendRate": 1.0,
       "exDividendDate": "1788998400",
       "charts": {
@@ -592,34 +750,34 @@
       },
       "news": [
         {
-          "title": "Nvidia Stock Shock Puts These AI Infrastructure Chip Shares In Focus",
-          "summary": "When Nvidia shocked markets with Jensen Huang’s abrupt exit, the selloff and frenzy of retail dip-buying did more than shake one ticker. It pulled a spotlight onto a group of large tech and semiconductor stocks that might either benefit from Nvidia’s leadership vacuum or feel heat from the same regulatory and governance questions. This article walks through three stocks from that governance resilient screener that look particularly exposed to this news shock and explains why that may matter...",
+          "title": "S&P 500, Dow, Nasdaq End Lower Amid Nvidia Turmoil, But Record Best Week Since August —  SPCX, NVDA, ARM, AZN In Focus",
+          "summary": "Nvidia saw its worst week since April last year after Jensen Huang stepped down as CEO, and its board is looking for candidates.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 09:20"
+          "published_at": "2026-11-14 08:37"
         },
         {
-          "title": "Who Will Replace Jensen Huang? Here's What Prediction Markets Think.",
-          "summary": "Jensen Huang has resigned as CEO of Nvidia.",
+          "title": "Sandisk Stock Fell Back Under $900 on Friday. I'd Start With a Small Position.",
+          "summary": "The flash memory company's outlook hasn't shifted since Oct. 29. Its stock price has.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 09:20"
+          "published_at": "2026-11-14 08:37"
         },
         {
-          "title": "S&P 500, Dow, Nasdaq Futures Recover After Markets End Lower On Jensen Huang’s Exit, Oil Price Pressure  —  CRWV, CBRS, NVDA, TSLA In Focus",
-          "summary": "Nvidia’s CEO Jensen Huang ousted; CFO Colette Kress named interim chief executive officer.",
+          "title": "Why Newsmax Stock Popped on Friday",
+          "summary": "Politics equals profits for the cable news challenger.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 09:19"
+          "published_at": "2026-11-14 08:22"
         },
         {
-          "title": "SemiAnalysis speculates U.S. intelligence played role in Nvidia CEO exit",
-          "summary": "Investing.com -- The scandal forcing Jensen Huang’s abrupt resignation as chief executive of NVIDIA Corporation (NASDAQ:NVDA), which sent shares down roughly 4% on Thursday, as Chief Financial Officer Colette Kress stepped in as interim chief executive, may reflect a coordinated push by the U.S. intelligence community to remove a major obstacle to stricter China export controls, according to semiconductor supply chain research firm SemiAnalysis. Analysts at SemiAnalysis argued in a Thursday repo",
+          "title": "Why Intel Stock Slumped Today",
+          "summary": "It wasn't a good day for tech stocks generally.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 09:18"
+          "published_at": "2026-11-14 08:09"
         },
         {
-          "title": "3 Canadian AI Stocks With Up To 5x P S",
-          "summary": "US lawmakers pushing for tougher controls on advanced AI chip exports to China have thrown a spotlight on who actually runs the computing back-end of artificial intelligence. That scrutiny on Nvidia shifts attention to the cloud and hyperscale platforms that rent out GPU power. For Canadian investors, this creates a rare entry point. This article walks through three AI infrastructure stocks from this screener worth a closer look. The stocks highlighted below are just a small sample of what...",
+          "title": "Wall Street stocks mostly lower as Nvidia extends slump",
+          "summary": "Wall Street stocks mostly fell Friday as tech shares remained under pressure following the shock downfall of Nvidia's chief Jensen Huang, while the dollar rose following additional data that showed US inflation is persisting.\"There is certainly a defensive leadership as we look at the sectors, which points to some caution,\" said Kourkafas, who expects AI to be in the spotlight again next week when Nvidia reports quarterly results and Anthropic makes its Wall Street debut.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 09:18"
+          "published_at": "2026-11-14 08:07"
         }
       ],
       "sec_filings_6m": [
@@ -686,144 +844,19 @@
       },
       "screening_score": 100,
       "screening_details": {
-        "market_cap": 4012989743104,
-        "cap_score": 20,
-        "revenue_growth_pct": 105.89999999999999,
-        "growth_score": 25,
+        "market_cap": 3932339044352,
+        "cap_score": 15,
+        "roe_pct": 117.211,
+        "roe_score": 20,
         "operating_margin_pct": 65.213996,
-        "margin_score": 15,
-        "price_position_52w": 0.1838849529449084,
-        "price_score": 20,
-        "debt_to_equity": 16.971,
-        "debt_score": 20
-      }
-    },
-    "LRCX": {
-      "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "display_name": "Lam Research Corporation",
-      "data_limited": false,
-      "price": 233.79,
-      "high_24h": 239.67,
-      "low_24h": 227.63,
-      "high_1m": 303.5,
-      "low_1m": 184.24,
-      "fiftyTwoWeekHigh": 438.5,
-      "fiftyTwoWeekLow": 135.5,
-      "dividendYield": 56.0,
-      "dividendRate": 1.32,
-      "exDividendDate": "1796169600",
-      "charts": {
-        "24h": "charts/LRCX_24h.png",
-        "1m": "charts/LRCX_1m.png",
-        "1y": "charts/LRCX_1y.png"
-      },
-      "news": [
-        {
-          "title": "Lam Research (LRCX) Lost About 34% in a Month. Here’s Why Bernstein’s Rasgon Still Likes It",
-          "summary": "We just published a list of the 10 Best AI Stocks to Buy After Wells Fargo’s Outlook Upgrade and Lam Research (NASDAQ:LRCX) ranked 10th on this list. Wells Fargo is no longer telling investors to stay away from the AI infrastructure trade. In a new note, analysts led by Ohsung Kwon raised the firm’s view […]",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-13 08:15"
-        },
-        {
-          "title": "Applied Materials’ Beat Gets a Lukewarm Reception as Nvidia Fallout Lingers",
-          "summary": "Sometimes even exceeding expectations doesn’t do the trick.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-13 07:21"
-        },
-        {
-          "title": "Is Lam Research Stock Paying You Enough For The Swings?",
-          "summary": "For questions about this article or underlying research, email help@trefis.com.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-13 04:54"
-        },
-        {
-          "title": "Marvell makes major board move ahead of $115 billion AI deal",
-          "summary": "The chipmaker expands its board to 10 members as it prepares for a major deal in optical networking.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-13 04:44"
-        },
-        {
-          "title": "How Low Can KLA Stock Go?",
-          "summary": "For questions about this article or underlying research, email help@trefis.com.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-13 04:23"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-12 10:59:42",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000140569326000015/xslF345X06/wk-form4_1794499178.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-09 14:19:19",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000149421126000003/xslF345X06/wk-form4_1794251957.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-09 14:11:56",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000119063926000009/xslF345X06/wk-form4_1794251513.xml",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 100,
-      "screening_details": {
-        "market_cap": 292031168512,
-        "cap_score": 20,
-        "revenue_growth_pct": 54.400000000000006,
-        "growth_score": 25,
-        "operating_margin_pct": 36.951,
-        "margin_score": 15,
-        "price_position_52w": 0.32435643564356437,
-        "price_score": 20,
-        "debt_to_equity": 26.857,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 105.89999999999999,
+        "earnings_growth_pct": 127.8,
+        "growth_score": 20,
+        "free_cashflow": 41809874944,
+        "cash_score": 15,
+        "price_position_52w": 0.14856719890028533,
+        "valuation_score": 10
       }
     },
     "AVGO": {
@@ -831,14 +864,14 @@
       "name": "Broadcom Inc.",
       "display_name": "Broadcom Inc.",
       "data_limited": false,
-      "price": 364.38,
-      "high_24h": 369.82,
-      "low_24h": 354.72,
-      "high_1m": 359.25,
+      "price": 346.62,
+      "high_24h": 358.47,
+      "low_24h": 337.67,
+      "high_1m": 369.82,
       "low_1m": 289.77,
       "fiftyTwoWeekHigh": 495.0,
       "fiftyTwoWeekLow": 289.77,
-      "dividendYield": 75.0,
+      "dividendYield": 71.0,
       "dividendRate": 2.6,
       "exDividendDate": "1789948800",
       "charts": {
@@ -848,34 +881,34 @@
       },
       "news": [
         {
-          "title": "5 Best Growth Stocks for the Next 5 Years",
-          "summary": "Technology stocks went from celebration to rout within two sessions this month. On Wednesday, November 4, equities rallied after Democrats swept Congress in the midterm elections. By Thursday, the S&P 500 had fallen 4.36% and the Dow had lost 3.44%, while the Nasdaq Composite closed 5.52% lower, its worst day since April 2025. The drop […]",
+          "title": "Wall Street stocks mostly lower as Nvidia extends slump",
+          "summary": "Wall Street stocks mostly fell Friday as tech shares remained under pressure following the shock downfall of Nvidia's chief Jensen Huang, while the dollar rose following additional data that showed US inflation is persisting.\"There is certainly a defensive leadership as we look at the sectors, which points to some caution,\" said Kourkafas, who expects AI to be in the spotlight again next week when Nvidia reports quarterly results and Anthropic makes its Wall Street debut.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 08:11"
+          "published_at": "2026-11-14 08:07"
         },
         {
-          "title": "Can Huang's Exit Create Chip Competition",
-          "summary": "Jensen Huang's departure from Nvidia is raising questions about whether rivals can chip away at the company's dominance of the AI semiconductor market. Bloomberg Intelligence analysts Robert Schiffman and Mandeep Singh say demand for AI computing remains strong, but Huang's exit could create opportunities for Broadcom, AMD, Google and others as customers look for alternatives and potentially push back on Nvidia's premium pricing.",
+          "title": "Nvidia Has Real Problems—but Don’t Fall For Fear Mongering",
+          "summary": "Yes, Nvidia helps finance the AI buildout. Just used the right number when evaluating the impact.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 08:00"
+          "published_at": "2026-11-14 07:40"
         },
         {
-          "title": "Now Comes the Hard Part for the Stock Market",
-          "summary": "The S&P 500 has held up through Nvidia’s steep decline. But Huang’s departure raises new questions about the AI trade and the broader market outlook.",
+          "title": "Stock Market Today, Nov. 13: Nvidia Slides After HSBC Downgrades Stock to Hold on CEO Uncertainty",
+          "summary": "On Nov. 13, 2026, Nvidia shares faced a fresh HSBC downgrade as investors weighed leadership changes and an upcoming earnings call.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 07:53"
+          "published_at": "2026-11-14 07:20"
         },
         {
-          "title": "Stock Market Today, Nov. 12: Nvidia CEO's Stunning Exit Sends Wall Street Lower as Rivals Surge",
-          "summary": "Markets retreated Thursday following Nvidia CEO Jensen Huang's resignation, raising new questions about the AI industry's leadership as investors shifted toward competing chipmakers.",
+          "title": "Nvidia's competitors pounce, and what GPU rental prices say about the AI race",
+          "summary": "Deirdre Bosa discusses hyperscalers stock rising in the wake of Nvidia's (NVDA) scandal, Tim Cook remaining loyal to Apple (AAPL) after Trump's post, and breaking down the AI trade. Deirdre Bosa then sits down with Silicon Data CEO Carmen Li to talk about turning AI computing into a commodity, 'Deirdre Bosa Live' airs every day at 4 p.m. Tune in daily to hear how the latest developments in AI and technology are reshaping companies, industries, and the global economy",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 07:45"
+          "published_at": "2026-11-14 07:15"
         },
         {
-          "title": "5 Unrivaled Stocks to Buy for the Next Decade",
-          "summary": "Wall Street had its worst day since April 2025 last Thursday. The Nasdaq Composite fell 5.5%, the S&P 500 dropped 4.4%, and the Philadelphia Semiconductor Index plunged 12.2%. Two worries drove the selling. Investors doubt that heavy spending on artificial intelligence will pay off, and candidates who ran against data center expansion won races in […]",
+          "title": "Thierry Borgeat Says Chip Stocks Peak Every Two Years. His Chart Points to Another Top",
+          "summary": "Nvidia just shed nearly 29% in a month, and one trader's circled chart says chip stocks have been here before. Four hard data points will show whether this selloff is a cycle top or just a pause.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-13 07:33"
+          "published_at": "2026-11-14 07:07"
         }
       ],
       "sec_filings_6m": [
@@ -940,18 +973,21 @@
           }
         ]
       },
-      "screening_score": 96,
+      "screening_score": 100,
       "screening_details": {
-        "market_cap": 1739319803904,
-        "cap_score": 20,
-        "revenue_growth_pct": 85.5,
-        "growth_score": 25,
+        "market_cap": 1656497373184,
+        "cap_score": 15,
+        "roe_pct": 44.245000000000005,
+        "roe_score": 20,
         "operating_margin_pct": 48.815,
-        "margin_score": 15,
-        "price_position_52w": 0.363445889977099,
-        "price_score": 16,
-        "debt_to_equity": 59.604,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 85.5,
+        "earnings_growth_pct": 215.3,
+        "growth_score": 20,
+        "free_cashflow": 30596499456,
+        "cash_score": 15,
+        "price_position_52w": 0.27890659260342054,
+        "valuation_score": 10
       }
     },
     "TSM": {
@@ -959,14 +995,14 @@
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
       "display_name": "Taiwan Semiconductor Manufacturing Company Limited",
       "data_limited": false,
-      "price": 405.65,
-      "high_24h": 411.77,
-      "low_24h": 393.91,
-      "high_1m": 445.5,
+      "price": 398.63,
+      "high_24h": 408.08,
+      "low_24h": 391.5,
+      "high_1m": 440.88,
       "low_1m": 351.19,
       "fiftyTwoWeekHigh": 487.47,
       "fiftyTwoWeekLow": 266.82,
-      "dividendYield": 91.0,
+      "dividendYield": 93.0,
       "dividendRate": 3.77,
       "exDividendDate": "1796860800",
       "charts": {
@@ -975,6 +1011,24 @@
         "1y": "charts/TSM_1y.png"
       },
       "news": [
+        {
+          "title": "What's Going On With AMD Stock Today?",
+          "summary": "AMD stock jumped over 30% in five days as Nvidia CEO Jensen Huang’s exit accelerated AI chip diversification. See why experts project $77B in AMD data-center sales by 2027.",
+          "publisher": "Benzinga",
+          "published_at": "2026-11-13 17:46"
+        },
+        {
+          "title": "TSMC Confirms Employee Data Leak Through Cloud Provider, Hackers Reportedly Demand 3 Bitcoins to Withhold 46,000 Records",
+          "summary": "TSMC confirms employee data exposure through a cloud provider as hackers reportedly demand 3 Bitcoin for 46,000 records.",
+          "publisher": "Benzinga",
+          "published_at": "2026-11-13 16:35"
+        },
+        {
+          "title": "Taiwan Semiconductor Manufacturing Company Limited Reports Unauthorized Access of Employee Personal Data",
+          "summary": "",
+          "publisher": "Fintel",
+          "published_at": "2026-11-13 15:41"
+        },
         {
           "title": "Bernstein’s Mark Li Raised His Taiwan Semiconductor Manufacturing (TSM) Target to $600. Here’s What Changed",
           "summary": "We just published a list of the 10 Best Growth Stocks for the Next 5 Years and Taiwan Semiconductor Manufacturing (NYSE:TSM) ranked 6th on this list. Technology stocks went from celebration to rout within two sessions this month. On Wednesday, November 4, equities rallied after Democrats swept Congress in the midterm elections. By Thursday, the […]",
@@ -986,27 +1040,20 @@
           "summary": "We just published a list of the 10 Unrivaled Stocks to Buy for the Next Decade and Taiwan Semiconductor Manufacturing (NYSE:TSM) ranked 6th on this list. Wall Street had its worst day since April 2025 last Thursday. The Nasdaq Composite fell 5.5%, the S&P 500 dropped 4.4%, and the Philadelphia Semiconductor Index plunged 12.2%. Two […]",
           "publisher": "Yahoo",
           "published_at": "2026-11-13 07:34"
-        },
-        {
-          "title": "Prediction: $500 a Month Invested in Taiwan Semiconductor Manufacturing Will Be Worth This Much by 2030",
-          "summary": "What are the chances your stake is worth close to double what you personally invested?",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-13 07:20"
-        },
-        {
-          "title": "‘That Nvidia guarantee is not worth what it was worth a week ago’: What Jensen Huang’s exit means for neoclouds",
-          "summary": "Neoclouds have the most to lose",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-13 06:15"
-        },
-        {
-          "title": "TSMC: Investors Are Well Insulated From Potential Shocks",
-          "summary": "TSMC stock is rated a Buy at 23x forward earnings: Q4 guidance implies 58% revenue growth, and a 0.54 forward PEG offers a margin of safety. See more.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-11-13 05:44"
         }
       ],
       "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-13 06:02:30",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/a2026q3consolidatedreport-.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
         {
           "form_type": "",
           "form_label": "기타 SEC 공시",
@@ -1027,17 +1074,6 @@
           "filed_at": "2026-11-10 08:41:38",
           "source": "SEC/FMP",
           "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000797/tsm-boardx202611xx.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-10 07:01:33",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000796/tsm-revenue20261110.htm",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -1068,125 +1104,143 @@
           }
         ]
       },
-      "screening_score": 96,
+      "screening_score": 97,
       "screening_details": {
-        "market_cap": 2103062822912,
-        "cap_score": 20,
-        "revenue_growth_pct": 50.9,
-        "growth_score": 25,
+        "market_cap": 2068002373632,
+        "cap_score": 15,
+        "roe_pct": 41.854998,
+        "roe_score": 20,
         "operating_margin_pct": 57.96,
-        "margin_score": 15,
-        "price_position_52w": 0.6284613641513709,
-        "price_score": 16,
-        "debt_to_equity": 11.619,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 50.9,
+        "earnings_growth_pct": 68.7,
+        "growth_score": 20,
+        "free_cashflow": 1203071877120,
+        "cash_score": 15,
+        "price_position_52w": 0.5978246091094493,
+        "valuation_score": 7
       }
     }
   },
   "candidate_rankings": [
     {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
       "score": 100,
-      "dividend_yield_pct": 58.0,
+      "dividend_yield_pct": 34.0,
       "details": {
-        "market_cap": 4012989743104,
-        "cap_score": 20,
-        "revenue_growth_pct": 105.89999999999999,
-        "growth_score": 25,
-        "operating_margin_pct": 65.213996,
-        "margin_score": 15,
-        "price_position_52w": 0.1838849529449084,
-        "price_score": 20,
-        "debt_to_equity": 16.971,
-        "debt_score": 20
+        "market_cap": 1640694153216,
+        "cap_score": 15,
+        "roe_pct": 32.263999999999996,
+        "roe_score": 20,
+        "operating_margin_pct": 37.777,
+        "margin_score": 20,
+        "revenue_growth_pct": 26.1,
+        "earnings_growth_pct": 264.8,
+        "growth_score": 20,
+        "free_cashflow": 16848499712,
+        "cash_score": 15,
+        "price_position_52w": 0.46783017414085387,
+        "valuation_score": 10
       }
     },
     {
-      "symbol": "LRCX",
-      "name": "Lam Research Corporation",
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
       "score": 100,
-      "dividend_yield_pct": 56.0,
+      "dividend_yield_pct": 60.0,
       "details": {
-        "market_cap": 292031168512,
-        "cap_score": 20,
-        "revenue_growth_pct": 54.400000000000006,
-        "growth_score": 25,
-        "operating_margin_pct": 36.951,
-        "margin_score": 15,
-        "price_position_52w": 0.32435643564356437,
-        "price_score": 20,
-        "debt_to_equity": 26.857,
-        "debt_score": 20
+        "market_cap": 3932339044352,
+        "cap_score": 15,
+        "roe_pct": 117.211,
+        "roe_score": 20,
+        "operating_margin_pct": 65.213996,
+        "margin_score": 20,
+        "revenue_growth_pct": 105.89999999999999,
+        "earnings_growth_pct": 127.8,
+        "growth_score": 20,
+        "free_cashflow": 41809874944,
+        "cash_score": 15,
+        "price_position_52w": 0.14856719890028533,
+        "valuation_score": 10
       }
     },
     {
       "symbol": "AVGO",
       "name": "Broadcom Inc.",
-      "score": 96,
-      "dividend_yield_pct": 75.0,
+      "score": 100,
+      "dividend_yield_pct": 71.0,
       "details": {
-        "market_cap": 1739319803904,
-        "cap_score": 20,
-        "revenue_growth_pct": 85.5,
-        "growth_score": 25,
+        "market_cap": 1656497373184,
+        "cap_score": 15,
+        "roe_pct": 44.245000000000005,
+        "roe_score": 20,
         "operating_margin_pct": 48.815,
-        "margin_score": 15,
-        "price_position_52w": 0.363445889977099,
-        "price_score": 16,
-        "debt_to_equity": 59.604,
-        "debt_score": 20
-      }
-    },
-    {
-      "symbol": "TSM",
-      "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "score": 96,
-      "dividend_yield_pct": 91.0,
-      "details": {
-        "market_cap": 2103062822912,
-        "cap_score": 20,
-        "revenue_growth_pct": 50.9,
-        "growth_score": 25,
-        "operating_margin_pct": 57.96,
-        "margin_score": 15,
-        "price_position_52w": 0.6284613641513709,
-        "price_score": 16,
-        "debt_to_equity": 11.619,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 85.5,
+        "earnings_growth_pct": 215.3,
+        "growth_score": 20,
+        "free_cashflow": 30596499456,
+        "cash_score": 15,
+        "price_position_52w": 0.27890659260342054,
+        "valuation_score": 10
       }
     },
     {
       "symbol": "ASML",
       "name": "ASML Holding N.V.",
-      "score": 96,
-      "dividend_yield_pct": 61.0,
+      "score": 100,
+      "dividend_yield_pct": 62.0,
       "details": {
-        "market_cap": 577016561664,
-        "cap_score": 20,
-        "revenue_growth_pct": 55.2,
-        "growth_score": 25,
+        "market_cap": 576261193728,
+        "cap_score": 15,
+        "roe_pct": 65.636003,
+        "roe_score": 20,
         "operating_margin_pct": 38.551998,
-        "margin_score": 15,
-        "price_position_52w": 0.5228542961522038,
-        "price_score": 16,
-        "debt_to_equity": 8.897,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 55.2,
+        "earnings_growth_pct": 135.9,
+        "growth_score": 20,
+        "free_cashflow": 10374124544,
+        "cash_score": 15,
+        "price_position_52w": 0.520994448925369,
+        "valuation_score": 10
+      }
+    },
+    {
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "score": 97,
+      "dividend_yield_pct": 93.0,
+      "details": {
+        "market_cap": 2068002373632,
+        "cap_score": 15,
+        "roe_pct": 41.854998,
+        "roe_score": 20,
+        "operating_margin_pct": 57.96,
+        "margin_score": 20,
+        "revenue_growth_pct": 50.9,
+        "earnings_growth_pct": 68.7,
+        "growth_score": 20,
+        "free_cashflow": 1203071877120,
+        "cash_score": 15,
+        "price_position_52w": 0.5978246091094493,
+        "valuation_score": 7
       }
     }
   ],
   "screening_meta": {
-    "mode": "theme",
-    "title": "모멘텀/테마 후보",
-    "seed_pool_size": 126,
+    "mode": "quality",
+    "title": "장기 퀄리티 후보",
+    "seed_pool_size": 61,
     "ai_selected_count": 20,
     "scored_count": 20,
     "top5": [
+      "META",
       "NVDA",
-      "LRCX",
       "AVGO",
-      "TSM",
-      "ASML"
+      "ASML",
+      "TSM"
     ],
     "max_screening_candidates": 20
   },
