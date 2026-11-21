@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-20 11:42",
+  "date": "2026-11-21 11:53",
   "report_profile": {
-    "type": "theme",
-    "title": "모멘텀/테마 후보",
-    "description": "최근 뉴스와 시장 모멘텀이 붙은 주요 테마 안에서 후보를 선별합니다."
+    "type": "quality",
+    "title": "장기 퀄리티 후보",
+    "description": "3년 이상 보유 관점에서 사업 품질, 재무 안정성, 성장성을 기준으로 선별합니다."
   },
   "market_data": {
     "ASML": {
@@ -11,14 +11,14 @@
       "name": "ASML Holding N.V.",
       "display_name": "ASML Holding N.V.",
       "data_limited": false,
-      "price": 1355.88,
-      "high_24h": 1443.72,
-      "low_24h": 1354.3,
+      "price": 1268.25,
+      "high_24h": 1336.76,
+      "low_24h": 1258.7,
       "high_1m": 1690.1,
-      "low_1m": 1351.78,
+      "low_1m": 1258.53,
       "fiftyTwoWeekHigh": 1999.96,
       "fiftyTwoWeekLow": 946.11,
-      "dividendYield": 67.0,
+      "dividendYield": 69.0,
       "dividendRate": 9.31,
       "exDividendDate": "1793059200",
       "charts": {
@@ -28,34 +28,34 @@
       },
       "news": [
         {
-          "title": "Why Ken Fisher Keeps Adding to ASML Holding (ASML) While Its Order Book Is Sold Out",
-          "summary": "We just published our list of the Top 10 Stocks to Buy According to Billionaire Ken Fisher, and ASML Holding N.V. (NASDAQ:ASML) ranked 6th on this list. Ken Fisher has spent more than four decades betting that big, globally dominant companies keep winning, and his latest filing shows he still believes it. Fisher Asset Management, […]",
+          "title": "European Stocks Close Sharply Lower in Friday Trading Amid Tech Selloff",
+          "summary": "The European stock markets closed sharply lower in Friday trading amid a tech stock selloff as inves",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 03:10"
+          "published_at": "2026-11-21 01:47"
         },
         {
-          "title": "ASML Rides on Improving Profitability: Will It Sustain?",
-          "summary": "ASML's surging system sales, AI-driven demand and favorable product mix fuel margin growth, but capacity constraints raise questions about sustaining profitability.",
+          "title": "AMAT's AGS Gains From Growing Installed Base: What's Ahead?",
+          "summary": "Applied Materials' AGS business sets revenue records as its expanding installed base, AI-driven services and fab ramp support fuel growth into fiscal 2027.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 02:08"
+          "published_at": "2026-11-21 00:02"
         },
         {
-          "title": "Intel Soars 8% on First Outside 18A Customer as CEO Says “I Just Cannot Supply Enough”",
-          "summary": "Key TakeawaysIntel shares jumped 8% after CEO Lip-Bu Tan said it signed its first outside 18A customer, with yields at 70%. It’s the best evidence yet that Intel’s foundry can win outside business.",
+          "title": "A $3 Billion Fund Is Betting Big on Applied Materials",
+          "summary": "Key TakeawaysAbrams Bison Investments raised its Applied Materials (AMAT:NASDAQ) stake 36% to 752,000 shares in Q3, making it 19. 4% of its 13F holdings.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 00:01"
+          "published_at": "2026-11-20 23:04"
         },
         {
-          "title": "Chip Stocks Rally as Anthropic's Historic IPO Revives the AI Trade",
-          "summary": "AMD joins semiconductor stocks in focus ahead of Anthropic's Nasdaq debut.",
+          "title": "Nvidia stock extends 6-day losing streak, as AMD, Broadcom lead chip sector lower",
+          "summary": "Chip giant Nvidia slid further into red territory on Friday along with the rest of the semiconductor sector.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-19 23:11"
+          "published_at": "2026-11-20 22:36"
         },
         {
-          "title": "Applied Materials’ 2027 EPS Estimate Rose to $19.29 After Its Record Quarter. Its Average Price Target Fell to $562",
-          "summary": "Key TakeawaysApplied Materials stock fell 7. 5% in the four sessions after its record $10.",
+          "title": "Holding TSMC Near $352? Past Drops Went Deeper",
+          "summary": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-19 21:06"
+          "published_at": "2026-11-20 21:06"
         }
       ],
       "sec_filings_6m": [
@@ -119,6 +119,22 @@
             "reason": "unrecognized_form"
           }
         ]
+      },
+      "screening_score": 100,
+      "screening_details": {
+        "market_cap": 488023621632,
+        "cap_score": 15,
+        "roe_pct": 65.636003,
+        "roe_score": 20,
+        "operating_margin_pct": 38.551998,
+        "margin_score": 20,
+        "revenue_growth_pct": 55.2,
+        "earnings_growth_pct": 135.9,
+        "growth_score": 20,
+        "free_cashflow": 10374124544,
+        "cash_score": 15,
+        "price_position_52w": 0.30375290601129196,
+        "valuation_score": 10
       }
     },
     "OXLC": {
@@ -127,13 +143,13 @@
       "display_name": "Oxford Lane Capital Corp.",
       "data_limited": false,
       "price": 4.95,
-      "high_24h": 4.99,
-      "low_24h": 4.77,
-      "high_1m": 7.4,
+      "high_24h": 5.05,
+      "low_24h": 4.87,
+      "high_1m": 7.06,
       "low_1m": 4.44,
       "fiftyTwoWeekHigh": 15.39,
       "fiftyTwoWeekLow": 4.62,
-      "dividendYield": 2482.0,
+      "dividendYield": 2424.0,
       "dividendRate": 1.2,
       "exDividendDate": "1797465600",
       "charts": {
@@ -153,21 +169,20 @@
           "summary": "The bear case on Oxford Lane Capital: its $0.10 monthly distribution may not stop NAV erosion from $10.74 to an estimated $8.84-$9.14 per share.",
           "publisher": "SeekingAlpha",
           "published_at": "2026-11-18 17:00"
-        },
-        {
-          "title": "Weekly Closed-End Fund Roundup (November 8, 2026)",
-          "summary": "CEFs were mixed: Commodities rose 5.05% while MLPs fell 12.19%; OXLC cut its monthly distribution to $0.10 and shares fell 23.33%.",
-          "publisher": "SeekingAlpha",
-          "published_at": "2026-11-18 00:09"
-        },
-        {
-          "title": "Oxford Lane Capital Corp. Provides October 2026 Net Asset Value Update",
-          "summary": "GREENWICH, Conn., Nov. 17, 2026 (GLOBE NEWSWIRE) -- Oxford Lane Capital Corp. (NasdaqGS: OXLC) (NasdaqGS: OXLCL) (NasdaqGS: OXLCO) (NasdaqGS: OXLCZ) (NasdaqGS: OXLCN) (NasdaqGS: OXLCI) (NasdaqGS: OXLCG) (NasdaqGS: OXLCM) (the “Company,” “we,” or “our”) today announced the following net asset value (“NAV”) estimate as of October 31, 2026. Management’s unaudited estimate of the range of the NAV per share of our common stock as of October 31, 2026, is between $8.84 and $9.14. This estimate is not a",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-17 22:00"
         }
       ],
       "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-20 16:44:13",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1495222/000089418926030954/xslFormNPORT-P_X01/primary_doc.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
         {
           "form_type": "",
           "form_label": "기타 SEC 공시",
@@ -188,17 +203,6 @@
           "filed_at": "2026-11-05 16:16:26",
           "source": "SEC/FMP",
           "url": "https://www.sec.gov/Archives/edgar/data/1495222/000121390026116389/ea0309078-01_ncsrs.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-04 16:03:03",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1495222/000121390026115925/ea0310947-01_n23c2.htm",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -235,14 +239,14 @@
       "name": "QUALCOMM Incorporated",
       "display_name": "QUALCOMM Incorporated",
       "data_limited": false,
-      "price": 161.95,
-      "high_24h": 170.77,
-      "low_24h": 160.39,
+      "price": 149.95,
+      "high_24h": 162.54,
+      "low_24h": 149.13,
       "high_1m": 185.59,
       "low_1m": 148.25,
       "fiftyTwoWeekHigh": 259.92,
       "fiftyTwoWeekLow": 121.99,
-      "dividendYield": 230.0,
+      "dividendYield": 227.0,
       "dividendRate": 3.68,
       "exDividendDate": "1796256000",
       "charts": {
@@ -252,34 +256,34 @@
       },
       "news": [
         {
-          "title": "Marvell Stock Halved Again. What Does Its Cash Say?",
-          "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+          "title": "George Soros and 20 Other Big Funds Bought Qualcomm Last Quarter. David Tepper and 14 Others Sold. Who’s Right?",
+          "summary": "Key TakeawaysOf the 460 big funds that have filed 13Fs for the quarter ended Sept. 30, 21 bought Qualcomm and 15 sold, with George Soros among the buyers and David Tepper among the sellers.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 05:25"
+          "published_at": "2026-11-21 09:35"
         },
         {
-          "title": "Inside Brad Gerstner’s Portfolio: Every Move He Made in the Third Quarter",
-          "summary": "Key TakeawaysBrad Gerstner’s Altimeter Capital opened a $680 million Tesla position in the third quarter, added to Meta Platforms and Micron, and sold out of Qualcomm and Applied Materials. Tesla trades at about 180x forward earnings, and analysts’ average target is just 7% above the price, so the new stake is a bet on Robotaxi profits that the estimates don’t show yet.",
+          "title": "Why Are Investors Ignoring Qualcomm Stock's High Cash Yield?",
+          "summary": "Today’s big story: Will 2027 Be A 2022 Repeat For Stocks.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 05:05"
+          "published_at": "2026-11-21 04:22"
         },
         {
-          "title": "Arm Just Dropped 21% in a Month. Will ARM Stock Hit $150 or $200 First?",
-          "summary": "Arm has shed a fifth of its value in a month, leaving bulls and bears staring at two very different price levels. A stretched valuation, defensive options bets, and a surprisingly strong pipeline all collide in the fight over where shares head next.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-20 05:05"
+          "title": "NXPI Semiconductors And Ambarella: Weighing The Pros And Cons Of A Potential Deal",
+          "summary": "The bull case for NXP Semiconductors: an Ambarella deal will be accretive for long-term shareholders despite its high price.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-21 02:02"
         },
         {
-          "title": "What's Happening To Intel's Factory Cash?",
-          "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+          "title": "Anthropic Shares Retreat After Blockbuster Debut Amid AI Anxiety",
+          "summary": "Anthropic's (ANT) shares slid on Friday, partially reversing gains from its blockbuster market debut",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 04:14"
+          "published_at": "2026-11-21 00:41"
         },
         {
-          "title": "Qualcomm lays off 100s amid global restructuring, raises $4 billion",
-          "summary": "Filings confirm hundreds of permanent job cuts as the chipmaker raises billions in debt and shifts its focus toward AI and data centers.",
+          "title": "Does Huang's Exit Sink Nvidia Stock? History Is Split",
+          "summary": "Today's big story: Will 2027 Be A 2022 Repeat For Stocks.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 03:33"
+          "published_at": "2026-11-21 00:25"
         }
       ],
       "sec_filings_6m": [
@@ -350,9 +354,9 @@
       "name": "Amazon.com, Inc.",
       "display_name": "Amazon.com, Inc.",
       "data_limited": false,
-      "price": 257.14,
-      "high_24h": 274.0,
-      "low_24h": 256.75,
+      "price": 247.15,
+      "high_24h": 259.97,
+      "low_24h": 245.31,
       "high_1m": 275.34,
       "low_1m": 229.36,
       "fiftyTwoWeekHigh": 287.2,
@@ -367,37 +371,48 @@
       },
       "news": [
         {
-          "title": "Peter Thiel Now Has as Much Money in an Argentine Oil Stock as in Amazon. It’s Down 23% Since September 30",
-          "summary": "Peter Thiel's hedge fund bought 697,043 more shares of Vista Energy last quarter, and on September 30 its $123.3 million stake in the Argentine shale driller matched its $123.3 million in Amazon to within $24,583. Brent crude has fallen 25% from its October 30 price since, and Vista 23% since September 30. Here is what Vista is and why an investor might bet on Vaca Muerta.",
+          "title": "Billionaire Bill Ackman’s Top 5 Stocks After Selling Stakes to Open a Brand-New Position",
+          "summary": "Bill Ackman doesn’t own many stocks, so every change in his portfolio is a statement. His latest 13F, filed November 16 for the quarter ended September 30, shows the billionaire trimming several of his biggest bets and putting the money into two new names. Ackman founded Pershing Square in 2004 with about $54 million and […]",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 10:17"
+          "published_at": "2026-11-21 10:38"
         },
         {
-          "title": "Is Your VOO Fund Secretly An AI Bet?",
-          "summary": "Most people treat an S&P 500 index fund as the safe default. The AI sell-off reads like a tech-stock story that index owners can watch from the side. The fund's own holdings say otherwise. About one dollar in four in the Vanguard S&P 500 ETF (VOO) sits in six AI giants.",
+          "title": "Top 5 Stocks to Buy According to Billionaire George Soros",
+          "summary": "George Soros made his name betting against currencies and central banks, and that record is still the reference point for macro investing decades later. Born in Budapest in 1930, he built his fortune running the Quantum Fund, and the firm that carries his name has been investing for more than five decades. Soros Fund Management […]",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 09:58"
+          "published_at": "2026-11-21 10:04"
         },
         {
-          "title": "Anthropic’s Margins Will Be “Probably Better Than a Hyperscaler,” Says Its Most Bullish Analyst. Here’s What That Takes",
-          "summary": "Key TakeawaysAnthropic opened 34% above its $83 IPO price in its Nasdaq debut today, and Melius initiated coverage with a Buy and a $155 target. Melius’s Ben Reitzes expects Anthropic’s margins to eventually beat a hyperscaler’s, where Amazon’s and Alphabet’s clouds and Microsoft earn operating margins from 36% to nearly 50%.",
+          "title": "Has AI's honeymoon ended on Wall Street?",
+          "summary": "Although the AI industry has been the darling of Wall Street for years, the sector now makes investors wince as it reckons with a wave of concerns over dizzying spending and its promise to make the technology profitable.But as spending has ballooned, so has debt -- and profits have yet to match.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 09:05"
+          "published_at": "2026-11-21 09:46"
         },
         {
-          "title": "Anthropic Just Went Public at $1.5 Trillion. VOO Won’t Own a Share Until Late 2027 at the Earliest",
-          "summary": "Millions of retirement savers assume their S&P 500 fund just picked up the year's biggest IPO. Two index rules, and a mountain of red ink on Anthropic's books, say otherwise. Here's what actually stands between your portfolio and the debut.",
+          "title": "Generac Stock In Focus After Earnings Beat And Amazon Supply Deal",
+          "summary": "Generac Holdings reported Q3 2026 results with 16.2% revenue growth, better than expected adjusted EPS and EBITDA, and highlighted rapid data center demand. A long term Amazon supply agreement and a larger data center backlog illustrate how Generac Holdings is focusing on large scale power needs despite weaker residential energy storage. This article examines how Generac Holdings' investment narrative is shaped by the Amazon data center agreement and stronger Q3 earnings. Scan how Generac...",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 08:52"
+          "published_at": "2026-11-21 09:19"
         },
         {
-          "title": "NYC lawmakers weigh compromise on Amazon delivery worker bill, Bloomberg reports",
-          "summary": "Investing.com -- New York City lawmakers are weighing substantial revisions to proposed legislation that would force Amazon.com Inc (NASDAQ:AMZN) to directly employ thousands of outsourced delivery drivers, according to a Bloomberg report. The potential overhaul signals a strategic compromise in a high-stakes regulatory battle pitting the e-commerce giant against Mayor Zohran Mamdani and a City Council majority.",
+          "title": "Stock Market Today, Nov. 20: Amazon Shares Slide on AI and Mega-Cap Tech Sell-Off",
+          "summary": "On Nov. 20, 2026, Amazon shares fell as investors weighed heavy AI spending and margins amid a broad tech selloff.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 08:47"
+          "published_at": "2026-11-21 07:50"
         }
       ],
       "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-20 16:16:54",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000056/xslF345X06/wk-form4_1795209411.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
         {
           "form_type": "",
           "form_label": "기타 SEC 공시",
@@ -418,17 +433,6 @@
           "filed_at": "2026-11-17 16:41:56",
           "source": "SEC/FMP",
           "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000054/xslF345X06/wk-form4_1794951713.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-17 16:37:45",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000052/xslF345X06/wk-form4_1794951462.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -465,14 +469,14 @@
       "name": "Microsoft Corporation",
       "display_name": "Microsoft Corporation",
       "data_limited": false,
-      "price": 498.16,
-      "high_24h": 526.49,
-      "low_24h": 498.16,
+      "price": 485.01,
+      "high_24h": 503.8,
+      "low_24h": 481.03,
       "high_1m": 558.07,
-      "low_1m": 495.55,
+      "low_1m": 481.03,
       "fiftyTwoWeekHigh": 559.15,
       "fiftyTwoWeekLow": 349.2,
-      "dividendYield": 77.0,
+      "dividendYield": 79.0,
       "dividendRate": 3.92,
       "exDividendDate": "1795046400",
       "charts": {
@@ -482,34 +486,34 @@
       },
       "news": [
         {
-          "title": "Is Your VOO Fund Secretly An AI Bet?",
-          "summary": "Most people treat an S&P 500 index fund as the safe default. The AI sell-off reads like a tech-stock story that index owners can watch from the side. The fund's own holdings say otherwise. About one dollar in four in the Vanguard S&P 500 ETF (VOO) sits in six AI giants.",
+          "title": "Billionaire Bill Ackman’s Top 5 Stocks After Selling Stakes to Open a Brand-New Position",
+          "summary": "Bill Ackman doesn’t own many stocks, so every change in his portfolio is a statement. His latest 13F, filed November 16 for the quarter ended September 30, shows the billionaire trimming several of his biggest bets and putting the money into two new names. Ackman founded Pershing Square in 2004 with about $54 million and […]",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 09:58"
+          "published_at": "2026-11-21 10:38"
         },
         {
-          "title": "IBM (IBM) Stock May Be 27% Below Fair Value On Quantum Platform News",
-          "summary": "International Business Machines has pulled back sharply in recent months after a powerful multi year run, which puts a fresh spotlight on whether the current share price fairly reflects the cash that IBM can generate over time. Over the past 5 years the stock has returned 130.8%, so a lot of investor wealth now rests on how durable IBM's future cash flows prove to be. Fresh partnerships in quantum and AI, including work with NVIDIA, Fermilab and Microsoft, may support expectations for new...",
+          "title": "Has AI's honeymoon ended on Wall Street?",
+          "summary": "Although the AI industry has been the darling of Wall Street for years, the sector now makes investors wince as it reckons with a wave of concerns over dizzying spending and its promise to make the technology profitable.But as spending has ballooned, so has debt -- and profits have yet to match.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 09:20"
+          "published_at": "2026-11-21 09:46"
         },
         {
-          "title": "Anthropic’s Margins Will Be “Probably Better Than a Hyperscaler,” Says Its Most Bullish Analyst. Here’s What That Takes",
-          "summary": "Key TakeawaysAnthropic opened 34% above its $83 IPO price in its Nasdaq debut today, and Melius initiated coverage with a Buy and a $155 target. Melius’s Ben Reitzes expects Anthropic’s margins to eventually beat a hyperscaler’s, where Amazon’s and Alphabet’s clouds and Microsoft earn operating margins from 36% to nearly 50%.",
+          "title": "Allooloo Tops 100M Capital Markets AI Agent Traffic a Month",
+          "summary": "Allooloo Technologies Corp. (Allooloo), maker of agentic datasets for capital markets artificial intelligence (AI) agents, today reported 100M AI agent traffic a month. That is 39 calls a second, 3.4 million a day, across getissuer.ai and Issuerwire.ai, running on 24 Microsoft Azure hyperscale locations globally with always-on Amazon Web Services (AWS) redundancy.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 09:05"
+          "published_at": "2026-11-21 09:06"
         },
         {
-          "title": "Microsoft reveals 80% server failure behind global outage",
-          "summary": "A months-old software flaw disrupted email and work for millions.",
+          "title": "CrowdStrike, Zscaler Merger Would Create Cybersecurity Giant",
+          "summary": "CrowdStrike stock fell and Zscaler stock popped amid a report the companies are in merger talks. A deal would create a cybersecurity giant.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 07:17"
+          "published_at": "2026-11-21 08:56"
         },
         {
-          "title": "Anthropic Closes Up 17% While Nasdaq Falls; Mohamed El-Erian Calls It ‘Making Room’ For AI",
-          "summary": "Anthropic opened on Nasdaq on Thursday at a 34% premium to the offer price of $83 and closed at $97.17.",
+          "title": "Mets Owner Steve Cohen’s Fund Dumped Nearly All of Its AMD and Bet $1 Billion That Microsoft Is the Safer AI Stock. AMD Has Fallen 31% Since",
+          "summary": "Steve Cohen's Point72 sold 99% of its AMD shares in the third quarter and raised its Microsoft stake from 31,522 shares to 2,055,578, about $1 billion of buying, its Nov. 16 13F shows. AMD has fallen 31% since Sept. 30 and Microsoft 6%. The same filing tripled Intel, which has since lost more than half its value.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 07:01"
+          "published_at": "2026-11-21 08:47"
         }
       ],
       "sec_filings_6m": [
@@ -575,21 +579,152 @@
         ]
       }
     },
+    "META": {
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "display_name": "Meta Platforms, Inc.",
+      "data_limited": false,
+      "price": 561.46,
+      "high_24h": 588.69,
+      "low_24h": 558.68,
+      "high_1m": 713.22,
+      "low_1m": 558.68,
+      "fiftyTwoWeekHigh": 779.82,
+      "fiftyTwoWeekLow": 520.26,
+      "dividendYield": 35.0,
+      "dividendRate": 2.1,
+      "exDividendDate": "1789948800",
+      "charts": {
+        "24h": "charts/META_24h.png",
+        "1m": "charts/META_1m.png",
+        "1y": "charts/META_1y.png"
+      },
+      "news": [
+        {
+          "title": "Billionaire Bill Ackman’s Top 5 Stocks After Selling Stakes to Open a Brand-New Position",
+          "summary": "Bill Ackman doesn’t own many stocks, so every change in his portfolio is a statement. His latest 13F, filed November 16 for the quarter ended September 30, shows the billionaire trimming several of his biggest bets and putting the money into two new names. Ackman founded Pershing Square in 2004 with about $54 million and […]",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-21 10:38"
+        },
+        {
+          "title": "Bill Ackman’s Top 10 Stocks After Selling Stakes to Open a Brand-New Position",
+          "summary": "Bill Ackman doesn’t own many stocks, so every change in his portfolio is a statement. His latest 13F, filed November 16 for the quarter ended September 30, shows the billionaire trimming several of his biggest bets and putting the money into two new names. Ackman founded Pershing Square in 2004 with about $54 million and […]",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-21 10:32"
+        },
+        {
+          "title": "George Soros Raised His Meta (META) Stake by 596%. Then the Stock Fell",
+          "summary": "We just published a list of the Top 10 Stocks to Buy According to Billionaire George Soros, and Meta Platforms, Inc. (NASDAQ:META) ranked 7th on this list. George Soros made his name betting against currencies and central banks, and that record is still the reference point for macro investing decades later. Born in Budapest in […]",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-21 10:10"
+        },
+        {
+          "title": "Has AI's honeymoon ended on Wall Street?",
+          "summary": "Although the AI industry has been the darling of Wall Street for years, the sector now makes investors wince as it reckons with a wave of concerns over dizzying spending and its promise to make the technology profitable.But as spending has ballooned, so has debt -- and profits have yet to match.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-21 09:46"
+        },
+        {
+          "title": "Shots Fired: Meta Will Reportedly Sell a $300 Muse Charm With Free Verizon 5G as Apple Builds Its Agent",
+          "summary": "Key TakeawaysMeta reportedly plans to sell a $300 Muse Charm with up to 12 months of free Verizon 5G, and is targeting 10 million wearable sales in the second half of 2026. A connected device would let Meta reach users without Apple’s phones in between, just as Apple reportedly builds its own AI agent.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-21 07:00"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-19 19:43:00",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017904/xslF345X06/ownership.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-19 19:41:22",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017902/xslF345X06/ownership.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-19 19:39:35",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017900/xslF345X06/ownership.xml",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 100,
+      "screening_details": {
+        "market_cap": 1433642336256,
+        "cap_score": 15,
+        "roe_pct": 32.263999999999996,
+        "roe_score": 20,
+        "operating_margin_pct": 37.777,
+        "margin_score": 20,
+        "revenue_growth_pct": 26.1,
+        "earnings_growth_pct": 264.8,
+        "growth_score": 20,
+        "free_cashflow": 16848499712,
+        "cash_score": 15,
+        "price_position_52w": 0.1563415010016953,
+        "valuation_score": 10
+      }
+    },
     "NVDA": {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
       "display_name": "NVIDIA Corporation",
       "data_limited": false,
-      "price": 146.0,
-      "high_24h": 158.13,
-      "low_24h": 145.71,
+      "price": 125.79,
+      "high_24h": 143.73,
+      "low_24h": 124.5,
       "high_1m": 222.19,
-      "low_1m": 145.71,
+      "low_1m": 124.5,
       "fiftyTwoWeekHigh": 243.37,
-      "fiftyTwoWeekLow": 145.71,
-      "dividendYield": 66.0,
+      "fiftyTwoWeekLow": 124.5,
+      "dividendYield": 69.0,
       "dividendRate": 1.0,
-      "exDividendDate": "1788998400",
+      "exDividendDate": "1796169600",
       "charts": {
         "24h": "charts/NVDA_24h.png",
         "1m": "charts/NVDA_1m.png",
@@ -597,34 +732,34 @@
       },
       "news": [
         {
-          "title": "History Says This Brilliant ETF Could Help You Turn $500 Per Month Into $784,100 While Barely Lifting a Finger.",
-          "summary": "Compound earnings can do a lot of heavy lifting.",
+          "title": "Nasdaq 100 Ends Worst Week Since 2020, S&P 500 In Correction Territory As AI Rout Sours Sentiment —   ANT, NVDA, TTWO, ZS, CRWD In Focus",
+          "summary": "Anthropic closed 8.5% lower on Friday, a day after gaining 17% in its debut.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 10:48"
+          "published_at": "2026-11-21 10:30"
         },
         {
-          "title": "California attorney general subpoenas Nvidia over chips, former CEO's affair",
-          "summary": "California Attorney General Rob Bonta has issued an investigative subpoena to Nvidia related to former CEO Jensen Huang's affair with a suspected Chinese spy. The California Department of Justice said Thursday it is asking Nvidia whether its advanced chips or confidential information may have gone to China and whether Nvidia misled investors and the public.",
+          "title": "Top 5 Stocks to Buy According to Billionaire George Soros",
+          "summary": "George Soros made his name betting against currencies and central banks, and that record is still the reference point for macro investing decades later. Born in Budapest in 1930, he built his fortune running the Quantum Fund, and the firm that carries his name has been investing for more than five decades. Soros Fund Management […]",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 10:33"
+          "published_at": "2026-11-21 10:04"
         },
         {
-          "title": "Why CrowdStrike Holdings Stock Flew While the Market Flopped Today",
-          "summary": "A fellow cybersecurity company posted a very encouraging quarterly earnings report.",
+          "title": "Review & Preview: Hype Halted",
+          "summary": "The markets ended a rough week with another dip, and two indexes have entered correction territory.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 10:27"
+          "published_at": "2026-11-21 09:55"
         },
         {
-          "title": "Why Nvidia's sell-off could be a buying opportunity (with a catch)",
-          "summary": "Worth Charting CEO and founder Carter Worth explains why Nvidia’s sharp decline could present a buying opportunity, but cautions that a rebound doesn’t necessarily mean a recovery.",
+          "title": "Has AI's honeymoon ended on Wall Street?",
+          "summary": "Although the AI industry has been the darling of Wall Street for years, the sector now makes investors wince as it reckons with a wave of concerns over dizzying spending and its promise to make the technology profitable.But as spending has ballooned, so has debt -- and profits have yet to match.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 10:25"
+          "published_at": "2026-11-21 09:46"
         },
         {
-          "title": "Should You Avoid MercadoLibre (MELI) Stock, Even Now That It's Near a 52-Week Low?",
-          "summary": "The stock has fallen far, but the company retains solid growth prospects.",
+          "title": "The S&P 500 Has More Than Tripled in 10 Years, Even After Its Latest Pullback. Here’s What $1,000 in VOO Could Have Become.",
+          "summary": "A host of concerns are creating the perfect storm right now, harming market sentiment.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 10:25"
+          "published_at": "2026-11-21 09:43"
         }
       ],
       "sec_filings_6m": [
@@ -691,16 +826,19 @@
       },
       "screening_score": 100,
       "screening_details": {
-        "market_cap": 3524978802688,
-        "cap_score": 20,
-        "revenue_growth_pct": 103.2,
-        "growth_score": 25,
+        "market_cap": 3031172907008,
+        "cap_score": 15,
+        "roe_pct": 117.364,
+        "roe_score": 20,
         "operating_margin_pct": 66.082,
-        "margin_score": 15,
-        "price_position_52w": 0.0027646938357565208,
-        "price_score": 20,
-        "debt_to_equity": 14.306,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 103.2,
+        "earnings_growth_pct": 107.69999999999999,
+        "growth_score": 20,
+        "free_cashflow": 99241377792,
+        "cash_score": 15,
+        "price_position_52w": 0.008664928072684455,
+        "valuation_score": 10
       }
     },
     "AVGO": {
@@ -708,14 +846,14 @@
       "name": "Broadcom Inc.",
       "display_name": "Broadcom Inc.",
       "data_limited": false,
-      "price": 346.55,
-      "high_24h": 369.26,
-      "low_24h": 345.14,
+      "price": 304.17,
+      "high_24h": 342.9,
+      "low_24h": 301.02,
       "high_1m": 369.82,
       "low_1m": 289.77,
       "fiftyTwoWeekHigh": 495.0,
       "fiftyTwoWeekLow": 289.77,
-      "dividendYield": 73.0,
+      "dividendYield": 75.0,
       "dividendRate": 2.6,
       "exDividendDate": "1789948800",
       "charts": {
@@ -725,34 +863,34 @@
       },
       "news": [
         {
-          "title": "Is Your VOO Fund Secretly An AI Bet?",
-          "summary": "Most people treat an S&P 500 index fund as the safe default. The AI sell-off reads like a tech-stock story that index owners can watch from the side. The fund's own holdings say otherwise. About one dollar in four in the Vanguard S&P 500 ETF (VOO) sits in six AI giants.",
+          "title": "Data Center AI Chips Could Change the Winners: Broadcom and Marvell",
+          "summary": "While investors fixate on Nvidia's share price, hyperscalers are quietly buying different chips for different jobs. Counting accelerators misses the real money, and a memory-stack model shows why the chip tally can mislead.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 09:58"
+          "published_at": "2026-11-21 08:25"
         },
         {
-          "title": "This Beaten-Down Semiconductor Stock Could Soar in 2027",
-          "summary": "Broadcom’s custom AI chip business is booming, but the market is pricing the stock as if it isn’t.",
+          "title": "Stock Market Today, Nov. 20: Stocks Plunge as AI Trade Unwinds",
+          "summary": "Wall Street's worst stretch of the year deepened as AI-linked names sold off while defensive sectors drew buyers, today, Nov. 20, 2026.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 07:45"
+          "published_at": "2026-11-21 07:35"
         },
         {
-          "title": "Stock Market Today, Nov. 19: Nvidia Slides as Investors Weigh CEO Transition Fallout Despite Strong Q3 Results",
-          "summary": "Today, Nov. 19, 2026, Nvidia shares fell despite a strong quarter and an early boost from Anthropic's IPO, as traders continue to weigh the leadership change and what comes next for AI spending.",
+          "title": "Tech sees huge sell-off as Anthropic IPO fails to lift the market",
+          "summary": "Deirdre Bosa discusses the AI trade falling apart as Wall Street sees widespread losses, Anthropic's (ANT) debut failing to boost markets, and the state of cybersecurity. 'Deirdre Bosa Live' airs every day at 4 p.m. Tune in daily to hear how the latest developments in AI and technology are reshaping companies, industries, and the global economy.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 07:20"
+          "published_at": "2026-11-21 07:19"
         },
         {
-          "title": "Why Broadcom Inc. (AVGO) Dipped More Than Broader Market Today",
-          "summary": "In the closing of the recent trading day, Broadcom Inc. (AVGO) stood at $346.52, denoting a -2.13% move from the preceding trading day.",
+          "title": "Anthropic Stocks Jump 17.07% in Record Debut as $26 Billion Chipmaker Placement Lands",
+          "summary": "First trade hit $111.50 before the pop cooled, leaving Amazon and Google holding roughly $360 billion of Anthropic at the close.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 06:45"
+          "published_at": "2026-11-21 06:41"
         },
         {
-          "title": "Globant (GLOB) Q3 Earnings and Revenues Top Estimates",
-          "summary": "Globant (GLOB) delivered earnings and revenue surprises of +0.68% and +0.01%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+          "title": "Nasdaq turns negative: Why Anthropic & other tech stocks are getting crushed",
+          "summary": "The Nasdaq Composite (^IXIC) turned negative for the year as the AI trade takes a turn for the worse. Deirdre Bosa takes a closer look at the market action, highlighting the sell-off's disconnect from record chip sales.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 06:30"
+          "published_at": "2026-11-21 06:38"
         }
       ],
       "sec_filings_6m": [
@@ -819,272 +957,19 @@
       },
       "screening_score": 100,
       "screening_details": {
-        "market_cap": 1654778757120,
-        "cap_score": 20,
-        "revenue_growth_pct": 85.5,
-        "growth_score": 25,
+        "market_cap": 1453140738048,
+        "cap_score": 15,
+        "roe_pct": 44.245000000000005,
+        "roe_score": 20,
         "operating_margin_pct": 48.815,
-        "margin_score": 15,
-        "price_position_52w": 0.2771524630901914,
-        "price_score": 20,
-        "debt_to_equity": 59.604,
-        "debt_score": 20
-      }
-    },
-    "AMAT": {
-      "symbol": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "display_name": "Applied Materials, Inc.",
-      "data_limited": false,
-      "price": 338.85,
-      "high_24h": 367.53,
-      "low_24h": 337.88,
-      "high_1m": 425.88,
-      "low_1m": 316.47,
-      "fiftyTwoWeekHigh": 739.67,
-      "fiftyTwoWeekLow": 215.5,
-      "dividendYield": 60.0,
-      "dividendRate": 2.12,
-      "exDividendDate": "1795046400",
-      "charts": {
-        "24h": "charts/AMAT_24h.png",
-        "1m": "charts/AMAT_1m.png",
-        "1y": "charts/AMAT_1y.png"
-      },
-      "news": [
-        {
-          "title": "Inside Brad Gerstner’s Portfolio: Every Move He Made in the Third Quarter",
-          "summary": "Key TakeawaysBrad Gerstner’s Altimeter Capital opened a $680 million Tesla position in the third quarter, added to Meta Platforms and Micron, and sold out of Qualcomm and Applied Materials. Tesla trades at about 180x forward earnings, and analysts’ average target is just 7% above the price, so the new stake is a bet on Robotaxi profits that the estimates don’t show yet.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-20 05:05"
-        },
-        {
-          "title": "Top AI Stocks to Add to Your Portfolio for Healthy Returns",
-          "summary": "Here, we have picked three AI stocks, TXN, AMAT and CSCO, which are well-poised to benefit from AI's growing use and ability to solve complex problems.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-20 02:33"
-        },
-        {
-          "title": "ROK to Boost Intelligent Devices Segment With AGILOX Buyout",
-          "summary": "Rockwell Automation's AGILOX acquisition expands its autonomous mobile robot portfolio, strengthen global reach and more than double its AMR business.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-20 02:29"
-        },
-        {
-          "title": "ASML Rides on Improving Profitability: Will It Sustain?",
-          "summary": "ASML's surging system sales, AI-driven demand and favorable product mix fuel margin growth, but capacity constraints raise questions about sustaining profitability.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-20 02:08"
-        },
-        {
-          "title": "What Have Lattice Stock Holders Had To Sit Through?",
-          "summary": "Today’s big story: Could Anthropic Stock Fall 25.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-20 02:04"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-12 16:02:46",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026073360/exhibit991q42026earningsre.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-10-26 16:34:29",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026067303/amat-20261026.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-10-05 17:59:34",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026065097/xslF345X06/wk-form4_1791237572.xml",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 100,
-      "screening_details": {
-        "market_cap": 268973981696,
-        "cap_score": 20,
-        "revenue_growth_pct": 53.1,
-        "growth_score": 25,
-        "operating_margin_pct": 32.944,
-        "margin_score": 15,
-        "price_position_52w": 0.23547703989163823,
-        "price_score": 20,
-        "debt_to_equity": 25.021,
-        "debt_score": 20
-      }
-    },
-    "LRCX": {
-      "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "display_name": "Lam Research Corporation",
-      "data_limited": false,
-      "price": 203.64,
-      "high_24h": 221.96,
-      "low_24h": 203.45,
-      "high_1m": 270.97,
-      "low_1m": 184.24,
-      "fiftyTwoWeekHigh": 438.5,
-      "fiftyTwoWeekLow": 135.5,
-      "dividendYield": 62.0,
-      "dividendRate": 1.32,
-      "exDividendDate": "1796169600",
-      "charts": {
-        "24h": "charts/LRCX_24h.png",
-        "1m": "charts/LRCX_1m.png",
-        "1y": "charts/LRCX_1y.png"
-      },
-      "news": [
-        {
-          "title": "What Have Lattice Stock Holders Had To Sit Through?",
-          "summary": "Today’s big story: Could Anthropic Stock Fall 25.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-20 02:04"
-        },
-        {
-          "title": "Druckenmiller Retreats From Chip Stocks in Pivot to Gold Miners and SpaceX",
-          "summary": "Duquesne Family Office exited Advanced Micro Devices, Alphabet, and Meta in the third quarter.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-20 01:01"
-        },
-        {
-          "title": "3 US AI Infrastructure Stocks Retail Investors Are Watching After Anthropic IPO",
-          "summary": "Anthropic’s record US$81b IPO, backed by a US$26b buying pool from some of the biggest tech groups on the planet, has turned AI funding, risk and hype into front-page investing questions again. That mix of rapid revenue growth, heavy losses and tight founder control can reshuffle where capital flows next. This article picks out three mega-cap US stocks most exposed to that news and explains why the reaction may matter for your portfolio. The three stocks profiled next are only a sample drawn...",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-20 00:20"
-        },
-        {
-          "title": "Premarket movers: Palo Alto soars, chip stocks rally ahead of Anthropic debut",
-          "summary": "Investing.com -- U.S. equity futures jumped early Thursday after Anthropic’s initial public offering priced above expectations, reviving enthusiasm for artificial intelligence stocks. Dow Jones Industrial Average futures rose 0.6%, S&P 500 futures gained 1.2% and Nasdaq-100 futures surged 2.1%.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-19 22:09"
-        },
-        {
-          "title": "Applied Materials’ 2027 EPS Estimate Rose to $19.29 After Its Record Quarter. Its Average Price Target Fell to $562",
-          "summary": "Key TakeawaysApplied Materials stock fell 7. 5% in the four sessions after its record $10.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-19 21:06"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-12 10:59:42",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000140569326000015/xslF345X06/wk-form4_1794499178.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-09 14:19:19",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000149421126000003/xslF345X06/wk-form4_1794251957.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-09 14:11:56",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000119063926000009/xslF345X06/wk-form4_1794251513.xml",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 100,
-      "screening_details": {
-        "market_cap": 254431133696,
-        "cap_score": 20,
-        "revenue_growth_pct": 54.400000000000006,
-        "growth_score": 25,
-        "operating_margin_pct": 36.951,
-        "margin_score": 15,
-        "price_position_52w": 0.22501650165016504,
-        "price_score": 20,
-        "debt_to_equity": 26.857,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 85.5,
+        "earnings_growth_pct": 215.3,
+        "growth_score": 20,
+        "free_cashflow": 30596499456,
+        "cash_score": 15,
+        "price_position_52w": 0.07133460020464864,
+        "valuation_score": 10
       }
     },
     "TSM": {
@@ -1092,14 +977,14 @@
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
       "display_name": "Taiwan Semiconductor Manufacturing Company Limited",
       "data_limited": false,
-      "price": 352.09,
-      "high_24h": 374.77,
-      "low_24h": 351.14,
+      "price": 319.55,
+      "high_24h": 343.75,
+      "low_24h": 318.48,
       "high_1m": 440.88,
-      "low_1m": 351.14,
+      "low_1m": 318.48,
       "fiftyTwoWeekHigh": 487.47,
       "fiftyTwoWeekLow": 266.82,
-      "dividendYield": 104.0,
+      "dividendYield": 107.0,
       "dividendRate": 3.77,
       "exDividendDate": "1796860800",
       "charts": {
@@ -1109,37 +994,48 @@
       },
       "news": [
         {
-          "title": "TSMC halts advanced chip orders from Chinese designers in Taiwan",
-          "summary": "Taiwan Semiconductor Manufacturing Co (TSMC, TWSE: 2330) has suspended some advanced production orders from Chinese chip designers and will largely restrict those clients to older technology, Taipei Times reported on November 20, citing two sources with knowledge of the matter. The move follows new US export rules that came into force on November 19.",
+          "title": "Top 5 Stocks to Buy According to Billionaire George Soros",
+          "summary": "George Soros made his name betting against currencies and central banks, and that record is still the reference point for macro investing decades later. Born in Budapest in 1930, he built his fortune running the Quantum Fund, and the firm that carries his name has been investing for more than five decades. Soros Fund Management […]",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 09:06"
+          "published_at": "2026-11-21 10:04"
         },
         {
-          "title": "Cracks in the \"AI\" Cap-Ex Boom Have Emerged",
-          "summary": "As a Share Investor, Should You Worry?",
+          "title": "Anthropic Stocks Jump 17.07% in Record Debut as $26 Billion Chipmaker Placement Lands",
+          "summary": "First trade hit $111.50 before the pop cooled, leaving Amazon and Google holding roughly $360 billion of Anthropic at the close.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 06:50"
+          "published_at": "2026-11-21 06:41"
         },
         {
-          "title": "Billionaire Stanley Druckenmiller Cut TSMC 94% in One Quarter, Leaving Just $14.9 Million",
-          "summary": "TSMC's revenue kept surging while one of Wall Street's sharpest macro minds headed for the exit. His new buys in storage, gold and space hint at what spooked him, and his own words about the next 12 months add another clue.",
+          "title": "A $9.7 Billion Fund Bought These 3 Stocks Last Quarter",
+          "summary": "Key TakeawaysA $9. 7 billion fund, Hyperion Asset Management, added to its stakes in SpaceX, Arm Holdings and Taiwan Semiconductor in the third quarter.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 04:46"
+          "published_at": "2026-11-21 06:35"
         },
         {
-          "title": "What's Happening To Intel's Factory Cash?",
-          "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+          "title": "Following Jensen Huang Exit, Investors Fear Nvidia’s AI Lead Will Collapse",
+          "summary": "Even though Nvidia remains a massive holding and is forecasting up to 70% growth in its next fiscal year, the stock has been trading at a steep discount around 12 to 13 times forward earnings amid major leadership and competitive shifts. Following Jensen Huang’s departure, investors are wrestling with how deeply Nvidia's advantage was tied to his hands-on leadership, annual product cadence and supply chain relationships like its handshake deals with Taiwan Semiconductor. 24/7 Wall St. Analysts Eric Bleeker and Austin Smith examine what Nvidia might look like with Jensen Huang gone and why fears of a collapse are valid.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 04:14"
+          "published_at": "2026-11-21 03:16"
         },
         {
-          "title": "Nvidia will not be the leader 5 years from now: Tiernan Ray",
-          "summary": "The Technology Letter's Tiernan Ray joins Market Hang to discuss why Nvidia (NVDA) will not be the leader of the AI chip race in 5 years. Today's panel includes Barron's reporter Jacob Sonenshine, The Technology Letter's Tiernan Ray, Epistrophy Capital Research Chief Market Strategist Cory Johnson, and Laffer Tengler Investments CEO and chief investment officer Nancy Tengler.",
+          "title": "Goldman Sachs Cut Its Broadcom Target to $460, and the Reason Has Nothing to Do With Broadcom’s Earnings",
+          "summary": "Key Takeaways Goldman Sachs cut its Broadcom price target to $460 from $540 on Nov. 18 and kept its Buy rating, so the target was still 30% above that day’s close.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-20 03:59"
+          "published_at": "2026-11-21 02:41"
         }
       ],
       "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-20 06:06:34",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000211403226000002/xslF345X06/wk-form4_1795172790.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
         {
           "form_type": "",
           "form_label": "기타 SEC 공시",
@@ -1161,17 +1057,6 @@
           "source": "SEC/FMP",
           "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/a2026q3consolidatedreport-.htm",
           "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-12 08:03:05",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm",
-          "fallback_reason": "importance_filter_empty"
         }
       ],
       "sec_filings_filter": {
@@ -1201,133 +1086,151 @@
           }
         ]
       },
-      "screening_score": 96,
+      "screening_score": 100,
       "screening_details": {
-        "market_cap": 1826105196544,
-        "cap_score": 20,
-        "revenue_growth_pct": 50.9,
-        "growth_score": 25,
+        "market_cap": 1652980711424,
+        "cap_score": 15,
+        "roe_pct": 41.86,
+        "roe_score": 20,
         "operating_margin_pct": 57.961,
-        "margin_score": 15,
-        "price_position_52w": 0.38644912757761146,
-        "price_score": 16,
-        "debt_to_equity": 15.188,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 50.9,
+        "earnings_growth_pct": 68.7,
+        "growth_score": 20,
+        "free_cashflow": 1042594725888,
+        "cash_score": 15,
+        "price_position_52w": 0.23516881939723533,
+        "valuation_score": 10
       }
     }
   },
   "candidate_rankings": [
     {
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "score": 100,
+      "dividend_yield_pct": 35.0,
+      "details": {
+        "market_cap": 1433642336256,
+        "cap_score": 15,
+        "roe_pct": 32.263999999999996,
+        "roe_score": 20,
+        "operating_margin_pct": 37.777,
+        "margin_score": 20,
+        "revenue_growth_pct": 26.1,
+        "earnings_growth_pct": 264.8,
+        "growth_score": 20,
+        "free_cashflow": 16848499712,
+        "cash_score": 15,
+        "price_position_52w": 0.1563415010016953,
+        "valuation_score": 10
+      }
+    },
+    {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
       "score": 100,
-      "dividend_yield_pct": 66.0,
+      "dividend_yield_pct": 69.0,
       "details": {
-        "market_cap": 3524978802688,
-        "cap_score": 20,
-        "revenue_growth_pct": 103.2,
-        "growth_score": 25,
+        "market_cap": 3031172907008,
+        "cap_score": 15,
+        "roe_pct": 117.364,
+        "roe_score": 20,
         "operating_margin_pct": 66.082,
-        "margin_score": 15,
-        "price_position_52w": 0.0027646938357565208,
-        "price_score": 20,
-        "debt_to_equity": 14.306,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 103.2,
+        "earnings_growth_pct": 107.69999999999999,
+        "growth_score": 20,
+        "free_cashflow": 99241377792,
+        "cash_score": 15,
+        "price_position_52w": 0.008664928072684455,
+        "valuation_score": 10
       }
     },
     {
       "symbol": "AVGO",
       "name": "Broadcom Inc.",
       "score": 100,
-      "dividend_yield_pct": 73.0,
+      "dividend_yield_pct": 75.0,
       "details": {
-        "market_cap": 1654778757120,
-        "cap_score": 20,
-        "revenue_growth_pct": 85.5,
-        "growth_score": 25,
+        "market_cap": 1453140738048,
+        "cap_score": 15,
+        "roe_pct": 44.245000000000005,
+        "roe_score": 20,
         "operating_margin_pct": 48.815,
-        "margin_score": 15,
-        "price_position_52w": 0.2771524630901914,
-        "price_score": 20,
-        "debt_to_equity": 59.604,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 85.5,
+        "earnings_growth_pct": 215.3,
+        "growth_score": 20,
+        "free_cashflow": 30596499456,
+        "cash_score": 15,
+        "price_position_52w": 0.07133460020464864,
+        "valuation_score": 10
       }
     },
     {
-      "symbol": "AMAT",
-      "name": "Applied Materials, Inc.",
+      "symbol": "ASML",
+      "name": "ASML Holding N.V.",
       "score": 100,
-      "dividend_yield_pct": 60.0,
+      "dividend_yield_pct": 69.0,
       "details": {
-        "market_cap": 268973981696,
-        "cap_score": 20,
-        "revenue_growth_pct": 53.1,
-        "growth_score": 25,
-        "operating_margin_pct": 32.944,
-        "margin_score": 15,
-        "price_position_52w": 0.23547703989163823,
-        "price_score": 20,
-        "debt_to_equity": 25.021,
-        "debt_score": 20
-      }
-    },
-    {
-      "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "score": 100,
-      "dividend_yield_pct": 62.0,
-      "details": {
-        "market_cap": 254431133696,
-        "cap_score": 20,
-        "revenue_growth_pct": 54.400000000000006,
-        "growth_score": 25,
-        "operating_margin_pct": 36.951,
-        "margin_score": 15,
-        "price_position_52w": 0.22501650165016504,
-        "price_score": 20,
-        "debt_to_equity": 26.857,
-        "debt_score": 20
+        "market_cap": 488023621632,
+        "cap_score": 15,
+        "roe_pct": 65.636003,
+        "roe_score": 20,
+        "operating_margin_pct": 38.551998,
+        "margin_score": 20,
+        "revenue_growth_pct": 55.2,
+        "earnings_growth_pct": 135.9,
+        "growth_score": 20,
+        "free_cashflow": 10374124544,
+        "cash_score": 15,
+        "price_position_52w": 0.30375290601129196,
+        "valuation_score": 10
       }
     },
     {
       "symbol": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "score": 96,
-      "dividend_yield_pct": 104.0,
+      "score": 100,
+      "dividend_yield_pct": 107.0,
       "details": {
-        "market_cap": 1826105196544,
-        "cap_score": 20,
-        "revenue_growth_pct": 50.9,
-        "growth_score": 25,
+        "market_cap": 1652980711424,
+        "cap_score": 15,
+        "roe_pct": 41.86,
+        "roe_score": 20,
         "operating_margin_pct": 57.961,
-        "margin_score": 15,
-        "price_position_52w": 0.38644912757761146,
-        "price_score": 16,
-        "debt_to_equity": 15.188,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 50.9,
+        "earnings_growth_pct": 68.7,
+        "growth_score": 20,
+        "free_cashflow": 1042594725888,
+        "cash_score": 15,
+        "price_position_52w": 0.23516881939723533,
+        "valuation_score": 10
       }
     }
   ],
   "screening_meta": {
-    "mode": "theme",
-    "title": "모멘텀/테마 후보",
-    "seed_pool_size": 126,
+    "mode": "quality",
+    "title": "장기 퀄리티 후보",
+    "seed_pool_size": 61,
     "ai_selected_count": 20,
     "scored_count": 20,
     "top5": [
+      "META",
       "NVDA",
       "AVGO",
-      "AMAT",
-      "LRCX",
+      "ASML",
       "TSM"
     ],
     "max_screening_candidates": 20
   },
   "api_stats": {
-    "yfinance": 30,
-    "news": 10,
-    "fmp": 10,
-    "charts": 30,
+    "yfinance": 29,
+    "news": 9,
+    "fmp": 9,
+    "charts": 27,
     "limits": {
       "max_screening_candidates": 20,
       "news_per_ticker": 5,
