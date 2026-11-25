@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-24 14:37",
+  "date": "2026-11-25 13:38",
   "report_profile": {
-    "type": "theme",
-    "title": "모멘텀/테마 후보",
-    "description": "최근 뉴스와 시장 모멘텀이 붙은 주요 테마 안에서 후보를 선별합니다."
+    "type": "quality",
+    "title": "장기 퀄리티 후보",
+    "description": "3년 이상 보유 관점에서 사업 품질, 재무 안정성, 성장성을 기준으로 선별합니다."
   },
   "market_data": {
     "ASML": {
@@ -11,14 +11,14 @@
       "name": "ASML Holding N.V.",
       "display_name": "ASML Holding N.V.",
       "data_limited": false,
-      "price": 1383.37,
-      "high_24h": 1414.71,
-      "low_24h": 1372.71,
+      "price": 1335.5,
+      "high_24h": 1360.8,
+      "low_24h": 1311.55,
       "high_1m": 1690.1,
       "low_1m": 1258.53,
       "fiftyTwoWeekHigh": 1999.96,
       "fiftyTwoWeekLow": 973.74,
-      "dividendYield": 74.0,
+      "dividendYield": 67.0,
       "dividendRate": 9.31,
       "exDividendDate": "1793059200",
       "charts": {
@@ -28,34 +28,34 @@
       },
       "news": [
         {
-          "title": "Why ASML Stock Popped Today",
-          "summary": "The AI sector soared as Jensen Huang returned to Nvidia.",
+          "title": "ASML Is the Most Important Company You’ve Never Heard Of. Should You Buy the Stock?",
+          "summary": "ASML has one of the most unique advantages in the artificial intelligence market.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 07:36"
+          "published_at": "2026-11-25 03:23"
         },
         {
-          "title": "ASML Stock’s Sell-Off Looks Excessive Against Its Growth Outlook",
-          "summary": "ASML Holding’s (ASML) stock sell-off looks excessive against its growth outlook, in my view. The lithography equipment manufacturer reported record quarterly sales of €11.7 billion in Q3 2026. During the earnings call, CEO Christophe Fouquet said planned supply for 2027 and 2028 “will not fully meet the demand of our customers.” That is a striking message during a semiconductor sell-off. While investors are questioning how long the artificial intelligence (AI) buildout can last, ASML’s customers",
+          "title": "Nvidia, AMD and Micron Lead AI Selloff as Chip Stocks Slide",
+          "summary": "Nvidia's Sharp Reversal Sparks a New Selloff in AI and Chip Stocks",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 06:25"
+          "published_at": "2026-11-25 02:40"
         },
         {
-          "title": "“Smoke and Mirrors”: Micron’s President Slammed Rival DRAM Designs. We’ll Know Soon if He’s Right",
-          "summary": "Key TakeawaysMicron president Scott DeBoer called rivals’ talk of 4F2 DRAM “smoke and mirrors” and said 3D DRAM will win instead. Micron invented 4F2 and has evaluated it for two decades, so I take him seriously, and Lam Research and ASML have a stake too.",
+          "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure",
+          "summary": "Chip giant Nvidia led semiconductor stocks lower on Tuesday.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 04:43"
+          "published_at": "2026-11-24 23:16"
         },
         {
-          "title": "Who's Buying And Who's Selling AI? The Full List, Next To 2000",
-          "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
+          "title": "ASML Stock What Changed After Nvidia CEO Return",
+          "summary": "ASML Holding reported recent share repurchases under its ongoing buyback program and saw renewed interest after Nvidia reinstated Jensen Huang as CEO, which lifted sentiment toward AI chip suppliers that rely on its EUV tools. The news cycle highlighted how ASML’s monopoly in extreme ultraviolet lithography ties its order outlook and capacity planning directly to customers’ AI and memory buildout decisions. We will examine how ASML’s existing investment narrative is influenced by Huang’s...",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 03:36"
+          "published_at": "2026-11-24 21:15"
         },
         {
-          "title": "Billionaire Ray Dalio Is Going All-In on AI and Chip Stocks: Top 5 Holdings",
-          "summary": "Speaking at the Forbes Global CEO Conference in Singapore on October 7, Ray Dalio was of the opinion that the AI boom had entered a “classic bubble,” and that there was a distinction between “how terrific a technology is and how terrific an investment is.” Gain insight into the AI sector through our list of […]",
+          "title": "Applied Materials Is Up 33% in 2026 but 54% Below Its June High. Time to Buy?",
+          "summary": "Key TakeawaysApplied Materials is up 33% in 2026 but sits 54% below its June 30 high, as the AI selloff hit chip-equipment stocks including Lam Research, KLA and ASML. The business kept setting records: fiscal fourth-quarter revenue rose 53% to $10.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 03:18"
+          "published_at": "2026-11-24 20:52"
         }
       ],
       "sec_filings_6m": [
@@ -119,6 +119,22 @@
             "reason": "unrecognized_form"
           }
         ]
+      },
+      "screening_score": 100,
+      "screening_details": {
+        "market_cap": 514941222912,
+        "cap_score": 15,
+        "roe_pct": 65.636003,
+        "roe_score": 20,
+        "operating_margin_pct": 38.551998,
+        "margin_score": 20,
+        "revenue_growth_pct": 55.2,
+        "earnings_growth_pct": 135.9,
+        "growth_score": 20,
+        "free_cashflow": 10374124544,
+        "cash_score": 15,
+        "price_position_52w": 0.3530626961080469,
+        "valuation_score": 10
       }
     },
     "OXLC": {
@@ -126,14 +142,14 @@
       "name": "Oxford Lane Capital Corp.",
       "display_name": "Oxford Lane Capital Corp.",
       "data_limited": false,
-      "price": 5.13,
+      "price": 5.0,
       "high_24h": 5.15,
-      "low_24h": 4.95,
+      "low_24h": 4.93,
       "high_1m": 6.53,
       "low_1m": 4.44,
       "fiftyTwoWeekHigh": 15.39,
       "fiftyTwoWeekLow": 4.62,
-      "dividendYield": 2424.0,
+      "dividendYield": 2339.0,
       "dividendRate": 1.2,
       "exDividendDate": "1797465600",
       "charts": {
@@ -229,14 +245,14 @@
       "name": "QUALCOMM Incorporated",
       "display_name": "QUALCOMM Incorporated",
       "data_limited": false,
-      "price": 165.37,
-      "high_24h": 165.68,
-      "low_24h": 160.49,
+      "price": 164.97,
+      "high_24h": 167.23,
+      "low_24h": 160.52,
       "high_1m": 185.59,
       "low_1m": 148.25,
       "fiftyTwoWeekHigh": 259.92,
       "fiftyTwoWeekLow": 121.99,
-      "dividendYield": 245.0,
+      "dividendYield": 223.0,
       "dividendRate": 3.68,
       "exDividendDate": "1796256000",
       "charts": {
@@ -246,34 +262,34 @@
       },
       "news": [
         {
-          "title": "How NVDA Stock Rises To $235?",
-          "summary": "NVIDIA's (NVDA) board unanimously reinstated co-founder Jensen Huang as President, CEO, and director on November 23, 2026, igniting a roughly 30% intraday surge in NVDA shares during Monday morning trading (lifting the stock from Friday's 52-week closing low of $125.53 into the $160+ range, with early trades briefly topping $170.",
+          "title": "Elon Musk, Not Investors, Would Come Out Ahead in a SpaceX-Tesla Merger",
+          "summary": "A Dec. 3 annual meeting is the perfect time to announce a deal.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 02:16"
+          "published_at": "2026-11-25 06:23"
         },
         {
-          "title": "Qualcomm Jumps 9.8% as Chip Stocks Rally on Nvidia News on Monday",
-          "summary": "Qualcomm rose 9.8% as chip stocks rallied after Nvidia reinstated Jensen Huang as CEO.",
+          "title": "Is Qualcomm Stock As Cheap As It Looks Now?",
+          "summary": "If you have watched Qualcomm this year, the worry is easy to name. Its sales are shrinking. Over the six months to Monday, November 23, the stock returned -32.9%, counting dividends. The S&P 500 returned -3.2% over the same dates. On Monday alone, Qualcomm rose 10.3.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 02:04"
+          "published_at": "2026-11-25 02:49"
         },
         {
-          "title": "Does AMD Stock Turn Profit Into Cash Like Nvidia?",
-          "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
+          "title": "Should Softer Guidance Require Action From Qualcomm Stock Investors",
+          "summary": "Qualcomm reported Q4 fiscal 2026 earnings that exceeded EPS expectations, although adjusted revenue was 7% lower year on year and guidance pointed to softer future sales and margin pressure. The cautious outlook, including concerns around handset demand, cost pressures and AI chip export controls, highlighted how Qualcomm’s evolving business mix faces practical execution and profitability challenges. Next the focus shifts to how Qualcomm’s cautious revenue outlook and margin pressure could...",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 01:38"
+          "published_at": "2026-11-25 02:16"
         },
         {
-          "title": "Qualcomm Launches 2027 Innovation Fellowship Program for North America",
-          "summary": "Flagship fellowship program continues to empower the next generation of innovators tackling breakthrough research challengesSAN DIEGO, CA / ACCESS Newswire / November 23, 2026 / Technologies, Inc. officially launched the 2027 Innovation Fellowship (QIF) North America Program, opening applications for one of the company's premier university research initiatives.",
+          "title": "Brad Gerstner Swapped Qualcomm for More Micron Last Quarter. Micron Has Lost 34% Since Sept. 30",
+          "summary": "Key TakeawaysBrad Gerstner’s Altimeter Capital sold all of its Qualcomm stock last quarter and added 24% more Micron shares, its latest 13F shows. Micron has lost 34% since Sept.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 00:20"
+          "published_at": "2026-11-25 01:59"
         },
         {
-          "title": "Allegro MicroSystems And 2 Other AI Stocks To Own",
-          "summary": "Last week’s sharp slide in AI related stocks, including chipmakers that now carry a large share of expected earnings growth, has shaken confidence and created exactly the kind of reset long term investors look for. When enthusiasm cools, price tags sometimes stop reflecting business potential. This article walks through three AI focused stocks that the screener flags as worth a closer look. The three stocks below are a small sample, and the full screen surfaced 56 more AI focused businesses...",
+          "title": "Amazon’s $7.5 billion Decart tech deal makes Wedbush’s case for chip choice",
+          "summary": "Amazon.com Inc (NASDAQ:AMZN) plans to acquire Decart’s AI technology and hire its co-founders and research team in a deal Bloomberg values at about $7.5 billion, a move Wedbush sees as a step toward reducing reliance on Nvidia Corp (NASDAQ:NVDA, XETRA:NVD) CUDA software. The technology behind...",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 00:09"
+          "published_at": "2026-11-25 01:37"
         }
       ],
       "sec_filings_6m": [
@@ -283,9 +299,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-11-23 17:30:15",
+          "filed_at": "2026-11-24 16:41:52",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000135/xslF345X06/edgardoc.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000140/xslF345X06/edgardoc.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -294,9 +310,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-11-19 16:22:50",
+          "filed_at": "2026-11-24 16:41:39",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000133/xslF345X06/edgardoc.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000139/xslF345X06/edgardoc.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -305,9 +321,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-11-13 16:48:24",
+          "filed_at": "2026-11-24 16:32:06",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926127163/tm2629667d1_8k.htm",
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000138/qcom-20261120.htm",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -344,9 +360,9 @@
       "name": "Amazon.com, Inc.",
       "display_name": "Amazon.com, Inc.",
       "data_limited": false,
-      "price": 255.42,
-      "high_24h": 262.48,
-      "low_24h": 251.25,
+      "price": 252.31,
+      "high_24h": 255.56,
+      "low_24h": 250.53,
       "high_1m": 275.34,
       "low_1m": 229.36,
       "fiftyTwoWeekHigh": 287.2,
@@ -361,34 +377,34 @@
       },
       "news": [
         {
-          "title": "The Nasdaq Just Had Its Best Day Since April 2025. Anthropic Stock Fell Anyway.",
-          "summary": "Anthropic stock slipped on the Nasdaq Composite's best day since April 2025.",
+          "title": "Altimetrik Achieves the AWS Agentic AI Specialization",
+          "summary": "Altimetrik, an AI engineering company, has achieved the Amazon Web Services (AWS) Agentic AI Specialization in Agentic AI Consulting Services, a category within the AWS AI Competency. This specialization recognizes Altimetrik as an AWS Partner that enables customers to deploy smart, self-operating AI systems that can think, plan, and work independently to execute complex business processes.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 09:42"
+          "published_at": "2026-11-25 12:30"
         },
         {
-          "title": "Is Amazon's Profit Riskier Than It Looks?",
-          "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
+          "title": "e.l.f. Beauty vs. Hershey: Which Consumer Goods Stock Is a Better Buy for 2027?",
+          "summary": "Fast-growing e.l.f. Beauty and century-old Hershey take very different paths to consumer staples gains, and only one trades at a lower forward multiple.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 09:25"
+          "published_at": "2026-11-25 11:22"
         },
         {
-          "title": "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang Return; Elon Musk-Led SpaceX, Tesla Rally",
-          "summary": "Dow Jones Futures: Tech stocks and Nvidia stock surged Monday on the return of Jensen Huang. Elon Musk-led SpaceX and Tesla rallied.",
+          "title": "Tech Keeps Eating Hollywood As Netflix Buys Historic Seinfeld Lot",
+          "summary": "Netflix announced a $380 million deal for Radford Studio in Los Angeles, where Seinfeld, Mary Tyler Moore and more were filmed.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 08:40"
+          "published_at": "2026-11-25 08:00"
         },
         {
-          "title": "Tariffs Strike Again: 343 Companies Report $28.5 Billion in Trump Tariff Refunds. Retail Beats Need a Second Look",
-          "summary": "Key Takeaways343 public companies have reported $28. 5 billion in tariff refunds received or expected, including $2.",
+          "title": "Amazon customers may qualify for $309.5M settlement. See how",
+          "summary": "Amazon customers may qualify for a share of a $309.5 million settlement over refund issues. Here's who is eligible and how to file a claim.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 08:36"
+          "published_at": "2026-11-25 07:32"
         },
         {
-          "title": "S&P 500, Nasdaq End Best Session Since April Last Year On Optimism Led By Jensen Huang’s Reinstatement — NVDA, NASA, TTWO, AMZN In Focus",
-          "summary": "Nvidia’s board reinstated Jensen Huang as Nvidia’s CEO following pressure from President Donald Trump.",
+          "title": "Anthropic falls below IPO price as Nvidia gives back gains",
+          "summary": "In this edition of Sozzi Unleashed: At The Close, Brian Sozzi sorts through \"reality trading\" as Nvidia slides nearly 7% after Monday's 31% surge and Anthropic falls below its $83 IPO price less than a week after the biggest offering in history. GCG Advisory Partners' Bill Gunderson makes the case that Nvidia is the cheapest growth stock in the market at nine times forward earnings and names Nvidia and Eli Lilly as his top picks for 2027. Brian breaks down Dell's blowout quarter and $132 billion AI backlog, and HPE CEO Antonio Neri joins to explain the company's raised outlook, why it refuses to finance neoclouds, and whether server margins have peaked. Brian closes by arguing the AI trade is reaching consumers' wallets, pointing to Best Buy's strongest comparable sales growth in five years.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 08:33"
+          "published_at": "2026-11-25 06:45"
         }
       ],
       "sec_filings_6m": [
@@ -398,9 +414,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-11-20 16:16:54",
+          "filed_at": "2026-11-24 18:46:00",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000056/xslF345X06/wk-form4_1795209411.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000012/xslF345X06/wk-form4_1795563957.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -409,9 +425,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-11-17 16:46:14",
+          "filed_at": "2026-11-24 18:40:11",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000030/xslF345X06/wk-form4_1794951971.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000012/xslF345X06/wk-form4_1795563607.xml",
           "fallback_reason": "importance_filter_empty"
         },
         {
@@ -420,9 +436,9 @@
           "importance": "noise",
           "importance_score": 0,
           "description": "",
-          "filed_at": "2026-11-17 16:41:56",
+          "filed_at": "2026-11-24 18:34:35",
           "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000054/xslF345X06/wk-form4_1794951713.xml",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000032/xslF345X06/wk-form4_1795563271.xml",
           "fallback_reason": "importance_filter_empty"
         }
       ],
@@ -459,14 +475,14 @@
       "name": "Microsoft Corporation",
       "display_name": "Microsoft Corporation",
       "data_limited": false,
-      "price": 492.97,
-      "high_24h": 509.15,
-      "low_24h": 492.02,
+      "price": 496.47,
+      "high_24h": 501.8,
+      "low_24h": 488.43,
       "high_1m": 558.07,
       "low_1m": 481.03,
       "fiftyTwoWeekHigh": 559.15,
       "fiftyTwoWeekLow": 349.2,
-      "dividendYield": 81.0,
+      "dividendYield": 80.0,
       "dividendRate": 3.92,
       "exDividendDate": "1795046400",
       "charts": {
@@ -476,34 +492,34 @@
       },
       "news": [
         {
-          "title": "Microsoft CEO Satya Nadella Offered 60,000 Employees Buyouts So Everyone 'Felt Like They Had Agency' — Yet Insists Software Engineering Is 'Very Much Alive'",
-          "summary": "Nobody enjoys being shown the door, so Microsoft Corp. tried holding it open instead. Microsoft CEO Satya Nadella says the company’s buyout offer to roughly 60,000 employees was about choice, as AI changes what a workday looks like inside the...",
+          "title": "Nvidia-Backed Nscale Reportedly Eyes Private Route As AI Market Sell-Off Clouds $35B IPO Plans",
+          "summary": "Data center operator Nscale reassured employees it can stay private amid a steep AI stock downturn that threatens its planned $35 billion listing.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 11:30"
+          "published_at": "2026-11-25 09:16"
         },
         {
-          "title": "Is Amazon's Profit Riskier Than It Looks?",
-          "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
+          "title": "Driven Tech Completes Acquisitions of ADEX and TekBay, Accelerating Enterprise AI Strategy",
+          "summary": "Driven Tech, Inc. today announced the successful completion of its acquisitions of ADEX and TekBay, following receipt of all required government and regulatory approvals.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 09:25"
+          "published_at": "2026-11-25 08:10"
         },
         {
-          "title": "What Microsoft (MSFT)'s Enterprise AI Partnerships Mean For Shareholders",
-          "summary": "Recent announcements from partners such as Danaher, V2X, Audi and Intel show Microsoft products like Azure, Foundry, Fabric and EMIB-based Azure hardware being embedded deeper into mission operations, scientific instruments and workplace tools. These deals point to Microsoft quietly turning AI from headline demos into long-term, embedded workloads across defense, healthcare, autos and labs, which ties AI demand directly to everyday enterprise processes rather than one-off projects. We will...",
+          "title": "Maverick Medical AI Surfaces CodeAgent within Microsoft Radiology Reporting Solutions to Reduce Physician Rework",
+          "summary": "At RSNA 2026, Maverick will demonstrate real-time documentation guidance connecting radiology reporting with autonomous, billing-ready codingWILMINGTON, Del., Nov. 24, 2026 (GLOBE NEWSWIRE) -- Maverick Medical AI will showcase CodeAgent™, its real-time AI documentation assistant, within Microsoft Dragon Copilot at RSNA 2026. Microsoft Dragon Copilot works alongside PowerScribe One, a Microsoft radiology reporting solution used by hundreds of healthcare organizations in the United States. The off",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 09:17"
+          "published_at": "2026-11-25 07:54"
         },
         {
-          "title": "Chamath Says Microsoft “Clearly Is Going to Need to Have a Frontier Model.” Nadella Is Betting It Won’t",
-          "summary": "Key TakeawaysChamath Palihapitiya says Microsoft needs a frontier model, the week Anthropic debuted at about $1. 75 trillion fully diluted.",
+          "title": "Retailers Sanguine for Black Friday",
+          "summary": "Forecasts for Black Friday and holiday sales gains hold up in the wake of healthy third-quarter financial reports by major retailers.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 07:50"
+          "published_at": "2026-11-25 07:24"
         },
         {
-          "title": "Crypto traders saw Anthropic's 34% debut pop coming",
-          "summary": "Weeks before bankers priced Anthropic’s IPO, a 24/7 crypto market was already trading the shares much higher. The debut showed how close it got.",
+          "title": "A week on, Chase still hasn’t explained its outage",
+          "summary": "Treasury Secretary Scott Bessent named JPMorganChase while explaining how patches can cause glitches. Asked if a patch caused its outage, the bank wouldn't say.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 07:47"
+          "published_at": "2026-11-25 07:15"
         }
       ],
       "sec_filings_6m": [
@@ -569,19 +585,150 @@
         ]
       }
     },
+    "META": {
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "display_name": "Meta Platforms, Inc.",
+      "data_limited": false,
+      "price": 590.23,
+      "high_24h": 600.32,
+      "low_24h": 584.26,
+      "high_1m": 648.45,
+      "low_1m": 558.68,
+      "fiftyTwoWeekHigh": 779.82,
+      "fiftyTwoWeekLow": 520.26,
+      "dividendYield": 35.0,
+      "dividendRate": 2.1,
+      "exDividendDate": "1789948800",
+      "charts": {
+        "24h": "charts/META_24h.png",
+        "1m": "charts/META_1m.png",
+        "1y": "charts/META_1y.png"
+      },
+      "news": [
+        {
+          "title": "Your $300,000 in XLC Holds $130,206 in Just Meta and Alphabet",
+          "summary": "A fund labeled communication services sounds like a broad bet on telecom, media, and entertainment. The latest SEC filing shows something far narrower, and one company hides in plain sight by appearing on the holdings list twice.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-25 10:04"
+        },
+        {
+          "title": "Intel And 2 More AI Stocks To Watch",
+          "summary": "Jensen Huang’s rapid return to Nvidia and the sharp rebound in chip shares have reminded markets that AI is still the main story driving big money flows. When capital swings back toward the picks and shovels of the ChatGPT and AI boom, investors start hunting for quality businesses that have not yet been fully priced for that theme. This article highlights three such undervalued AI stocks across chips, software, and cloud. The three undervalued AI stocks covered below are just a sample, and...",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-25 07:19"
+        },
+        {
+          "title": "Anthropic IPO Shares: Flip Now Or Hold A Year?",
+          "summary": "Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-25 06:36"
+        },
+        {
+          "title": "5 High-Conviction Stocks Billionaire Philippe Laffont Is Betting On for 2027",
+          "summary": "Coatue Management’s November 16 regulatory filing puts billionaire Philippe Laffont’s positioning back in focus as investors look toward 2027. Its ten largest disclosed stock holdings represented 55.9% of a $54.5 billion reported portfolio at September 30, with chipmakers and equipment suppliers carrying much of the exposure. In its May 6 public-markets update, Coatue highlighted the […]",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-25 06:23"
+        },
+        {
+          "title": "Could Meta Actually Climb 30%? Or Is J.P. Morgan Totally Wrong?",
+          "summary": "Key TakeawaysJ. P. Morgan cut its Meta Platforms price target to $775 from $940 on Nov.",
+          "publisher": "Yahoo",
+          "published_at": "2026-11-25 06:15"
+        }
+      ],
+      "sec_filings_6m": [
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-23 16:54:12",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/meta-20261118.htm",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-19 19:43:00",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017904/xslF345X06/ownership.xml",
+          "fallback_reason": "importance_filter_empty"
+        },
+        {
+          "form_type": "",
+          "form_label": "기타 SEC 공시",
+          "importance": "noise",
+          "importance_score": 0,
+          "description": "",
+          "filed_at": "2026-11-19 19:41:22",
+          "source": "SEC/FMP",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017902/xslF345X06/ownership.xml",
+          "fallback_reason": "importance_filter_empty"
+        }
+      ],
+      "sec_filings_filter": {
+        "status": "fallback_unfiltered",
+        "raw_count": 20,
+        "shown_count": 3,
+        "excluded_count": 20,
+        "hidden_count": 0,
+        "excluded_forms": {
+          "UNKNOWN": 20
+        },
+        "excluded_examples": [
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          },
+          {
+            "form_type": "UNKNOWN",
+            "description": "",
+            "reason": "unrecognized_form"
+          }
+        ]
+      },
+      "screening_score": 100,
+      "screening_details": {
+        "market_cap": 1507722133504,
+        "cap_score": 15,
+        "roe_pct": 32.263999999999996,
+        "roe_score": 20,
+        "operating_margin_pct": 37.777,
+        "margin_score": 20,
+        "revenue_growth_pct": 26.1,
+        "earnings_growth_pct": 264.8,
+        "growth_score": 20,
+        "free_cashflow": 16848499712,
+        "cash_score": 15,
+        "price_position_52w": 0.26799198643858857,
+        "valuation_score": 10
+      }
+    },
     "NVDA": {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
       "display_name": "NVIDIA Corporation",
       "data_limited": false,
-      "price": 165.18,
-      "high_24h": 171.5,
-      "low_24h": 156.93,
+      "price": 155.47,
+      "high_24h": 159.8,
+      "low_24h": 150.5,
       "high_1m": 219.99,
       "low_1m": 124.5,
       "fiftyTwoWeekHigh": 243.37,
       "fiftyTwoWeekLow": 124.5,
-      "dividendYield": 80.0,
+      "dividendYield": 61.0,
       "dividendRate": 1.0,
       "exDividendDate": "1796169600",
       "charts": {
@@ -591,34 +738,34 @@
       },
       "news": [
         {
-          "title": "In Taiwan, investors 'really happy' at Jensen Huang's return",
-          "summary": "Taiwanese investors rejoiced on Tuesday as the island's tech-heavy stock market soared more than nine percent following Jensen Huang's return to Nvidia less than two weeks after his abrupt exit sent shares plummeting. Investors on the island have piled into the stock market this year, a growing number of them borrowing money to buy shares in the booming tech sector, as the benchmark index hit record highs.",
+          "title": "Dow Jones Futures Fall; Trump Says 'Not Too Late' For U.S. To Take Nvidia Stake",
+          "summary": "Futures fell after AI stocks tumbled but medicals, retailers and more rose. President Trump mused about an Nvidia stake. Fed inflation data looms.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 12:52"
+          "published_at": "2026-11-25 12:46"
         },
         {
-          "title": "AMD Stock Dips Overnight After Nvidia-Triggered Rally: AMD Registers 337M Shares For Resale Tied To OpenAI, Meta Warrants",
-          "summary": "AMD is not selling the shares itself and will not receive any proceeds from potential sales.",
+          "title": "South Korea's chipmakers rally on Huang's return",
+          "summary": "IntelliNews summary: • Hyundai Motor rose more than 11% and LG Electronics 15. 8% on Nvidia's decision.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 12:47"
+          "published_at": "2026-11-25 12:21"
         },
         {
-          "title": "Nvidia Just Built Agent Security Into Its Chips. What Does That Mean for CrowdStrike?",
-          "summary": "A brief mention on Nvidia’s earnings call hints at a bigger role for CrowdStrike in securing AI agents.",
+          "title": "Dow, S&P 500, Nasdaq Futures Edge Lower Amid Tech Selloff Ahead Of Key Inflation Data: DELL, AMBA, SOXL, MSTR In Focus",
+          "summary": "U.S. stock markets closed another volatile session on Tuesday as technology stocks sold off amid declines in NVDA and ANT shares after a massive rally the day before.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 12:37"
+          "published_at": "2026-11-25 12:20"
         },
         {
-          "title": "Asian stocks rally after Wall Street rebound as Jensen Huang returns as Nvidia’s CEO",
-          "summary": "HONG KONG (AP) — Asian stocks advanced after a rally on Wall Street as Jensen Huang returned as Nvidia’s CEO, while U. futures edged higher and oil prices fell.",
+          "title": "World's Best Space Company SpaceX Will Soon Be 40% Better",
+          "summary": "Fresh off Starship Flight 15, Elon Musk promises a Starship 40% bigger -- and with 3x as many engines.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 12:31"
+          "published_at": "2026-11-25 12:20"
         },
         {
-          "title": "IREN Ltd. (IREN) Just Exploded 24%. Here’s What Sent Shares Flying",
-          "summary": "IREN Ltd. (NASDAQ:IREN) is one of the 10 Stocks With Eye-Popping Gains. IREN Ltd. ended seven straight days of losses on Monday, soaring 23.86 percent to close at $14.64 apiece as investor sentiment improved after Jensen Huang’s reinstatement as Nvidia Corp.’s CEO. The stock rallied alongside its peers amid renewed AI optimism, reversing a week […]",
+          "title": "Lattice Semiconductor (LSCC) Could Be 37% Below Fair Value On AI Chip Optimism",
+          "summary": "Lattice Semiconductor (LSCC) is back on investors’ radar after a sharp 13.8% jump that coincided with a broad semiconductor rally tied to Nvidia’s decision to reinstate Jensen Huang as CEO. The jump sits against a choppy backdrop for Lattice Semiconductor, where the share price is down 11.21% over the past day and 8.66% over the past week. However, it remains up 27.51% year to date and is supported by a 47.55% 1-year total shareholder return that signals momentum has been rebuilding over a...",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 12:25"
+          "published_at": "2026-11-25 12:12"
         }
       ],
       "sec_filings_6m": [
@@ -685,16 +832,19 @@
       },
       "screening_score": 100,
       "screening_details": {
-        "market_cap": 3985462263808,
-        "cap_score": 20,
-        "revenue_growth_pct": 103.2,
-        "growth_score": 25,
+        "market_cap": 3751960903680,
+        "cap_score": 15,
+        "roe_pct": 117.364,
+        "roe_score": 20,
         "operating_margin_pct": 66.082,
-        "margin_score": 15,
-        "price_position_52w": 0.34112896441490714,
-        "price_score": 20,
-        "debt_to_equity": 14.306,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 103.2,
+        "earnings_growth_pct": 107.69999999999999,
+        "growth_score": 20,
+        "free_cashflow": 99241377792,
+        "cash_score": 15,
+        "price_position_52w": 0.25977959114999577,
+        "valuation_score": 10
       }
     },
     "AVGO": {
@@ -702,14 +852,14 @@
       "name": "Broadcom Inc.",
       "display_name": "Broadcom Inc.",
       "data_limited": false,
-      "price": 313.54,
-      "high_24h": 324.44,
-      "low_24h": 304.56,
+      "price": 301.23,
+      "high_24h": 309.18,
+      "low_24h": 297.8,
       "high_1m": 369.82,
       "low_1m": 289.77,
       "fiftyTwoWeekHigh": 495.0,
       "fiftyTwoWeekLow": 289.77,
-      "dividendYield": 85.0,
+      "dividendYield": 83.0,
       "dividendRate": 2.6,
       "exDividendDate": "1789948800",
       "charts": {
@@ -719,34 +869,34 @@
       },
       "news": [
         {
-          "title": "Jensen Huang’s Return As Nvidia CEO Sparks AI Stock Rally, But Congressional Probes Loom – And Analysts See Risks Ahead",
-          "summary": "NVDA stock rallied over 31 after the company reinstated Huang as CEO.",
+          "title": "Arista Networks vs. SentinelOne: Which Technology Stock Is a Better Buy for 2027?",
+          "summary": "Arista's 40% net margin meets SentinelOne's AI-driven growth, but only one of these stocks offers the steadier path to 2027.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 11:35"
+          "published_at": "2026-11-25 11:43"
         },
         {
-          "title": "AMD Stock Rallies Nearly 8% as a Bernstein Analyst Remains Bullish Despite the Hunterbrook Short Report",
-          "summary": "Advanced Micro Devices (AMD) stock rebounded 7.79% on Monday after the chipmaker’s shares experienced a rough couple of days last week. The rally of AMD stock came alongside praise from one of Wall Street’s top analysts. Five-star Bernstein analyst Mark Newman reiterated a Buy rating and a $650 price target for AMD stock, implying a possible 43.74% upside. Newman came out to support AMD after the company was targeted in a short report last week. Hunterbrook was behind this report and claimed tha",
+          "title": "Novanta Shares Just Jumped And We’re Buying This Robotics Play",
+          "summary": "Just as early investors targeted foundational chipmakers like Taiwan Semiconductor (TSM), Nvidia (NVDA), and Broadcom (AVGO) at the start of the AI computing wave, investors are currently examining diversified industrial and sensor plays such as Regal Rexnord (RRX), Timken (TKR), Allegro MicroSystems (ALGM), Ouster (OUST), and STMicroelectronics (STM). During a recent episode of The AI Investor Podcast, hosts Eric Bleeker and Austin Smith took a closer look at Novanta, and shared why they are optimistic about the robotics manufacturer as an AI investment play to target in 2027.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 08:58"
+          "published_at": "2026-11-25 07:59"
         },
         {
-          "title": "Steve Eisman Said AI Was “No Longer One Trade.” Huang Is Back, but Alphabet and CoreWeave Still Show the Split",
-          "summary": "Key TakeawaysNVIDIA, AMD, Broadcom and CoreWeave fell 12% to 14% on Friday, while Alphabet fell 2. 6%.",
+          "title": "Stock Market Today, Nov. 24: Nvidia Gives Back $240 Billion in Market Value Despite Wall Street Upgrade Signaling 29% Upside",
+          "summary": "After staging its biggest rally in more than two decades, Nvidia is surrendering some of those gains as renewed selling pressure casts doubt on the sustainability of the AI recovery.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 07:54"
+          "published_at": "2026-11-25 06:49"
         },
         {
-          "title": "Crypto traders saw Anthropic's 34% debut pop coming",
-          "summary": "Weeks before bankers priced Anthropic’s IPO, a 24/7 crypto market was already trading the shares much higher. The debut showed how close it got.",
+          "title": "Ambarella (AMBA) Misses Q3 Earnings and Revenue Estimates",
+          "summary": "Ambarella (AMBA) delivered earnings and revenue surprises of -12.50% and -3.94%, respectively, for the quarter ended October 2026. Do the numbers hold clues to what lies ahead for the stock?",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 07:47"
+          "published_at": "2026-11-25 06:20"
         },
         {
-          "title": "Steve Eisman Says “Stock Picking Is Back” Now That AI Is “No Longer One Trade”",
-          "summary": "Jensen Huang is back as NVIDIA's CEO, and the stock exploded in a single session. Yet six big AI names tell wildly different stories this year, and one famous Big Short investor says that gap should change how your retirement fund looks.",
+          "title": "Billionaire Philippe Laffont’s 10 High-Conviction Stock Bets for 2027",
+          "summary": "Coatue Management’s November 16 regulatory filing puts billionaire Philippe Laffont’s positioning back in focus as investors look toward 2027. Its ten largest disclosed stock holdings represented 55.9% of a $54.5 billion reported portfolio at September 30, with chipmakers and equipment suppliers carrying much of the exposure. In its May 6 public-markets update, Coatue highlighted the […]",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 07:07"
+          "published_at": "2026-11-25 06:18"
         }
       ],
       "sec_filings_6m": [
@@ -813,272 +963,19 @@
       },
       "screening_score": 100,
       "screening_details": {
-        "market_cap": 1496771592192,
-        "cap_score": 20,
-        "revenue_growth_pct": 85.5,
-        "growth_score": 25,
+        "market_cap": 1437244456960,
+        "cap_score": 15,
+        "roe_pct": 44.245000000000005,
+        "roe_score": 20,
         "operating_margin_pct": 48.815,
-        "margin_score": 15,
-        "price_position_52w": 0.11586999951274193,
-        "price_score": 20,
-        "debt_to_equity": 59.604,
-        "debt_score": 20
-      }
-    },
-    "AMAT": {
-      "symbol": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "display_name": "Applied Materials, Inc.",
-      "data_limited": false,
-      "price": 347.2,
-      "high_24h": 352.91,
-      "low_24h": 335.46,
-      "high_1m": 425.88,
-      "low_1m": 300.62,
-      "fiftyTwoWeekHigh": 739.67,
-      "fiftyTwoWeekLow": 222.86,
-      "dividendYield": 70.0,
-      "dividendRate": 2.12,
-      "exDividendDate": "1795046400",
-      "charts": {
-        "24h": "charts/AMAT_24h.png",
-        "1m": "charts/AMAT_1m.png",
-        "1y": "charts/AMAT_1y.png"
-      },
-      "news": [
-        {
-          "title": "What Just Happened To Lam Research Stock Since May?",
-          "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-24 09:34"
-        },
-        {
-          "title": "Why KLA (KLAC) Stock Is Up Today: New Singapore Plant Meets $4.7 Billion Guide",
-          "summary": "On Monday, Nov. 23, KLA shares rose 13.6% by 1:30 p.m. ET, as a new Singapore plant met a $4.7 billion guide and chip stocks rallied",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-24 03:30"
-        },
-        {
-          "title": "Billionaire Ray Dalio Is Going All-In on AI and Chip Stocks: Top 5 Holdings",
-          "summary": "Speaking at the Forbes Global CEO Conference in Singapore on October 7, Ray Dalio was of the opinion that the AI boom had entered a “classic bubble,” and that there was a distinction between “how terrific a technology is and how terrific an investment is.” Gain insight into the AI sector through our list of […]",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-24 03:18"
-        },
-        {
-          "title": "Why Kulicke & Soffa (KLIC) Stock Is Jumping Today: Chip Rally Follows Nvidia CEO News",
-          "summary": "On Monday, Nov. 23, the stock rose 11.3% as chip stocks rallied after Nvidia reinstated Jensen Huang as CEO",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-24 03:01"
-        },
-        {
-          "title": "Why Is Lam Research (LRCX) Stock Up Today? Nvidia's CEO News Lifts Chip Stocks",
-          "summary": "Lam Research shares rose 14.0% on Monday, Nov. 23, as chip stocks rallied after Nvidia reinstated Jensen Huang as CEO.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-24 03:00"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-12 16:02:46",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026073360/exhibit991q42026earningsre.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-10-26 16:34:29",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026067303/amat-20261026.htm",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-10-05 17:59:34",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026065097/xslF345X06/wk-form4_1791237572.xml",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 100,
-      "screening_details": {
-        "market_cap": 275275153408,
-        "cap_score": 20,
-        "revenue_growth_pct": 53.1,
-        "growth_score": 25,
-        "operating_margin_pct": 32.944,
-        "margin_score": 15,
-        "price_position_52w": 0.2399527872912676,
-        "price_score": 20,
-        "debt_to_equity": 25.021,
-        "debt_score": 20
-      }
-    },
-    "LRCX": {
-      "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "display_name": "Lam Research Corporation",
-      "data_limited": false,
-      "price": 209.82,
-      "high_24h": 217.1,
-      "low_24h": 204.65,
-      "high_1m": 260.58,
-      "low_1m": 181.77,
-      "fiftyTwoWeekHigh": 438.5,
-      "fiftyTwoWeekLow": 144.43,
-      "dividendYield": 72.0,
-      "dividendRate": 1.32,
-      "exDividendDate": "1796169600",
-      "charts": {
-        "24h": "charts/LRCX_24h.png",
-        "1m": "charts/LRCX_1m.png",
-        "1y": "charts/LRCX_1y.png"
-      },
-      "news": [
-        {
-          "title": "Lam Research Stock What Record Revenue And AI Demand Mean Now",
-          "summary": "Lam Research reported record September-quarter revenue of US$8.22b with strong profitability and a positive outlook, supported by AI-driven demand for semiconductor equipment and meaningful exposure to China at 35% of sales. The business is reinforcing this AI and semiconductor story with long-term workforce and education investments, including virtual fabrication platforms in universities and STEM partnerships that focus on chipmaking and AI literacy. Next, the focus shifts to how Lam...",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-24 10:19"
-        },
-        {
-          "title": "What Just Happened To Lam Research Stock Since May?",
-          "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-24 09:34"
-        },
-        {
-          "title": "“Smoke and Mirrors”: Micron’s President Slammed Rival DRAM Designs. We’ll Know Soon if He’s Right",
-          "summary": "Key TakeawaysMicron president Scott DeBoer called rivals’ talk of 4F2 DRAM “smoke and mirrors” and said 3D DRAM will win instead. Micron invented 4F2 and has evaluated it for two decades, so I take him seriously, and Lam Research and ASML have a stake too.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-24 04:43"
-        },
-        {
-          "title": "Why KLA (KLAC) Stock Is Up Today: New Singapore Plant Meets $4.7 Billion Guide",
-          "summary": "On Monday, Nov. 23, KLA shares rose 13.6% by 1:30 p.m. ET, as a new Singapore plant met a $4.7 billion guide and chip stocks rallied",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-24 03:30"
-        },
-        {
-          "title": "Billionaire Ray Dalio Is Going All-In on AI and Chip Stocks: Top 5 Holdings",
-          "summary": "Speaking at the Forbes Global CEO Conference in Singapore on October 7, Ray Dalio was of the opinion that the AI boom had entered a “classic bubble,” and that there was a distinction between “how terrific a technology is and how terrific an investment is.” Gain insight into the AI sector through our list of […]",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-24 03:18"
-        }
-      ],
-      "sec_filings_6m": [
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-23 16:33:38",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000211360126000006/xslF345X06/wk-form4_1795469616.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-12 10:59:42",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000140569326000015/xslF345X06/wk-form4_1794499178.xml",
-          "fallback_reason": "importance_filter_empty"
-        },
-        {
-          "form_type": "",
-          "form_label": "기타 SEC 공시",
-          "importance": "noise",
-          "importance_score": 0,
-          "description": "",
-          "filed_at": "2026-11-09 14:19:19",
-          "source": "SEC/FMP",
-          "url": "https://www.sec.gov/Archives/edgar/data/707549/000149421126000003/xslF345X06/wk-form4_1794251957.xml",
-          "fallback_reason": "importance_filter_empty"
-        }
-      ],
-      "sec_filings_filter": {
-        "status": "fallback_unfiltered",
-        "raw_count": 20,
-        "shown_count": 3,
-        "excluded_count": 20,
-        "hidden_count": 0,
-        "excluded_forms": {
-          "UNKNOWN": 20
-        },
-        "excluded_examples": [
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          },
-          {
-            "form_type": "UNKNOWN",
-            "description": "",
-            "reason": "unrecognized_form"
-          }
-        ]
-      },
-      "screening_score": 100,
-      "screening_details": {
-        "market_cap": 262026084352,
-        "cap_score": 20,
-        "revenue_growth_pct": 54.400000000000006,
-        "growth_score": 25,
-        "operating_margin_pct": 36.951,
-        "margin_score": 15,
-        "price_position_52w": 0.22215798959431424,
-        "price_score": 20,
-        "debt_to_equity": 26.857,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 85.5,
+        "earnings_growth_pct": 215.3,
+        "growth_score": 20,
+        "free_cashflow": 30596499456,
+        "cash_score": 15,
+        "price_position_52w": 0.055108902207279646,
+        "valuation_score": 10
       }
     },
     "TSM": {
@@ -1086,14 +983,14 @@
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
       "display_name": "Taiwan Semiconductor Manufacturing Company Limited",
       "data_limited": false,
-      "price": 363.34,
-      "high_24h": 386.9,
-      "low_24h": 361.66,
+      "price": 349.67,
+      "high_24h": 357.2,
+      "low_24h": 339.73,
       "high_1m": 440.88,
       "low_1m": 318.48,
       "fiftyTwoWeekHigh": 487.47,
       "fiftyTwoWeekLow": 273.08,
-      "dividendYield": 118.0,
+      "dividendYield": 104.0,
       "dividendRate": 3.77,
       "exDividendDate": "1796860800",
       "charts": {
@@ -1103,34 +1000,34 @@
       },
       "news": [
         {
-          "title": "Crypto traders saw Anthropic's 34% debut pop coming",
-          "summary": "Weeks before bankers priced Anthropic’s IPO, a 24/7 crypto market was already trading the shares much higher. The debut showed how close it got.",
+          "title": "Novanta Shares Just Jumped And We’re Buying This Robotics Play",
+          "summary": "Just as early investors targeted foundational chipmakers like Taiwan Semiconductor (TSM), Nvidia (NVDA), and Broadcom (AVGO) at the start of the AI computing wave, investors are currently examining diversified industrial and sensor plays such as Regal Rexnord (RRX), Timken (TKR), Allegro MicroSystems (ALGM), Ouster (OUST), and STMicroelectronics (STM). During a recent episode of The AI Investor Podcast, hosts Eric Bleeker and Austin Smith took a closer look at Novanta, and shared why they are optimistic about the robotics manufacturer as an AI investment play to target in 2027.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 07:47"
+          "published_at": "2026-11-25 07:59"
         },
         {
-          "title": "EEM Now Moves Like A Chip Fund",
-          "summary": "Today's big story: Reported SEC Probe: Could Nvidia Stock Fall To $92.",
-          "publisher": "Yahoo",
-          "published_at": "2026-11-24 07:43"
+          "title": "TSMC: What A Textbook Growth Stock Should Look Like",
+          "summary": "Taiwan Semiconductor's over 70% pure-play foundry share underpins pricing power with 65% gross margins.",
+          "publisher": "SeekingAlpha",
+          "published_at": "2026-11-25 06:38"
         },
         {
-          "title": "It's not over for Jensen Huang",
-          "summary": "Nvidia's board voted unanimously to bring back Jensen Huang as CEO, 11 days after he was pushed out, and the US stock market added $3 trillion within the hour. Host Ejaaz Ahamadeen breaks down what changes now, from the \"bank of Nvidia\" and chips for China to a more careful Jensen and what his return means for open-source AI.",
+          "title": "5 High-Conviction Stocks Billionaire Philippe Laffont Is Betting On for 2027",
+          "summary": "Coatue Management’s November 16 regulatory filing puts billionaire Philippe Laffont’s positioning back in focus as investors look toward 2027. Its ten largest disclosed stock holdings represented 55.9% of a $54.5 billion reported portfolio at September 30, with chipmakers and equipment suppliers carrying much of the exposure. In its May 6 public-markets update, Coatue highlighted the […]",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 06:58"
+          "published_at": "2026-11-25 06:23"
         },
         {
-          "title": "From Resignation to Reinstatement: Huang's Market Impact",
-          "summary": "Jensen Huang's sudden exit and swift reinstatement underscore how closely the global AI trade, infrastructure supply chains, and major equity benchmarks are tied to his leadership at Nvidia.",
+          "title": "Trump’s Southeast Asia Chip Rule Has Cost Nvidia $44 Billion+ of Revenue, per Jefferies. Huang Can’t Undo It",
+          "summary": "Key TakeawaysJefferies estimates a new Commerce Department chip-rental rule could cut $44 billion to $62 billion from Nvidia’s data center revenue next year. Jensen Huang’s return as CEO won’t reopen that route, since Beijing expects no easing and Washington wants tighter rules.",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 06:56"
+          "published_at": "2026-11-25 05:10"
         },
         {
-          "title": "Why TSMC Stock Soared Today",
-          "summary": "AI stocks jumped on news of Jensen Huang's return.",
+          "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Stock May Be Reasonable After New Export Curbs",
+          "summary": "Taiwan Semiconductor Manufacturing has been through a sharp reset in recent weeks, after a multiyear surge that reshaped expectations for what its cash flows might be worth. With the share price sitting around US$363.60 at the last close, the key question is whether that market tag still lines up with the cash the business can generate. Over the past 3 years the stock has gained about 285.9%. That puts a lot of past optimism about future cash generation under the microscope. Recent news...",
           "publisher": "Yahoo",
-          "published_at": "2026-11-24 06:20"
+          "published_at": "2026-11-25 05:09"
         }
       ],
       "sec_filings_6m": [
@@ -1195,133 +1092,151 @@
           }
         ]
       },
-      "screening_score": 96,
+      "screening_score": 100,
       "screening_details": {
-        "market_cap": 1885801545728,
-        "cap_score": 20,
-        "revenue_growth_pct": 50.9,
-        "growth_score": 25,
+        "market_cap": 1811116457984,
+        "cap_score": 15,
+        "roe_pct": 41.86,
+        "roe_score": 20,
         "operating_margin_pct": 57.961,
-        "margin_score": 15,
-        "price_position_52w": 0.42222118568963113,
-        "price_score": 16,
-        "debt_to_equity": 15.188,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 50.9,
+        "earnings_growth_pct": 68.7,
+        "growth_score": 20,
+        "free_cashflow": 1042594725888,
+        "cash_score": 15,
+        "price_position_52w": 0.35505387378142633,
+        "valuation_score": 10
       }
     }
   },
   "candidate_rankings": [
     {
+      "symbol": "META",
+      "name": "Meta Platforms, Inc.",
+      "score": 100,
+      "dividend_yield_pct": 35.0,
+      "details": {
+        "market_cap": 1507722133504,
+        "cap_score": 15,
+        "roe_pct": 32.263999999999996,
+        "roe_score": 20,
+        "operating_margin_pct": 37.777,
+        "margin_score": 20,
+        "revenue_growth_pct": 26.1,
+        "earnings_growth_pct": 264.8,
+        "growth_score": 20,
+        "free_cashflow": 16848499712,
+        "cash_score": 15,
+        "price_position_52w": 0.26799198643858857,
+        "valuation_score": 10
+      }
+    },
+    {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
       "score": 100,
-      "dividend_yield_pct": 80.0,
+      "dividend_yield_pct": 61.0,
       "details": {
-        "market_cap": 3985462263808,
-        "cap_score": 20,
-        "revenue_growth_pct": 103.2,
-        "growth_score": 25,
+        "market_cap": 3751960903680,
+        "cap_score": 15,
+        "roe_pct": 117.364,
+        "roe_score": 20,
         "operating_margin_pct": 66.082,
-        "margin_score": 15,
-        "price_position_52w": 0.34112896441490714,
-        "price_score": 20,
-        "debt_to_equity": 14.306,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 103.2,
+        "earnings_growth_pct": 107.69999999999999,
+        "growth_score": 20,
+        "free_cashflow": 99241377792,
+        "cash_score": 15,
+        "price_position_52w": 0.25977959114999577,
+        "valuation_score": 10
       }
     },
     {
       "symbol": "AVGO",
       "name": "Broadcom Inc.",
       "score": 100,
-      "dividend_yield_pct": 85.0,
+      "dividend_yield_pct": 83.0,
       "details": {
-        "market_cap": 1496771592192,
-        "cap_score": 20,
-        "revenue_growth_pct": 85.5,
-        "growth_score": 25,
+        "market_cap": 1437244456960,
+        "cap_score": 15,
+        "roe_pct": 44.245000000000005,
+        "roe_score": 20,
         "operating_margin_pct": 48.815,
-        "margin_score": 15,
-        "price_position_52w": 0.11586999951274193,
-        "price_score": 20,
-        "debt_to_equity": 59.604,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 85.5,
+        "earnings_growth_pct": 215.3,
+        "growth_score": 20,
+        "free_cashflow": 30596499456,
+        "cash_score": 15,
+        "price_position_52w": 0.055108902207279646,
+        "valuation_score": 10
       }
     },
     {
-      "symbol": "AMAT",
-      "name": "Applied Materials, Inc.",
+      "symbol": "ASML",
+      "name": "ASML Holding N.V.",
       "score": 100,
-      "dividend_yield_pct": 70.0,
+      "dividend_yield_pct": 67.0,
       "details": {
-        "market_cap": 275275153408,
-        "cap_score": 20,
-        "revenue_growth_pct": 53.1,
-        "growth_score": 25,
-        "operating_margin_pct": 32.944,
-        "margin_score": 15,
-        "price_position_52w": 0.2399527872912676,
-        "price_score": 20,
-        "debt_to_equity": 25.021,
-        "debt_score": 20
-      }
-    },
-    {
-      "symbol": "LRCX",
-      "name": "Lam Research Corporation",
-      "score": 100,
-      "dividend_yield_pct": 72.0,
-      "details": {
-        "market_cap": 262026084352,
-        "cap_score": 20,
-        "revenue_growth_pct": 54.400000000000006,
-        "growth_score": 25,
-        "operating_margin_pct": 36.951,
-        "margin_score": 15,
-        "price_position_52w": 0.22215798959431424,
-        "price_score": 20,
-        "debt_to_equity": 26.857,
-        "debt_score": 20
+        "market_cap": 514941222912,
+        "cap_score": 15,
+        "roe_pct": 65.636003,
+        "roe_score": 20,
+        "operating_margin_pct": 38.551998,
+        "margin_score": 20,
+        "revenue_growth_pct": 55.2,
+        "earnings_growth_pct": 135.9,
+        "growth_score": 20,
+        "free_cashflow": 10374124544,
+        "cash_score": 15,
+        "price_position_52w": 0.3530626961080469,
+        "valuation_score": 10
       }
     },
     {
       "symbol": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "score": 96,
-      "dividend_yield_pct": 118.0,
+      "score": 100,
+      "dividend_yield_pct": 104.0,
       "details": {
-        "market_cap": 1885801545728,
-        "cap_score": 20,
-        "revenue_growth_pct": 50.9,
-        "growth_score": 25,
+        "market_cap": 1811116457984,
+        "cap_score": 15,
+        "roe_pct": 41.86,
+        "roe_score": 20,
         "operating_margin_pct": 57.961,
-        "margin_score": 15,
-        "price_position_52w": 0.42222118568963113,
-        "price_score": 16,
-        "debt_to_equity": 15.188,
-        "debt_score": 20
+        "margin_score": 20,
+        "revenue_growth_pct": 50.9,
+        "earnings_growth_pct": 68.7,
+        "growth_score": 20,
+        "free_cashflow": 1042594725888,
+        "cash_score": 15,
+        "price_position_52w": 0.35505387378142633,
+        "valuation_score": 10
       }
     }
   ],
   "screening_meta": {
-    "mode": "theme",
-    "title": "모멘텀/테마 후보",
-    "seed_pool_size": 126,
+    "mode": "quality",
+    "title": "장기 퀄리티 후보",
+    "seed_pool_size": 61,
     "ai_selected_count": 20,
     "scored_count": 20,
     "top5": [
+      "META",
       "NVDA",
       "AVGO",
-      "AMAT",
-      "LRCX",
+      "ASML",
       "TSM"
     ],
     "max_screening_candidates": 20
   },
   "api_stats": {
-    "yfinance": 30,
-    "news": 10,
-    "fmp": 10,
-    "charts": 30,
+    "yfinance": 29,
+    "news": 9,
+    "fmp": 9,
+    "charts": 27,
     "limits": {
       "max_screening_candidates": 20,
       "news_per_ticker": 5,
